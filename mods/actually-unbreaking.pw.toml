@@ -1,0 +1,13 @@
+name = "Actually Unbreaking"
+filename = "actuallyunbreaking-1.20.1-0.3.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ClQLN4h7/versions/pMxcrZlt/actuallyunbreaking-1.20.1-0.3.1.jar"
+hash-format = "sha512"
+hash = "1fdfe8636d5f84dabe0d73ca3d86f04c76842fffbb144d1b8574a9ce7c64e9aec2eda1e993a4f8a76ce1a618ab2bd3300ac744d2f3eeb128e524765cf6ee0114"
+
+[update]
+[update.modrinth]
+mod-id = "ClQLN4h7"
+version = "pMxcrZlt"

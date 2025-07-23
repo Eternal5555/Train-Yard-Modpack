@@ -1,0 +1,13 @@
+name = "Redstone Torch Backport"
+filename = "§c1.21.2 Redstone Torch§r.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/VuMFO1Oz/versions/xcyaoqev/%C2%A7c1.21.2%20Redstone%20Torch%C2%A7r.zip"
+hash-format = "sha512"
+hash = "6d170a049138de7ecef7aa59c7a180dd04648d30a5c4d5f9afbdd610433cc78b8de9871f7bbb733c0635c9b27fc2e91fcc4ae34b4ecb8db1889616aad1c15467"
+
+[update]
+[update.modrinth]
+mod-id = "VuMFO1Oz"
+version = "xcyaoqev"

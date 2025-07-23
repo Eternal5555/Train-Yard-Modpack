@@ -1,0 +1,13 @@
+name = "Sitting+"
+filename = "sittingplus-2.0.6-1.20.1-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RVtIOlYX/versions/PeXgNa3t/sittingplus-2.0.6-1.20.1-FABRIC.jar"
+hash-format = "sha512"
+hash = "22b6e80712edd415ae3b68084718a37841838dc65f964cd2d5f0d100e4315604e08fac01065c4204202a4b8ca9672b0a1c1b29694ff4a92b6782fffb632159f9"
+
+[update]
+[update.modrinth]
+mod-id = "RVtIOlYX"
+version = "PeXgNa3t"

@@ -1,0 +1,13 @@
+name = "Fast Item Frames"
+filename = "FastItemFrames-v20.1.3-1.20.1-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FsoeTIV0/versions/6ZKFOfoo/FastItemFrames-v20.1.3-1.20.1-Fabric.jar"
+hash-format = "sha512"
+hash = "c10d9ca33fdb6d3df8735718a7cf6f789a8710824982aa2c1d641502f81dbb012a460368a49d1bd2d9d7f6184a87978c1449fa68e4e9947d6f4811542e2460c6"
+
+[update]
+[update.modrinth]
+mod-id = "FsoeTIV0"
+version = "6ZKFOfoo"

@@ -1,0 +1,13 @@
+name = "El and L's Dyes"
+filename = "mint-1.0.5+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BicFZT9B/versions/gBbDvwad/mint-1.0.5%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "b97fb57f48f4fe0d756ba9d680b3009ed73a07c529d7174a6d1cdb33cf9c7b14965074ec56546bd71763f0bed75c4a8898871aa18027c9c38080e75a942e69c1"
+
+[update]
+[update.modrinth]
+mod-id = "BicFZT9B"
+version = "gBbDvwad"

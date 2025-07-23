@@ -1,0 +1,13 @@
+name = "1.21.2 Bundle Recipe Backport"
+filename = "1.21.2-bundle-recipe-1.01.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JPVSeZZV/versions/An2agkuT/1.21.2-bundle-recipe-1.01.jar"
+hash-format = "sha512"
+hash = "1da42a87d01bb7a0330a71ddaa6aedd35693f09805d4917ebaef44cd027de9d2b236c3315e5168cdf9ba645fbf28804380823f9d8bf64bf4ccf055ddb2adef71"
+
+[update]
+[update.modrinth]
+mod-id = "JPVSeZZV"
+version = "An2agkuT"

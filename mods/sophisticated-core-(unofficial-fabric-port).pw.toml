@@ -1,0 +1,13 @@
+name = "Sophisticated Core (Unofficial Fabric port)"
+filename = "sophisticatedcore-1.20.1-1.2.7.7.156.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9jxwkYQL/versions/9RuXVwa9/sophisticatedcore-1.20.1-1.2.7.7.156.jar"
+hash-format = "sha512"
+hash = "95ee6e9b99e714a703ac1db02d42c2cfdd973f6437fa2b8cbf93fb286ccb9d23f053ae49bc671cc1ff366538f9a99f644f7857b39158a550b37fff6d055ab4b3"
+
+[update]
+[update.modrinth]
+mod-id = "9jxwkYQL"
+version = "9RuXVwa9"

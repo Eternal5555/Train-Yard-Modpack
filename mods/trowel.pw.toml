@@ -1,0 +1,13 @@
+name = "Trowel"
+filename = "trowel-1.3.0-1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o8YrbYfv/versions/ZkkpGUSH/trowel-1.3.0-1.20.jar"
+hash-format = "sha512"
+hash = "5853696021e763cfaa026ecd5528ded0f9dbc9f56ca09d0f6911a244e7d1f43d9ed58214c6c9654c57d7279febc8724cf2ed79bdb5de6935826c4bbde727db9c"
+
+[update]
+[update.modrinth]
+mod-id = "o8YrbYfv"
+version = "ZkkpGUSH"

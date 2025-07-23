@@ -1,0 +1,13 @@
+name = "William Wythers' Overhauled Overworld"
+filename = "WWOO-FABRIC+FORGE+QUILT-2.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/II7t6llZ/versions/cNiETBJi/WWOO-FABRIC%2BFORGE%2BQUILT-2.0.0.jar"
+hash-format = "sha512"
+hash = "745acab6cb1634ccceacce523fd09e58b5d5a8fafe8e186384cbd23233e3ce4c8e2e214d4252240a9a59b56a668c15414e133f71e83f719bec8bd89aad4747da"
+
+[update]
+[update.modrinth]
+mod-id = "II7t6llZ"
+version = "cNiETBJi"

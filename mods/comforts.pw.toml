@@ -1,0 +1,13 @@
+name = "Comforts"
+filename = "comforts-fabric-6.4.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SaCpeal4/versions/pMr60Kkq/comforts-fabric-6.4.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "c1796378b47aa03544b772d2b631d7387e4365ba0c0a3468dc5e78348d26e0406bd015b530e0acab679e090310aafd201a106e519d3b9e32b26e0db9928b04be"
+
+[update]
+[update.modrinth]
+mod-id = "SaCpeal4"
+version = "pMr60Kkq"

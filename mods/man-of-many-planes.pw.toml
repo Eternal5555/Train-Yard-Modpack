@@ -1,0 +1,13 @@
+name = "Man of Many Planes"
+filename = "man_of_many_planes-0.2.0+1.20.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/BiO2Uv4J/man_of_many_planes-0.2.0%2B1.20.1-fabric.jar"
+hash-format = "sha512"
+hash = "8583f09beeb33004920130d8da6a3e7354d1a819fe635feafd86fb8ccd547a319bf43303166ea11ab60d2eca1d6f33225e7c71fef10fcc56aa57e9c644b46e86"
+
+[update]
+[update.modrinth]
+mod-id = "9qdTHi0q"
+version = "BiO2Uv4J"

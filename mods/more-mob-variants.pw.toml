@@ -1,0 +1,13 @@
+name = "More Mob Variants"
+filename = "moremobvariants-fabric+1.20.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JiEhJ3WG/versions/o6yyhzgj/moremobvariants-fabric%2B1.20.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "af6b709620be9aee7aa2fca8b85b923a4ad283928dbc5f0287d702e08a6aaa84935844fe5c4f3661c340f411d2ede0889bdb5cf2b095cbb3c3251469c5b77c8c"
+
+[update]
+[update.modrinth]
+mod-id = "JiEhJ3WG"
+version = "o6yyhzgj"

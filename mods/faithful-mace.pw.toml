@@ -1,0 +1,13 @@
+name = "Faithful Mace"
+filename = "faithfulmace-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oTXs6boa/versions/gcfi7bAy/faithfulmace-1.0.9.jar"
+hash-format = "sha512"
+hash = "e28f743df2b7c57480cec1e814a2837f031783f99d30bbc31c70ee749d8ba396380a93d4859bef06303f2d1bd522ba323cb14d8513638613a449aef8c3a3768e"
+
+[update]
+[update.modrinth]
+mod-id = "oTXs6boa"
+version = "gcfi7bAy"

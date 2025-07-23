@@ -1,0 +1,13 @@
+name = "Pottery Sherd Duplication"
+filename = "pottery-sherd-duplication-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ca6dDiyO/versions/oOSDjdag/pottery-sherd-duplication-1.jar"
+hash-format = "sha512"
+hash = "cbcb6f236f674e5499868e284043e29f8015ad490a80cd21f116cdaeb31f65956c4e34d1f7e9d7418cf8e0ddd5e8f548257dc8cbf572a6de2b01c7a5ab0bce40"
+
+[update]
+[update.modrinth]
+mod-id = "ca6dDiyO"
+version = "oOSDjdag"

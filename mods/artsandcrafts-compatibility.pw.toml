@@ -1,0 +1,13 @@
+name = "Arts & Crafts Compatibility"
+filename = "arts_and_crafts_compat-fabric-1.20.1-1.4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/uFws80gC/versions/KoQ8lgsI/arts_and_crafts_compat-fabric-1.20.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "88e40ec8fe2ffcc5bdc92b1d984b2c23c5e5417950f039d31d547b9483976b5ad0c0267b703c071471ebf0fa9c1b370a55d7026d23b5c2ad781344c2b0c851bb"
+
+[update]
+[update.modrinth]
+mod-id = "uFws80gC"
+version = "KoQ8lgsI"

@@ -1,0 +1,13 @@
+name = "Trimmable Tools"
+filename = "trimmable_tools-fabric-2.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MJu3fF3K/versions/Cluc5JUs/trimmable_tools-fabric-2.0.5.jar"
+hash-format = "sha512"
+hash = "dd1fd7034583ba995b2fb98f87c3dd94b31f51b2d4d06c36a21e17e5a32dc5da63655dc5610f449728628bdd15edda6f972a8a7543e7965f00a61d088022cee1"
+
+[update]
+[update.modrinth]
+mod-id = "MJu3fF3K"
+version = "Cluc5JUs"
