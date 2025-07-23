@@ -205,10 +205,6 @@ file = "fancymenu_data/buddy/buddy_save.json"
 hash = "8fd4a8149ebc65b56ef8e745923690bb00fdbb07bf58ea6fcb3be1e2c95dfa4c"
 
 [[files]]
-file = "fancymenu_data/last_world.fmdata"
-hash = "dcdc3095f6b7a8d5d41971bb1f9b0b9b3ff7fc015f7f2d2defcf51efc112e5df"
-
-[[files]]
 file = "icon.png"
 hash = "8bd646ae78223bb40cafaf582651655a67784655a9d04969073135dc7e9d9c09"
 
