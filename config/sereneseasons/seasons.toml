@@ -40,11 +40,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = 0.6
 	min_rain_time = 12000
@@ -67,11 +62,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -94,11 +84,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -121,11 +106,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = 0.85
 	min_rain_time = 12000
@@ -148,11 +128,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -175,11 +150,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -202,11 +172,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -229,11 +194,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = 0.45
 	min_rain_time = 12000
@@ -256,11 +216,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = 0.85
 	min_rain_time = 12000
@@ -283,11 +238,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = 0.6
 	min_rain_time = 12000
@@ -310,11 +260,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000
@@ -337,11 +282,6 @@
 #max_rain_time is the maximum time interval between rain events in ticks. Set to -1 to disable rain.
 #min_thunder_time is the minimum time interval between thunder events in ticks. Set to -1 to disable thunder.
 #max_thunder_time is the maximum time interval between thunder events in ticks. Set to -1 to disable thunder.
-#grass_colour is the color of grass, from 0 to 0xFFFFFF(16777215).
-#grass_saturation is the saturation multiplier of grass color. Set to -1 to disable.
-#foliage_colour is the color of foliage, from 0 to 0xFFFFFF(16777215).
-#foliage_saturation is the saturation multiplier of foliage color. Set to -1 to disable.
-#birch_color is the color of birch foliage, from 0 to 0xFFFFFF(16777215). It will use the same saturation multiplier of foliage_colour
 [[season_properties]]
 	grass_saturation = -1.0
 	min_rain_time = 12000

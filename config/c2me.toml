@@ -19,7 +19,7 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "default"
-# (Default: 3) Configures the parallelism of global executor
+# (Default: 1) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [fixes]
@@ -44,13 +44,13 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 54) Max render distance allowed in game options
+		# (Default: 78) Max render distance allowed in game options
 		maxViewDistance = "default"
 
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 4) No-tick view distance max concurrent chunk loads 
+	# (Default: 2) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
@@ -118,13 +118,13 @@ globalExecutorParallelism = "default"
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@9.2.14 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
-	# (Default: true) Whether to use the optimized implementation of IO system
+	# (Default: false) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
 
 [threadedWorldGen]
-	# (Default: true) Whether to enable this feature
+	# (Default: false) Whether to enable this feature
 	enabled = "default"
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
