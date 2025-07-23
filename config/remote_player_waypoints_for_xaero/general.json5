@@ -1,0 +1,35 @@
+{
+	"enabled": true,
+	"updateDelay": 2000,
+	"serverEntries": [
+		{
+			"maptype": "Bluemap",
+			"ip": "173.240.149.140:25577",
+			"link": "173.240.149.140:25577",
+			"markerVisibilityMode": "Auto",
+			"markerLayers": []
+		}
+	],
+	"defaultY": 64,
+	"minimapWaypointsRenderBelow": "WHEN_PLAYER_LIST_SHOWN",
+	"enablePlayerWaypoints": false,
+	"enablePlayerIcons": true,
+	"showAfkInTabList": true,
+	"timeUntilAfk": 120,
+	"showAfkTimeInTabList": true,
+	"hideAfkMinutes": false,
+	"unknownAfkStateColor": 6316128,
+	"AfkColor": 16733440,
+	"playerWaypointColor": "Black",
+	"enableMarkerWaypoints": true,
+	"markerWaypointColor": "Gray",
+	"ignoredServers": [],
+	"ignoreMarkerMessage": false,
+	"debugMode": false,
+	"chatLogInDebugMode": true,
+	"minDistance": 0,
+	"maxDistance": 100000,
+	"maxIconDistance": 100000,
+	"minDistanceMarker": 0,
+	"maxDistanceMarker": 100000
+}
