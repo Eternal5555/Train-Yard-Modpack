@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "8b0602b00b65b45dad709e4613a15beb9bad48bd24454fc199606982cd6e4d07"
-
-[[files]]
-file = "README.md"
-hash = "f7af40e22e9d91421c5be3ee281617ff71e33aa1b5a5626382b28b8c02311e84"
-
-[[files]]
 file = "config/actuallyunbreaking.json"
 hash = "19aeb258139083cfed2423a4b13f7c03156e9eee019b6ec852f3818fe332793a"
 
@@ -217,20 +209,12 @@ file = "fancymenu_data/last_world.fmdata"
 hash = "a43114096f70e8ead0acccf0f656f3add46e4a57b59e05e1c5b81df41ca35ae7"
 
 [[files]]
-file = "gitattributes"
-hash = "f1c49afdbf5c184940b9d1b0dcb6e070c8ca915a36d6c2b7f5a4c641e1080aea"
-
-[[files]]
-file = "gitignore"
-hash = "2238c12cea213f5807b8c63e7f10ece98225710e6b5e33c32878148b20ca38ee"
-
-[[files]]
 file = "icon.png"
 hash = "8bd646ae78223bb40cafaf582651655a67784655a9d04969073135dc7e9d9c09"
 
 [[files]]
 file = "kubejs/README.txt"
-hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
+hash = "52b570039ba39ec5ea25d9bc4e31c1bf018436a0e848f0fd87e578032b86ed9d"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -247,10 +231,6 @@ hash = "9b82d21ca58fa13c433cd7a9b64149ecb4743a8d14066891ad694ba7c3fed3ab"
 [[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "4c0d680a490abad6df4ed66e02ccad3cf2bda3829b0a9ecea5c23cc67e8a5fdf"
-
-[[files]]
-file = "kubejs/startup_scripts/example.js"
-hash = "02d48ff6f28d5a657b8aaf07436957850788d89cd71cee9d90170b1d42b896a1"
 
 [[files]]
 file = "mods/1.21.2-bundle-recipe.pw.toml"
@@ -1182,14 +1162,6 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "5df1b8ef822fe9987a65d412936909b4d700872db2ed107d0092e28452999101"
 metafile = true
-
-[[files]]
-file = "packwizignore"
-hash = "a20ca25b68ba0eaac99a1539a71d003a99e8496e8b6b4283186168bde68804b7"
-
-[[files]]
-file = "prettierignore"
-hash = "8fb5a773ad847cbecfc1a2ded79b6ce8e675ac06ce516e6cd7ddff8e5c1ea0a2"
 
 [[files]]
 file = "resourcepacks/ferns-fancy-inventory.pw.toml"
