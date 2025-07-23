@@ -1,4 +1,4 @@
-#CONFIG ONLY OPTIONS
+#CONFIG OPTIONS ONLY
 ignoreUpdate:0
 settingsButton:false
 allowWrongWorldTeleportation:false

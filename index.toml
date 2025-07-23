@@ -190,7 +190,7 @@ hash = "b428c07faaed97d3bee29aa748bb8a1773f5145008435c08d9b5aed5151da3ad"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "2814bc0c157dcfc0515a373d87964c4674203f2a454332f1be0598e671b81ec8"
+hash = "483b5207fc8749c3a2ae80c94f9fc87b6efd54e18410db22912a3a1202f045de"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
