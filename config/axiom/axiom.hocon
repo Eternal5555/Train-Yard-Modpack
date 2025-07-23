@@ -1,0 +1,175 @@
+# Axiom Configuration
+
+blockAttributes {
+    expandHitboxesToFullCube=false
+    makeFluidHitboxesSolid=false
+    preventInteractions=false
+    showCollisionMesh=false
+    showLightBlocks=false
+    showStructureVoidBlocks=false
+}
+blueprint {
+    # Automatically refresh loaded blueprints
+    automaticRefreshing=true
+    # Custom path for the blueprint browser
+    customPath=""
+    # Default tags that are recommended when creating a blueprint
+    defaultTags="small,medium,large,massive,organic,structure,terrain,interior,house,tower,bridge,castle,statue,temple,monument,barn,stable,windmill,store,watermill,ship,airship,balloon,palace,watchtower,mansion,grave,marketplace,mine,obelisk,warehouse,silo,shipwreck,mausoleum,cemetery,bunker,airplane,helicopter,car,truck,vehicle,blacksmith,crypt,factory,mountain,cliff,rock,iceberg,spike,stone,wood,brick,natural,sand,metal,winter,spring,summer,autumn,tree,bush,mushroom,spruce,oak,birch,coniferous,deciduous,acacia,mangrove,cherryblossom,darkoak,jungle,baobab,azalea,cypress,coral,sapling,grass,seagrass,bamboo,flowers,animal,creature,dead,lamp,streetlight,brazier,bed,bookshelf,closet,table,chair,fireplace,carpet,fountain,clock,banner,flag,bell,modern,medieval,steampunk,gothic,oriental,victorian,fantasy,sci-fi,elven,dwarven,futuristic,retro,classic,rustic,baroque,rococo,industrial,artnouveau,artdeco,cyberpunk,space,arabic,indian,egyptian,greek,roman,norse,mesoamerican,japanese,western,spanish,tudor,spooky,pirate,dungeons,rubble,crates,redstone,wall,window,roof,stairs,pillar,arch,stairs,chimney,well"
+    # Search for blueprints inside all folders
+    recursiveSearch=false
+}
+# Capabilities modify the way the player moves and interacts with the world
+capabilities {
+    allowClickingHistoryInEditor=false
+    altMenuToggleInsteadOfHold=false
+    # Place blocks in mid-air
+    angelPlacement=false
+    # Automatically swap to creative when opening the Context Menu
+    autoSwapToCreative=true
+    autoSwapToOtherHotbarWithItem=false
+    # Hold down left-click to break blocks very fast
+    bulldozer=true
+    # Place blocks very fast in a controlled manner
+    fastPlace=false
+    flightCameraDirection=false
+    flightMomentum=1
+    # Bypass block placement restrictions
+    forcePlace=false
+    # Removes the reach limit
+    infiniteReach=false
+    infiniteReachLimit=-1
+    # Move through blocks while flying
+    noClip=false
+    # Prevent triggering neighbor updates when placing/breaking
+    noUpdates=false
+    # Right-click blocks to replace them with the held block
+    replaceMode=false
+    separateEditorAndGameFlightSpeed=false
+    # Various useful interactions when right-clicking with your fist
+    tinker=true
+    typeReplace=false
+}
+keybinds {
+    adjustRadius="ctrl+mousemiddle"
+    adjustSpeed=none
+    arcballCamera="ctrl+mouseleft"
+    arcballCardinalSnap=none
+    builderToolDelete=delete
+    builderToolDirectionLock=true
+    confirm=enter
+    copy="ctrl+c"
+    copyIngame="ctrl+c"
+    copyWithAir=none
+    crosshairCamera=mouseright
+    cut="ctrl+x"
+    cutAlsoCopiesToClipboard=false
+    delete=delete
+    duplicate="ctrl+j"
+    extrudePoint=e
+    flipPlacement="ctrl+f"
+    invertCameraRotate=false
+    moveBackward=s
+    moveDown=leftshift
+    moveForward=w
+    moveLeft=a
+    moveQuick=leftcontrol
+    moveRight=d
+    moveUp=space
+    nudgeBackwards=down
+    nudgeForwards=up
+    nudgeLeft=left
+    nudgeMinusY=pagedown
+    nudgePlusY=pageup
+    nudgeRight=right
+    panCamera="ctrl+mouseright"
+    paste="ctrl+v"
+    pasteAndSelect=none
+    pickBlock=mousemiddle
+    pickBlockDrag=true
+    quickFill="ctrl+f"
+    quickReplace="ctrl+r"
+    redo="ctrl+y"
+    rotateCamera=mouseleft
+    rotatePlacement="ctrl+r"
+    saveBlueprint="ctrl+p"
+    selectView1="ctrl+1"
+    selectView2="ctrl+2"
+    selectView3="ctrl+3"
+    selectView4="ctrl+4"
+    selectView5="ctrl+5"
+    selectView6="ctrl+6"
+    selectView7="ctrl+7"
+    selectView8="ctrl+8"
+    selectView9="ctrl+9"
+    showAnnotations=none
+    showBiomes="ctrl+b"
+    showCollisionMesh=none
+    showDisplayEntityGizmos=none
+    showLightBlocks=none
+    showMarkerEntityGizmos=none
+    showSelection=none
+    showStructureVoidBlocks=none
+    swapLeftRightClickDisplayEntities=false
+    toolKeybinds {
+        annotation=none
+        "biome_painter"=none
+        "box_select"=b
+        distort=none
+        elevation=e
+        extrude=y
+        floodfill=none
+        "fluid_ball"=none
+        "freehand_draw"=g
+        "freehand_select"=n
+        "gradient_painter"=none
+        "lasso_select"=l
+        "magic_select"=m
+        melt=k
+        modelling=none
+        modify=none
+        "noise_painter"=o
+        painter=p
+        path=none
+        rock=h
+        roughen=none
+        ruler=none
+        "script_brush"=none
+        "sculpt_draw"=none
+        shape=none
+        shatter=none
+        slope=none
+        smooth=u
+        stamp=none
+        "swap_to_last_tool"=none
+        text=none
+        weld=j
+    }
+    toolSmoothSteps=0
+    undo="ctrl+z"
+    useCenterOfScreenForArcball=false
+    useEnhancedFlight=true
+    useTool=mouseright
+    useVanillaMovement=true
+}
+rendering {
+    # Disables the chunk render overrider, for compatibility
+    disableChunkRenderOverrider=false
+    # Shows keypresses on the screen
+    keypressOverlay=false
+    # Liquid opacity multiplier
+    liquidOpacity=1
+    # Minimum brightness level. 0.0 = default, 1.0 = fullbright
+    minBrightness=0
+    # Shows annotations created with the Annotation Tool
+    showAnnotations=true
+    # Shows the builder tool slot next to your hotbar. If disabled, builder tools can still be accessed using the keybind (default '0')
+    showBuilderToolSlot=true
+    # Shows gizmos for display entities, allowing you to modify them
+    showDisplayEntities=true
+    # Shows hints in the bottom right corner of the screen
+    showKeyHints=true
+    # Shows gizmos for marker entities, allowing you to modify them
+    showMarkerEntities=true
+    # Shows ruler measurements created by the Ruler Tool
+    showRuler=true
+}
