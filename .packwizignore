@@ -20,7 +20,7 @@
 # Exclude packwiz git hooks and utils
 git
 /enable_hooks.sh
-prism
+launchers
 output
 scripts
 LICENSE
