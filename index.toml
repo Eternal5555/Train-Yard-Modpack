@@ -1334,7 +1334,7 @@ hash = "02d48ff6f28d5a657b8aaf07436957850788d89cd71cee9d90170b1d42b896a1"
 
 [[files]]
 file = "mods/1.21.2-bundle-recipe.pw.toml"
-hash = "40895ceb95278b32d2a684a25f6bdc14db8bd51b6ee1b650f9ccd6df04f47cdf"
+hash = "c2678562b91685b43c28c4673b3dafeca2eb89eb181c2850e6a7b6e2ff666b10"
 metafile = true
 
 [[files]]
@@ -1662,7 +1662,7 @@ hash = "fedfe0588a30e3ddae2eaea54a82d48f152243a009c6201bec0a35a9b35bde02"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
+hash = "5aec219adc9536b4554033a54c563a027297a319836ef5e8dd3078fda8ac2e32"
 metafile = true
 
 [[files]]
@@ -2255,12 +2255,12 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "8305bf17272f0c579b0930b751c12089de9fb157dbdb5c080836ce3daad310b5"
+hash = "97135836e2392a011aff2801fffbbeb314c292c433af580ece5838d713fc8f57"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "5df1b8ef822fe9987a65d412936909b4d700872db2ed107d0092e28452999101"
+hash = "059f9aa8519a79e406e104fc0ce34a6e80b36d4b36352190a8f8efaa9107d02a"
 metafile = true
 
 [[files]]
