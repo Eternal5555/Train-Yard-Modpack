@@ -217,10 +217,6 @@ file = "kubejs/README.txt"
 hash = "52b570039ba39ec5ea25d9bc4e31c1bf018436a0e848f0fd87e578032b86ed9d"
 
 [[files]]
-file = "kubejs/config/client.properties"
-hash = "fde67977731f6a97817c04a40a81084e01ab6bba8cd4d4df983599cfae6aef0b"
-
-[[files]]
 file = "kubejs/config/common.properties"
 hash = "3f5b688d567d17f2a35d34c2c7edcf0b32e9e71843e739a3560fcfa93914fccc"
 
