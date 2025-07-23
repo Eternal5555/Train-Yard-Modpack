@@ -198,11 +198,11 @@ hash = "cd608d0299ecf59725823ee39d865e2a0045b4e41fe2311bf97c6be76cc0ce4a"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_leveling.json"
-hash = "ab6b2cbcf1aa5b002b696e2b3c17a38f199b02ab0850b218c8b213cace3e2c81"
+hash = "900eb0222b974e47224c2d1ff77e524e6e993e80c93f42be916d20eb82a69d37"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save.json"
-hash = "226636d15c13626649e813f2d195886001507b34c4916ddc3b2c130fa4a4f04a"
+hash = "8fd4a8149ebc65b56ef8e745923690bb00fdbb07bf58ea6fcb3be1e2c95dfa4c"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
@@ -217,20 +217,12 @@ file = "kubejs/README.txt"
 hash = "52b570039ba39ec5ea25d9bc4e31c1bf018436a0e848f0fd87e578032b86ed9d"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "c7dca50ca8a08c8ff35fc52c133cdf3563f9faa283db67dfaf17e7569929060f"
-
-[[files]]
 file = "kubejs/config/client.properties"
 hash = "fde67977731f6a97817c04a40a81084e01ab6bba8cd4d4df983599cfae6aef0b"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "9b82d21ca58fa13c433cd7a9b64149ecb4743a8d14066891ad694ba7c3fed3ab"
-
-[[files]]
-file = "kubejs/server_scripts/example.js"
-hash = "4c0d680a490abad6df4ed66e02ccad3cf2bda3829b0a9ecea5c23cc67e8a5fdf"
+hash = "3f5b688d567d17f2a35d34c2c7edcf0b32e9e71843e739a3560fcfa93914fccc"
 
 [[files]]
 file = "mods/1.21.2-bundle-recipe.pw.toml"
