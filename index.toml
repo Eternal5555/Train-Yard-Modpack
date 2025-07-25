@@ -133,18 +133,6 @@ file = "config/resourcify.json"
 hash = "e58371e7d636e557efde9fecf278417fd1b5290f025fe79564bc57030eca1566"
 
 [[files]]
-file = "config/reterraforged/presets/MountainsV5.json"
-hash = "02d81059e9ec4756fc1edd46c53956adfec184fbd5f5056d37d724f00e581955"
-
-[[files]]
-file = "config/reterraforged/presets/S3 Test.json"
-hash = "ecc4a00deb1ee0515a6477a88ebadf41526070c2a3358dc8fdd2a7137d3c4578"
-
-[[files]]
-file = "config/reterraforged/presets/huntratest3.json"
-hash = "c5cadede2f38239732ddae5815f782fa3fd4aa97da5e88f557fda97abf69d288"
-
-[[files]]
 file = "config/sereneseasons/seasons.toml"
 hash = "3c3cdc24c6bda113effb7650d3fb378621e817f8fa5a982b295d524a84b1f4a1"
 
