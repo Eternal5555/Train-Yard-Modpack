@@ -5,7 +5,14 @@
 		{
 			"maptype": "Bluemap",
 			"ip": "173.240.149.140:25577",
-			"link": "173.240.149.140:25577",
+			"link": "http://173.240.149.140:8100/#s3_reterra1",
+			"markerVisibilityMode": "All",
+			"markerLayers": []
+		},
+		{
+			"maptype": "Dynmap",
+			"ip": "",
+			"link": "",
 			"markerVisibilityMode": "Auto",
 			"markerLayers": []
 		}

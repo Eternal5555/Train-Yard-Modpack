@@ -1,6 +1,6 @@
 name = "Arts & Crafts Compatibility"
 filename = "arts_and_crafts_compat-fabric-1.20.1-1.4.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/uFws80gC/versions/KoQ8lgsI/arts_and_crafts_compat-fabric-1.20.1-1.4.0.jar"
