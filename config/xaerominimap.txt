@@ -1,4 +1,4 @@
-#CONFIG ONLY OPTIONS
+#CONFIG OPTIONS ONLY
 ignoreUpdate:0
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -67,7 +67,7 @@ compassLocation:1
 compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
-renderAllSets:false
+renderAllSets:true
 playerArrowOpacity:100
 waypointsBottom:false
 minimapShape:0

@@ -1,3 +1,4 @@
+
 {
   "level": 1,
   "experience": 0,
@@ -75,8 +76,8 @@
     "petCount": 0,
     "feedCount": 0,
     "playCount": 0,
-    "poopCleanCount": 0,
     "totalSessionTime": 0,
+    "poopCleanCount": 0,
     "layoutCreationCount": 0
   }
 }

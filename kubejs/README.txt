@@ -1,6 +1,6 @@
 Find out more info on the website: https://kubejs.com/
 
-Directory information:
+Directory information;
 
 assets - Acts as a resource pack, you can put any client resources in here, like textures, models, etc. Example: assets/kubejs/textures/item/test_item.png
 data - Acts as a datapack, you can put any server resources in here, like loot tables, functions, etc. Example: data/kubejs/loot_tables/blocks/test_block.json

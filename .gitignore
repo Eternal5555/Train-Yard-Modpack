@@ -1,0 +1,27 @@
+# Exclude exported CurseForge zip files
+./*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+# Exclude IDE files
+.idea
+.vscode
+
+# Exclude Mac metadata files
+.DS_Store
+
+# Exclude Packwiz Binary
+packwiz.exe
+packwiz
+
+# Output dir
+output/
+
+# ProbeJS guts
+
+kubejs/probe/*
+
+# ProbeJS config
+
+jsconfig.json
