@@ -465,7 +465,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "9c553500c771ace491481e52fb2a144e97ce332f03bc36155b62bcf5e64877ed"
+hash = "3e366956e919b28ccaa262360804800c05e4470f45ef8b84c8a1db1bd55b8221"
 metafile = true
 
 [[files]]
@@ -689,7 +689,7 @@ metafile = true
 
 [[files]]
 file = "mods/ksyxis.pw.toml"
-hash = "7c6239fe970cd45a1f680493b9fceef6870afcfd2de72086bfef3f765bd3c4c6"
+hash = "b24ecf89d0c4e30df9b15a84f0aaea63ea0e329710a0d5151802f9f8e41d3d8e"
 metafile = true
 
 [[files]]
