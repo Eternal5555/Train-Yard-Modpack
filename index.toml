@@ -534,6 +534,11 @@ hash = "477791eac96a9e29ef1bf32b5baf1ac48d9d1c03cdb88999b0b37774611bbeb7"
 metafile = true
 
 [[files]]
+file = "mods/exordium.pw.toml"
+hash = "914e9a9f27ebb0ec8d78a17586d19a64ba0bcf16fec384dd97c43f107b684c79"
+metafile = true
+
+[[files]]
 file = "mods/extendedbogeys-0.5.16-1.20.1-0.5.1.f-fabric.jar"
 hash = "fedfe0588a30e3ddae2eaea54a82d48f152243a009c6201bec0a35a9b35bde02"
 
@@ -688,11 +693,6 @@ hash = "d6be91dc0a2aca23ee640818d8a8295c85ddb2db6e0413669ecac9600b01eef0"
 metafile = true
 
 [[files]]
-file = "mods/ksyxis.pw.toml"
-hash = "b24ecf89d0c4e30df9b15a84f0aaea63ea0e329710a0d5151802f9f8e41d3d8e"
-metafile = true
-
-[[files]]
 file = "mods/kubejs-additions.pw.toml"
 hash = "f2fac3e43ccdddab1ab4fb35915fe32b5190293b2e2e7e2f5403a0f86ddda8bf"
 metafile = true
@@ -800,6 +800,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "48d24649449a1f541b90fb784c52b5c142834f311b1702675e786f5350789da4"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "2e3987a8edebc531d0a063b344bbb00b7ed34dbf683fcd59c879f4a1e9387d0f"
 metafile = true
 
 [[files]]
