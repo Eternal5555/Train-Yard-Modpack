@@ -465,7 +465,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "9c553500c771ace491481e52fb2a144e97ce332f03bc36155b62bcf5e64877ed"
+hash = "3e366956e919b28ccaa262360804800c05e4470f45ef8b84c8a1db1bd55b8221"
 metafile = true
 
 [[files]]
@@ -531,6 +531,11 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "477791eac96a9e29ef1bf32b5baf1ac48d9d1c03cdb88999b0b37774611bbeb7"
+metafile = true
+
+[[files]]
+file = "mods/exordium.pw.toml"
+hash = "914e9a9f27ebb0ec8d78a17586d19a64ba0bcf16fec384dd97c43f107b684c79"
 metafile = true
 
 [[files]]
@@ -688,11 +693,6 @@ hash = "d6be91dc0a2aca23ee640818d8a8295c85ddb2db6e0413669ecac9600b01eef0"
 metafile = true
 
 [[files]]
-file = "mods/ksyxis.pw.toml"
-hash = "7c6239fe970cd45a1f680493b9fceef6870afcfd2de72086bfef3f765bd3c4c6"
-metafile = true
-
-[[files]]
 file = "mods/kubejs-additions.pw.toml"
 hash = "f2fac3e43ccdddab1ab4fb35915fe32b5190293b2e2e7e2f5403a0f86ddda8bf"
 metafile = true
@@ -800,6 +800,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "48d24649449a1f541b90fb784c52b5c142834f311b1702675e786f5350789da4"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "2cc2e4b058a6105ed513805bb2e3dd5ff44e40443e7cebc80d7842b47bbf1920"
 metafile = true
 
 [[files]]

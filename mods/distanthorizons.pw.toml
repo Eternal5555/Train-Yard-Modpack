@@ -11,3 +11,8 @@ hash = "85bb5245abb723cee7c10ae471e811266a66e5f78bd4a09a35bf45e64d463d244989c6e4
 [update.modrinth]
 mod-id = "uCdwusMi"
 version = "MhxUKxWI"
+
+[option]
+optional = true
+default = false
+description = "Allows for render distances greater than the server view distance. May cause lag on slow computers."

@@ -1,0 +1,18 @@
+name = "Exordium"
+filename = "exordium-fabric-1.4.1-mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DynYZEae/versions/V2cPMZzn/exordium-fabric-1.4.1-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "fed2f131e436aba05dd149115ee509fb2c02474021bdb2b048528b19fb716c2d0ae6d087e04e6fb5fbc56a33d0c0d88bdf2a1b65cbe0da6181a9b5b142e4be87"
+
+[update]
+[update.modrinth]
+mod-id = "DynYZEae"
+version = "V2cPMZzn"
+
+[option]
+optional = true
+default = false
+description = "Lowers the frame rate of GUI elements allowing for more processing to be done for the world's frames, May Cause Issues"
