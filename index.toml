@@ -33,6 +33,10 @@ file = "config/c2me.toml"
 hash = "0b10ee738e17ef44a842b6cd4c6e4efbda41e35e2f7d0971c602e644de27aea7"
 
 [[files]]
+file = "config/carryon-common.json"
+hash = "21d343062f6935a67405a46806bc1f858d7193a72caad6a4f0357ddf303a6665"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "200055344c6273fb1f607fc91791c53e881775f95dbdcf568d3722fd42eb8f10"
 
