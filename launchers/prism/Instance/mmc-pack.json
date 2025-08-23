@@ -36,16 +36,17 @@
             "version": "1.20.1"
         },
         {
-            "cachedName": "Fabric Loader",
-            "cachedRequires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "cachedVersion": "0.16.14",
-            "uid": "net.fabricmc.fabric-loader",
-            "version": "0.16.14"
-        },
+			"cachedName": "NeoForge",
+			"cachedRequires": [
+				{
+					"equals": "1.21.1",
+					"uid": "net.minecraft"
+				}
+			],
+			"cachedVersion": "21.1.200",
+			"uid": "net.neoforged",
+			"version": "21.1.200"
+		},
         {
             "cachedName": "unsup",
             "cachedVersion": "1.1.5",
