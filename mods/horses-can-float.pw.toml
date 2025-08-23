@@ -1,0 +1,13 @@
+name = "Horses can Float"
+filename = "horses-can-float-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MKFXH430/versions/AGH9eKa6/horses-can-float-1.21.jar"
+hash-format = "sha512"
+hash = "4867777627010447b5f2a94c749fe70d9e002940df03d18c4ff2c42a4646e3f59776598909ae0a740016082cd92f65cc638029cb0f55df96641319c20165843f"
+
+[update]
+[update.modrinth]
+mod-id = "MKFXH430"
+version = "AGH9eKa6"

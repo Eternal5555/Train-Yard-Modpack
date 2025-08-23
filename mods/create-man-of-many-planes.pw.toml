@@ -1,0 +1,13 @@
+name = "Create Man of Many Planes"
+filename = "create-man-of-many-planes-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F4Rdk2PX/versions/7nmQy8tH/create-man-of-many-planes-1.1.jar"
+hash-format = "sha512"
+hash = "4117fbe6d778e702d61e093d02b1236dab341e8ed973a9e2b4d489339e75c20d10642f734fdc700643c9bf50893d4a837d595d69bd391211d1b7763977b7ec8a"
+
+[update]
+[update.modrinth]
+mod-id = "F4Rdk2PX"
+version = "7nmQy8tH"

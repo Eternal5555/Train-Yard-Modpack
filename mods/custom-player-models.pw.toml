@@ -1,0 +1,13 @@
+name = "Customizable Player Models"
+filename = "CustomPlayerModels-1.21-0.6.24a.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/h1E7sQNL/versions/RaCfn50N/CustomPlayerModels-1.21-0.6.24a.jar"
+hash-format = "sha512"
+hash = "e33065cc2741e006ba8d01f2405bb67b2ba1b823caa31bdfa571f239098b575f71278decb59dc699c514cf15ad17ded27822613ea1cb1f2af352ba3c3713a80b"
+
+[update]
+[update.modrinth]
+mod-id = "h1E7sQNL"
+version = "RaCfn50N"

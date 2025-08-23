@@ -1,0 +1,13 @@
+name = "Trimmable Tools"
+filename = "trimmable_tools-neoforge-1.21.1-2.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MJu3fF3K/versions/dazYjab0/trimmable_tools-neoforge-1.21.1-2.0.5.jar"
+hash-format = "sha512"
+hash = "5021f18834351a6b4aea9c58b59bcd4f4dfaa144601df0f8fac0e10fa1f458bb61887db363ea82f0f27da596cf60a3ef381a1457fdde86ab56cf4ef89cea54d2"
+
+[update]
+[update.modrinth]
+mod-id = "MJu3fF3K"
+version = "dazYjab0"

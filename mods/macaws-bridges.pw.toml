@@ -1,0 +1,13 @@
+name = "Macaw's Bridges"
+filename = "mcw-bridges-3.1.1-mc1.21.1neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GURcjz8O/versions/4AUDy7dQ/mcw-bridges-3.1.1-mc1.21.1neoforge.jar"
+hash-format = "sha512"
+hash = "56815ee76e34188cff8987d673a99fb754a7259ba697f1dd3c46788237dd0f862f46ad75f0ab7ab508869fd2381da24dc7d90ef4185664961c948aaa0a265402"
+
+[update]
+[update.modrinth]
+mod-id = "GURcjz8O"
+version = "4AUDy7dQ"

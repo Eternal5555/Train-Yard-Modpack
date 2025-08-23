@@ -1,0 +1,13 @@
+name = "William Wythers' Overhauled Overworld"
+filename = "wwoo-2.3.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/II7t6llZ/versions/5nUEDt1Z/wwoo-2.3.4.jar"
+hash-format = "sha512"
+hash = "4ca1ffa9274152e6b5bf978f03be0bd350599e2481ca42494b3a65f0390cb1c83284185f9758e41fe32136c42dc5d5944d6d355679b2939e2b1f592181fc1c89"
+
+[update]
+[update.modrinth]
+mod-id = "II7t6llZ"
+version = "5nUEDt1Z"

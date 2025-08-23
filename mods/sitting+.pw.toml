@@ -1,0 +1,13 @@
+name = "Sitting+"
+filename = "sittingplus-2.0.6-1.21.1-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RVtIOlYX/versions/eajWZ8cJ/sittingplus-2.0.6-1.21.1-FABRIC.jar"
+hash-format = "sha512"
+hash = "d4be42d1143c9a913f673d68b2bab9ca40dc1cf114b5946e8d4610fa7392d21656a47ab3f486b296351ea6f13d3ab812c75727a28874f2d67603fd26eeec39a8"
+
+[update]
+[update.modrinth]
+mod-id = "RVtIOlYX"
+version = "eajWZ8cJ"

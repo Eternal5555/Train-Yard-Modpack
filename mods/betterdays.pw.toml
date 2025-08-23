@@ -1,0 +1,13 @@
+name = "Better Days"
+filename = "betterdays-1.20.1-3.2.0.1-FORGE.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tPLE214j/versions/NSZRo6r6/betterdays-1.20.1-3.2.0.1-FORGE.jar"
+hash-format = "sha512"
+hash = "15211b733f54dc64f079a68dea2017e132807e76534257ff9af0f3bf693ae6b3712fb06632e3201962f667dff3bac9c98e68e2f2c6febb06ca839efed26e58ca"
+
+[update]
+[update.modrinth]
+mod-id = "tPLE214j"
+version = "NSZRo6r6"

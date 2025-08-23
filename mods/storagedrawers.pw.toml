@@ -1,0 +1,13 @@
+name = "Storage Drawers"
+filename = "StorageDrawers-neoforge-1.21.1-13.10.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/guitPqEi/versions/LzTW9UlY/StorageDrawers-neoforge-1.21.1-13.10.1.jar"
+hash-format = "sha512"
+hash = "d45b1e5089ad60d9248addb9131351f40e05cd7b30e4ee1ea931b6ed7d8e24aa3e80839acac493a863b8d65bd768a664bb06b51fd683bf18d513989e9a0b58b6"
+
+[update]
+[update.modrinth]
+mod-id = "guitPqEi"
+version = "LzTW9UlY"
