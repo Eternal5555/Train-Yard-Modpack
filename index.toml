@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "892889326bcde20c2836dc0d916454140516f2115687c2bf01c93426772f9047"
+hash = "4a17b94185b5ec445085170c8c339dfb6337f4235deb5f721436386551669bc7"
 metafile = true
 
 [[files]]
@@ -155,11 +155,6 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
-file = "mods/chloride.pw.toml"
-hash = "fea72fc60fc9ff83090ede284a8fe65090cb2fed2fd4f697de5ebe6071ff5b41"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -171,7 +166,12 @@ metafile = true
 
 [[files]]
 file = "mods/comforts.pw.toml"
-hash = "a2c5d820180d2610e5017e3f08957010e30cf05d50ee3180272dac6f969260cf"
+hash = "5e0a875282f4abed66a2cccf7929488ebb5e88447d2bb3369e8ddc728fc66fc0"
+metafile = true
+
+[[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
 metafile = true
 
 [[files]]
@@ -381,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "c588f6e0cc4f7efae37273ac64120808ae8532081f5e2cf39d0d7f82fcc5a9d7"
+hash = "845d56c30d9484014c29d05c15c3bc8891bffc7efc1f5b14b62743b12ec94ff3"
 metafile = true
 
 [[files]]
@@ -431,7 +431,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "c3c06a4839ecfd4717686f7394396a4fc66b7a2e8eabbdd51f23ab2a1099cc1e"
 metafile = true
 
 [[files]]
@@ -576,7 +576,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
 
 [[files]]
@@ -601,7 +601,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "c83705becd548879473132552de960f9d5975fa0edaeeb2d4665a4e35457423e"
+hash = "ae55eda5b79aeb01fd4068cc34051019e34779c2d4748aba86e5dba522b7b61d"
 metafile = true
 
 [[files]]
