@@ -1,0 +1,45 @@
+name: Release
+
+on: [workflow_dispatch]
+
+jobs:
+  push-to-prod-branch:
+    uses: ./.github/workflows/Push-to-Prod.yml
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Version and Exit early if not changed
+        run: |
+          PACK_VERSION=$(grep 'version = ' "./pack.toml" | cut -d'=' -f3 | tr -d ' "')
+          echo "Version: PACK_VERSION"
+          if [[ "$PACK_VERSION" == *"-server" ]]; then
+            echo "Server version detected, exit"
+            exit 0
+          fi
+      
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.1'
+          check-latest: true
+          cache: true
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export Prism
+        run: ./scripts/PrismExport.sh
+
+      - name: Modrinth upload
+        env:
+          MODRINTH_API_TOKEN: ${{ secrets.MODRINTH_API_TOKEN }}
+        run: ./scripts/ModrinthUpload.sh
+
+      - name: Capture Prism & .mrpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Artifacts
+          path: output
