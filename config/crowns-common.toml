@@ -1,0 +1,6 @@
+#.
+#Graphic config for nuclear
+[nuclear]
+	#.
+	#Radiation Particles
+	nuclear_particle = true

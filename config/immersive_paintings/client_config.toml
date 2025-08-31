@@ -1,0 +1,10 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+showOtherPlayersPaintings = true
+showNSFWPaintings = true
+thumbnailSize = 128
+lodResolutionMinimum = 32
+halfResolutionThreshold = 2.0
+quarterResolutionThreshold = 4.0
+eighthResolutionThreshold = 8.0
+thumbResolutionThreshold = 16.0
