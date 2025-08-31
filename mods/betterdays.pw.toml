@@ -1,13 +1,13 @@
 name = "Better Days"
-filename = "betterdays-1.20.1-3.2.0.1-FORGE.jar"
+filename = "betterdays-1.21.1-3.2.0.0-NEOFORGE.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tPLE214j/versions/NSZRo6r6/betterdays-1.20.1-3.2.0.1-FORGE.jar"
+url = "https://cdn.modrinth.com/data/tPLE214j/versions/6KFQCE6Z/betterdays-1.21.1-3.2.0.0-NEOFORGE.jar"
 hash-format = "sha512"
-hash = "15211b733f54dc64f079a68dea2017e132807e76534257ff9af0f3bf693ae6b3712fb06632e3201962f667dff3bac9c98e68e2f2c6febb06ca839efed26e58ca"
+hash = "3cb8e9723a2d4fabbc07c946eff326c8f3f4850db31d5ae2d3e2524ac26272e8e86ff52d3708ea181b0607e27afb1fa22c95426ce51e9e9b6d676e4c0649e50c"
 
 [update]
 [update.modrinth]
 mod-id = "tPLE214j"
-version = "NSZRo6r6"
+version = "6KFQCE6Z"
