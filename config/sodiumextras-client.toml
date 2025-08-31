@@ -89,7 +89,7 @@
 			[embeddiumextras.performance.distanceCulling.tileEntities]
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
-				enable = true
+				enable = false
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				# Default: 4096
@@ -109,7 +109,7 @@
 			[embeddiumextras.performance.distanceCulling.entities]
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
-				enable = true
+				enable = false
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				# Default: 4096

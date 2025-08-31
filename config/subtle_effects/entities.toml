@@ -54,14 +54,14 @@ potionRingsParticleType = "BOTH"
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
-displayType = "DEFAULT"
+displayType = "OFF"
 alpha = 0.5
 waitTime = 60
-seasons = "DEFAULT"
+seasons = "OFF"
 additionalBiomes = [  ]
 
 [humanoids.player]
-enableBreathingEffectsInCreative = true
+enableBreathingEffectsInCreative = false
 stomachGrowlingThreshold = 6
 stomachGrowlingVolume = 1.0
 stomachGrowlingWaitTime = 15
@@ -75,12 +75,12 @@ alpha = 1.0
 preventWhenRaining = false
 flyIntoWall = true
 lessViewBlocking = false
-playerFell = true
-mobFell = true
-landMaceAttack = true
-playerRunning = true
-mobRunning = true
-playerRunningRequiresSpeed = false
+playerFell = false
+mobFell = false
+landMaceAttack = false
+playerRunning = false
+mobRunning = false
+playerRunningRequiresSpeed = true
 
 [burning]
 smoke = "DEFAULT"

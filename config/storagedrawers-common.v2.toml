@@ -8,10 +8,6 @@
 	# Disabling UI will restrict some mod functionality.
 	enableUI = true
 	# 
-	# Whether to log actions such as adding rules or deny list entries.
-	# You may wish to disable this if you've added many such entries.
-	logStartupActivity = true
-	# 
 	# Internal use to record what version the config file was first written with.
 	configVersion = 2
 
@@ -171,7 +167,7 @@
 		# 
 		# Each type will be combined with each material to create a set of allow list entries.
 		# This is mainly a convenience for common ore-based materials.
-		oreTypeAllowList = ["c:storage_blocks", "c:ingots", "c:nuggets"]
+		oreTypeAllowList = ["forge:storage_blocks", "forge:ingots", "forge:nuggets"]
 		# 
 		# Each type will be combined with each material to create a set of allow list entries.
 		# This is mainly a convenience for common ore-based materials.
@@ -267,9 +263,6 @@
 	# Quantify keys are used to show or hide the count of items on the face of drawers.
 	[Tools.QuantifyKey]
 		enable = true
-		# 
-		# Show labels by default on newly placed drawers.
-		showDefault = false
 
 	# Concealment keys are used to show or hide the item labels on the face of drawers.
 	# The primary use of this key is for performance by disabling the more expensive dynamic rendering.
@@ -287,25 +280,8 @@
 # Configuration around integration with third party mods.
 [Integration]
 
-	# Configuration around the FTB Chunks mod.
-	# Improves support for claimed chunks.
-	[Integration.FTBChunks]
-		# Enables FTB Chunks integration if mod is present.
-		enable = true
-
-	# Configuration around the FTB Teams mod.
-	# Adds support for a teams personal key.
-	[Integration.FTBTeams]
-		# Enables FTB Teams integration if mod is present.
-		enable = true
-		# 
-		# Enables recipe to obtain key from another supported personal key in crafting grid.
-		enableCycleRecipe = true
-
 	# Configuration around the WAILA/HWYLA/Jade family of block inspection mods.
 	[Integration.WAILA]
-		# Enables Jade integration if mod is present.
-		enable = true
 		# When true, shows quantity as NxS + R (by stack size) rather than count
 		stackRemainder = true
 		# 

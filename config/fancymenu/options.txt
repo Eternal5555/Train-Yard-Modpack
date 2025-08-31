@@ -8,12 +8,13 @@ B:force_fullscreen = 'false';
 ##[customization]
 
 B:modpack_mode = 'false';
-B:show_customization_overlay = 'true';
+B:show_customization_overlay = 'false';
 B:advanced_customization_mode = 'false';
 
 
 ##[loading]
 
+B:preload_animations = 'true';
 S:preload_resources = '';
 S:custom_game_intro_skip_text = '';
 B:allow_game_intro_skip = 'true';
@@ -46,10 +47,10 @@ B:layout_editor_grid_snapping = 'true';
 B:anchor_overlay_change_anchor_on_area_hover = 'true';
 B:show_layout_editor_grid = 'true';
 B:anchor_overlay_change_anchor_on_element_hover = 'true';
-S:anchor_overlay_visibility_mode = 'dragging';
+S:anchor_overlay_visibility_mode = 'always';
 B:anchor_overlay_show_all_connection_lines = 'false';
-F:layout_editor_grid_snapping_strength = '1.0';
 S:anchor_overlay_color_base_override = '';
+F:layout_editor_grid_snapping_strength = '1.0';
 I:layout_editor_grid_size = '10';
 B:invert_anchor_overlay_color = 'false';
 B:enable_buddy = 'true';
@@ -85,9 +86,3 @@ B:show_welcome_screen = 'false';
 ##[keyframe_editor]
 
 B:arrow_keys_move_preview = 'false';
-
-
-##[advanced]
-
-L:placeholder_caching_duration_ms = '30';
-L:requirement_caching_duration_ms = '0';

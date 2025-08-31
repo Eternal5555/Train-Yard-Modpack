@@ -1,10 +1,10 @@
 {
   "tool_types": {
+    "trimmable_tools:pickaxe": "#minecraft:pickaxes",
     "trimmable_tools:hoe": "#minecraft:hoes",
     "trimmable_tools:shovel": "#minecraft:shovels",
     "trimmable_tools:axe": "#minecraft:axes",
-    "trimmable_tools:sword": "#minecraft:swords",
-    "trimmable_tools:pickaxe": "#minecraft:pickaxes"
+    "trimmable_tools:sword": "#minecraft:swords"
   },
   "darker_materials": {
     "iron": [
