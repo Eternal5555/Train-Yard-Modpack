@@ -1,0 +1,13 @@
+name = "Create : CROWNS"
+filename = "crowns-1.21.1_1.4d.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RCsqeVSp/versions/F7qwWYbK/crowns-1.21.1_1.4d.jar"
+hash-format = "sha512"
+hash = "f58584137c2c63d03c66ab1f1ec87d63050023397c30c855cc61bd33c4944d35cbcbe86df025369359f2ea421cf31a39fc5ffcb5d33d0c4ad182b93218ce0fcc"
+
+[update]
+[update.modrinth]
+mod-id = "RCsqeVSp"
+version = "F7qwWYbK"

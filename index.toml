@@ -165,6 +165,16 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel-patcher.pw.toml"
+hash = "2d8c419acad3bab8eb54c6d5461f99ab76d924b753a9c811e7e94d624fe32f61"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "9da820e4bd91294a900ec2c2859fa8ae261a573922df3a15ca64cb838c76df9f"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "5e0a875282f4abed66a2cccf7929488ebb5e88447d2bb3369e8ddc728fc66fc0"
 metafile = true
@@ -207,6 +217,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "98f1f22a846713d35b2375d4a88b18836e11f427734527d729dc1b89e7fb4da3"
+metafile = true
+
+[[files]]
+file = "mods/create-crowns.pw.toml"
+hash = "6d6d36545f39064bfef58b92c8b32093b634fff918b4fab95b798d40db01dad4"
 metafile = true
 
 [[files]]
