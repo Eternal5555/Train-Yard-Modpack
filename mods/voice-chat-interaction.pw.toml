@@ -1,6 +1,6 @@
 name = "Voice Chat Interaction"
 filename = "vcinteraction-fabric-1.21.1-1.0.8.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/qsSP2ZZ0/versions/4m0Fd6Fa/vcinteraction-fabric-1.21.1-1.0.8.jar"

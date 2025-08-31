@@ -1,13 +1,13 @@
 name = "Pretty In Pink"
-filename = "pretty_in_pink-1.0.2.jar"
+filename = "pretty_in_pink-1.0.3-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sNPHd5e4/versions/5Sa92OSZ/pretty_in_pink-1.0.2.jar"
+url = "https://cdn.modrinth.com/data/sNPHd5e4/versions/9g122A00/pretty_in_pink-1.0.3-1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "7ee573265f76f790b775fe4e44424f9d562c3f8eb6ad4f7c40597479b15d7f06ec633df45730af18466206417ecb5e66a54905a9669c5159b499083f75991378"
+hash = "d99ee9b78720244630dfe6fad2932c7dd41aa0efb3cc1117876ea8761bf09fe558b542f9839e16bfe49c968edd9c947f12ef462b8479e8a29af38bcd6fa5f97c"
 
 [update]
 [update.modrinth]
 mod-id = "sNPHd5e4"
-version = "5Sa92OSZ"
+version = "9g122A00"

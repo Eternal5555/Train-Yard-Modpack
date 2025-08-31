@@ -1,6 +1,6 @@
 name = "Better Than Mending"
 filename = "BetterThanMending-2.2.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Lvv4SHrK/versions/xv5fSPWX/BetterThanMending-2.2.0.jar"

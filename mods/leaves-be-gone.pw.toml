@@ -1,6 +1,6 @@
 name = "Leaves Be Gone"
 filename = "LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/AVq17PqV/versions/TOHEOE2X/LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar"
