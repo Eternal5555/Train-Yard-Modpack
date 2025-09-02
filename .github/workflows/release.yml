@@ -30,9 +30,6 @@ jobs:
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Export Prism
-        run: ./scripts/PrismExport.sh
-
       - name: Modrinth upload
         env:
           MODRINTH_API_TOKEN: ${{ secrets.MODRINTH_API_TOKEN }}
