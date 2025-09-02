@@ -1,0 +1,13 @@
+name = "Beautify!"
+filename = "beautify-neoforge-1.21.1-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9BPuv4vL/versions/xVfv1ket/beautify-neoforge-1.21.1-2.0.2.jar"
+hash-format = "sha512"
+hash = "e48161fc0c3a7ef916154a9885fcae7f6666a4aa14e75b874e3f0d1b3afef6a298413a51f25ec7c63c3692ffb15ad4885b210e26f9f1a7d4b701e6f912495c09"
+
+[update]
+[update.modrinth]
+mod-id = "9BPuv4vL"
+version = "xVfv1ket"

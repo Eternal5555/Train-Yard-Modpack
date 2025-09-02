@@ -1,13 +1,13 @@
 name = "Man of Many Planes"
-filename = "man_of_many_planes-0.2.0+1.20.1-fabric.jar"
+filename = "man_of_many_planes-0.2.1+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/BiO2Uv4J/man_of_many_planes-0.2.0%2B1.20.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/onE42Qs7/man_of_many_planes-0.2.1%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "8583f09beeb33004920130d8da6a3e7354d1a819fe635feafd86fb8ccd547a319bf43303166ea11ab60d2eca1d6f33225e7c71fef10fcc56aa57e9c644b46e86"
+hash = "b306f5fae308ccd03ab72b552f634b3f5f57e9254a930ffafedae858cbce74c2557cf598e7efb959823c3f575544859cf0f19f26c3b477c75feec3c6a1481744"
 
 [update]
 [update.modrinth]
 mod-id = "9qdTHi0q"
-version = "BiO2Uv4J"
+version = "onE42Qs7"

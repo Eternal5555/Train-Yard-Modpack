@@ -17,7 +17,8 @@
   },
   "detail_settings": {
     "sky": true,
-    "sun_moon": true,
+    "sun": true,
+    "moon": true,
     "stars": true,
     "rain_snow": true,
     "biome_colors": true,
@@ -44,7 +45,7 @@
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": false,
     "show_coords": false,
     "reduce_resolution_on_mac": false,

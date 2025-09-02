@@ -1,13 +1,13 @@
 name = "Elytra Trims"
-filename = "elytratrims-fabric-3.5.9+1.20.1.jar"
+filename = "elytratrims-neoforge-3.5.9+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XpzGz7KD/versions/swlgoemm/elytratrims-fabric-3.5.9%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/XpzGz7KD/versions/JXUICBYm/elytratrims-neoforge-3.5.9%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "2b7d9c2126749dabf1aba6bebb156c315cbc0fdc6756a7aa58685511f62a52ecffddbab8c3015f514b8bb6395946f7be5b2dc8f04c44d715e372ec255153e977"
+hash = "e0e7c271333d3fa3d0699099d4d0b2f09f2cee268b5a7d93fee4dda743c88ccc2bf3a179e9f0c6a1beee338ec7b250c248104f39b84f72f9e8358061e8a858bb"
 
 [update]
 [update.modrinth]
 mod-id = "XpzGz7KD"
-version = "swlgoemm"
+version = "JXUICBYm"

@@ -1,13 +1,13 @@
 name = "Konkrete"
-filename = "konkrete_fabric_1.8.1_MC_1.20.1.jar"
+filename = "konkrete_neoforge_1.9.9_MC_1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/J81TRJWm/versions/RlBGFlWp/konkrete_fabric_1.8.1_MC_1.20.1.jar"
+url = "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar"
 hash-format = "sha512"
-hash = "ca65343bd3b063f3e0f68cc1d40da1969cf07ca038670f22a2bac91c2f34162f2c455ceb309680d57da13267ffc99fc7f8d40bb9451e93ff56ab2a688c0e3a45"
+hash = "378bd12e3c32329abbae5cd514e1d1cc2a3cc3a45979fedb1d4e4c0a6732bdcf4b7d1bf7f7a112074bf288957edf86152c9c090a27d1d5de84a9a7825d3d6511"
 
 [update]
 [update.modrinth]
 mod-id = "J81TRJWm"
-version = "RlBGFlWp"
+version = "stJDU839"

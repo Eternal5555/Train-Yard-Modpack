@@ -1,13 +1,13 @@
 name = "Architectury API"
-filename = "architectury-9.2.14-fabric.jar"
+filename = "architectury-13.0.8-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/WbL7MStR/architectury-9.2.14-fabric.jar"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar"
 hash-format = "sha512"
-hash = "4cb8f009fd522d68a795d2cf5a657bdbe248b32ba7c33cd968f5ab521e9d60e198f8a3f6c50e7d960a2b8f50375116be0db1fd44b5710ea758697d8ea70d15de"
+hash = "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e"
 
 [update]
 [update.modrinth]
 mod-id = "lhGA9TYQ"
-version = "WbL7MStR"
+version = "ZxYGwlk0"

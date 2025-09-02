@@ -1,0 +1,13 @@
+name = "Create: Trimmed"
+filename = "create_trimmed.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zvaHXgQz/versions/P1pdTwvn/create_trimmed.jar"
+hash-format = "sha512"
+hash = "bc1e2515975122fa888595427ca0381a1a4f6f117b88d14b4d3c260a4e6b1cfc0f8113c01074e472fb52a35cdaf8bbab45ebf89baa4ce49ff42567c25a43c0cb"
+
+[update]
+[update.modrinth]
+mod-id = "zvaHXgQz"
+version = "P1pdTwvn"
