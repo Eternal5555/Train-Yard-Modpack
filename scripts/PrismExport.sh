@@ -4,7 +4,7 @@
 mkdir -p output
 
 # cd to prism folder
-cd prism || exit
+cd ./launchers/prism || exit
 
 #zip and put in output folder
 zip -r ../output/PrismExport.zip .
