@@ -1,0 +1,13 @@
+name = "Create Style Sophisticated Backpacks"
+filename = "CreateSophisticatedBackpacks.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/srJbhHkf/versions/KZj2cwZF/CreateSophisticatedBackpacks.zip"
+hash-format = "sha512"
+hash = "0e3d5b38b9b4c578e9612f61450386fcfb59b301909c27991830636fa7d76f45db4d61f360fe181fe3216b71636eba16dcb308c395932d1283e44a6a70a82ea8"
+
+[update]
+[update.modrinth]
+mod-id = "srJbhHkf"
+version = "KZj2cwZF"
