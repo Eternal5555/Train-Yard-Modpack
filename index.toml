@@ -1463,8 +1463,8 @@ hash = "49e0d115696502d893eaf3d83e88fb70829ee644cbd4abf0bcc0a1dd3f61d82f"
 metafile = true
 
 [[files]]
-file = "mods/wakes-reforged.pw.toml"
-hash = "192f26eaf3d6beaa0d564f11bac7238c038c2fe9d8f5bbc1d844bf0cb0a1e8c3"
+file = "mods/wakes.pw.toml"
+hash = "f47b75ab81d6334bf93962de5537a7889a80ac587a833cf582262b8694b135b0"
 metafile = true
 
 [[files]]
