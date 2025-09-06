@@ -465,6 +465,11 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/create-sophisticated-backpacks.pw.toml"
+hash = "30ad212730fa8fed38f81dc5d7d57777463295ba3018117c62725fb464ca7280"
+metafile = true
+
+[[files]]
 file = "config/pehkui-client.toml"
 hash = "5e7703fc7e1ee9b5ae13fc356ed33940e3787fb4c206de670635b465d8d6d950"
 
@@ -1143,6 +1148,11 @@ hash = "28cd260c71c34d01f59ea210af1031e94d98b4d6bd72d5a153955ce754c9a76f"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "c6887c071d6515a39aeb915429304ea9fdae876decde3ad66062c9ba779b16b4"
 metafile = true
@@ -1155,6 +1165,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
 hash = "238dde67a84fb867a6dfde2118d36371cb85420b3ac638976aa32899195af11a"
+metafile = true
+
+[[files]]
+file = "mods/magnum-torch.pw.toml"
+hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
 metafile = true
 
 [[files]]
@@ -1245,6 +1260,11 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
 metafile = true
 
 [[files]]
@@ -1408,6 +1428,16 @@ hash = "934906b82a5df7e53b90674fe3a72e197c95bb7a1ece25c85cbf2d6d65ba8d4e"
 metafile = true
 
 [[files]]
+file = "mods/styled-chat.pw.toml"
+hash = "81b8a1d186cc1685641bef736eadd143fa48909bd50cd7c975ec0d971a25e3ba"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "cbd24cdc5e83c7f687d56ed15b79f0e4ea890d9e825f747357e22831f67f4f0f"
+metafile = true
+
+[[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "0655defd244cefddd2b3c9cab4139740b3aa06956cded9081c467e458be60028"
 metafile = true
@@ -1510,4 +1540,9 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "208235d8f8b5f92cba00db12e00db01953cd8a5a224d62be68fda2ec172984fa"
+metafile = true
+
+[[files]]
+file = "resourcepacks/ferns-fancy-inventory.pw.toml"
+hash = "941c11ff2abe78346aed7c8c67275837436fda23f7beab5b533fccb08debcc20"
 metafile = true
