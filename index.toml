@@ -919,7 +919,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"
-hash = "a131cbd29131ea4838d4a9de32decbadf2dede7521192e95f541f859e1fc8442"
+hash = "1515b21f642c85885342b0164ed50316a2477ff66b088a73f9130f208b801f57"
 metafile = true
 
 [[files]]
