@@ -74,7 +74,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "858e1897963babd54b05a16aca41739c8b1877372dc9b5f05dfcdb754a5c89b2"
+hash = "76acef083e6ed428dc67f4738a9c82c1422a7b09409b377b97f68926b5419d23"
 
 [[files]]
 file = "config/computercraft-client.toml"
