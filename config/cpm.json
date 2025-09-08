@@ -1,5 +1,21 @@
 {
   "editorLastVersion": "0.6.24a",
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "off"
+  },
+  "blockedList": {},
+  "serverSettings": {
+    "173.240.149.140": {}
+  },
+  "editorSelectMouseButton": 0.0,
+  "titleScreenButton": true,
+  "keybinds": {},
+  "friendSettings": {},
+  "editorDragMouseButton": -1.0,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
   "editorRecentProjects": [],
-  "serverSettings": {}
+  "safetyProfiles": {},
+  "friendList": {}
 }

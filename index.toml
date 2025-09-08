@@ -106,7 +106,7 @@ hash = "687143b4844094f166ff875447d139941970649475924d47ce8982e04ef1cf5d"
 
 [[files]]
 file = "config/cpm.json"
-hash = "ec1eef406c00877f441491d897c10903806c5f793a10fcdbc771fac5e814b513"
+hash = "fb9b376eb87f6a93662aaecc551f8edb158df3c973c66e9225dd8754f83bdb5b"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
