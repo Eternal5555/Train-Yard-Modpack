@@ -269,16 +269,16 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "c984aafd506c298c5d814765c51f40ecc4646cc47be83f4240590d4c2853a952"
 
 [[files]]
-file = "config/fancymenu/assets/6.png"
-hash = "7c8149343cf2572172632204c4aa4faf733ce2f7bff136f509bb7d5dd2d692b0"
+file = "config/fancymenu/assets/6.jpg"
+hash = "b82a19b8b84b48b34050affe92e62a5c4a55db698272b54a7b6112c9a16abcfe"
 
 [[files]]
-file = "config/fancymenu/assets/ima5ge.png"
-hash = "100b3d6aa535ca18581d11492b14841315557d74ab0e59147003d399c972c640"
+file = "config/fancymenu/assets/ima5ge.jpg"
+hash = "aec9da1c852efa04880126a056c3de57fced9d89d96fd3d1938b0da38677c6bb"
 
 [[files]]
-file = "config/fancymenu/assets/image.png"
-hash = "76091a4e4f870f4c3ead487528f1f37c8f5e8a89c8d64823064944320b1daaf6"
+file = "config/fancymenu/assets/image.jpg"
+hash = "447276ad273bee16e6a798affc6ad21b7836177db11e54d0e4b714d70936ed0c"
 
 [[files]]
 file = "config/fancymenu/assets/train.png"
@@ -293,12 +293,12 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "0791802f8643f6ead2dbeba30abced98af74fd43205705e308c795cd4e565b28"
 
 [[files]]
-file = "config/fancymenu/customization/pause_screen_layout (1).txt"
-hash = "98f5418f09b93c9af74d269ad68ff40f82da3f770f3a4c3f085ec406f4e25138"
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
 
 [[files]]
-file = "config/fancymenu/customization/ty_title_screen (2).txt"
-hash = "0fad282edf44ddcd8a9bc23ebe37e0ba7f1b1a423fed123f0085fa1f7161190e"
+file = "config/fancymenu/customization/ty_title_screen.txt"
+hash = "267d9cfb3ee16b85660f9a6d0f6cc28086cb9f4d1f0ba5e163e9ac990e789ed6"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -310,7 +310,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "d517294dc1cfb67e5be6c57e3452610eccd7c461103ce070d624548f747e1854"
+hash = "2aad4c832332133b84c024a360338de9691d95c2f54d9399d32008efadd87f97"
 
 [[files]]
 file = "config/fancymenu/panoramas/6.png"
