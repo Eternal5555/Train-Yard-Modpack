@@ -1,0 +1,13 @@
+name = "Decorative Blocks Reborn"
+filename = "DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hNxmWV9g/versions/CQ15eoTU/DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.1.jar"
+hash-format = "sha512"
+hash = "41a0338fbe69c1a76eaba2144548fa1ad0637f1749a4ddf35fcb356f286c9b3ba9cf6c90ae3e6fd87df1df1474fbea962a071dce7234f3a94299f4820e7ccd26"
+
+[update]
+[update.modrinth]
+mod-id = "hNxmWV9g"
+version = "CQ15eoTU"

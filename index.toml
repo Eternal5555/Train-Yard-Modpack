@@ -678,6 +678,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/armor-poser.pw.toml"
+hash = "090ac3ca1096ca058c5991373bb3e8417ef350cfdbab39728a2b0f20c7491155"
+metafile = true
+
+[[files]]
 file = "mods/armourers-workshop.pw.toml"
 hash = "fcd0c25f93c2ddc9811609b774df84a0eb362cff602e8cdf2ec84816ecc9a6f3"
 metafile = true
@@ -903,6 +908,11 @@ hash = "2e0e167422dc70f6d92da6669020e1cfd4417e47118ea66bd8f566a3295c8040"
 metafile = true
 
 [[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "7f25446123f66f57e7cc8e148155a3da39d85b31963c663b5b9be77fc1bacbe6"
 metafile = true
@@ -925,6 +935,11 @@ metafile = true
 [[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "1515b21f642c85885342b0164ed50316a2477ff66b088a73f9130f208b801f57"
+metafile = true
+
+[[files]]
+file = "mods/decorative-blocks-reborn.pw.toml"
+hash = "ec42dcd012c740dbe0c8cc7758aeffd7be9610fcdecab9339fec01020f8fd174"
 metafile = true
 
 [[files]]
@@ -1118,6 +1133,11 @@ hash = "3e554dc66addcfd71cb63622490742566a640ff0ed45366814aa901945bb4ebc"
 metafile = true
 
 [[files]]
+file = "mods/just-blahaj.pw.toml"
+hash = "26ec343b84136471f4e84a9210ebeffb22b3858c6f24c577d2dd1704d2026858"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
@@ -1135,6 +1155,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "6917553073df67745da1d535cc6107839a76b54081b1b6f368a38c723f5fd8c7"
+metafile = true
+
+[[files]]
+file = "mods/legends-missing-blocks.pw.toml"
+hash = "eb25056974f1e80c216d38152a1c5cf115a9aaa7168f8856b4ae62da1e8a2190"
 metafile = true
 
 [[files]]
@@ -1264,7 +1289,12 @@ metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
+hash = "bf0551888bcfaa93ecde7d2b3dc0ef8238e9bdec9285246c81a206c0a529b735"
+metafile = true
+
+[[files]]
+file = "mods/platform.pw.toml"
+hash = "714b35496dbf7cf89814db58ba625b3fc5d0cfb4c180f7eeda8d77beaac20b0c"
 metafile = true
 
 [[files]]
@@ -1488,6 +1518,11 @@ hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "2c4995bdee3b963d237076b10e2097b5ffac8f5c7637525f9fccc8a8220bcf6c"
+metafile = true
+
+[[files]]
 file = "mods/voice-chat-interaction.pw.toml"
 hash = "49e0d115696502d893eaf3d83e88fb70829ee644cbd4abf0bcc0a1dd3f61d82f"
 metafile = true
@@ -1495,6 +1530,16 @@ metafile = true
 [[files]]
 file = "mods/wakes.pw.toml"
 hash = "f47b75ab81d6334bf93962de5537a7889a80ac587a833cf582262b8694b135b0"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "08ea71e80bb32c950460404dc33976384d7a6b17603ebcb7a3e3eb1343cb307c"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "f30ff3c8997750cf1d6c5c597bde1e266ad4e9779475cdc724b43ebce80be8af"
 metafile = true
 
 [[files]]

@@ -1,6 +1,6 @@
 name = "Text Placeholder API"
 filename = "placeholder-api-2.4.2+1.21.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar"
