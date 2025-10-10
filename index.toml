@@ -1303,6 +1303,11 @@ hash = "ae55eda5b79aeb01fd4068cc34051019e34779c2d4748aba86e5dba522b7b61d"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "62df1cb449d5c6f8c5d670f14819a106a451e88102b8b066efeb73951f058d30"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
@@ -1515,6 +1520,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
 metafile = true
 
 [[files]]
