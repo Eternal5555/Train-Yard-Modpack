@@ -18,7 +18,7 @@ hash = "d91c01c362e46abf4f62667d65b2b00265464fd3e9df0de0a69f3d5572b21c2c"
 
 [[files]]
 file = "config/amendments-client.toml"
-hash = "14003563150e4d9b89aae97d086143ab89fba17032fe551ec01f07ab9e10619d"
+hash = "c0ca49ee19f258cf72d0dcac6263d02e1e1562039c61230832aae3e74d586da5"
 
 [[files]]
 file = "config/amendments-common.toml"
@@ -62,7 +62,7 @@ hash = "e451a29cc6afceba34e413016d83f09d24b4302e6a096a1990e663fae491017a"
 
 [[files]]
 file = "config/brewinandchewin-client.toml"
-hash = "8e7861a1c13f1169b024f17922e99eed9e7b2c9799c949c00c51ebda216e56f9"
+hash = "43f9057c7233f53aaa34579afa4252470fbf78e7aebb8e25b9fa4672c75957d3"
 
 [[files]]
 file = "config/brewinandchewin-common.toml"
@@ -426,7 +426,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "4f7b30113cc1e8ce1e1acc629a1a6a922be31c81222f8536abf68f1f4961fdf9"
+hash = "80911dae48b84c3c42431435b70b5f988ee7e3010a32343d114e01b51a943078"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -664,7 +664,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "4a17b94185b5ec445085170c8c339dfb6337f4235deb5f721436386551669bc7"
+hash = "fb413ba504cfaae8ab4d96ede3944b8eb15fa4238ae02b4331bdad2549876f2e"
 metafile = true
 
 [[files]]
@@ -824,7 +824,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
+hash = "097a2a9f31c3cccc019c63e412e6dd7d561e133a0c9117a7b32fdae11579fd56"
 metafile = true
 
 [[files]]
@@ -924,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "31052dd5c490071cf02e0aa34af9e7599ea4911f88275b26fff89b913441034b"
+hash = "36fe638633083667b1fd66b53fd1e0d76467dec3a58062fede8207350bd6771d"
 metafile = true
 
 [[files]]
@@ -1219,7 +1219,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "4d1ab868ca7542d8490f2d42864c877fc5f38661f69dfa421ebddc9c53449471"
+hash = "bcdf2b7b2e4648346526c576824ff02f6d519edf406f8fbcf6d6d73fc1de507d"
 metafile = true
 
 [[files]]
@@ -1549,7 +1549,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "f30ff3c8997750cf1d6c5c597bde1e266ad4e9779475cdc724b43ebce80be8af"
+hash = "c5727812b5b52af464d0aebb09e40ea7eaebd879eef1658d63ca9823b56dba50"
 metafile = true
 
 [[files]]
