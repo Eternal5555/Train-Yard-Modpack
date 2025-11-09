@@ -1538,6 +1538,16 @@ hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
+file = "mods/tool-belt.pw.toml"
+hash = "1c9103e6191f15d9830d38b2eae72b8fe764793ae3320c249ae1bcda1e836494"
+metafile = true
+
+[[files]]
+file = "mods/trade-cycling.pw.toml"
+hash = "1ce973c231d9d6a7e788f5a2eb0797a0f5b8beef318d70f97931309ff7ef9abe"
+metafile = true
+
+[[files]]
 file = "mods/trimmable-tools.pw.toml"
 hash = "113988ed5fa0ab2b2fbe56041852290579abc57db5f828a4c570acd4be1204e6"
 metafile = true
