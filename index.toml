@@ -919,7 +919,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-tfmg.pw.toml"
-hash = "3cda443ff58efc9182facd56754d1ad7a3974b8daf2cf743f13b3caf12a1eb58"
+hash = "d660cbfb7043a2fe367acfd546952c8b5b9ba4ee2cd02c910e5575089716994e"
 metafile = true
 
 [[files]]
