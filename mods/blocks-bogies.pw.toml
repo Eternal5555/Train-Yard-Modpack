@@ -1,13 +1,13 @@
 name = "Create: Blocks & Bogies"
-filename = "create_bb-1.0.4-1.21.1-neoforge.jar"
+filename = "create_bb-1.0.5-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/j4ARnQwY/versions/xLZSJ1Le/create_bb-1.0.4-1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/j4ARnQwY/versions/3Ygyimsf/create_bb-1.0.5-1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "b106caff4e32a777a245a8ee9e87526beda16e0631c771d33e247d7ad50ee70dcf323288ac81c66b40672d3a4893dbf37a5be28f7661422a39e2d9ce0314d098"
+hash = "9525bdde8b188f564925be153031b7904806ba18a7a17f1e51cc34d4737c54606be4544e16e54102e6e87ab8b92e2a939c17b6276667d0e8b651760e37bdbab5"
 
 [update]
 [update.modrinth]
 mod-id = "j4ARnQwY"
-version = "xLZSJ1Le"
+version = "3Ygyimsf"
