@@ -658,6 +658,11 @@ hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "b44cdc63630e34652ff2b94811e4b5c0d4cb038bb9006d919fe62488045623d2"
 metafile = true
@@ -758,6 +763,16 @@ hash = "8bc168948c5f92a10252f12ad4f41caeefbe508f0326fc4185217d60c4cb2292"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "6cd235030774b3cfab54145cf616ab47b0afa57cacab75ede94c2682c9450ce9"
+metafile = true
+
+[[files]]
+file = "mods/botany-pots.pw.toml"
+hash = "ede2c44ea1dfa4af9535734a971f12170c6c2e4f7e8de7e82e920b9ab590dab3"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "ef7c9b68b65e7baab19dc84903f068de6714e6f306052940f53c747743d3025e"
 metafile = true
@@ -824,7 +839,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "097a2a9f31c3cccc019c63e412e6dd7d561e133a0c9117a7b32fdae11579fd56"
+hash = "c27af69a7c64206beff3e59c671934d4eb9a3dc65fd589609c5e6f6bb60421bb"
 metafile = true
 
 [[files]]
@@ -850,6 +865,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "886bea70df1c04e44bdb77c61d9b940b25ca1d25977482e470745b0549a2cb04"
+metafile = true
+
+[[files]]
+file = "mods/crawl.pw.toml"
+hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
 
 [[files]]
@@ -988,8 +1008,13 @@ hash = "65cd00e90de065e99d13352fd5d8aa3bc28d062b9dc935cf1da914a2047b2208"
 metafile = true
 
 [[files]]
+file = "mods/etched.pw.toml"
+hash = "6bf12d60d8ef140adab1abd63b124d4e8fbd47f4162c32cf08cb9fa00fd6ba6e"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
-hash = "6235e7170c7322559d2b0e76a97c891dbab60e79c15a9d4cb3a4805b5d23fbda"
+hash = "de0ae2cf84978371ec73eae99fb7e4af91af9a82cb5e3edf1192ae54098e4eff"
 metafile = true
 
 [[files]]
@@ -1060,6 +1085,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "b8aee2057378b6f054f94550684d9a3f41ded7cc47794c8b01c107c8c2115ceb"
 metafile = true
 
 [[files]]
@@ -1219,7 +1249,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "bcdf2b7b2e4648346526c576824ff02f6d519edf406f8fbcf6d6d73fc1de507d"
+hash = "4105ec984061c531a135512762c2f8f5291c7880228f5816bc01c4bed35fe315"
 metafile = true
 
 [[files]]
@@ -1304,7 +1334,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "62df1cb449d5c6f8c5d670f14819a106a451e88102b8b066efeb73951f058d30"
+hash = "ae088bbe06df7bdebea9b4fd523879b1fb49a26baef9ef9ddbb4749f43df7b5f"
 metafile = true
 
 [[files]]
@@ -1320,6 +1350,11 @@ metafile = true
 [[files]]
 file = "mods/pretty-in-pink.pw.toml"
 hash = "d68dc1f0a4d96cfb3d947925daf7a66b97ecf356e9da21a0ee0646bf3390c634"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
 
 [[files]]
@@ -1525,6 +1560,11 @@ metafile = true
 [[files]]
 file = "mods/universal-graves.pw.toml"
 hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-logistics.pw.toml"
+hash = "447091c79a1672c51a6e352deae214d97bbcbc2b227985a48c89651f7c5e43f1"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Vanilla Logistics"
+filename = "vanilla_logistics-3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jcXp8RnH/versions/OMK7pB96/vanilla_logistics-3.jar"
+hash-format = "sha512"
+hash = "2d8817b9c32099f895963d9e64c3c62f397b1b8004e877216c66519f63c0fccd67b178d88f5bd2ca634c52d4fd13a3829bee5cca674c95a47dd65fcddb2d2884"
+
+[update]
+[update.modrinth]
+mod-id = "jcXp8RnH"
+version = "OMK7pB96"

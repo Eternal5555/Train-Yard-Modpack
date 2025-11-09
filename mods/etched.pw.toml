@@ -1,0 +1,13 @@
+name = "Etched"
+filename = "etched-5.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zi3Fnfmc/versions/MFq0jvUW/etched-5.0.0.jar"
+hash-format = "sha512"
+hash = "a6385d30f8efd85cd44e7b3e0e5a5700979c8208347b9b78d0c6ecb2cc75ffa72b9c31bb37156ce485444b043bd31f87c1ab20dbca8680b968e6676778980fe7"
+
+[update]
+[update.modrinth]
+mod-id = "zi3Fnfmc"
+version = "MFq0jvUW"
