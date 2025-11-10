@@ -1119,7 +1119,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "423b539c9a3316afbfbfdc85ad48ffe11fbccec07730898de08c86d4aa83daf9"
 metafile = true
 
 [[files]]
@@ -1169,7 +1169,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
+hash = "afcfa24528ed611ad61c05bead31f109d023ce83801f5d08128217d8902f552d"
 metafile = true
 
 [[files]]
@@ -1589,7 +1589,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "c5727812b5b52af464d0aebb09e40ea7eaebd879eef1658d63ca9823b56dba50"
+hash = "ea83e022b140806fe4c948150bdb69f53410d340b65741cbcee89639dcce9ee1"
 metafile = true
 
 [[files]]
