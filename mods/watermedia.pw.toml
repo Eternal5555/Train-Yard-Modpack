@@ -1,6 +1,7 @@
 name = "WATERMeDIA: Multimedia API"
 filename = "watermedia-2.1.36.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/G922NeHS/versions/yezkkXsZ/watermedia-2.1.36.jar"
