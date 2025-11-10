@@ -21,7 +21,7 @@ scrambleChat = true
 scrambleName = true
 #Should signs scramble when the player has the Tipsy effect?
 #Default: true
-scrambleSign = true
+scrambleSign = false
 #Should kegs render the fluid texture in the background of the fluid slot?
 #Default: true
 renderFluidInKeg = true

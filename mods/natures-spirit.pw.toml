@@ -3,11 +3,11 @@ filename = "natures_spirit-2.2.5-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/f1LTClIR/natures_spirit-2.2.5-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/MGjl80vc/natures_spirit-2.2.5-1.21.1.jar"
 hash-format = "sha512"
-hash = "ec00ee73395b7abdc9f767e0f68bc8dfd3c38db6b7a5465d56b55ba696b93b50f26faeb4d958e4b5a5f18df3d0f6c5956e312aeea2280c74672465bb88f31246"
+hash = "c99aa5b451c2a8cc3cdb7c36fb9bdf81a8b69bf54956c2897bd7af7478bb1b870cbffc7f3d9e78679e3ed457f2a543daef8e232bef7f130cf7facd2931810a1b"
 
 [update]
 [update.modrinth]
 mod-id = "WBvnqHfV"
-version = "f1LTClIR"
+version = "MGjl80vc"

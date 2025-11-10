@@ -1,0 +1,13 @@
+name = "Legend's Missing Blocks"
+filename = "missing_blocks-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CrHjhgrO/versions/Ayo4p2cz/missing_blocks-1.0.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "7c00f2bc33bfcbacf0b4efad86b791ec94f41bd782de0c4bcad8ba9a279c666a10c9ee2d2e1a549132029e83d0b677b9d58e510ad691f38dba4b08044efbe36a"
+
+[update]
+[update.modrinth]
+mod-id = "CrHjhgrO"
+version = "Ayo4p2cz"

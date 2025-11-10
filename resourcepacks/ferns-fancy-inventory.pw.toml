@@ -1,0 +1,13 @@
+name = "Fern's Fancy Inventory"
+filename = "FFI 1.21+ 1.1.16.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/64pG0L2N/versions/B4RwGsJ4/FFI%201.21%2B%201.1.16.zip"
+hash-format = "sha512"
+hash = "937b0943f90173ec1fc65c6d5badff7d488c1ef6bed1a42180f013758fb83afbd438d2d60f58e0dafcf031ac2b489621cbd8ca1250d2d61426becda3b3285d5b"
+
+[update]
+[update.modrinth]
+mod-id = "64pG0L2N"
+version = "B4RwGsJ4"
