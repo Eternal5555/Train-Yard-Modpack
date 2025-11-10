@@ -643,11 +643,6 @@ hash = "8f90a500df28d497fe7e323b40ee55640bc63141284ce2189a7766c976a91378"
 metafile = true
 
 [[files]]
-file = "mods/accessories-tc-layer.pw.toml"
-hash = "2392fac629717417a29744e66f001a494304309b7742cf0cf54368278d3bf5c7"
-metafile = true
-
-[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5b786ab7a57e37ec4b8f888157f79608e871653fc4b6a8cba0296690fe863704"
 metafile = true
@@ -1174,7 +1169,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "44f984abd4e0313b105cdffd27dfc3831baf0032d6cb3908503aa9c77411be59"
+hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
 metafile = true
 
 [[files]]
