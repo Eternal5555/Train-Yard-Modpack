@@ -298,7 +298,7 @@ hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "e7b246622aabd7a3e9ccd2b53d19722a29a32b5531fb4249bce1de6a45f56ecd"
+hash = "9e1d84ab21b417984896b077473f4408725630057bfb4cc1fee32c40eb1a649f"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -768,6 +768,11 @@ hash = "ede2c44ea1dfa4af9535734a971f12170c6c2e4f7e8de7e82e920b9ab590dab3"
 metafile = true
 
 [[files]]
+file = "mods/botany-trees.pw.toml"
+hash = "247b89bfd31a4e189181596a0a0ab8a7862a5ec9cb648c0cc2457a6ff61e94d8"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "ef7c9b68b65e7baab19dc84903f068de6714e6f306052940f53c747743d3025e"
 metafile = true
@@ -910,6 +915,11 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "6cf53d31ef36522ed9fd8273a94a5ca71af7cf986fc79733448f9eaa07862ac1"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "f1058b2cdd30e361e4631b4d7fc389f9607f7f09fbbb59e31a7c29e13d29b221"
 metafile = true
 
 [[files]]
@@ -1205,6 +1215,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-doors.pw.toml"
 hash = "702df8b679041c5f459da5a0dc456f70de336810bc69ff726d8c925bf484e99c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "abae13cbccdb8789a929cc4d2f9fc38f93ef6bb9082a87f931fcef1b1695cbe6"
 metafile = true
 
 [[files]]
