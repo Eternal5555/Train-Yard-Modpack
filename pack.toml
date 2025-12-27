@@ -1,16 +1,16 @@
 name = "Train Yard Season 3"
 author = "EternalBlade55"
-version = "3.0.5-h3"
+version = "3.0.6-ALPHA_build.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ffe01c65ee8354b70cf04e0d16452c0281d2ad0c9fbc8eb888400f90adfd057a"
+hash = "4d89e52f09b6f909a152eb9c4358f2513e76d1b27237a0fc615f326a9dfe9480"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.214"
+neoforge = "21.1.217"
 
 [options]
 datapack-folder = "config/paxi/datapacks"
