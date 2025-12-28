@@ -69,6 +69,11 @@
     "modId": "athena",
     "version": "4.0.2"
   },
+  "aue-1.21-1.2.jar": {
+    "jarName": "aue-1.21-1.2.jar",
+    "modId": "aue",
+    "version": "1.2"
+  },
   "Axiom-5.1.1-for-MC1.21.1.jar": {
     "jarName": "Axiom-5.1.1-for-MC1.21.1.jar",
     "modId": "axiom",

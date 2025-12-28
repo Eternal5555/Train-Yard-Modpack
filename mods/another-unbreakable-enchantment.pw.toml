@@ -1,0 +1,13 @@
+name = "Another Unbreakable Enchantment"
+filename = "aue-1.21-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wwGOjWgR/versions/355ZNiqi/aue-1.21-1.2.jar"
+hash-format = "sha512"
+hash = "58d4210e4f0ae3db0504772489c9f34fcd79c0728ed4df9ee449e674ece800c7b29e4cf14a94a8b09ae265ccd1a950859fb2e23ab0bc63b97c58ef27d91c5dad"
+
+[update]
+[update.modrinth]
+mod-id = "wwGOjWgR"
+version = "355ZNiqi"
