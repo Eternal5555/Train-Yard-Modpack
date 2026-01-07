@@ -1,0 +1,13 @@
+name = "ViveCraft Compat"
+filename = "vivecraftcompat-1.21-1.5.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xnSuzkaS/versions/O9q6ZstV/vivecraftcompat-1.21-1.5.1.jar"
+hash-format = "sha512"
+hash = "3d404c56ca5485a532452c021b03dc28a57ae34b99c6da82ce15e4c075a086781f18c20335e63a3832bab6c60bbdaca2c9f930a5315c260b7910785b4b3dc0d2"
+
+[update]
+[update.modrinth]
+mod-id = "xnSuzkaS"
+version = "O9q6ZstV"

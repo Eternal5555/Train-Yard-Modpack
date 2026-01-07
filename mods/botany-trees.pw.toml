@@ -1,0 +1,13 @@
+name = "Botany Trees"
+filename = "botanytrees-neoforge-1.21.1-21.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mvs7RoIW/versions/FyrmWMQE/botanytrees-neoforge-1.21.1-21.1.1.jar"
+hash-format = "sha512"
+hash = "459fa7a50eb6e32f3242fc6b308ce2f251d8dfe09326b3d8d3f93222b43faf4c2c9ac444b302734e901d1227165d618b38b35b52de089e0d6245ae4cfb099c60"
+
+[update]
+[update.modrinth]
+mod-id = "mvs7RoIW"
+version = "FyrmWMQE"
