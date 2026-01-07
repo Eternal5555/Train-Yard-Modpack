@@ -935,6 +935,15 @@
     "modId": "vcinteraction",
     "version": "1.21.1-1.0.8"
   },
+  "vivecraft-1.21.1-1.3.4-neoforge.jar": {
+    "jarName": "vivecraft-1.21.1-1.3.4-neoforge.jar",
+    "modId": "vivecraft",
+    "version": "1.21.1-1.3.4"
+  },
+  "vivecraftcompat-1.21-1.5.1.jar": {
+    "jarName": "vivecraftcompat-1.21-1.5.1.jar",
+    "modId": "vivecraftcompat"
+  },
   "voicechat-neoforge-1.21.1-2.6.6.jar": {
     "jarName": "voicechat-neoforge-1.21.1-2.6.6.jar",
     "modId": "voicechat",
@@ -970,20 +979,20 @@
     "modId": "wwoo",
     "version": "2.3.4"
   },
-  "Xaeros_Minimap_25.2.10_NeoForge_1.21.jar": {
-    "jarName": "Xaeros_Minimap_25.2.10_NeoForge_1.21.jar",
+  "xaerominimap-neoforge-1.21.1-25.3.5.jar": {
+    "jarName": "xaerominimap-neoforge-1.21.1-25.3.5.jar",
     "modId": "xaerominimap",
-    "version": "25.2.10"
-  },
-  "XaerosWorldMap_1.39.12_NeoForge_1.21.jar": {
-    "jarName": "XaerosWorldMap_1.39.12_NeoForge_1.21.jar",
-    "modId": "xaeroworldmap",
-    "version": "1.39.12"
+    "version": "25.3.5"
   },
   "xaerotrainmap-1.0.0.jar": {
     "jarName": "xaerotrainmap-1.0.0.jar",
     "modId": "xaerotrainmap",
     "version": "1.0.0"
+  },
+  "xaeroworldmap-neoforge-1.21.1-1.40.6.jar": {
+    "jarName": "xaeroworldmap-neoforge-1.21.1-1.40.6.jar",
+    "modId": "xaeroworldmap",
+    "version": "1.40.6"
   },
   "XaeroZoomout-NeoForge-1.21-2.0.0.jar": {
     "jarName": "XaeroZoomout-NeoForge-1.21-2.0.0.jar",

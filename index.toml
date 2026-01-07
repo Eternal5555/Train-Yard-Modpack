@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "6fd44db6c94927286f1d6681bd6993780bbba9e58cf91e43220e45b8e092dc43"
+hash = "65d4ac20d9ffc24fe9129b5d687256438327cbbe9a5aa56eb085fbd46908eca3"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -298,7 +298,7 @@ hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "9e1d84ab21b417984896b077473f4408725630057bfb4cc1fee32c40eb1a649f"
+hash = "e59cc016a769c414c10f6124dc1b400f256bbe27710d72afd733b12db7416e7d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1598,6 +1598,16 @@ hash = "2c4995bdee3b963d237076b10e2097b5ffac8f5c7637525f9fccc8a8220bcf6c"
 metafile = true
 
 [[files]]
+file = "mods/vivecraft-compat.pw.toml"
+hash = "4670cdef72a5b5805925e600a2be56bba331bdb8eb5c0e620d4d0c80bb2f9aab"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "3e2708aea2f7537c089dd27a03dcf1f36eb52ff57a2937e809cafe179b6ffe94"
+metafile = true
+
+[[files]]
 file = "mods/voice-chat-interaction.pw.toml"
 hash = "49e0d115696502d893eaf3d83e88fb70829ee644cbd4abf0bcc0a1dd3f61d82f"
 metafile = true
@@ -1644,12 +1654,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "9d76c3683cfea5c5976823a000eacc9944db9f097894356d2a029cf36642ffa4"
+hash = "473b998b1acd6c14874f9db9ae5986b1de92820456de2ff57ad4f8b2d64ccfff"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "9b8940ac83dde84cfc59860c6544a4b1194e635786c26bd47dc15eee79e63598"
+hash = "6d531ca789931cf437a72fef1a868a51d8afe4db12565a525e71c154304f4e29"
 metafile = true
 
 [[files]]
