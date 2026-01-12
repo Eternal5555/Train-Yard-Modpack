@@ -1,13 +1,13 @@
 name = "Exposure"
-filename = "exposure-neoforge-1.21.1-1.9.11.jar"
+filename = "exposure-neoforge-1.21.1-1.9.13.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hB899VmG/versions/gvfTQQgQ/exposure-neoforge-1.21.1-1.9.11.jar"
+url = "https://cdn.modrinth.com/data/hB899VmG/versions/WYaaE1QE/exposure-neoforge-1.21.1-1.9.13.jar"
 hash-format = "sha512"
-hash = "ee07ae723e05dfa756ff375c88d8d71cd44f3fb854d37766507ab4b84d83a3fc5dd41929ce3c613a512a319be33bf28a256f8bd26dd021697f209e0c42c89f10"
+hash = "4df1c6a6b52794a64826a247d5ca33cb50f94d83e11b5a20ca90ffc84c85021f522040cf0602231f196d08106069f72507049051a418ff111cad0b24d3e49d7a"
 
 [update]
 [update.modrinth]
 mod-id = "hB899VmG"
-version = "gvfTQQgQ"
+version = "WYaaE1QE"
