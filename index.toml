@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "65d4ac20d9ffc24fe9129b5d687256438327cbbe9a5aa56eb085fbd46908eca3"
+hash = "da7778f013392cf431dd08b463652a229747063fba80583b0302c57f0d3fc4a7"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1039,7 +1039,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "ba95e694440c7ab79ce2854adea6eee5b6b6b0b0abf49351fc1158269477b1d3"
+hash = "43772cecb231febf642295f4713b09d59941778ef1a32c5c86ef100ea7d35787"
 metafile = true
 
 [[files]]
