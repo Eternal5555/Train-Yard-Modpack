@@ -670,6 +670,11 @@
     "modId": "nochatreports",
     "version": "1.21.1-v2.9.1"
   },
+  "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar": {
+    "jarName": "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar",
+    "modId": "nochatrestrictions",
+    "version": "1.21.11-v1.0.0"
+  },
   "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar": {
     "jarName": "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar",
     "modId": "noisium",

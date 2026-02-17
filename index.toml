@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "526f50cce7aa004aef7ec3337ed0a2adfbecb947bb0e27f0d2dc41fe54c1150a"
+hash = "6a79507a079647eb6cb8b4f891111751754b4c0f7ea34218176001a0c36abc53"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1320,6 +1320,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "bbaa5acb4a63efb00b03a674e3c4490a67da1c24ca9b8d6c43f74a1dee905049"
 metafile = true
 
 [[files]]
