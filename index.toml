@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "da7778f013392cf431dd08b463652a229747063fba80583b0302c57f0d3fc4a7"
+hash = "526f50cce7aa004aef7ec3337ed0a2adfbecb947bb0e27f0d2dc41fe54c1150a"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -664,7 +664,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "fb413ba504cfaae8ab4d96ede3944b8eb15fa4238ae02b4331bdad2549876f2e"
+hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
 metafile = true
 
 [[files]]
@@ -754,7 +754,7 @@ metafile = true
 
 [[files]]
 file = "mods/blocks-bogies.pw.toml"
-hash = "e94f595a5a63fdabe834b84904695ccca3f9bac8856c98b57abd8687555dc213"
+hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
@@ -878,6 +878,11 @@ hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "a10ca44e38b499dd749e8522b51f16815ddbb60483806a58b0845f179b6b8440"
 metafile = true
@@ -925,6 +930,16 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
+metafile = true
+
+[[files]]
+file = "mods/create-sound-of-steam.pw.toml"
+hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "fa7e815272f183ccdeac6baff3690f6291c4117646af8912123b705fde64dbef"
 metafile = true
 
 [[files]]
@@ -1029,7 +1044,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "de0ae2cf84978371ec73eae99fb7e4af91af9a82cb5e3edf1192ae54098e4eff"
+hash = "cc85107b2ac528a67302cf05d1e1dacdb36a27a4aa85c40fa473f8af9319ad3b"
 metafile = true
 
 [[files]]
@@ -1060,6 +1075,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
+metafile = true
+
+[[files]]
+file = "mods/figura-patched.pw.toml"
+hash = "da158fb76483e01aa12d2f3792cb9853183c16b42c2616ef1c431a901d75decd"
 metafile = true
 
 [[files]]
@@ -1135,6 +1155,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
 hash = "80b749335d8a885db433930654303ac924de8e3a70071859492dbb7a93faa519"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "67152bf7d125ace7baabebefe243a692a62d8a175ae060692ab728c820c4b283"
 metafile = true
 
 [[files]]
@@ -1219,7 +1244,7 @@ metafile = true
 
 [[files]]
 file = "mods/luckperms.pw.toml"
-hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
+hash = "039bf6dad6f4669b586b65a9ca91bd5626c28ca9e9e369031607d93f055c6b37"
 metafile = true
 
 [[files]]
@@ -1269,7 +1294,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "56f90779687daa9101ae4dc2730a3b44b07ed3a5113eb4f4b41e36143b297f56"
+hash = "427e48f685c2af70f0fda07648073379f3b343436b038c7289d98c56b55c322c"
 metafile = true
 
 [[files]]
@@ -1318,6 +1343,11 @@ hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
 metafile = true
 
 [[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "9d4e4bd1007b5529b2b35439d00d74f0554f2bd8ae0d4d72aeab9d8063c60beb"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
@@ -1349,7 +1379,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "714b35496dbf7cf89814db58ba625b3fc5d0cfb4c180f7eeda8d77beaac20b0c"
+hash = "b36ff93e1afbd0f6bfad71789c4b6f85700499197a7615c38f87af85ba288a54"
 metafile = true
 
 [[files]]
@@ -1498,6 +1528,11 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
+file = "mods/sooty-chimneys.pw.toml"
+hash = "815a5c9b3e5f8abdd86fef0319809b10517bcda0fa369789d525765a61f3e068"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "08c6b2e4d66fa09127e64ea8ac37ba875de921768b64fcbafb8bf01329a41d83"
 metafile = true
@@ -1549,7 +1584,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "2e4c8891ec22ca246b414728493ff52fe177bc9c4369ed23a5a80e8332e79c67"
+hash = "c6182c863ef7758553bc7ad14b8b111e094bd7feda60793e4c656cd9a225fce4"
 metafile = true
 
 [[files]]
@@ -1594,7 +1629,12 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "2c4995bdee3b963d237076b10e2097b5ffac8f5c7637525f9fccc8a8220bcf6c"
+hash = "5259efb90d32a709f022d4029a31ad9abf2209f18da8476ce6abd3c0893f9878"
+metafile = true
+
+[[files]]
+file = "mods/vein-mining.pw.toml"
+hash = "813e9e0eafc379e546d68dd12bfcee29eee4ab4eefbbde3b8648e3401aaa23d4"
 metafile = true
 
 [[files]]
@@ -1654,12 +1694,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "473b998b1acd6c14874f9db9ae5986b1de92820456de2ff57ad4f8b2d64ccfff"
+hash = "02e2acc15a8c1b7bbe44a64af68574d7e024f1c45504a6997568c9fcbab3846b"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "6d531ca789931cf437a72fef1a868a51d8afe4db12565a525e71c154304f4e29"
+hash = "192a4685f8a182d1fa2fae67e2fad8b74ba547726beecfe8868174b4172d76a8"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Vein Mining"
+filename = "veinmining-neoforge-5.0.0-beta.2+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bRAPbNyF/versions/bAYRag9u/veinmining-neoforge-5.0.0-beta.2%2B1.21.jar"
+hash-format = "sha512"
+hash = "3e6014e41885db4d99f8bd8069f0f364370045f3125ac7d909f47d101194159cf863c9786ad2664234db11617d5fe9e7988240f904d178edd10ea5fa3dc6f2ac"
+
+[update]
+[update.modrinth]
+mod-id = "bRAPbNyF"
+version = "bAYRag9u"
