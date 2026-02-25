@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "6a79507a079647eb6cb8b4f891111751754b4c0f7ea34218176001a0c36abc53"
+hash = "32123e0778f42d63373e17b2fbe478082ce97f1aa62c5a95f476cc915dd2033f"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -930,6 +930,11 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
+metafile = true
+
+[[files]]
+file = "mods/create-shuffle-filter.pw.toml"
+hash = "b174e3687bd6ac145c14cb7626702843d992ac2a9e0046ea04e3d60906efa2b8"
 metafile = true
 
 [[files]]

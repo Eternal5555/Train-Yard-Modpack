@@ -257,6 +257,11 @@
     "modId": "mr_create_manofmanyplanes",
     "version": "1.1"
   },
+  "create-shufflefilter-2.0.0beta.jar": {
+    "jarName": "create-shufflefilter-2.0.0beta.jar",
+    "modId": "createshufflefilter",
+    "version": "2.0.0beta"
+  },
   "create_bb-1.0.7-1.21.1-Neoforge.jar": {
     "jarName": "create_bb-1.0.7-1.21.1-Neoforge.jar",
     "modId": "create_bb",
