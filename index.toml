@@ -933,8 +933,8 @@ hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
 metafile = true
 
 [[files]]
-file = "mods/create-shuffle-filter.pw.toml"
-hash = "b174e3687bd6ac145c14cb7626702843d992ac2a9e0046ea04e3d60906efa2b8"
+file = "mods/create-randomize-filters.pw.toml"
+hash = "59467ecda962858e575fe59ddedfeab19f2a3c85128070a3f8ef6ad6575debfa"
 metafile = true
 
 [[files]]

@@ -257,11 +257,6 @@
     "modId": "mr_create_manofmanyplanes",
     "version": "1.1"
   },
-  "create-shufflefilter-2.0.0beta.jar": {
-    "jarName": "create-shufflefilter-2.0.0beta.jar",
-    "modId": "createshufflefilter",
-    "version": "2.0.0beta"
-  },
   "create_bb-1.0.7-1.21.1-Neoforge.jar": {
     "jarName": "create_bb-1.0.7-1.21.1-Neoforge.jar",
     "modId": "create_bb",
@@ -306,6 +301,11 @@
     "jarName": "CreateNumismatics-1.0.19+neoforge-mc1.21.1.jar",
     "modId": "numismatics",
     "version": "1.0.19+neoforge-mc1.21.1"
+  },
+  "createrandomizefilters-1.0.7.jar": {
+    "jarName": "createrandomizefilters-1.0.7.jar",
+    "modId": "createrandomizefilters",
+    "version": "1.0.7"
   },
   "createstockbridge-1.21.1-0.1.6.jar": {
     "jarName": "createstockbridge-1.21.1-0.1.6.jar",
@@ -639,6 +639,11 @@
     "jarName": "missing_blocks-1.0.1-neoforge-1.21.1.jar",
     "modId": "missing_blocks",
     "version": "1.0.1"
+  },
+  "Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar": {
+    "jarName": "Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar",
+    "modId": "mod_menu",
+    "version": "1.0.2"
   },
   "modernfix-neoforge-5.25.1+mc1.21.1.jar": {
     "jarName": "modernfix-neoforge-5.25.1+mc1.21.1.jar",
