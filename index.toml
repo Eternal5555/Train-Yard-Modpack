@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "32123e0778f42d63373e17b2fbe478082ce97f1aa62c5a95f476cc915dd2033f"
+hash = "87bd8b7ba51208fd123c5d111885bde282b1bde900e889ec7b32eac8c0641278"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -298,7 +298,7 @@ hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "e59cc016a769c414c10f6124dc1b400f256bbe27710d72afd733b12db7416e7d"
+hash = "91e5b5d63bd51d018b8c96ec59650bdeae1aa5b1cdfa686983496bc865f88a11"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -638,6 +638,546 @@ file = "icon.png"
 hash = "8bd646ae78223bb40cafaf582651655a67784655a9d04969073135dc7e9d9c09"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/calculation_processor_press.png"
+hash = "b689057704c93fc76b4ed713263e4f7f16d1a012ded4dc6da15b6f9939bddc9c"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/certus_quartz_wrench.png"
+hash = "453437e0df51bf551b5d1356aa71b0f2e952f98585e7b14b56550ae180d9e6cb"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/engineering_processor_press.png"
+hash = "a0b259486f36ac7e7eb6ca2270fe96a3f279d353f6080839489bf43bf7d1d397"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/logic_processor_press.png"
+hash = "102b58492bfa11c05132a37ddf6088157bd955887f20470398fed955b2bec11f"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/nether_quartz_wrench.png"
+hash = "46469c362e325b2f2af91155a967a8877d0caf585de9d43a1d271c783d865cf3"
+
+[[files]]
+file = "kubejs/assets/ae2/textures/item/silicon_press.png"
+hash = "f58e6069c85676a6ebbd0c78303001b79ff3e03f8a4c7082a671690ff32aedd6"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/chlorine_bucket.json"
+hash = "044febe42f14f287bb3932502bbdea6006540674df23e74bc2d723a4ebd9b6ca"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/double_additive_fuel_bucket.json"
+hash = "bc483090c5d0804756dcc75c1420a3b61c326457ef9b9b335c6907a39b7b1f8a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/enriched_uranium_hexafluoride_bucket.json"
+hash = "9cd83d3379d5abd3f25f7cc6bc62611235cc1efa2732e7aa6fb4b9ae613f95a4"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/ethyl_chloride_bucket.json"
+hash = "da33e0c5351089a4cc4ae7c4e71fce23dd17884dd686af93e39f316f35d021e0"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/ethylene_oxide_bucket.json"
+hash = "ff58391079e4c3bd67feb2193a33b0dd62a51039773d8000766cf5c2ec0bdfd5"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/fluorine_bucket.json"
+hash = "9eb847de4e60024d042415823fe66e95577e37ddd4e1742141129740714227a7"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/hydrogen_chloride_bucket.json"
+hash = "c3b53ed70f3d594dcd76bebe8886c7b9d273098e9677ecd010d5cb66da2a83d4"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/hydrogen_fluoride_bucket.json"
+hash = "6c72efb0adcdc5ec962cb1414c878d4658b2063915031ca54f8c5febc91c06d7"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/oxygen_bucket.json"
+hash = "b9656552d7db059142f4f88a96455069698b9e1b6deb0ce8ee989020f8acdf68"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/single_additive_fuel_bucket.json"
+hash = "fdd2ed55ea29327c6ac72b1f1d9d1f2e4532c43fe90c2bf64d27a75f0647f594"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/triple_additive_fuel_bucket.json"
+hash = "bc8195d5f42fbb7693de36bead40c3228fc0a6fbe32eba1d2e983f44b7a76b22"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/uranium_hexafluoride_bucket.json"
+hash = "289daaadc7bd3b8182ef7d39fcd84534c52b39e4fad316d71bd3b43cc5ae1d23"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_asurine.png"
+hash = "0f7a6fe6002eae2c521722b1aa0d835564b242adfa53132da0f0e0c12bfe8ba3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_breccia.png"
+hash = "e227d27735b1aca8edaac29ec05d580a460959f86b99462df5067d821f426199"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_crimsite.png"
+hash = "c49560bbc8c7e4e543e847cfec03c0b518c365e50bf534ef4442d4e5154c95eb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_gabbro.png"
+hash = "989bc1568ac279a2df795d81bb88ed2924458de1fbf7dffc5f6a242be2f04d26"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_galena.png"
+hash = "6b46be94294eded15c1217742927b9603ed426c5dc9ac3f8d71aaf8e13b53cd3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_ochrum.png"
+hash = "6346f1fa3f571a5dd1f17a5df7827b9121de28daae421cf4cfe53df9321b53f0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cobbled_veridium.png"
+hash = "8d19dafaa773d78707d5cfa280fb5a7252a2b6f10aedbdfc6d8d5fe48ae42ac5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_ingots_bottom.png"
+hash = "e0de6cb34a9245ebcb6a47e63db800d94377bb17281f7730a1ba13662418d545"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_nickel_aluminide_ingots_front.png"
+hash = "8dbcb4f3f21a2bf2d3d953be7ed2f22236d5ef92682fa49c698cc35aacb63542"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_nickel_aluminide_ingots_side.png"
+hash = "0837d79bc8afc08ba4e8ab708fdd69058fd35742da20cd2da5aaf7afa4cce971"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_nickel_aluminide_ingots_top.png"
+hash = "400e148d6324a94842b7c0b6a7f41b918f1d45bec9e99a48d8741c7c1f836cdb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_silver_ingots_front.png"
+hash = "738699ab72637a78179b869a7b31c44bc0805d854d6bc17917c5558cfecb969a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_silver_ingots_side.png"
+hash = "de72f324f65560df4fc6dd9a54db507f1800ea781603b97896dc8e033d2aa6ea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_silver_ingots_top.png"
+hash = "fbbe0b272089798eab755be4eff0a91464d34be4862ddcf2e4f399d269975e4d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_uranium_ingots_front.png"
+hash = "c58e238be0ccb81bbe68508ef6b77d8f5204746bd653cf0e1f1d40b3d44896ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_uranium_ingots_side.png"
+hash = "624ca0ee8c54e876f1ff11e5d6b1b76e79e74f582886f49c3d4e9c50ea3fd7bc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/stored_uranium_ingots_top.png"
+hash = "09999f9c367d3c6aa5959332c08f457c6e3e82668c0e88042558ba0a4552915c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/advanced_circuit_board.png"
+hash = "95ce840e1fab175a3a194bf0ac70fa43595ba5af7a1388bccad2f1de9153390b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/advanced_coated_circuit_board.png"
+hash = "be686a3c399e4d995aeee076ed0d49a3374ec389e05e307ca24ce146ff79f73e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/advanced_empty_circuit_board.png"
+hash = "b9c37984d6cf032fd8bdcb17f7e71a8461368d7b2fcddeced89f9a03f761bb2e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/advanced_etched_circuit_board.png"
+hash = "acb2db123eeed29affd055f72c98184cac4885ae2c321b07014e163fa03c20fc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/aluminum_rod.png"
+hash = "20fcfbe259bdff892d49b5cb3f86fd9744543b1787258be9d812ee671e6cac16"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/aluminum_silver_catalyst.png"
+hash = "528f1092e7e094d49ba57cd023254b7051db9fb2bcfe2999ce5174b51f862d3e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_mechanism.png"
+hash = "9d9768e5cc2b877ee11290344e57db23700a8b5d05075f07eb8f620245173ff9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_mechanism_casing.png"
+hash = "ba6f9b25ac592ba7270953d47bde0975798653d5e64bd239485bb402f143c468"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brine_salt.png"
+hash = "e9cdaa903cd68dfe642bb43206c117cfe62f763944ab4065010a73851e0604b4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/calcium_fluoride.png"
+hash = "b8c4b8a765507d83059467b23df1a61a75e7b84f919372d79d861cae56490fec"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/calculation_inscribing_template.png"
+hash = "be3fa7c3e441857da643adb585219a9bb970267fa622f9d03e193643417393fc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/certus_quartz_plate.png"
+hash = "38d76a0258383b8c9d1fee33b930fcad177423152f93adb31e47713c759fd19d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/charged_certus_quartz_plate.png"
+hash = "a6c2c847be030a698c8c8246160097d1ee47fa99e805f8e7890cce18e303f21f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chlorine_bucket.png"
+hash = "3dabedf21495683dfa297fb3885cc9a0f5d4e960649b5969cf440809b4209236"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/coated_motherboard.png"
+hash = "4879326faf508223720c41c167a4f24761ee870c6f601d5faa7290381b8e90f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crushed_raw_silver.png"
+hash = "965e619d82df0e3f176db96b27f4519900a7bc9f743d4077ceb92617bca1640a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/diamond_plate.png"
+hash = "7006e385593123ab582c80398e6c2908881d448873761afe9ae5a862bacddd13"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/double_additive_fuel_bucket.png"
+hash = "b6337d939f04800ea7b29951673f80bfd06de19fd7298aaa3094f52c6c7ec831"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/electron_circuit_board.png"
+hash = "ade49b716ce819004415b677ce191cb760ac6fc1aa947b5f8cdb49e33c8e9f3d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/empty_motherboard.png"
+hash = "4a62bce28a3a0bb055c0d32213b722631e5a3cdbfd01bc444dbbe92e5f26c79e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ender_coated_plate.png"
+hash = "c6f3085f9573856199ad6b3f837ea6d9d9415b246b341f2bfed68d409cc1b04f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/engineering_inscribing_template.png"
+hash = "ab99477f23cddfb08a7f0f48e7d4674b35ec370870d632ad415c96113c61b425"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/enriched_uranium_hexafluoride_bucket.png"
+hash = "c3be5f3b00701d1e16cf954ef61ee677057f3d954c92ed0b944d2679a12033e5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/etched_motherboard.png"
+hash = "8fe3289e5a1eb03d9223b5313985b4589d97c2e50fda87b480c10272c59cf194"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ethyl_chloride_bucket.png"
+hash = "5045eded1689eaac895296d284f29db8d7b746eb633ea45324f7dc36f1d27805"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ethylene_oxide_bucket.png"
+hash = "f51e1873f3e0cd93b0ac13776a6138e4775adda71f8980724a74ae1bafb4efe4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fine_aluminum_powder.png"
+hash = "5748e2a1181cff2c998e4dc52e03b9f47510005d1034e9b2fa9075d26c2f00e6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fine_nickel_aluminide_powder.png"
+hash = "279a3ebb0a90e74bd37703dd2480b27225923e98fe8b8c344ba390b307051e81"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fine_nickel_powder.png"
+hash = "4485bb710d191a58885dda64896f660663599bec00dfd610465f93ac570a918d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluix_crystal_plate.png"
+hash = "8794a55aa3e4451242f94710af7097fc45f9c828530d4ada4b68f96ef492a45f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluorine_bucket.png"
+hash = "65f80cf914213129c0abd109a628b59e03d347bd7361dcb162069e361196dd6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/half_complete_nickel_aluminide_mechanism.png"
+hash = "a74a79166c31901f987fcc13c6697f1e0ada9c4e25a9f4a0a85f9ef9bc2265d1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hydrogen_chloride_bucket.png"
+hash = "767882739486ff0b95fa37a4605450d898afa82b36ecb8cee160f8b61aa96bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hydrogen_fluoride_bucket.png"
+hash = "90a279f18974526d649f33fecb13372533d717943bb0f629f932b3894c3062f7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_advanced_circuit_board.png"
+hash = "900c988660fd0956da3b448b9665d2da1adb93dc422d3eee6fd7347678b2b074"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_andesite_alloy_mechanism.png"
+hash = "ba6f9b25ac592ba7270953d47bde0975798653d5e64bd239485bb402f143c468"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_electron_circuit_board.png"
+hash = "e37a5de975071ef97001adaaf22997e5e8fc2e5b47e4865126c42a9aac8e3216"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_half_complete_nickel_aluminide_mechanism.png"
+hash = "6dfd2652b74c4d231ca2859953a83303468eba1cdc6ae4376176e1e73830a313"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_nickel_aluminide_mechanism.png"
+hash = "a74a79166c31901f987fcc13c6697f1e0ada9c4e25a9f4a0a85f9ef9bc2265d1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/lithium_battery_module.png"
+hash = "02e6a82bb2d6aebed3a2d6c07b7e37ba74be30bdeb82ab01e0ac57fd4ef63a01"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/logic_inscribing_template.png"
+hash = "8aea9f6508949bdaa6dd5fc100145cb7d3e2f995a9a3c73f6a600ac66a16b81f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/loose_brass_mechanism.png"
+hash = "7699fe6a3b6e37928a5d1f653e04b05ab4bfc10998654b680896a6baf4bfdb64"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/motherboard.png"
+hash = "8845c8926bb71ade6c20a4923b024210e43fae8e00aef115cc973c5543435e4e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nickel_aluminide_ingot.png"
+hash = "5dff43cbd209d57abdac714153012a038757e00327277eaf5549c59a32d8e9b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nickel_aluminide_mechanism.png"
+hash = "a9995fd95e2b78bd55d46a98e25a1e0cd0c2a1660b1be04a083f131c864e95e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nickel_aluminide_sheet.png"
+hash = "7143f700ddb8d92c962e9de2592d52dc3916d0561d8e036524bf3b89feea6f49"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/organic_rubber.png"
+hash = "b5e06ceaed1f7d085beb3dd8cf48e049c5d1b613e31eb4b42ee0c6a6a59f08ca"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/oxygen_bucket.png"
+hash = "819438ea76583a1efa2805d230f3181a6e6c1fc0e3b14a83affee46e9a0a3056"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/potassium_carbonate.png"
+hash = "2b2bb2b30f4e52d499882a64058173fa61713305be610d49ea9a38ccd1a52450"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/potassium_chloride.png"
+hash = "cb210d86503d3c1ec51ce188e235ca44e25f1fd77dea64cf6324c0841d4a3ecc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/potassium_fluoride.png"
+hash = "48fd623d51b613357310fcf6f3fbdd10acbe415845c6643f9142af5da4794405"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/potassium_hydroxide.png"
+hash = "3d33e847d234e86a2f4164e6422a0a86259c1068e484abaf3a264a2a32befc01"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/potent_uranium_fuel_rod.png"
+hash = "f15182f712af18647ca970b59c77c93acd61d112cc4a8f95b16226c923edf298"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quartz_fiber.png"
+hash = "ea39b53776f7c607fcbdfbab4bd7180cf30222508582133c273bc889d10ccbce"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quartz_plate.png"
+hash = "beebbe86f7ae8ea9932651f5e2f0940a81804fc7371f253301ef6f21e934daba"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quartz_powder.png"
+hash = "07cf7da3edda033019745cdfaa4c7c9e33a0cc3a38d1c901ef16bfea9ec9893a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/redstone_coated_plate.png"
+hash = "92e3d8ae4b079ca586c5e2fbaf0d6302f77ba0313f034019362ff198dd49b731"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/redstone_wiring.png"
+hash = "671056a75136e4efbab5399e1332a933e1d1fa89e88049cf67a7c914fb2f7643"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/seagrass_clump.png"
+hash = "a33ce39d5511c95d1a5890301a8c31542c0f8ee06ced90d5664cfb06babf2aae"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silicon_inscribing_template.png"
+hash = "353e76b4e1e20d4bc30803de94da152d519032b0de5ead93b3aef0bc8ad88d89"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silver_dust.png"
+hash = "94132ef8ff142ae0dda2d6fedad6dc85a9b3c0cc30eb9a4b3bf3de7683588b90"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silver_ingot.png"
+hash = "4609dce3595b00d0c31806ce2f9c37b4fe3e4a01dc9484b7af90418719a7fbb2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silver_nugget.png"
+hash = "aa0f573f7e64cd93fb693da70fedfbbeda54207926ee0e41ed7c8963acc57416"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silver_sheet.png"
+hash = "6c43c1ba22b5abe9e86abcae89d727dc40abe21973b28a577df400cae244ff29"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/single_additive_fuel_bucket.png"
+hash = "9a53f1f8c94550361c8509e37fa9a1e3a0b9f0ba87ffceb2b75c4351f7bb5c2f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sodium.png"
+hash = "5b403fd64cf0af62d1e266efe9465bbbbb5f0aca0af14eb4852b9f0ebbc5dbd2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sodium_hydroxide.png"
+hash = "68dbd677af3e953771d4288d685e49f59b4d2dc67cacffbc49badb023ed0e70a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sodium_lead_alloy.png"
+hash = "5628f5fbb782ebcebaca548fbf41b22b4a8f8eec8ca376a2c77e214ba26e596c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_blast_mixture.png"
+hash = "f42c711256d8af4d84dc98472e2b764074775f6075c8cf1890205e5a2c903207"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_rod.png"
+hash = "1e87b9d8d185e2ab12ae1b1afb0562ee4d8eaa11608198c6e9252e5eaf1744f9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/synthetic_lithium_powder.png"
+hash = "ac5ec57174402f92724101b074c370ec7c17dd0f0ea569293225e8ab234520f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/triple_additive_fuel_bucket.png"
+hash = "de177de40131b123d7a4fea6c97da5b7edcd68536920028025a2edb3da41d481"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_16k_storage_component.png"
+hash = "8d3bd9b205274e80d3b049b1e754c454db360ed38a354675f85dcd1a2e793275"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_1k_storage_component.png"
+hash = "94e39772fa3a8ec2493b27b54dc6c7fbbbf6285b2a0910e896d14f0bbd60cf66"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_4k_storage_component.png"
+hash = "c1948500c5c7ed725529380ae224e129a01b68c01e57d67573c4dd2ca5aaa6a9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_advanced_card.png"
+hash = "774df498402538113d4b21d03d2efc0365eb2e60d333462d4d840575920f0e9d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_annihilation_core.png"
+hash = "1eb71c5ecc3331255c0fdbfacfffee7378edc5f50369104385a818f8243ef29a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_basic_card.png"
+hash = "156b997fb544a65ec62149817252564fe8675a0bdc45d6ca8e8cda66646f9088"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_formation_core.png"
+hash = "cf5ea9f7651ae5e06ddd14a9af90f7a19966b7b9c5880510663f528f82805caa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_motherboard.png"
+hash = "38f7ab84cc6dd5b1e99cb55d79399363db967ba10929e1fd7b8bb5702cdcfce8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_wireless_booster.png"
+hash = "dbeb909a37445f3ad689830aa0b530b495bd3320d11656ed8bb0c54939233d00"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unprocessed_nickel_aluminide_sheet.png"
+hash = "084fcf52492664208a16aea07599f5616b3fc0a33b7392d48b7c20279be94c39"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/uranium_dioxide.png"
+hash = "d6d6f312105d4b561def951c0c993493ed18f4247f81d0dd4a9f0201e451461b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/uranium_hexafluoride_bucket.png"
+hash = "675f7fc74a6d6208a4317c3117fd27d57ca531c4dac6e683db1fa61862cee807"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/uranium_pellets.png"
+hash = "29d8753ce99663ddf57b842c0ea46ad6f6e45785c5f2535ea8bbdb9b55edbdf2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/weak_uranium_fuel_rod.png"
+hash = "f15182f712af18647ca970b59c77c93acd61d112cc4a8f95b16226c923edf298"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/welsh_coal.png"
+hash = "3416ddf6a7bd19e0ffc4ffd5fb2b7e355cd436e820a14c7db098c1daa9030fb1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wooden_mechanism.png"
+hash = "c58a61dc887a96477327133c31d64daeaa8d83dcb5c4d918fdb9be99bd0e4f2c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wooden_mechanism_casing.png"
+hash = "51dc4d04e0185a39d629475752d2e52b000400df41ed5621b56492aab575928a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/yellowcake_uranium_powder.png"
+hash = "96cbc05495e37243d6be7f8e4ca6ef4e733d00ebb8df2bc12e33d7a455d7d640"
+
+[[files]]
+file = "kubejs/client_scripts/main_client.js"
+hash = "095811bd4cb2d68c1b94a6672893700d57f088ac36852e6be0ad9839ef1cc6f8"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "88b6692af4e9d11c96e987c37e69609a7c9936f8a4311c17820cd75b37bdac5e"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "5f4ef4b40fac39bff32439961ae66a3018e45dc56715d3eb6012d12f8132310d"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "383aafa137bff79b3070993f072915a46a6906ff73aa0abc4cbdf453fb3fd955"
+
+[[files]]
+file = "kubejs/data/create/data_maps/item/superheated_blaze_burner_fuels.json"
+hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
+
+[[files]]
+file = "kubejs/server_scripts/main_server.js"
+hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
+
+[[files]]
+file = "kubejs/startup_scripts/main_startup.js"
+hash = "0bbf2828c203706a0d5fb7818e5ad898ab29e19d36b459c4af2a0d14af1fb98c"
+
+[[files]]
 file = "mods/accessories-cc-layer.pw.toml"
 hash = "8f90a500df28d497fe7e323b40ee55640bc63141284ce2189a7766c976a91378"
 metafile = true
@@ -889,7 +1429,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-crowns.pw.toml"
-hash = "e04b9b993fa32feb8a8a99473fe0b8bf552a37c7e55ebbfc48a225f84f12957e"
+hash = "396b48dbf2a2335fe93ca296c8a46fb256f3153e40f82689006f7b909c42bc2a"
 metafile = true
 
 [[files]]
@@ -954,7 +1494,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-tfmg.pw.toml"
-hash = "232047cbbfb70ee4bb800492ba0fd4ad369b3ab4d76d179d48e6d9b0bb82b0e8"
+hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
 metafile = true
 
 [[files]]
@@ -1000,6 +1540,11 @@ metafile = true
 [[files]]
 file = "mods/dramatic-doors.pw.toml"
 hash = "7b9204de0626ccbcb91201c16427cf5bc70e5990e35fe553d4709794f3b21776"
+metafile = true
+
+[[files]]
+file = "mods/dream-stone.pw.toml"
+hash = "d50aeaa23ab9f7253363b6cd071e0b25b8fc1903e0e3f919fcddd19c6521cef0"
 metafile = true
 
 [[files]]
@@ -1095,6 +1640,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "ec1bd5b80399287ca33a113086bee9d5697b7e673c9f593e5a1aeca4c9bad4c9"
+metafile = true
+
+[[files]]
+file = "mods/formicapi.pw.toml"
+hash = "4d135c3ee941beda9bf3212a59b870e0ee4e6bfdbb1435589e37665a76743c42"
 metafile = true
 
 [[files]]

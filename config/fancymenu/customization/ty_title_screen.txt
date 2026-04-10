@@ -46,7 +46,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Train Yard Modpack 3.0.6-P1
+  source = Train Yard Modpack 3.0.6-P2
   source_mode = direct
   shadow = true
   scale = 1.0
