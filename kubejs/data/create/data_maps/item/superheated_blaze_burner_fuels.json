@@ -1,0 +1,16 @@
+{
+	"values": {
+		"create:blaze_cake": {
+			"burn_time": 3200
+		},
+		"kubejs:single_additive_fuel_bucket": {
+			"burn_time": 36000
+		},
+		"kubejs:double_additive_fuel_bucket": {
+			"burn_time": 54000
+		},
+		"kubejs:triple_additive_fuel_bucket": {
+			"burn_time": 72000
+		}
+	}
+}

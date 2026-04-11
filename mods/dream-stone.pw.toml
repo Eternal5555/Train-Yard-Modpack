@@ -1,0 +1,13 @@
+name = "Dream Stone"
+filename = "dream_stone-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L0iBjc0S/versions/e4vMF4TU/dream_stone-1.6.jar"
+hash-format = "sha512"
+hash = "2ef1f14bf6529e111cd47186b7d403f748c503fd27642848267f401ae165a461a83cc13ed8120390586e074abdc20d278f59abb607cb1c88df743e2658a1eac5"
+
+[update]
+[update.modrinth]
+mod-id = "L0iBjc0S"
+version = "e4vMF4TU"

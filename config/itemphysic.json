@@ -157,7 +157,7 @@
         "{id:\"item\",item:\"minecraft:rotten_flesh\"}",
         "{id:\"item\",item:\"minecraft:snowball\"}"
       ],
-      "isWhitelist": true
+      "isWhitelist": false
     },
     "undestroyableItems": {
       "entries": [
