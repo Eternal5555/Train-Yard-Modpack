@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "87bd8b7ba51208fd123c5d111885bde282b1bde900e889ec7b32eac8c0641278"
+hash = "606e142e2f9124668b7b3177c55e6ef1db94e17c1b4eb3c5468f7dbfa6306afe"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -378,7 +378,7 @@ hash = "92b13601e5e3a9016c0be5b932b585ea74929dd231b1a9bba3fa8daddc405a7b"
 
 [[files]]
 file = "config/itemphysic.json"
-hash = "ab45da14dbae0c9c8696a727db768ad5e0c7bf484952bd04954c053d48d7afde"
+hash = "02248caee6f6567e43971438858cd639ad22d0e910c1d907ea92473830c2fe90"
 
 [[files]]
 file = "config/jei-server.toml"

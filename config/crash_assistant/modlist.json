@@ -317,10 +317,10 @@
     "modId": "creativecore",
     "version": "2.13.13"
   },
-  "crowns-1.21.1_1.5.jar": {
-    "jarName": "crowns-1.21.1_1.5.jar",
+  "crowns-1.21.1-2.1.3.jar": {
+    "jarName": "crowns-1.21.1-2.1.3.jar",
     "modId": "crowns",
-    "version": "1.4d"
+    "version": "2.1.3"
   },
   "cupboard-1.21-2.9.jar": {
     "jarName": "cupboard-1.21-2.9.jar",
@@ -351,6 +351,11 @@
     "jarName": "DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar",
     "modId": "dramaticdoors",
     "version": "1.21.1-3.3.2"
+  },
+  "dream_stone-1.6.jar": {
+    "jarName": "dream_stone-1.6.jar",
+    "modId": "dream_stone",
+    "version": "1.1"
   },
   "e4mc_minecraft-neoforge-5.4.1.jar": {
     "jarName": "e4mc_minecraft-neoforge-5.4.1.jar",
@@ -441,6 +446,11 @@
     "jarName": "forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar",
     "modId": "fabric_api",
     "version": "0.115.6+2.1.4+1.21.1"
+  },
+  "formicapi-1.21.1-1.6.8.jar": {
+    "jarName": "formicapi-1.21.1-1.6.8.jar",
+    "modId": "formicapi",
+    "version": "1.6.8"
   },
   "framework-neoforge-1.21.1-0.13.1.jar": {
     "jarName": "framework-neoforge-1.21.1-0.13.1.jar",
@@ -940,10 +950,10 @@
     "modId": "terrablender",
     "version": "4.1.0.8"
   },
-  "tfmg-1.1.1-1.21.1.jar": {
-    "jarName": "tfmg-1.1.1-1.21.1.jar",
+  "tfmg-1.2.0.jar": {
+    "jarName": "tfmg-1.2.0.jar",
     "modId": "tfmg",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   "ToolBelt-1.21.1-2.2.7.jar": {
     "jarName": "ToolBelt-1.21.1-2.2.7.jar",
