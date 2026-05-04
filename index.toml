@@ -1151,7 +1151,7 @@ hash = "96cbc05495e37243d6be7f8e4ca6ef4e733d00ebb8df2bc12e33d7a455d7d640"
 
 [[files]]
 file = "kubejs/client_scripts/main_client.js"
-hash = "095811bd4cb2d68c1b94a6672893700d57f088ac36852e6be0ad9839ef1cc6f8"
+hash = "c9ea8a65110c619d26c548a2fd9342784685ab31603fac951c6acda5841416da"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -1170,12 +1170,32 @@ file = "kubejs/data/create/data_maps/item/superheated_blaze_burner_fuels.json"
 hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
 
 [[files]]
-file = "kubejs/server_scripts/main_server.js"
+file = "kubejs/server_scripts/Block_events.js"
+hash = "58e13b639f2be265d164e32709505f0c71eb01a523fea310884b81ed13019c1c"
+
+[[files]]
+file = "kubejs/server_scripts/JEI_Removal.js"
+hash = "16c71dec3e4356e9aefa002d2e3b54975cce673a1215ade72b966d9b7b22054e"
+
+[[files]]
+file = "kubejs/server_scripts/main_server.js.orig"
 hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
+file = "kubejs/server_scripts/recipies.js"
+hash = "44fe0abee736b4d68f9ea4ec21bceeb39211d304a450eb15a76eb91fa7ebed8d"
+
+[[files]]
+file = "kubejs/server_scripts/tags.js"
+hash = "5bb6da3641cda478bb66dd30c189a573b43d3ee3d216928d96297d676729e11a"
+
+[[files]]
+file = "kubejs/server_scripts/villagers.js"
+hash = "510dd131e7821753bbecc5f3345847bb6cb30384d8e07b59d0df0ec59ad7af3b"
+
+[[files]]
 file = "kubejs/startup_scripts/main_startup.js"
-hash = "0bbf2828c203706a0d5fb7818e5ad898ab29e19d36b459c4af2a0d14af1fb98c"
+hash = "0516ad8e660afe855cc2449ebae3d978a666fa63b3499950129b33f1689c1ff7"
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
@@ -1774,7 +1794,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
+hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
 metafile = true
 
 [[files]]
@@ -1790,6 +1810,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
 metafile = true
 
 [[files]]
@@ -1825,11 +1850,6 @@ metafile = true
 [[files]]
 file = "mods/magnum-torch.pw.toml"
 hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
-metafile = true
-
-[[files]]
-file = "mods/man-of-many-planes.pw.toml"
-hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
 metafile = true
 
 [[files]]
