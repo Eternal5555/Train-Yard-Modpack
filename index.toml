@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "606e142e2f9124668b7b3177c55e6ef1db94e17c1b4eb3c5468f7dbfa6306afe"
+hash = "cbc4b110a3d608460f4e9622c1a8bb5acfe4e1f0e46552ef06cd8c817d3ddbf9"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -282,7 +282,7 @@ hash = "447276ad273bee16e6a798affc6ad21b7836177db11e54d0e4b714d70936ed0c"
 
 [[files]]
 file = "config/fancymenu/assets/train.png"
-hash = "5fb53905de07d330b5c35232956d379ed2cc153d8dec2d9dccd5b027f89ca721"
+hash = "08872b865211337254ae7935029d6871ea70ee0471f06350f9cc7539245d4815"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -294,11 +294,11 @@ hash = "0791802f8643f6ead2dbeba30abced98af74fd43205705e308c795cd4e565b28"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
+hash = "cdd58c7193da906fd7677848486af484140d61b1f97271f0cc61e3953c338f17"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "91e5b5d63bd51d018b8c96ec59650bdeae1aa5b1cdfa686983496bc865f88a11"
+hash = "20c2ce01e8f066c27d3e71d442d6f4077f9c869289e3cf26b22320187a2f1913"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"

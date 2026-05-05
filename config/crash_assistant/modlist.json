@@ -1,8 +1,8 @@
 {
-  "neoforge-21.1.217 (modloader)": {
-    "jarName": "neoforge-21.1.217 (modloader)",
+  "neoforge-21.1.220 (modloader)": {
+    "jarName": "neoforge-21.1.220 (modloader)",
     "modId": "neoforge",
-    "version": "neoforge-21.1.217"
+    "version": "neoforge-21.1.220"
   },
   "accessories-neoforge-1.1.0-beta.52+1.21.1.jar": {
     "jarName": "accessories-neoforge-1.1.0-beta.52+1.21.1.jar",
@@ -580,10 +580,10 @@
     "modId": "kubejs_create",
     "version": "2101.3.1-build.18"
   },
-  "kubejs-neoforge-2101.7.2-build.348.jar": {
-    "jarName": "kubejs-neoforge-2101.7.2-build.348.jar",
+  "kubejs-neoforge-2101.7.2-build.363.jar": {
+    "jarName": "kubejs-neoforge-2101.7.2-build.363.jar",
     "modId": "kubejs",
-    "version": "2101.7.2-build.348"
+    "version": "2101.7.2-build.363"
   },
   "LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar": {
     "jarName": "LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar",
@@ -595,6 +595,11 @@
     "modId": "lithium",
     "version": "0.15.0+mc1.21.1"
   },
+  "lmft-1.1.1+1.21.9-neoforge.jar": {
+    "jarName": "lmft-1.1.1+1.21.9-neoforge.jar",
+    "modId": "lmft",
+    "version": "1.1.1+1.21.9"
+  },
   "lootr-neoforge-1.21-1.10.35.91.jar": {
     "jarName": "lootr-neoforge-1.21-1.10.35.91.jar",
     "modId": "lootr",
@@ -604,11 +609,6 @@
     "jarName": "MagnumTorch-v21.1.0-1.21.1-NeoForge.jar",
     "modId": "magnumtorch",
     "version": "21.1.0"
-  },
-  "man_of_many_planes-0.2.1+1.21.1-neoforge.jar": {
-    "jarName": "man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
-    "modId": "man_of_many_planes",
-    "version": "0.2.1+1.21.1"
   },
   "maplink-neoforge-4.1.1-1.21-1.21.1.jar": {
     "jarName": "maplink-neoforge-4.1.1-1.21-1.21.1.jar",
