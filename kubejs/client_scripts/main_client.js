@@ -16,14 +16,19 @@ ClientEvents.lang('en_us', event =>{
 		event.renameItem('tfmg:capacitor_item', 'Advanced Capacitor')
 		event.renameItem('tfmg:copper_grenade', 'Thermite Grenade')
 		event.renameItem('create:track', 'Andesite Train Track')
-		event.renameItem('kubejs:oxygen_bucket', 'Oxygen Tank')
 		event.renameItem('create_dragons_plus:fluid_hatch', 'Fluid Hatch Drain')
-		event.renameItem('kubejs:chlorine_bucket', 'Chlorine Tank')
 		event.renameItem('ae2:matter_ball', 'Paint Ball')
-		event.renameItem('kubejs:ethylene_oxide_bucket', 'Ethylene Oxide Tank')
 		event.renameItem('ae2:condenser', 'REMOVED BLOCK, NOT CRAFTABLE')
 		event.renameItem('dndesires:gold_whisk', 'Brass Whisk')
 		event.renameItem('dndesires:gold_mixer', 'Brass Mixer')
+		event.renameItem('crowns:uranium_ingot', 'Uranium Ingot')
+		event.renameItem('ae2:nether_quartz_cutting_knife', 'Quartz Cutting Knife')
+		event.renameItem('ae2:nether_quartz_wrench', 'Quartz Wrench')
+		event.renameItem('ae2:nether_quartz_sword', 'Quartz Sword')
+		event.renameItem('ae2:nether_quartz_pickaxe', 'Quartz Pickaxe')
+		event.renameItem('ae2:nether_quartz_axe', 'Quartz Axe')
+		event.renameItem('ae2:nether_quartz_shovel', 'Quartz Shovel')
+		event.renameItem('ae2:nether_quartz_hoe', 'Quartz Hoe')
 		event.renameItem('kubejs:single_additive_fuel_bucket', 'Single Additive Fuel')
 		event.renameItem('kubejs:double_additive_fuel_bucket', 'Double Additive Fuel')
 		event.renameItem('kubejs:triple_additive_fuel_bucket', 'Triple Additive Fuel')
@@ -34,15 +39,17 @@ ClientEvents.lang('en_us', event =>{
 		event.renameItem('kubejs:fluorine_bucket', 'Fluorine Tank')
 		event.renameItem('kubejs:uranium_hexafluoride_bucket', 'Uranium Hexafluoride Tank')
 		event.renameItem('kubejs:enriched_uranium_hexafluoride_bucket', 'Enriched Uranium Hexafluoride Tank')
-		event.renameItem('crowns:uranium_ingot', 'Uranium Ingot')
-		event.renameItem('ae2:nether_quartz_cutting_knife', 'Quartz Cutting Knife')
-		event.renameItem('ae2:nether_quartz_wrench', 'Quartz Wrench')
-		event.renameItem('ae2:nether_quartz_sword', 'Quartz Sword')
-		event.renameItem('ae2:nether_quartz_pickaxe', 'Quartz Pickaxe')
-		event.renameItem('ae2:nether_quartz_axe', 'Quartz Axe')
-		event.renameItem('ae2:nether_quartz_shovel', 'Quartz Shovel')
-		event.renameItem('ae2:nether_quartz_hoe', 'Quartz Hoe')
-})
+		event.renameItem('kubejs:ethylene_oxide_bucket', 'Ethylene Oxide Tank')
+		event.renameItem("kubejs:chlorine_bucket", "Chlorine Tank")
+		event.renameItem("kubejs:oxygen_bucket", "Oxygen Tank")
+});
+
+ItemEvents.modifyTooltips((event) => {
+	event.add(
+		"natures_spirit:coconut_shell",
+		"Can be used to make a wooden mechanism?",
+	);
+});
 
 //JEIEvents.hideFluids(event => {
 //	event.hide('crowns:uranium_hexafluoride')

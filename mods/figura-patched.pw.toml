@@ -1,6 +1,6 @@
 name = "figura-patched"
 filename = "figura-0.1.5+1.21.1-neoforge-patched.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://github.com/penguinencounter/Figura/releases/download/sodium-patched-jars-placeholder/figura-0.1.5+1.21.1-neoforge-patched.jar"

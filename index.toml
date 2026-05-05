@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "606e142e2f9124668b7b3177c55e6ef1db94e17c1b4eb3c5468f7dbfa6306afe"
+hash = "cbc4b110a3d608460f4e9622c1a8bb5acfe4e1f0e46552ef06cd8c817d3ddbf9"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -282,7 +282,7 @@ hash = "447276ad273bee16e6a798affc6ad21b7836177db11e54d0e4b714d70936ed0c"
 
 [[files]]
 file = "config/fancymenu/assets/train.png"
-hash = "5fb53905de07d330b5c35232956d379ed2cc153d8dec2d9dccd5b027f89ca721"
+hash = "08872b865211337254ae7935029d6871ea70ee0471f06350f9cc7539245d4815"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -294,11 +294,11 @@ hash = "0791802f8643f6ead2dbeba30abced98af74fd43205705e308c795cd4e565b28"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "231f5bd99e4cf3e38657d6201d6f61539ce0b5cccb5d16dcd10c70e17fd089f1"
+hash = "cdd58c7193da906fd7677848486af484140d61b1f97271f0cc61e3953c338f17"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "91e5b5d63bd51d018b8c96ec59650bdeae1aa5b1cdfa686983496bc865f88a11"
+hash = "20c2ce01e8f066c27d3e71d442d6f4077f9c869289e3cf26b22320187a2f1913"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -371,6 +371,10 @@ hash = "1639b97b00cb3d9e71046219f06ae97b92c78c2f635fea008a9c6313663ccdc3"
 [[files]]
 file = "config/iris.properties"
 hash = "b2fc8a638903a5a95dd3ee2c57ce08f558708d9adf068c07920ad6fdd0ba212f"
+
+[[files]]
+file = "config/item_obliterator.json5"
+hash = "b6d4adee5e58816a39bebd5ce9ade4d4c7c75bd230a505fd10cd9e01779eeb36"
 
 [[files]]
 file = "config/itemphysic-client.json"
@@ -1151,7 +1155,7 @@ hash = "96cbc05495e37243d6be7f8e4ca6ef4e733d00ebb8df2bc12e33d7a455d7d640"
 
 [[files]]
 file = "kubejs/client_scripts/main_client.js"
-hash = "095811bd4cb2d68c1b94a6672893700d57f088ac36852e6be0ad9839ef1cc6f8"
+hash = "a77ba50c2280d193d5624c7c2cb36fe1a7d64f634d6563af71bec15d4854746b"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -1170,12 +1174,52 @@ file = "kubejs/data/create/data_maps/item/superheated_blaze_burner_fuels.json"
 hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
 
 [[files]]
-file = "kubejs/server_scripts/main_server.js"
+file = "kubejs/server_scripts/Block_events.js"
+hash = "58e13b639f2be265d164e32709505f0c71eb01a523fea310884b81ed13019c1c"
+
+[[files]]
+file = "kubejs/server_scripts/JEI_Removal.js"
+hash = "16c71dec3e4356e9aefa002d2e3b54975cce673a1215ade72b966d9b7b22054e"
+
+[[files]]
+file = "kubejs/server_scripts/main_server.js.orig"
 hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
-file = "kubejs/startup_scripts/main_startup.js"
-hash = "0bbf2828c203706a0d5fb7818e5ad898ab29e19d36b459c4af2a0d14af1fb98c"
+file = "kubejs/server_scripts/recipies.js"
+hash = "44fe0abee736b4d68f9ea4ec21bceeb39211d304a450eb15a76eb91fa7ebed8d"
+
+[[files]]
+file = "kubejs/server_scripts/tags.js"
+hash = "5bb6da3641cda478bb66dd30c189a573b43d3ee3d216928d96297d676729e11a"
+
+[[files]]
+file = "kubejs/server_scripts/villagers.js"
+hash = "510dd131e7821753bbecc5f3345847bb6cb30384d8e07b59d0df0ec59ad7af3b"
+
+[[files]]
+file = "kubejs/startup_scripts/Block_creation.js"
+hash = "989ec15151410d5252f2e1f2806e2c958f47f8e9413f2fb2e6bc31bc03f8f755"
+
+[[files]]
+file = "kubejs/startup_scripts/Block_modification.js"
+hash = "71f658f7791c3c54b3944c167bb8450635c5ff9ece5da6391446433ceab4bfaf"
+
+[[files]]
+file = "kubejs/startup_scripts/Fluid_creation.js"
+hash = "2a53064df2b63236e5f0b9c6e21c2f29e065448f72f37c9fc86633c7173859ab"
+
+[[files]]
+file = "kubejs/startup_scripts/Item_creation.js"
+hash = "a5060addeba17f1187e50c1547a05fc32e8e21e6e82a8d119d642f52938e30e3"
+
+[[files]]
+file = "kubejs/startup_scripts/Item_modification.js"
+hash = "2fef9219badc8887ca0699757cf0d4c557854a76613a01fb8b7b0a97db72d041"
+
+[[files]]
+file = "kubejs/startup_scripts/main_startup.js.orig"
+hash = "0516ad8e660afe855cc2449ebae3d978a666fa63b3499950129b33f1689c1ff7"
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
@@ -1629,7 +1673,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura-patched.pw.toml"
-hash = "da158fb76483e01aa12d2f3792cb9853183c16b42c2616ef1c431a901d75decd"
+hash = "3a8c54ebf9b3639947a2a1f5f360c70de51128cf97d85b65cd6b9e52b5bd1dfd"
 metafile = true
 
 [[files]]
@@ -1723,6 +1767,11 @@ hash = "423b539c9a3316afbfbfdc85ad48ffe11fbccec07730898de08c86d4aa83daf9"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
+metafile = true
+
+[[files]]
 file = "mods/itemphysic.pw.toml"
 hash = "d13234c80331236c46d54149b713443d4c4c24f308facbb7acdfc24f45607dd2"
 metafile = true
@@ -1774,7 +1823,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
+hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
 metafile = true
 
 [[files]]
@@ -1790,6 +1839,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
@@ -1825,11 +1879,6 @@ metafile = true
 [[files]]
 file = "mods/magnum-torch.pw.toml"
 hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
-metafile = true
-
-[[files]]
-file = "mods/man-of-many-planes.pw.toml"
-hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
 metafile = true
 
 [[files]]
@@ -1875,6 +1924,11 @@ metafile = true
 [[files]]
 file = "mods/natures-spirit.pw.toml"
 hash = "e5c9d8b97345998f99cf6da31b41c5cf4875361bc94c3354be2299730b7acb04"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
 metafile = true
 
 [[files]]
