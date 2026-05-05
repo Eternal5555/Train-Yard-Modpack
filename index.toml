@@ -373,6 +373,10 @@ file = "config/iris.properties"
 hash = "b2fc8a638903a5a95dd3ee2c57ce08f558708d9adf068c07920ad6fdd0ba212f"
 
 [[files]]
+file = "config/item_obliterator.json5"
+hash = "b6d4adee5e58816a39bebd5ce9ade4d4c7c75bd230a505fd10cd9e01779eeb36"
+
+[[files]]
 file = "config/itemphysic-client.json"
 hash = "92b13601e5e3a9016c0be5b932b585ea74929dd231b1a9bba3fa8daddc405a7b"
 
@@ -1763,6 +1767,11 @@ hash = "423b539c9a3316afbfbfdc85ad48ffe11fbccec07730898de08c86d4aa83daf9"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
+metafile = true
+
+[[files]]
 file = "mods/itemphysic.pw.toml"
 hash = "d13234c80331236c46d54149b713443d4c4c24f308facbb7acdfc24f45607dd2"
 metafile = true
@@ -1915,6 +1924,11 @@ metafile = true
 [[files]]
 file = "mods/natures-spirit.pw.toml"
 hash = "e5c9d8b97345998f99cf6da31b41c5cf4875361bc94c3354be2299730b7acb04"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
 metafile = true
 
 [[files]]
