@@ -42,7 +42,14 @@ ClientEvents.lang('en_us', event =>{
 		event.renameItem('kubejs:ethylene_oxide_bucket', 'Ethylene Oxide Tank')
 		event.renameItem("kubejs:chlorine_bucket", "Chlorine Tank")
 		event.renameItem("kubejs:oxygen_bucket", "Oxygen Tank")
-})
+});
+
+ItemEvents.modifyTooltips((event) => {
+	event.add(
+		"natures_spirit:coconut_shell",
+		"Can be used to make a wooden mechanism?",
+	);
+});
 
 //JEIEvents.hideFluids(event => {
 //	event.hide('crowns:uranium_hexafluoride')

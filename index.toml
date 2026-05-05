@@ -1151,7 +1151,7 @@ hash = "96cbc05495e37243d6be7f8e4ca6ef4e733d00ebb8df2bc12e33d7a455d7d640"
 
 [[files]]
 file = "kubejs/client_scripts/main_client.js"
-hash = "c9ea8a65110c619d26c548a2fd9342784685ab31603fac951c6acda5841416da"
+hash = "a77ba50c2280d193d5624c7c2cb36fe1a7d64f634d6563af71bec15d4854746b"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -1194,7 +1194,27 @@ file = "kubejs/server_scripts/villagers.js"
 hash = "510dd131e7821753bbecc5f3345847bb6cb30384d8e07b59d0df0ec59ad7af3b"
 
 [[files]]
-file = "kubejs/startup_scripts/main_startup.js"
+file = "kubejs/startup_scripts/Block_creation.js"
+hash = "989ec15151410d5252f2e1f2806e2c958f47f8e9413f2fb2e6bc31bc03f8f755"
+
+[[files]]
+file = "kubejs/startup_scripts/Block_modification.js"
+hash = "71f658f7791c3c54b3944c167bb8450635c5ff9ece5da6391446433ceab4bfaf"
+
+[[files]]
+file = "kubejs/startup_scripts/Fluid_creation.js"
+hash = "2a53064df2b63236e5f0b9c6e21c2f29e065448f72f37c9fc86633c7173859ab"
+
+[[files]]
+file = "kubejs/startup_scripts/Item_creation.js"
+hash = "a5060addeba17f1187e50c1547a05fc32e8e21e6e82a8d119d642f52938e30e3"
+
+[[files]]
+file = "kubejs/startup_scripts/Item_modification.js"
+hash = "2fef9219badc8887ca0699757cf0d4c557854a76613a01fb8b7b0a97db72d041"
+
+[[files]]
+file = "kubejs/startup_scripts/main_startup.js.orig"
 hash = "0516ad8e660afe855cc2449ebae3d978a666fa63b3499950129b33f1689c1ff7"
 
 [[files]]
@@ -1814,7 +1834,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
+hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
