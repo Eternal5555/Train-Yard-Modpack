@@ -1191,7 +1191,7 @@ hash = "44fe0abee736b4d68f9ea4ec21bceeb39211d304a450eb15a76eb91fa7ebed8d"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "5bb6da3641cda478bb66dd30c189a573b43d3ee3d216928d96297d676729e11a"
+hash = "9e11ae2ef883aad265c3d6ab65394c4ff3401ff40a66eed8ab971246913d1a21"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
