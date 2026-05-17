@@ -1252,11 +1252,6 @@ hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
 metafile = true
 
 [[files]]
-file = "mods/another-unbreakable-enchantment.pw.toml"
-hash = "d45411c77b7f8f0e4d3aab6db15d53a08e46f170811709223eb721853e567e8b"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3213c881d019cd8f952f738c10d5a950ee52ff0084750b81f656a58a4a78515d"
 metafile = true
