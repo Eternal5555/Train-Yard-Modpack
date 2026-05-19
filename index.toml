@@ -294,11 +294,11 @@ hash = "0791802f8643f6ead2dbeba30abced98af74fd43205705e308c795cd4e565b28"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "cdd58c7193da906fd7677848486af484140d61b1f97271f0cc61e3953c338f17"
+hash = "2acb25707b538f46d1571f6de52e5336ad408aed5df268f44f8c238d653fe3e1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "20c2ce01e8f066c27d3e71d442d6f4077f9c869289e3cf26b22320187a2f1913"
+hash = "81400414b8edc1d9eb0f5a327e1d36eecc80aae4432fad4b5f2616b210f2ef3c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
