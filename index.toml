@@ -2273,12 +2273,12 @@ metafile = true
 
 [[files]]
 file = "mods/waterframes.pw.toml"
-hash = "a255c29cb611f60aaad313b223bc424721be5998673002da6b589b2862912621"
+hash = "ddf3e6047f46d85b138a8b1e860b5ee3bc95af06408baf634e46c4222884853f"
 metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "03a442894e03f9ebe0657ea717a01ea53718ac785a3b20bdcab647e5198902ee"
+hash = "f80f469e5898fe0732bdd8786f61d0260eda868fb383e0e3eb97c6d503b9b4c7"
 metafile = true
 
 [[files]]
