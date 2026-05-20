@@ -2282,11 +2282,6 @@ hash = "f80f469e5898fe0732bdd8786f61d0260eda868fb383e0e3eb97c6d503b9b4c7"
 metafile = true
 
 [[files]]
-file = "mods/what-are-they-up-to.pw.toml"
-hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
-metafile = true
-
-[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "de999f6cc4c2f344e324b4f331fa9767844c31463c6e8066fcd67b613338ab8c"
 metafile = true
