@@ -1293,7 +1293,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "b16906634dc8b2a07d43cdc6ba766e642e18458f7e7b9aaef8a374e5e7fd04dc"
+hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
 metafile = true
 
 [[files]]
@@ -1423,7 +1423,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "c27af69a7c64206beff3e59c671934d4eb9a3dc65fd589609c5e6f6bb60421bb"
+hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
