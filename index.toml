@@ -1877,6 +1877,11 @@ hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
 metafile = true
 
 [[files]]
+file = "mods/maplink.pw.toml"
+hash = "cde0265f751c5ad8ab34f759462a358dd8d45472a480651f143a1024781d0bcb"
+metafile = true
+
+[[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "4e3aaef188d1f975c6ebd539f50021768851f7fc4638079ee72179ec33bf487f"
 metafile = true
@@ -2049,11 +2054,6 @@ metafile = true
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "b1e0e7bf562eb6a1eb939835c19bbc56c46d209eeba8f2b766c0ad39676a389a"
-metafile = true
-
-[[files]]
-file = "mods/remote-player-waypoints-for-xaeros-map.pw.toml"
-hash = "15f47c9452feb594fc8e37d8dfd5b6eee98413f85b5634a707a9cd0fde4e69a1"
 metafile = true
 
 [[files]]
