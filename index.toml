@@ -74,7 +74,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "76acef083e6ed428dc67f4738a9c82c1422a7b09409b377b97f68926b5419d23"
+hash = "1a96294219115d47fc429b157f81caeb3ec87d128aee0c5240195885937eab4a"
 
 [[files]]
 file = "config/computercraft-client.toml"
@@ -150,11 +150,11 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "d87d179512584a76999032263c4403b86c8f0d08b129e2b15a09082c3b286211"
+hash = "1127ba6639017ae1f04e5bacee197599d498d7538204ac3e15d905791c307bd7"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "12bf1303e43aa7d076e09dfd281b0549872275e1fed89dad2a58225fa6124a4e"
+hash = "b0b2d3d1f5760445b8e312aaddd73a138ddd9523e84f5360c95e9a7803c86f12"
 
 [[files]]
 file = "config/create_connected-server.toml"
@@ -417,6 +417,10 @@ file = "config/leavesbegone-server.toml"
 hash = "24ff0a6e8d2d18678868edbb77056c1818dc0a02990e626f0d91c6d683c5b632"
 
 [[files]]
+file = "config/lmft.json"
+hash = "29daf6cf7c42dc2e36aad997c3e318263fa93856c3c90ba77e9b02ea3fd6c2a0"
+
+[[files]]
 file = "config/lootr-client.toml"
 hash = "d196b5c4f46f5ea21ff38a78bcda94834b48ef5554473bcab1fd3bb9effe3220"
 
@@ -620,22 +624,6 @@ hash = "2346745dacdf44e03844788688b933fca1182201b45d7ee99143437c94087a33"
 [[files]]
 file = "config/wakes-client.toml"
 hash = "89ac3237377933a468d363cd555b40307ff0fad094c4438aa9c65ce7fc7a5f53"
-
-[[files]]
-file = "config/watut-client.toml"
-hash = "cc750724e261c94be36d2cea4a5e4f9466192e9ff7cf01546cb1efcea918282b"
-
-[[files]]
-file = "config/watut-common.toml"
-hash = "93d4055b22552b80ae5f96d396b335910993ab7010b562a34291adade59df4f6"
-
-[[files]]
-file = "config/xaerominimap_entities.json"
-hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "icon.png"
