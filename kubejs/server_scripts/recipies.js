@@ -2818,23 +2818,23 @@ ServerEvents.recipes((event) => {
 	//Haunting
 
 	event.recipes.create.haunting(
-		"vanillabackport:pale_oak_sapling",
+		"minecraft:pale_oak_sapling",
 		"minecraft:dark_oak_sapling",
 	);
 	event.recipes.create.haunting(
-		"vanillabackport:pale_moss_block",
+		"minecraft:pale_moss_block",
 		"minecraft:moss_block",
 	);
 	event.recipes.create.haunting(
-		"vanillabackport:pale_hanging_moss",
+		"minecraft:pale_hanging_moss",
 		"minecraft:moss_block",
 	);
 	event.recipes.create.haunting(
-		"vanillabackport:closed_eyeblossom",
+		"minecraft:closed_eyeblossom",
 		"minecraft:dandelion",
 	);
 	event.recipes.create.haunting(
-		"vanillabackport:open_eyeblossom",
+		"minecraft:open_eyeblossom",
 		"minecraft:oxeye_daisy",
 	);
 
@@ -3246,8 +3246,8 @@ ServerEvents.recipes((event) => {
 	);
 
 	event.recipes.create.compacting(
-		CreateItem.of("vanillabackport:resin_clump", 0.01),
-		"vanillabackport:pale_oak_log",
+		CreateItem.of("minecraft:resin_clump", 0.01),
+		"minecraft:pale_oak_log",
 	);
 
 	event.recipes.create
