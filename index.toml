@@ -2150,16 +2150,6 @@ hash = "1d277d4c4d8f3abc49176d3b029584b70d92dcb9b89cf2cf6094e674fe9885c8"
 metafile = true
 
 [[files]]
-file = "mods/styled-chat.pw.toml"
-hash = "81b8a1d186cc1685641bef736eadd143fa48909bd50cd7c975ec0d971a25e3ba"
-metafile = true
-
-[[files]]
-file = "mods/styledplayerlist.pw.toml"
-hash = "cbd24cdc5e83c7f687d56ed15b79f0e4ea890d9e825f747357e22831f67f4f0f"
-metafile = true
-
-[[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "46d28a5f6168b55be612a6f5d616dd0a28bb33f8bf2c6b23c30c0bae17e8ae3c"
 metafile = true
