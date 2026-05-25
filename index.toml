@@ -473,6 +473,30 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/font/default.json"
+hash = "805ad20613bad95f6aaaa5f99fc2333e64914e72a63b2d4f8c41f73739a484a4"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/conductor.png"
+hash = "62ea45f3b21b716aad4edfb1d42d6f3a9a9f7988fcfe743577377f3fd181379d"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/railop.png"
+hash = "309d721d188caa7d59cbd5bdb5bba369fce8e2ded699c613d022221077c8fc3c"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/railworker.png"
+hash = "e25ca5e69cf18e395bde7c9743b88db05d959a501862b6c86ef242ad4ef2b1d8"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/trackworker.png"
+hash = "3076fca794a6d2ca46dedf5322b09afd166c206da55b9fd210e6f8aee7f69a19"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/pack.mcmeta"
+hash = "d21bfd050221438a1727b812c1c2c7c92d409ba6ebd1efd2516644308c5317d3"
+
+[[files]]
 file = "config/paxi/resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
