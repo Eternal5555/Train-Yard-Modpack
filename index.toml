@@ -221,10 +221,6 @@ file = "config/dndesires-server.toml"
 hash = "315286358928fd90ba453d7ab2aba396e5b08c3011c710f5a47d281659719a5b"
 
 [[files]]
-file = "config/emojiful-client.toml"
-hash = "d50402f326389452a6ed579d9436251e872cedbab6b8f94f74299b3e2a137822"
-
-[[files]]
 file = "config/everycomp-common.toml"
 hash = "13ad4e42471f2c6fe6672f0e32ea676ba96f4d2f9119176b546ee1a744833068"
 
@@ -1616,11 +1612,6 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
-metafile = true
-
-[[files]]
-file = "mods/emojiful.pw.toml"
-hash = "08196e1229f323cc1eaf5969b93111705e8302a02d2acf134956f735f69e02c4"
 metafile = true
 
 [[files]]
