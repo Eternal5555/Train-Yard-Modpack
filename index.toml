@@ -1674,9 +1674,8 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
-file = "mods/figura-patched.pw.toml"
-hash = "3a8c54ebf9b3639947a2a1f5f360c70de51128cf97d85b65cd6b9e52b5bd1dfd"
-metafile = true
+file = "mods/figura-0.1.5+1.21.1-neoforge-patched.jar"
+hash = "03a5e32018e761a2ec0df774a3c3154f3bfc18bdfa8d577523a9f7cac57a692f"
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
