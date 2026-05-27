@@ -498,6 +498,11 @@ hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
 
 [[files]]
+file = "config/paxi/resourcepacks/crowns-reindustrialized.pw.toml"
+hash = "2917379ed55884909644a1dba3d7792467347b768c72ae88baae5f123efac208"
+metafile = true
+
+[[files]]
 file = "config/pehkui-client.toml"
 hash = "5e7703fc7e1ee9b5ae13fc356ed33940e3787fb4c206de670635b465d8d6d950"
 
