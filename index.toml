@@ -150,7 +150,7 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "1127ba6639017ae1f04e5bacee197599d498d7538204ac3e15d905791c307bd7"
+hash = "8dcdaa87af9d63ae8363a62e1d690e9276b6bf5ff5bc332f1e6cdb00d51ec05d"
 
 [[files]]
 file = "config/create_connected-common.toml"
@@ -631,7 +631,7 @@ hash = "a3440b61fdcd1dabfd525863005b3da7b281aab793a9a15ffa94d69b34f46449"
 
 [[files]]
 file = "config/tfmg-common.toml"
-hash = "e7ffea3785c6d43faebbf8570e62d572bd2e748554326d15f72d8e8436e5b2ab"
+hash = "bcab0d18b2d0ca28ad857e8103a003287d7eb0b0a285fae1c79d8bc811f02368"
 
 [[files]]
 file = "config/tfmg-server.toml"
@@ -640,6 +640,10 @@ hash = "cbae1202a2470e12970930df38b2d32356b173dcdc1bce684dc1c07da6a638bf"
 [[files]]
 file = "config/trimmable_tools.json"
 hash = "2346745dacdf44e03844788688b933fca1182201b45d7ee99143437c94087a33"
+
+[[files]]
+file = "config/veinmining-server.toml"
+hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/wakes-client.toml"

@@ -358,7 +358,7 @@
 	#The maximum distance a mechanical pump can push or pull liquids on either side.
 	# Default: 16
 	# Range: > 1
-	mechanicalPumpRange = 16
+	mechanicalPumpRange = 24
 	#.
 	#[in Blocks]
 	#The maximum distance a hose pulley can draw fluid blocks from.
