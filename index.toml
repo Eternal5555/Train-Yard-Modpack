@@ -1365,12 +1365,12 @@ metafile = true
 
 [[files]]
 file = "mods/botany-pots.pw.toml"
-hash = "ede2c44ea1dfa4af9535734a971f12170c6c2e4f7e8de7e82e920b9ab590dab3"
+hash = "b2924186064c29f92f21ac13cb458e92970a8fcebe3791c208b0e64c91b90c7e"
 metafile = true
 
 [[files]]
 file = "mods/botany-trees.pw.toml"
-hash = "247b89bfd31a4e189181596a0a0ab8a7862a5ec9cb648c0cc2457a6ff61e94d8"
+hash = "7b316dad2798476a9ef960d0806a7e87ad234fecb8096e7263c18780497d661a"
 metafile = true
 
 [[files]]
