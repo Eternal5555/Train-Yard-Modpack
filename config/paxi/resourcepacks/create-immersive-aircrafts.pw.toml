@@ -1,0 +1,13 @@
+name = "Create Immersive Aircrafts"
+filename = "Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/u2gFNctb/versions/Da0O9Q3y/Create%20Immersive%20Aircrafts%20Resource%20Pack%201.21.1%20-%203.0.zip"
+hash-format = "sha512"
+hash = "43bb9fb9f9215052dc40a83ad860ef5c21e2d3cadda5e2864c460756004a269a771a5a9a9ec5a53fbb49685b42400aa6bf8d5a427c6a5ae115683896fdfe5d14"
+
+[update]
+[update.modrinth]
+mod-id = "u2gFNctb"
+version = "Da0O9Q3y"

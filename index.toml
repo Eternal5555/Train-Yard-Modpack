@@ -889,6 +889,11 @@ file = "config/paxi/resourcepacks/YardResources/pack.mcmeta"
 hash = "d21bfd050221438a1727b812c1c2c7c92d409ba6ebd1efd2516644308c5317d3"
 
 [[files]]
+file = "config/paxi/resourcepacks/create-immersive-aircrafts.pw.toml"
+hash = "cc5dff9306eee6c936f802113cc121b6c2a5b449b7d9176bec8c918a5d2a3025"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
