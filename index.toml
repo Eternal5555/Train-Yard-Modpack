@@ -457,6 +457,10 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
+file = "config/openpartiesandclaims-server.toml"
+hash = "aa072f98f2007066076c7bbf981f43e60bdd3c8c849ea0d99958f1d794d80677"
+
+[[files]]
 file = "config/packetfixer.properties"
 hash = "355df013ad6a10d4cab06dc6daed43b37d99d9670f75d2f7264257b82b7c7b60"
 
