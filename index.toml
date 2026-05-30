@@ -465,6 +465,402 @@ file = "config/paxi-neoforge-1_21.toml"
 hash = "a4187daa91d863f90dacfcb443e2f062fe3ddbaace98cfdcfa8b3cc558f1f250"
 
 [[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/cypress.json"
+hash = "ee98ef4b33abd2f70e280406f1da91d8c1b7e070a68f62a1261472005e7f154e"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/dead.json"
+hash = "96884c54ba8b32cd60397745f1a20557462fd47816639003fddb244641e687a7"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/empyreal.json"
+hash = "a2440f84f835786ea3ec64eae7a310bb7bab58c7dd3eb810effbe3adba995cf7"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/fir.json"
+hash = "9673a762e3ca8b21aa27fd6b876ca2c8909cf8ede5001bb39bec6709a8d507f0"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/flowering_oak.json"
+hash = "121178b18d04f22a99f6dab878dab44a7b548ad6b1f618348b509df8d596d069"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/hellbark.json"
+hash = "25051ec86928c5f6736e83513f1edc0c687a898fcad5d1d908eef26a50f52d5c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/jacaranda.json"
+hash = "473c3e66ba99d67ce1329527d892edaf75f4fd29b3b1da3d3e5dcfb9fa5b2b93"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/magic.json"
+hash = "c6595cb2c08d65015c2451716bc6961cc428f1a0bfac95e40d02c2133bdbbe4d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/mahogany.json"
+hash = "2be7cc0cef365e6d6cd71096236c41267863b01277117df29d10f05716428f6c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/orange_maple.json"
+hash = "977a2ffa5e7771d956d16edd6ecc7071163a77093e31c8c83548c55e4b0104ca"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/origin.json"
+hash = "7612efc686a8dc85259eaad0541e5d04b24d56e48a2e987abed225e75351fe5c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/palm.json"
+hash = "35f39c3fbf8c71ae86635353e9d1ef95a4d03e463fbf98cc7fc88294de175a13"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/pine.json"
+hash = "c04305631548ee12e8197e2ca01fbeae115ce7b99843aa23266b6d2c5c3b80d7"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/rainbow_birch.json"
+hash = "8c6f36c4fa60b804bdd5e4485f1ac972d9fc839de995a1cfe9f35d460b7c89a6"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/red_maple.json"
+hash = "7a3d1d77397acd4ee6e58bf8af4a127fe8f0e2b5de62f1adc5465c4180d61dfc"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/redwood.json"
+hash = "ecdb554d23071f1ae2e3fa0939bc335405f760ead25b2f45ed590dd94ea27179"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/snowblossom.json"
+hash = "4d7298d5a9ba17a46f6b66caca709e0cf9d07c2c59633e54387bf2bde2faaaf5"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/umbran.json"
+hash = "54d56e959cdaa7b9a4c196f660bd1780157a978ae657c301158600eab8def84f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/willow.json"
+hash = "69c7141e9a2a82307da5bc038b41e6563f5bc83bc61a874bf235cf2828972b36"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/biomesoplenty/yellow_maple.json"
+hash = "9df2847e827fd5f3df197f95a5c79aa9f33161f42ec435e0729bec0d4050426f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/acacia.json"
+hash = "2d06cdbc16802ea9af4a327a6e15fa67d5c1d3172b95fc79ac079eeeb177b661"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/birch.json"
+hash = "ecfec9142cbc52a38255ddb48ffd5b1fdc3bcbeda99ec85e45dd6a2ef068c95b"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/cherry.json"
+hash = "c955f40467c7f4af1755e91abfc7e6bb3f9e1a5de721da83c23d2055efaa7fbe"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/dark_oak.json"
+hash = "35bcc1c7d304224715a0dec987a9088c713b7edaea2d8c76a1920e5a70fe2d76"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/jungle.json"
+hash = "71758a083b9f2c0e84f1257b91d5f44d0270b4f9c573a985284844f8bda0eb4b"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/mangrove.json"
+hash = "1acab6cb04e4e5265ca795d5e96917a905ea3162d47f3610a43bb46fccb61e79"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/oak.json"
+hash = "4b37a2704d8827234ec137b1fef6fa8ef050b1fad2c21006cf40e80c9ceeb94f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/minecraft/spruce.json"
+hash = "9557505a57014312c2d077aafd25fce115e4f86c8e546e439cab72197a635ef2"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/aspen.json"
+hash = "c65b2502c8397aa2b378d04e2ee2610cdbdc7a3e1596ae6f6ee88208ee6a3b1e"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/blue_wisteria.json"
+hash = "fbed2eb104829e84e1e13aa5e69038357d4d17a8af10c708fd54d29f5d57439a"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/cedar.json"
+hash = "6145495f352ef534dea6ab43454ac6ada6335dcb6f48ce6fe479c0a0364f7719"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/cypress.json"
+hash = "e89bf4e90b4b1a706182471a6d00710375a0510ed737a95e38ce8b1d9e5cd02d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/fir.json"
+hash = "6ed54e5a25a9173803d1038bbb648643fc791f15c153cc9914462cd1d51da235"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/ghaf.json"
+hash = "c7dd9e171b129ac2952f8229f4cd2bc7ef832b615b80a2f70f8f8231188018c3"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/joshua.json"
+hash = "2a8ccc90f8c0989f4119580fd2f0d3888a6fb60647b5840914149ed2a0dd559c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/larch.json"
+hash = "fc8dea0da2e99d8172858175774b71bcb7df2ffd23dd4a9c9c859ad8ed037d21"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/mahogany.json"
+hash = "b78eb5bee60866f4125616b833c441b2c19ca450a79d49a50b81823e5290d10d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/olive.json"
+hash = "4e4cab70d102e81602446bc4cda50f151f1175548d769f85a2586a0466dce550"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/orange_maple.json"
+hash = "a286bffdefa2887313d6c222f4b8640bc1283325cc41dca2e981cd5316c943be"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/palo_verde.json"
+hash = "a3e437e8935b69d492bcc666bb707bed9fb337efb683afbe201609d04f0e7b5e"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/pink_wisteria.json"
+hash = "d4a518f4747e236332ece23faa83c00d8e72af06f70cb940f30390e66620e85b"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/purple_wisteria.json"
+hash = "bd0552730830e203dc60065d945fe3f740767d342f09ee59cee3acb0e57d2639"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/red_maple.json"
+hash = "1391a5ea005036ec9baef2cba7faf04d6eea1b2b24283ffb9fb220a360655934"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/redwood.json"
+hash = "9771318ac8978c70b4e5f2e82b1369afdeb6733efe691d48f8a6b940da42ec1a"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/saxaul.json"
+hash = "1e858c3d6b1f333089f6bfbd4b38a4cc137d79cf1276a46bbb7283a1fb599f32"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/sugi.json"
+hash = "4733473815b62c144bc4f964ad5b7e6302e43f114838363c37f2bc488e6e0dbd"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/white_wisteria.json"
+hash = "e8f86d5aa28294f7fde7e072936ac0113e1f8300d55f816dfe422cb7753b5809"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/willow.json"
+hash = "84008297af7920a4149ae8a12ebed7f79ba45b54ee2a948e07206fe054ec1c28"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/loot_table/tree_drops/natures_spirit/yellow_maple.json"
+hash = "40a10407719c2c44b345ea8d54b0d9cb00a091ff9be6aa0a98b08107df0a3872"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/cypress.json"
+hash = "5e1856a5d3434afce86a6079266203416006e69364c4ece3f7476c1a0a40bfe1"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/dead.json"
+hash = "e11a7d6f4a32d4029006a4670747a5ebe2744af53fd34bc546ae1112acf4e685"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/empyreal.json"
+hash = "a01f48bc82d4ce761d3995b740b69e1d37af984a735d128a951c99426bcd1af9"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/fir.json"
+hash = "c85ed3597d6be5abf5dbdcf321f13aa12563495e2de7d1385e0da766058a6f92"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/flowering_oak.json"
+hash = "bbb36f3dee5e650d6af56f28c00d85fb7f197d99b0bda1271e0c16df33180c90"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/hellbark.json"
+hash = "af7d61e94258cd6925316687a3afa77ff5117fb349777d178ae6783411551b31"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/jacaranda.json"
+hash = "c30dd38f0ee327f7cda7beedbffce27aa9d2e4073b9fb7acc103a0bf1b3ab1e9"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/magic.json"
+hash = "7df70aab30dc372fb55045bda686bd750b221c98fe4fd7217fabeddfa106e99a"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/mahogany.json"
+hash = "55d74232d2970260dfb9889640ac2d18d4db430c4a0c7667e17d233e38a96191"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/orange_maple.json"
+hash = "f6e540b846995bb2e9d27390297883529d66bd76a02c94944af013f99ac6a0e3"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/origin.json"
+hash = "2b1b24b1d86a3c2fcf1f6505fd10640e7009decc3ab731081e7f05d944ba6cc2"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/palm.json"
+hash = "39826e7bbaa0af89f8e72600eb780b53e81c2150e75098f5dcef9110a79410f0"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/pine.json"
+hash = "354d8870a929d855ef2e2b355419b85dde626ead2c348117d16dcc4dedfdbbf3"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/rainbow_birch.json"
+hash = "ce2e75b4f712e0753e7299177881ae205e6d2a00ad57df625868008a491ea913"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/red_maple.json"
+hash = "93e5a74ac17548b655bc9cc5877a3d2b57c13f5b3e24d6148972588859d4c65d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/redwood.json"
+hash = "8a3b04b03d23e9f67d835f025926df33a30a82cfbee5b2261032c3dd8fb9c8f8"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/snowblossom.json"
+hash = "548bb1150cb499a3470fe87121dd1c6b2169cd786714d9b661a17684176ba92f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/umbran.json"
+hash = "ba622c68c0076a8978d9e56923d02e2a3f27f49b576e3fd4efa8d3729f08741c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/willow.json"
+hash = "4c6fce56b31d05bf664df91792c81225621b20bff76bd2c473d94741050dbe06"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/biomesoplenty/yellow_maple.json"
+hash = "6356a392be3f7e16d8a8d36a97e668984137f2f6022b0c3e45d61210f4455a7f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/acacia.json"
+hash = "1bddebf490a67e28decadef7e26ce735c0e016eea2541f6f9744af65ebc6fbb2"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/birch.json"
+hash = "dc6d469ef6e0ec410a9985ddeb5d6c0af2993f4a9734a0b0d6d012f220ba2472"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/cherry.json"
+hash = "b28da14a61d00c47d7dc6c1a1c17c016ed92d6335b8223744ac8475b018a1346"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/dark_oak.json"
+hash = "48e88b2674f0c8a88074081818e9d41a740c887e49bb525591bbe270da595e9b"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/jungle.json"
+hash = "8b6ee797bebd9cfcfa1b53370fcf57fa1467c83afee4f4dd7cbd4e6e1a3f96aa"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/mangrove.json"
+hash = "64dc7fa142711dca11938bd6762e5a8997221c8ffc22edca68b9bfb05c58983d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/oak.json"
+hash = "f9b99058c518f5cca38b74c2f051477f2cd59d0d6a3aeebb6e4a5a3cfd5ea723"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/minecraft/spruce.json"
+hash = "a12e707ff0ce2cf7772b8ed41743ab5e1c78a2c38b0088256958689dbd052202"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/aspen.json"
+hash = "0e3e19d72065f357fc0be95b3cbc067429aea4d0fd00e973ced18067171f596d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/blue_wisteria.json"
+hash = "80486b463c9aae0006d09fef41510ed0cf0ae0d8e96e7912c4c23ca6d95b2688"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/cedar.json"
+hash = "22acc8eb0cd5cca28eb2d9b537034b58a4acf0516882e8832bd2de47f5b3ec07"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/cypress.json"
+hash = "a5e35234e0b690fb1efa29e665d7e21b337ffa8eac5ac3f9a3dce97035b9ebc2"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/fir.json"
+hash = "1261a804126a499a4e3a77b2a1948f8bb47579b2467c12deda0aa5e040f5330d"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/ghaf.json"
+hash = "c85caeb3be8a5f17d603e974529c5a9bcf4f85b40389053f12946bbc78f10250"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/joshua.json"
+hash = "6d3d6a189cfd10da273bdec98edc2fa1bc5b25a452c1c4c06df09e058b3c7c79"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/larch.json"
+hash = "5eed4ab8144725133b305be63676c65a22d42615e7417fd0ba885fd6665681e0"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/mahogany.json"
+hash = "9543523d25c4faa41f52d4e140fc0979180472139df52a0290a7153601d4b726"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/olive.json"
+hash = "f5d6f51efab983372e54516adbc1917cc066fd3a2c165350ae4d6ceb4843c660"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/orange_maple.json"
+hash = "72db7db54f5b03df5a092add43f7203a4d03c48eeafda24c0309fe92bb4735f4"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/palo_verde.json"
+hash = "c4db2b0ea3ea20e9c6412e1d32614a7f2cdd631ba52d84806b5954cc55667991"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/pink_wisteria.json"
+hash = "39a3aa5e2c5c5c7677a96b9feb7a70bd6ba5d537369240f563957e102e430863"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/purple_wisteria.json"
+hash = "9f060f132e810759d76c690a76c968cd203daca79a8a153367007a41a7d51f32"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/red_maple.json"
+hash = "5614f92cd9051f8379ae85d9f7e5f257967f95b72dbbc155c68b0dd9a22fcf1f"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/redwood.json"
+hash = "1137d145e65759a1764b8f4690b0993165556b9b486694b059b75938a5105ad8"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/saxaul.json"
+hash = "f20c67ac9c9820459260f81368b20a9da7569fa0eb4713fd23ea47d46c40efee"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/sugi.json"
+hash = "eeadfc6e99032345ad2a92db62b442ad41c944fa7ae0983ae79092cc99fa86eb"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/white_wisteria.json"
+hash = "ce51a8e5366084d4b147d4485df84872269e691a09481bdb75fd85f612c52f16"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/willow.json"
+hash = "9c5cb17debc4a542c1dcf2a47b782c58ec0f6ddceb5d4463bec89917a7e6501c"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/data/botanytrees/recipe/natures_spirit/yellow_maple.json"
+hash = "0866c6e9bb1dfa85b6b68bb131d38e79dd58f992a96f837d5b6e665efb3f36da"
+
+[[files]]
+file = "config/paxi/datapacks/YardResources/pack.mcmeta"
+hash = "64c4707afe41d5b154a5c80dac88b5bbddf515b9ea45cc02f6abc586d2812aab"
+
+[[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
