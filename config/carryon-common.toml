@@ -64,7 +64,7 @@
 	#Entities that CAN be picked up (useWhitelistEntities must be true)
 	allowedEntities = []
 	#Blocks that CAN be picked up (useWhitelistBlocks must be true)
-	allowedBlocks = ["armourers_workshop:skinnable"]
+	allowedBlocks = ["armourers_workshop:skinnable", "#c:chests", "#chipped:barrel", "#storagedrawers:drawers", "#c:villager_job_sites", "minecraft:budding_amethyst", "minecraft:spawner"]
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)
 	allowedStacking = []
 

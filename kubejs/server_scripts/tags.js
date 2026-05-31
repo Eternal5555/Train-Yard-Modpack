@@ -1,5 +1,10 @@
 // priority: 2
 
+const custom_semaphore_pole = [
+	"#decorative_blocks:palisades",
+	"#minecraft:walls",
+];
+
 ServerEvents.tags("item", (event) => {
 	//SophisticatedBackpacks
 
@@ -27,17 +32,17 @@ ServerEvents.tags("item", (event) => {
 		"sophisticatedbackpacks:blasting_upgrade",
 		"sophisticatedbackpacks:auto_smelting_upgrade",
 		"sophisticatedbackpacks:auto_smoking_upgrade",
-		"sophisticatedbackpacks:auto_blasting_upgrade"
+		"sophisticatedbackpacks:auto_blasting_upgrade",
 	]);
 
 	event.remove("armourers_workshop:skinnable/backpacks", [
 		"sophisticatedbackpacks:diamond_backpack",
-		"sophisticatedbackpacks:backpack"
+		"sophisticatedbackpacks:backpack",
 	]);
 
 	event.remove("curios:back", [
 		"sophisticatedbackpacks:diamond_backpack",
-		"sophisticatedbackpacks:backpack"
+		"sophisticatedbackpacks:backpack",
 	]);
 
 	event.remove("accessories:all_curios_items", [
@@ -52,7 +57,7 @@ ServerEvents.tags("item", (event) => {
 		"ae2:portable_fluid_cell_4k",
 		"ae2:portable_fluid_cell_16k",
 		"ae2:portable_fluid_cell_64k",
-		"ae2:portable_fluid_cell_256k"
+		"ae2:portable_fluid_cell_256k",
 	]);
 
 	//Other?
@@ -60,7 +65,7 @@ ServerEvents.tags("item", (event) => {
 	event.add("c:backpack_material", [
 		"minecraft:hay_block",
 		"supplementaries:flax_block",
-		"kubejs:stored_canvas"
+		"kubejs:stored_canvas",
 	]);
 
 	event.remove("c:wires/copper", ["tfmg:copper_wire"]);
@@ -72,7 +77,7 @@ ServerEvents.tags("item", (event) => {
 	event.add("c:wooden_mechanism_casing_material", [
 		"minecraft:bowl",
 		"handcrafted:wood_bowl",
-		"natures_spirit:coconut_shell"
+		"natures_spirit:coconut_shell",
 	]);
 
 	event.add("c:saltstones", ["minecraft:basalt", "dndecor:gabbro"]);
@@ -83,7 +88,7 @@ ServerEvents.tags("item", (event) => {
 
 	event.add("c:plates/certus_quartz", [
 		"kubejs:certus_quartz_plate",
-		"kubejs:charged_certus_quartz_plate"
+		"kubejs:charged_certus_quartz_plate",
 	]);
 });
 
@@ -99,7 +104,7 @@ ServerEvents.tags("fluid", (event) => {
 		"kubejs:uranium_hexafluoride",
 		"kubejs:enriched_uranium_hexafluoride",
 		"kubejs:fluorine",
-		"kubejs:hydrogen_fluoride"
+		"kubejs:hydrogen_fluoride",
 	]);
 
 	event.add("tfmg:flammable", [
@@ -107,7 +112,7 @@ ServerEvents.tags("fluid", (event) => {
 		"kubejs:oxygen",
 		"kubejs:ethylene_oxide",
 		"kubejs:ethyl_chloride",
-		"kubejs:tetraethyllead"
+		"kubejs:tetraethyllead",
 	]);
 
 	event.add("c:single_additive_fuel", ["kubejs:single_additive_fuel"]);
@@ -123,16 +128,23 @@ ServerEvents.tags("fluid", (event) => {
 		"kubejs:triple_additive_fuel",
 		"kubejs:superheated_crude_oil",
 		"kubejs:treated_crude_oil",
-		"kubejs:residual_fuel_oil"
+		"kubejs:residual_fuel_oil",
 	]);
 
 	event.add("c:fuel", [
 		"kubejs:single_additive_fuel",
 		"kubejs:double_additive_fuel",
-		"kubejs:triple_additive_fuel"
+		"kubejs:triple_additive_fuel",
 	]);
 
 	//Other
 });
 
-console.info('Tags sucessfully loaded!')
+ServerEvents.tags("block", (event) => {
+	//Custom semaphore pole blocks (defined in the array at top of script)
+	custom_semaphore_pole.forEach((item) => {
+		event.add("railways:semaphore_poles", item);
+	});
+});
+
+console.info("Tags sucessfully loaded!");

@@ -1,0 +1,13 @@
+name = "Create CROWNS: Reindustrialized (a.k.a. CROWNS x TFMG)"
+filename = "CROWNS Reindustrialized v1.0.1 - 1.21.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gVLMUP63/versions/m3fSIIWx/CROWNS%20Reindustrialized%20v1.0.1%20-%201.21.1.zip"
+hash-format = "sha512"
+hash = "8dce0e2bcb35178c03f8eb2b77b69cc8f4afc1986d56e3ea439e9566c94cedf32c6fa7cede0e6e5251803e8fa217d6a314fb9a05fa5cde5f7d971c03c0118316"
+
+[update]
+[update.modrinth]
+mod-id = "gVLMUP63"
+version = "m3fSIIWx"
