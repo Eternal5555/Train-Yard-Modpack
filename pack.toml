@@ -1,12 +1,12 @@
 name = "Train Yard Season 3"
 author = "EternalBlade55"
-version = "3.0.7.ALPHA_build.13"
+version = "3.0.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0db3aef526424b5179111da1ed58814d4f94870e0abbd63d0a5d4c22059873fc"
+hash = "5134dce3a747e64d55ca4f5f6de7e5eaf6dd576b7c711260ef393ec655102949"
 
 [versions]
 minecraft = "1.21.1"

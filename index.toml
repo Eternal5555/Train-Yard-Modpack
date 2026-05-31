@@ -294,7 +294,7 @@ hash = "2acb25707b538f46d1571f6de52e5336ad408aed5df268f44f8c238d653fe3e1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "81400414b8edc1d9eb0f5a327e1d36eecc80aae4432fad4b5f2616b210f2ef3c"
+hash = "55ce88589c0083b606c55503724dba4fb33f51019c7a85dbd7242ee1899e2b63"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -306,7 +306,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "2aad4c832332133b84c024a360338de9691d95c2f54d9399d32008efadd87f97"
+hash = "0e226c10337b059bc374b9e45dc79e98a6f5c139396f8e2cf1962f7f92d1ea53"
 
 [[files]]
 file = "config/fancymenu/panoramas/6.png"
