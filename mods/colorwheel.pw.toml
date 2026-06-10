@@ -1,13 +1,13 @@
 name = "Colorwheel"
-filename = "colorwheel-neoforge-1.1.1+mc1.21.1.jar"
+filename = "colorwheel-neoforge-1.2.8+mc1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/BzHgFoGz/versions/2VaQzS9X/colorwheel-neoforge-1.1.1%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/BzHgFoGz/versions/OmizNLia/colorwheel-neoforge-1.2.8%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "a51d2eb4f6a8b8f741d22f43c94588096bb7c06ae19792c4ec7888caaff4a8c2cfc5cddb01d5d35910bb04d341667565add7e702b41c2804833f7e938903b2e1"
+hash = "ef1eec8e9347299d59465e935221cfbc3df8f63d4f76792016ef36ae5d779695fe5bf98c0f339e9013d1362341d53ae68bd61177c8d4703224492e097490bf76"
 
 [update]
 [update.modrinth]
 mod-id = "BzHgFoGz"
-version = "2VaQzS9X"
+version = "OmizNLia"

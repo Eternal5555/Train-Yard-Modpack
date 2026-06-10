@@ -159,30 +159,30 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 			'createaddition:zinc_sheet'
 		])*/
 
-	//DesignAndDecor
+	//DesignAndDecor (Blocks no longer in mod)
 
-	event.remove([
-		"dndecor:lead_cross_bolt",
-		"dndecor:lead_dash_bolt",
-		"dndecor:lead_dot_bolt",
-		"dndecor:lead_flat_bolt",
-		"dndecor:aluminum_cross_bolt",
-		"dndecor:aluminum_dash_bolt",
-		"dndecor:aluminum_dot_bolt",
-		"dndecor:aluminum_flat_bolt",
-		"dndecor:nickel_cross_bolt",
-		"dndecor:nickel_dash_bolt",
-		"dndecor:nickel_dot_bolt",
-		"dndecor:nickel_flat_bolt",
-		"dndecor:steel_cross_bolt",
-		"dndecor:steel_dash_bolt",
-		"dndecor:steel_dot_bolt",
-		"dndecor:steel_flat_bolt",
-		"dndecor:cast_iron_cross_bolt",
-		"dndecor:cast_iron_dash_bolt",
-		"dndecor:cast_iron_dot_bolt",
-		"dndecor:cast_iron_flat_bolt",
-	]);
+	// event.remove([
+	// 	"dndecor:lead_cross_bolt",
+	// 	"dndecor:lead_dash_bolt",
+	// 	"dndecor:lead_dot_bolt",
+	// 	"dndecor:lead_flat_bolt",
+	// 	"dndecor:aluminum_cross_bolt",
+	// 	"dndecor:aluminum_dash_bolt",
+	// 	"dndecor:aluminum_dot_bolt",
+	// 	"dndecor:aluminum_flat_bolt",
+	// 	"dndecor:nickel_cross_bolt",
+	// 	"dndecor:nickel_dash_bolt",
+	// 	"dndecor:nickel_dot_bolt",
+	// 	"dndecor:nickel_flat_bolt",
+	// 	"dndecor:steel_cross_bolt",
+	// 	"dndecor:steel_dash_bolt",
+	// 	"dndecor:steel_dot_bolt",
+	// 	"dndecor:steel_flat_bolt",
+	// 	"dndecor:cast_iron_cross_bolt",
+	// 	"dndecor:cast_iron_dash_bolt",
+	// 	"dndecor:cast_iron_dot_bolt",
+	// 	"dndecor:cast_iron_flat_bolt",
+	// ]);
 
 	//Other
 
