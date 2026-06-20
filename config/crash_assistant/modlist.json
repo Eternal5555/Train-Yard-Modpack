@@ -1127,13 +1127,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "open-parties-and-claims-neoforge-1.21.1-0.26.2.jar": {
-    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.26.2.jar",
+  "open-parties-and-claims-neoforge-1.21.1-0.27.5.jar": {
+    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.27.5.jar",
     "modId": "openpartiesandclaims",
     "name": "Open Parties and Claims",
-    "version": "0.26.2",
-    "curseForgeHash": 3035047011,
-    "modrinthHash": "fa16d80d0805eb4c2998bbe0e4eec5185f53c21d"
+    "version": "0.27.5",
+    "curseForgeHash": 2654694151,
+    "modrinthHash": "72a83713417b82bcd66f4b1fbe0adaa5f43e363b"
   },
   "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar": {
     "jarName": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
@@ -1654,13 +1654,13 @@
     "curseForgeHash": 1573873399,
     "modrinthHash": "1e26a8ea18cf133fffd900dce5c3393ee2f81e6c"
   },
-  "xaerominimap-neoforge-1.21.1-25.3.13.jar": {
-    "jarName": "xaerominimap-neoforge-1.21.1-25.3.13.jar",
+  "xaerominimap-neoforge-1.21.1-26.1.0.jar": {
+    "jarName": "xaerominimap-neoforge-1.21.1-26.1.0.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "25.3.13",
-    "curseForgeHash": 1593901604,
-    "modrinthHash": "06cdb37f394bdbebce94c64644ae4bc21bd98959"
+    "version": "26.1.0",
+    "curseForgeHash": 859146392,
+    "modrinthHash": "8def3c4be129420700d6fe325abe3a6b6fbe3e18"
   },
   "xaerotrainmap-1.0.0.jar": {
     "jarName": "xaerotrainmap-1.0.0.jar",
@@ -1670,13 +1670,13 @@
     "curseForgeHash": 1985788456,
     "modrinthHash": "4b9d3a53247b2f3977e32b246be5aeb131504eae"
   },
-  "xaeroworldmap-neoforge-1.21.1-1.40.16.jar": {
-    "jarName": "xaeroworldmap-neoforge-1.21.1-1.40.16.jar",
+  "xaeroworldmap-neoforge-1.21.1-1.41.0.jar": {
+    "jarName": "xaeroworldmap-neoforge-1.21.1-1.41.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.40.16",
-    "curseForgeHash": 2287221288,
-    "modrinthHash": "d0865b6153c4d0feaf1551fb5309884ec3568c03"
+    "version": "1.41.0",
+    "curseForgeHash": 639474524,
+    "modrinthHash": "4d300131aa08889745df829d0d86909f1575c131"
   },
   "XaeroZoomout-NeoForge-1.21-2.0.0.jar": {
     "jarName": "XaeroZoomout-NeoForge-1.21-2.0.0.jar",
