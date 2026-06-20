@@ -682,13 +682,13 @@
     "curseForgeHash": 2808038058,
     "modrinthHash": "9563692efb708b6b568df27a01ec52f6311928ef"
   },
-  "figura-0.1.5+1.21.1-neoforge-patched.jar": {
-    "jarName": "figura-0.1.5+1.21.1-neoforge-patched.jar",
+  "figura-0.1.6+1.21.1-neoforge-mc.jar": {
+    "jarName": "figura-0.1.6+1.21.1-neoforge-mc.jar",
     "modId": "figura",
     "name": "Figura",
-    "version": "0.1.5+1.21.1-158524d0",
-    "curseForgeHash": 3493749466,
-    "modrinthHash": "d3faade424dee0c8ecec068d73814f43d5c6049d"
+    "version": "0.1.6+1.21.1",
+    "curseForgeHash": 2454458140,
+    "modrinthHash": "8405ee52683307711961db8623201240f240f82e"
   },
   "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar": {
     "jarName": "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
@@ -1637,6 +1637,14 @@
     "version": "7.3.8+6939-7d32b45",
     "curseForgeHash": 683807693,
     "modrinthHash": "924fe181a29bd66be6783f6d589968ab0ee02250"
+  },
+  "WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT.jar": {
+    "jarName": "WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT.jar",
+    "modId": "worldeditcui",
+    "name": "WorldEditCUI",
+    "version": "1.21.1+01-SNAPSHOT",
+    "curseForgeHash": 1807615123,
+    "modrinthHash": "5ed7b0950b0f3187d874d90fd9fed6828084cc53"
   },
   "wwoo-2.3.4.jar": {
     "jarName": "wwoo-2.3.4.jar",

@@ -553,7 +553,7 @@ element {
 
 element {
   interactable = true
-  source = Train Yard Modpack 3.0.7
+  source = Train Yard Modpack 3.0.8.ALPHA_build.2
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -590,7 +590,7 @@ element {
   anchor_point_element = minecraft_branding_widget
   x = -3
   y = -12
-  width = 132
+  width = 210
   height = 14
   stay_on_screen = false
   element_loading_requirement_container_identifier = c7d74d4e-bea0-4cc5-9466-f9a171a97784-1740785923815

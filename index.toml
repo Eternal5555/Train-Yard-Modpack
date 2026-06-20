@@ -134,7 +134,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "a69b031558622d0318a6162806a828fa89bdb417a9a4114f5f320e0c6e4ab641"
+hash = "43555fa85d11f5a3a04c959508f9fe71bbd384abd924b524896af6c1ac872741"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -294,7 +294,7 @@ hash = "2acb25707b538f46d1571f6de52e5336ad408aed5df268f44f8c238d653fe3e1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "932d6a642c5097e7f34fb307e74282aa99448b7c6da6f1785f1c764504f5c2ed"
+hash = "de4a5d8956ebfd06fa3717250eaa41429811bacbd40a84545d73fb9cf0f85c69"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2084,8 +2084,8 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/figura-patched.pw.toml"
-hash = "1b60769f7f98ed73665ce4f8206dd045f1d34f4c9f9a48ff1b3bce4f86e4226f"
+file = "mods/figura.pw.toml"
+hash = "eedcb7fff4e1e6e1e9b81920521277596b0907b0de377f06dc306d2d6624c69d"
 metafile = true
 
 [[files]]
