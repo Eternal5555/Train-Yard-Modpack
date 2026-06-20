@@ -46,7 +46,7 @@ hash = "eb8418b22d8e2103bf879ef77dcbd8e1347ac2f088b893c4dbae9fd528f05f50"
 
 [[files]]
 file = "config/artifacts/items.toml"
-hash = "4ad2b5325a9ddd32792b0cca532ab88914ae0c85aef8f5f56db8f5e75609bc28"
+hash = "b174fa8889a6a0835dd0f0753d9d349cd443bee51c8944a312c6adf7da58ed9d"
 
 [[files]]
 file = "config/arts_and_crafts-common.toml"

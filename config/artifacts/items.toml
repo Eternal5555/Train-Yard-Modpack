@@ -152,7 +152,7 @@
 	cooldown = 15
 	#Whether the Eternal Steak can be eaten
 	#Allowed Values: true, false
-	enabled = true
+	enabled = false
 
 [everlasting_beef]
 	#The duration in seconds the Everlasting Beef goes on cooldown for after being eaten
@@ -160,13 +160,13 @@
 	cooldown = 15
 	#The probability that Everlasting Beef drops when a cow or mooshroom is killed by a player
 	#Range: 0.0 ~ 1.0
-	dropRate = 0.002
+	dropRate = 0.000
 	#Whether the Everlasting Beef can be eaten
 	#Allowed Values: true, false
-	enabled = true
+	enabled = false
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed
