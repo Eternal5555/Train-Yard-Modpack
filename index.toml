@@ -77,6 +77,10 @@ file = "config/carryon-common.toml"
 hash = "1a96294219115d47fc429b157f81caeb3ec87d128aee0c5240195885937eab4a"
 
 [[files]]
+file = "config/cmverticaladditions-client.toml"
+hash = "fa55df7283aee4c9e9aa672db79cfb826aaa24cb3a8107cfe9f15f5f19f88abd"
+
+[[files]]
 file = "config/computercraft-client.toml"
 hash = "db7bbdc89ab05070b2a4c22f6348b0c80aca4a3c449d92cdc6bc56b5af25ff7b"
 
@@ -134,7 +138,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "245bd825c92212de380056fdf4a29d2d4ef62a6da13726b2eb817f415144a0e4"
+hash = "487f6793cadc15a784c3003730515aa2aff6fd1ec6f7a0ecd9791ea984a47570"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1936,6 +1940,11 @@ metafile = true
 [[files]]
 file = "mods/create-mechanical-extruder.pw.toml"
 hash = "d9225b81ab77d2d312cbce47d220fc342179d9081a6a4cf831f36184f6a62258"
+metafile = true
+
+[[files]]
+file = "mods/create-more-vertical-additions.pw.toml"
+hash = "939f0de84b51b0038cdaf003aa467ad46a3c408afc2633a76a1acda6f908be58"
 metafile = true
 
 [[files]]

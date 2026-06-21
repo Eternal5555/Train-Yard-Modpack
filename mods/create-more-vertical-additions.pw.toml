@@ -1,0 +1,13 @@
+name = "Create More: Vertical Belts"
+filename = "cmverticaladditions-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Byw6UAEI/versions/5shQIpga/cmverticaladditions-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "f45f1d38a4eaf8c41cf14735545e681bc429b404e68e829d1f3510f423707e72ee915c7e63768523c78d87cd3a3aa31db1c6a9859259371c7c7fc5cfa8249b56"
+
+[update]
+[update.modrinth]
+mod-id = "Byw6UAEI"
+version = "5shQIpga"

@@ -285,6 +285,14 @@
     "curseForgeHash": 2871381177,
     "modrinthHash": "fa2576297c7bd12b28aa7070e8141792bd66da4c"
   },
+  "cmverticaladditions-neoforge-1.0.0.jar": {
+    "jarName": "cmverticaladditions-neoforge-1.0.0.jar",
+    "modId": "cmverticaladditions",
+    "name": "Create More: Vertical Belts",
+    "version": "1.0.0",
+    "curseForgeHash": 208732089,
+    "modrinthHash": "faf3ed076269d27fcabaffae345cf309d1d7f16a"
+  },
   "colorwheel-neoforge-1.2.8+mc1.21.1.jar": {
     "jarName": "colorwheel-neoforge-1.2.8+mc1.21.1.jar",
     "modId": "colorwheel",
