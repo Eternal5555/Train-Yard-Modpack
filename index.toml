@@ -893,6 +893,11 @@ file = "config/paxi/resourcepacks/YardResources/pack.mcmeta"
 hash = "d21bfd050221438a1727b812c1c2c7c92d409ba6ebd1efd2516644308c5317d3"
 
 [[files]]
+file = "config/paxi/resourcepacks/colorful-nixies.pw.toml"
+hash = "ed2166f7dbd018b50025041a56ac4c4708b9176385c01e3eb4a6ebf7e1aa34a9"
+metafile = true
+
+[[files]]
 file = "config/paxi/resourcepacks/create-immersive-aircrafts.pw.toml"
 hash = "cc5dff9306eee6c936f802113cc121b6c2a5b449b7d9176bec8c918a5d2a3025"
 metafile = true
