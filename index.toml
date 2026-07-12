@@ -382,7 +382,7 @@ hash = "92b13601e5e3a9016c0be5b932b585ea74929dd231b1a9bba3fa8daddc405a7b"
 
 [[files]]
 file = "config/itemphysic.json"
-hash = "02248caee6f6567e43971438858cd639ad22d0e910c1d907ea92473830c2fe90"
+hash = "98a23319087b5489978efbe39e7a4c71090ecffc4f86be3251af55c1f08b0212"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -1622,7 +1622,7 @@ hash = "d8f7635b0eabcb0f7e2235f50cffd0fd0d8632229fdf0063ffd7f4959b16ef65"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "9e11ae2ef883aad265c3d6ab65394c4ff3401ff40a66eed8ab971246913d1a21"
+hash = "653082157aeef8fc8e56569033bc510a5c2217d17e4abfd17da32a6f8987a62d"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
