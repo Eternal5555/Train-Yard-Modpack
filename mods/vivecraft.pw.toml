@@ -1,13 +1,13 @@
 name = "Vivecraft"
-filename = "vivecraft-1.21.1-1.3.9-neoforge.jar"
+filename = "vivecraft-1.21.1-1.3.15-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/wGoQDPN5/versions/D20p9MIc/vivecraft-1.21.1-1.3.9-neoforge.jar"
+url = "https://cdn.modrinth.com/data/wGoQDPN5/versions/LjqlbRAO/vivecraft-1.21.1-1.3.15-neoforge.jar"
 hash-format = "sha512"
-hash = "839c35dec932d2290797e16e82fd884ecb95ce2b38f4a21585d3e84925963a19430e4c517b32f7d771981e99c86291abbea0a8c9ecccadfddfb6bcc79f984f54"
+hash = "c37acbd6adf71d0f60924caceaa16e2614594586fb077de6d21467d18c1832911c7db8f96ec063e69bcf87236e58cbdef500f9733cc14b9a082fed1f82a886d7"
 
 [update]
 [update.modrinth]
 mod-id = "wGoQDPN5"
-version = "D20p9MIc"
+version = "LjqlbRAO"

@@ -1,13 +1,13 @@
 name = "e4mc"
-filename = "e4mc-neoforge-6.1.0.jar"
+filename = "e4mc-neoforge-6.2.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/rXxApWSO/e4mc-neoforge-6.1.0.jar"
+url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/B3hKbv2R/e4mc-neoforge-6.2.1.jar"
 hash-format = "sha512"
-hash = "6dfe220b7a07a4c7052c5c3b61f7d3bca76293ca896cc4115d775261ca64c9953efac9549b8697d89263046bf95d041791cd0cf2ceba6bb6114bea4c41429021"
+hash = "88cbcbc95b46bc518deb1c9a8c821c7cdfa01c1cdd8a3a255b9b99778a61440e84ee05d96d4fab994f96439aead8f31d9be949e0b932a3f8380c6f9865d85f40"
 
 [update]
 [update.modrinth]
 mod-id = "qANg5Jrr"
-version = "rXxApWSO"
+version = "B3hKbv2R"
