@@ -1915,7 +1915,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-electro-energetics.pw.toml"
-hash = "03dc9511506fd3dffe11e58c3c383b89bb9a35973964a6020b891edf2b4fb038"
+hash = "f809ef038d1f0f24389fbe581f672ed85b5e4ac6053eb4cf1f9d83b93930068b"
 metafile = true
 
 [[files]]
@@ -2436,11 +2436,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
-metafile = true
-
-[[files]]
-file = "mods/power-grid.pw.toml"
-hash = "1c5522db3b8327e889b0ec6fe8569c4f864b8515a5f1cf439c4bae86a86234e2"
 metafile = true
 
 [[files]]
