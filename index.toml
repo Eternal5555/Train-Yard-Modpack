@@ -970,7 +970,7 @@ hash = "63ba7034fdf1f45f1b40798d3212f8d838f7c299fbe5795075fbafe1e2265192"
 
 [[files]]
 file = "config/simplefog.json"
-hash = "26a9bf80369a401b1a41da7158b618a5964c0f2cda3e12fef1e5e7348df2722f"
+hash = "64b5c0abd57fc3c94b7ce134ef129220d659727297bcd3bc340152ff0dfdbdee"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -2013,6 +2013,11 @@ hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
 metafile = true
 
 [[files]]
+file = "mods/death-keeper.pw.toml"
+hash = "28e5006830371ae54593597d26392df4619f0c15b3176769db902dbbbe1d7fbc"
+metafile = true
+
+[[files]]
 file = "mods/decorative-blocks-reborn.pw.toml"
 hash = "5c33ee84c17b3653307605c63a541d0e164fe58ec45dfcfe8e215a3ecf0d6033"
 metafile = true
@@ -2030,6 +2035,11 @@ metafile = true
 [[files]]
 file = "mods/e4mc.pw.toml"
 hash = "cfbd7a92f45f86525943cb057927def356fe9f579e4ddb48bb24c897233136ca"
+metafile = true
+
+[[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
 metafile = true
 
 [[files]]
