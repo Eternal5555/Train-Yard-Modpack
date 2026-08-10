@@ -970,7 +970,7 @@ hash = "63ba7034fdf1f45f1b40798d3212f8d838f7c299fbe5795075fbafe1e2265192"
 
 [[files]]
 file = "config/simplefog.json"
-hash = "26a9bf80369a401b1a41da7158b618a5964c0f2cda3e12fef1e5e7348df2722f"
+hash = "64b5c0abd57fc3c94b7ce134ef129220d659727297bcd3bc340152ff0dfdbdee"
 
 [[files]]
 file = "config/sodium-extra-options.json"
