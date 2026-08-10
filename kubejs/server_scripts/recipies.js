@@ -9371,3 +9371,4 @@ function bowl(food) {
 bowl("kubejs:wooden_mechanism");
 
 console.info("Recipies Loaded.")
+console.info("Walter is a madman")
