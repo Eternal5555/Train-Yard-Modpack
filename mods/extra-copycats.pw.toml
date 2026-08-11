@@ -1,0 +1,13 @@
+name = "Create: Extra Copycats"
+filename = "extra_copycats-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KEG1fY2H/versions/xDN9lyTb/extra_copycats-1.0.2.jar"
+hash-format = "sha512"
+hash = "18c1957861729572dc90f03c3227c83d168692075ce79487476499cd61fdb7e1bc51f7589c7ebb07e20a27a84f17eddccf158a57a2a8dad95bf1034df23483a1"
+
+[update]
+[update.modrinth]
+mod-id = "KEG1fY2H"
+version = "xDN9lyTb"

@@ -1,0 +1,38 @@
+#.
+#Whether to enable collisions between trains. Improves server performance. (Ignored in Singleplayer)
+trainCollisions = true
+#.
+#Introduces a cache for items that cannot be used in filling recipes.
+cacheUnfillableItems = true
+#.
+#Allows players to lock train disassembly for individual trains. (Ignored in Singleplayer)
+lockTrainDisassembly = true
+#.
+#Increases max ETA time shown for Scheduled Trains on Display Boards from 10 mins to 60 mins
+increaseMaxETATime = true
+
+#.
+#Train Motion Tweaks
+[train_motion_tweaks]
+	#.
+	#.
+	#Should regular Players be allowed to change a Trains max speed. (Ignored in Singleplayer)
+	canPlayerChangeMaxSpeed = true
+	#.
+	#Should regular Players be allowed to change a Trains acceleration. (Ignored in Singleplayer)
+	canPlayerChangeAcceleration = true
+	#.
+	#Top speed multiplier for fast Trains.
+	# Default: 1.5
+	# Range: 1.0 ~ 3.4028234663852886E38
+	fastTopSpeedMultiplier = 1.5
+	#.
+	#Acceleration multiplier for slow Trains.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	slowAccelerationMultiplier = 0.5
+	#.
+	#Acceleration multiplier for fast Trains.
+	# Default: 1.25
+	# Range: 1.0 ~ 3.4028234663852886E38
+	fastAccelerationMultiplier = 1.25
