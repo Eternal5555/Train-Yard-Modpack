@@ -157,6 +157,10 @@ file = "config/create-server.toml"
 hash = "8dcdaa87af9d63ae8363a62e1d690e9276b6bf5ff5bc332f1e6cdb00d51ec05d"
 
 [[files]]
+file = "config/create_configured-server.toml"
+hash = "2def81a2c413fc2e902a70bd0ad5213cfd70ad4e6ee325f4aa531388032166ed"
+
+[[files]]
 file = "config/create_connected-common.toml"
 hash = "b0b2d3d1f5760445b8e312aaddd73a138ddd9523e84f5360c95e9a7803c86f12"
 
@@ -1903,6 +1907,11 @@ hash = "b4259c4791ae275da76a9de81c91567bad2e11bf0a958212351b4998b05f47fb"
 metafile = true
 
 [[files]]
+file = "mods/create-configured.pw.toml"
+hash = "8dc6ec1f66b7cb45e3a23c42d3a720a0e66cd8a1f1723e5f5e832ab8ff0a1598"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
 metafile = true
@@ -2090,6 +2099,11 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
+metafile = true
+
+[[files]]
+file = "mods/extra-copycats.pw.toml"
+hash = "972cf82be646ff7dbf7c47d63a09e212d28d5113eff78d85ee831ec4c0c9a8c7"
 metafile = true
 
 [[files]]
