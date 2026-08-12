@@ -158,7 +158,7 @@ hash = "8dcdaa87af9d63ae8363a62e1d690e9276b6bf5ff5bc332f1e6cdb00d51ec05d"
 
 [[files]]
 file = "config/create_configured-server.toml"
-hash = "2def81a2c413fc2e902a70bd0ad5213cfd70ad4e6ee325f4aa531388032166ed"
+hash = "b042bc8ca0cf1e29845e6c52a72e4091da5c530a09983fd7eec118985ae22523"
 
 [[files]]
 file = "config/create_connected-common.toml"
