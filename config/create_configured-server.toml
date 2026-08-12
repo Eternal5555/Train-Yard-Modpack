@@ -3,7 +3,7 @@
 trainCollisions = true
 #.
 #Introduces a cache for items that cannot be used in filling recipes.
-cacheUnfillableItems = true
+cacheUnfillableItems = false
 #.
 #Allows players to lock train disassembly for individual trains. (Ignored in Singleplayer)
 lockTrainDisassembly = true
