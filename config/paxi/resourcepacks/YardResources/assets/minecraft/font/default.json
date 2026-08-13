@@ -27,6 +27,20 @@
 			"height": 9,
 			"ascent": 8,
 			"chars": ["\uF033"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/porter.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": ["\uF034"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/discord.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": ["\uF035"]
 		}
 	]
 }

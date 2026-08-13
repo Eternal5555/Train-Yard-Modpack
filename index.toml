@@ -878,11 +878,19 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/font/default.json"
-hash = "805ad20613bad95f6aaaa5f99fc2333e64914e72a63b2d4f8c41f73739a484a4"
+hash = "e6d7a6c3a57d236e3112a7e9f2e554cb3653652000963907b0296c024a340727"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/conductor.png"
 hash = "62ea45f3b21b716aad4edfb1d42d6f3a9a9f7988fcfe743577377f3fd181379d"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/discord.png"
+hash = "2f76a5a2350b88439a50f382f3fba74717fcc1ace527e0ca3fd980337b96d32d"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/porter.png"
+hash = "8d3091fee2a2ea6f00e0a74b8e5319975accbb33a03d1402c89cc1e096c3c21f"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/railop.png"
