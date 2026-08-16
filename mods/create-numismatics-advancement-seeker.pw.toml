@@ -1,0 +1,13 @@
+name = "Create: Numismatics Advancement Seeker"
+filename = "numismatics_advancement_seeker-0.5.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/95xY0Tz3/versions/3BMteM6l/numismatics_advancement_seeker-0.5.0.jar"
+hash-format = "sha512"
+hash = "4a8174273743e120daee086a798d48dba2aa9b7e655c3dd44982b225c995ad1b1df89ae6fc66edbcfe12e21919a80114a1670361e29cc66c7fffc6f81e5da11e"
+
+[update]
+[update.modrinth]
+mod-id = "95xY0Tz3"
+version = "3BMteM6l"

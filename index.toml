@@ -2182,6 +2182,11 @@ hash = "939f0de84b51b0038cdaf003aa467ad46a3c408afc2633a76a1acda6f908be58"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-advancement-seeker.pw.toml"
+hash = "ebaa65a3795513dee2ed09c14dce1c33230e9ad86368c5c922be9beb659fb92d"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
 metafile = true
@@ -2204,6 +2209,11 @@ metafile = true
 [[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "e04ae91b53c33f6a4dea9ebc82be4255a56460a9e095a3a1fd748434e5dfb3bb"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-market.pw.toml"
+hash = "3fbe8f34b2dee44337c7916b7a5d2e40ccf76b2d69767d84e639fd23421866d4"
 metafile = true
 
 [[files]]
@@ -2354,6 +2364,11 @@ metafile = true
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
 hash = "e70c20bf24819da470d25d8cfe9cd07d2fc4ace4de942e7bcd38f7a674a24b6c"
+metafile = true
+
+[[files]]
+file = "mods/fluidic-tanks.pw.toml"
+hash = "464e96fc5cd99ddf97c2691028261d9bb3554380ffc02d57838a3c4889afe73a"
 metafile = true
 
 [[files]]

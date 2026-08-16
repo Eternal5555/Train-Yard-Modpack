@@ -1,0 +1,13 @@
+name = "Fluidic Tanks"
+filename = "fluidic_tanks-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yAyrQXJ6/versions/991No08g/fluidic_tanks-1.1.1.jar"
+hash-format = "sha512"
+hash = "aced593ef1c018d1cb6807b8f2e6b1b6acb8cc4358e388fbed49bed7be798abeb2a5348a5382454e1b5d9595d7ba364b079ceab29f5b3b3b2d668f4a764c6161"
+
+[update]
+[update.modrinth]
+mod-id = "yAyrQXJ6"
+version = "991No08g"
