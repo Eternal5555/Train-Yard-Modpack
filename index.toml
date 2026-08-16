@@ -1113,6 +1113,134 @@ file = "kubejs/assets/ae2/textures/item/silicon_press.png"
 hash = "f58e6069c85676a6ebbd0c78303001b79ff3e03f8a4c7082a671690ff32aedd6"
 
 [[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_corner_bottom_left.png"
+hash = "4df26eff54c2916aea421d7288927ff7b987b502ec8cf5482baeede024826bb5"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_corner_bottom_right.png"
+hash = "f287dd4bc069675f95a2e051c567f2fbd0ecddfbac6271e403656d852b16eb18"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_corner_top_left.png"
+hash = "88156f45648ee100e90036f95fbd45e7557b95f5c2c524d33c57046418744465"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_corner_top_right.png"
+hash = "8be16fca34c3b8191ba5e7e125bda2a95d28abfe84e4a73642ed1873fa61b6fa"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_outline_bottom.png"
+hash = "978912302355fe00d566de163436ae0049c8b0a3df80fb55a4b19b0f8403cc0d"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_outline_left.png"
+hash = "611d3f45e85dce285a3c131df542abdb5197f837ead54e9c03550b2eabd412ab"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_outline_right.png"
+hash = "cf5018275fd057a80fc744c19105f039b313573e77bd939b67d84e8342c2bb7c"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/emerald_tank_outline_top.png"
+hash = "34e1582a663b4ff4a5a2e3931f86372f990e84b89296e5820ed91840007665e4"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_corner_bottom_left.png"
+hash = "0886e8e23c1f7e703aca8ff7d296e84474c56a2838ff5055dc51ee537d2b7ffa"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_corner_bottom_right.png"
+hash = "4c46be3f4cd703978fb5adfd6c2aab749fafaa828346b835281f88d4cd2980d3"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_corner_top_left.png"
+hash = "7dd01694ccba8275fbb3737706d234ef861d56ad5ef8b5448c18f14096fdc4e2"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_corner_top_right.png"
+hash = "eb4a5a9dc9c2e26982e409b2cb407368efdabc1e3926d2e16787051d2f40c613"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_outline_bottom.png"
+hash = "cb28c22a3478dfad7554e58d365b5544040fa2d224fee3a52dfb4df5166213de"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_outline_left.png"
+hash = "90a2735396be39e1561a804cbce4e69a134a359aa68a387ed209683d67bc9e60"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_outline_right.png"
+hash = "84afa2fd3e7d0e1c59ca3c688bf1ed3a632c61cb047f5fe2355d9ea84dee833a"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/gold_tank_outline_top.png"
+hash = "749af519b3c08d35bf5041cbb03fa48363b3a5757f6d6662b044c4bc547ea975"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_corner_bottom_left.png"
+hash = "71cf80f0ea4074c17d2b06d6619e9bdda8d75f89985895314993ee1b6d1264e6"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_corner_bottom_right.png"
+hash = "2c143272db344bfba9074882999508466c4238eaf663b93761dcac989f9282de"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_corner_top_left.png"
+hash = "f609fcd0eb09d69943e5e8d7e9d3459d7c46d98f0f6a1b408e02e5be407fb08e"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_corner_top_right.png"
+hash = "f1ba8ef4be232c6ba459c393f30f57cd6702cd73e40c9c2542b96822a25a74e1"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_outline_bottom.png"
+hash = "2bae16b8493983819b83d338a1f14662e52d0930710e6a7a0de42f3137d6d13b"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_outline_left.png"
+hash = "580766e6612358d0bef116df39255438ddf9aeb669e45e48b7317800ec846317"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_outline_right.png"
+hash = "637738954032f23a8dc63e0eaea90ae45d9d58f15a5ec06ab71ed1319445c8a1"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/iron_tank_outline_top.png"
+hash = "e7c5faf0a326f9a867ae23b98f90eaf65bd7e30d6d1d0d784056c0d591840dfb"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_corner_bottom_left.png"
+hash = "9748312d2dee737c2c6d625751019780c5767e245af32f7aa9211ddcee55275a"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_corner_bottom_right.png"
+hash = "f02bed40368220e404bf9b87cd39529297a364efe4d0825e3abae543536bfb31"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_corner_top_left.png"
+hash = "1997f8b5968da43cb00424d4f04c5d96de57acec0337364864b028096877cfcf"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_corner_top_right.png"
+hash = "b6758ecc2212118120a81373478919eff88296cc2ae2afe2d77ea1a85ad87c6f"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_outline_bottom.png"
+hash = "9c1aafb8ee4392918fba80fee52ed4f88dc63ad7cd85101322fa5b9df83658e9"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_outline_left.png"
+hash = "c6b01bb6275d0702e71029fdf66b8ca8b5efcb422317ba15c5b692863ef5c3b6"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_outline_right.png"
+hash = "99b52fd63d8a77468490fc789b43a3b4dcbed1a285d658f57939f2b15e17e0f3"
+
+[[files]]
+file = "kubejs/assets/fluidic_tanks/textures/block/tank_outline_top.png"
+hash = "3a6149e9e001d808e23ff8f458bffa1cc2ea0aa4841d0e0628a6da13e2b06965"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/item/chlorine_bucket.json"
 hash = "044febe42f14f287bb3932502bbdea6006540674df23e74bc2d723a4ebd9b6ca"
 
@@ -1153,12 +1281,24 @@ file = "kubejs/assets/kubejs/models/item/single_additive_fuel_bucket.json"
 hash = "fdd2ed55ea29327c6ac72b1f1d9d1f2e4532c43fe90c2bf64d27a75f0647f594"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/treated_steam_bucket.json"
+hash = "de89a6ba0ea8e0e12c0f842667d97556abad9e48cd9b7b978217af318b9ecca4"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/item/triple_additive_fuel_bucket.json"
 hash = "bc8195d5f42fbb7693de36bead40c3228fc0a6fbe32eba1d2e983f44b7a76b22"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/uranium_hexafluoride_bucket.json"
 hash = "289daaadc7bd3b8182ef7d39fcd84534c52b39e4fad316d71bd3b43cc5ae1d23"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/waste_steam_bucket.json"
+hash = "26254ecf10d07118bd03e934987563bfd603e6a316dbfcac6d251eba92f5d3b8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/charcoal_block.png"
+hash = "cd30f80653576bf4d3adb7bb2d59b304dbbc3ed863d1387a11d64aea8f8ad008"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/cobbled_asurine.png"
@@ -1277,6 +1417,10 @@ file = "kubejs/assets/kubejs/textures/item/calculation_inscribing_template.png"
 hash = "be3fa7c3e441857da643adb585219a9bb970267fa622f9d03e193643417393fc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/ceramic_filter.png"
+hash = "4651066b547228fb53c7ae108b82bdffdade43c937629ce542b35e957f231c8a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/certus_quartz_plate.png"
 hash = "38d76a0258383b8c9d1fee33b930fcad177423152f93adb31e47713c759fd19d"
 
@@ -1291,6 +1435,18 @@ hash = "3dabedf21495683dfa297fb3885cc9a0f5d4e960649b5969cf440809b4209236"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/coated_motherboard.png"
 hash = "4879326faf508223720c41c167a4f24761ee870c6f601d5faa7290381b8e90f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cooked_marshmallow.png"
+hash = "0e36f7411fb0f45a3f49a41a3ebeb9a592e313650fb467ad4f031e1c8b33295a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cooked_marshmallow_on_a_stick.png"
+hash = "aab24b82ce467fd938619087da5b3cdb6448504696012937a3c1d434b119b9ce"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cooked_sausage.png"
+hash = "4c1e3967c87507edca3760a2fb84c4c64bcd0a113c70c85197196e49314a922b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_raw_silver.png"
@@ -1361,8 +1517,24 @@ file = "kubejs/assets/kubejs/textures/item/fluorine_bucket.png"
 hash = "65f80cf914213129c0abd109a628b59e03d347bd7361dcb162069e361196dd6e"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/graham_cracker.png"
+hash = "81c08e0bd2ccbcc9b28d1e83752b9a03f22f99bd08a8fb5de9e17767214d8b55"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/half_complete_nickel_aluminide_mechanism.png"
 hash = "a74a79166c31901f987fcc13c6697f1e0ada9c4e25a9f4a0a85f9ef9bc2265d1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hot_dog.png"
+hash = "22b4392be731dc257a051228ce08469a04b2ee9f8312dbd55a0472a3440290b8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hot_dog_bun.png"
+hash = "b89ba21b08b7b0bd4b64f9a482bfe0490b41591674099fb4cf4bca9185011bef"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hot_dog_with_ketchup.png"
+hash = "70fec0af00115a56a6261175f8239a8540cf88ee633e6d88e15d4f3b244be642"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/hydrogen_chloride_bucket.png"
@@ -1405,6 +1577,18 @@ file = "kubejs/assets/kubejs/textures/item/loose_brass_mechanism.png"
 hash = "7699fe6a3b6e37928a5d1f653e04b05ab4bfc10998654b680896a6baf4bfdb64"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/marshmallow.png"
+hash = "d2ece6022d7c4e0f26c86fa5b719a59aa5677afb81bd04651b96a935a119030a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/marshmallow_on_a_stick.png"
+hash = "c51e52b2a981840db38034a9fc20b55e606ec8bb64504ce2213e135e19035306"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/meat_paste.png"
+hash = "377945b7b9bdc628cf20ccc2f1fab79abe392fd4a03d3fa3556cab3769188d1d"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/motherboard.png"
 hash = "8845c8926bb71ade6c20a4923b024210e43fae8e00aef115cc973c5543435e4e"
 
@@ -1427,6 +1611,10 @@ hash = "b5e06ceaed1f7d085beb3dd8cf48e049c5d1b613e31eb4b42ee0c6a6a59f08ca"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/oxygen_bucket.png"
 hash = "819438ea76583a1efa2805d230f3181a6e6c1fc0e3b14a83affee46e9a0a3056"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plant_fibre.png"
+hash = "760b01a96c7ecdcccc952cfc2a68336ce66c5e857774c7d13c4856b632b82aa9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/potassium_carbonate.png"
@@ -1459,6 +1647,10 @@ hash = "beebbe86f7ae8ea9932651f5e2f0940a81804fc7371f253301ef6f21e934daba"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/quartz_powder.png"
 hash = "07cf7da3edda033019745cdfaa4c7c9e33a0cc3a38d1c901ef16bfea9ec9893a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_sausage.png"
+hash = "337c8f2f4b285fa7f7b005ef9501b604c7a5ef5b8bc79150b89375434856324d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/redstone_coated_plate.png"
@@ -1497,6 +1689,10 @@ file = "kubejs/assets/kubejs/textures/item/single_additive_fuel_bucket.png"
 hash = "9a53f1f8c94550361c8509e37fa9a1e3a0b9f0ba87ffceb2b75c4351f7bb5c2f"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/smore.png"
+hash = "46bd6c24463568793338d22adbf824f6d99d8f74e0007177befe5908e4056750"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/sodium.png"
 hash = "5b403fd64cf0af62d1e266efe9465bbbbb5f0aca0af14eb4852b9f0ebbc5dbd2"
 
@@ -1509,6 +1705,10 @@ file = "kubejs/assets/kubejs/textures/item/sodium_lead_alloy.png"
 hash = "5628f5fbb782ebcebaca548fbf41b22b4a8f8eec8ca376a2c77e214ba26e596c"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/sodium_sulfate.png"
+hash = "8f11a73b7aee7bcf345f981f4e6022cf9b0c119a764b2b017cedc587bcbad80d"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/steel_blast_mixture.png"
 hash = "f42c711256d8af4d84dc98472e2b764074775f6075c8cf1890205e5a2c903207"
 
@@ -1519,6 +1719,10 @@ hash = "1e87b9d8d185e2ab12ae1b1afb0562ee4d8eaa11608198c6e9252e5eaf1744f9"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/synthetic_lithium_powder.png"
 hash = "ac5ec57174402f92724101b074c370ec7c17dd0f0ea569293225e8ab234520f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/treated_steam_bucket.png"
+hash = "d13ae2954352656f081431796c26ce9bc56e1b3fa77999f6f8e008c2f72dd0ce"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/triple_additive_fuel_bucket.png"
@@ -1557,6 +1761,10 @@ file = "kubejs/assets/kubejs/textures/item/unfinished_motherboard.png"
 hash = "38f7ab84cc6dd5b1e99cb55d79399363db967ba10929e1fd7b8bb5702cdcfce8"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_smore.png"
+hash = "50ed903a65741decd0b9a894c5c18999ab883b4bc31a3c60e25cbc932c6248e0"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/unfinished_wireless_booster.png"
 hash = "dbeb909a37445f3ad689830aa0b530b495bd3320d11656ed8bb0c54939233d00"
 
@@ -1575,6 +1783,10 @@ hash = "675f7fc74a6d6208a4317c3117fd27d57ca531c4dac6e683db1fa61862cee807"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/uranium_pellets.png"
 hash = "29d8753ce99663ddf57b842c0ea46ad6f6e45785c5f2535ea8bbdb9b55edbdf2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/waste_steam_bucket.png"
+hash = "afa790f02711c7895f9bd3f0bbf39286e6d091ae3e757c54a55bcf61ce80c1cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/weak_uranium_fuel_rod.png"
@@ -1598,7 +1810,7 @@ hash = "96cbc05495e37243d6be7f8e4ca6ef4e733d00ebb8df2bc12e33d7a455d7d640"
 
 [[files]]
 file = "kubejs/client_scripts/main_client.js"
-hash = "a77ba50c2280d193d5624c7c2cb36fe1a7d64f634d6563af71bec15d4854746b"
+hash = "ca4e80c84eb515c3a9477cf169bf0499e9bd619b2dcef50a95edfb74d59bd185"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -1606,7 +1818,7 @@ hash = "88b6692af4e9d11c96e987c37e69609a7c9936f8a4311c17820cd75b37bdac5e"
 
 [[files]]
 file = "kubejs/config/common.json"
-hash = "5f4ef4b40fac39bff32439961ae66a3018e45dc56715d3eb6012d12f8132310d"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/web_server.json"
@@ -1618,11 +1830,11 @@ hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
 
 [[files]]
 file = "kubejs/server_scripts/Block_events.js"
-hash = "58e13b639f2be265d164e32709505f0c71eb01a523fea310884b81ed13019c1c"
+hash = "12bfb03c068657603a1015f48c4bb96dfdc85bd6ef57a56ae5e8fdddb1738a3b"
 
 [[files]]
 file = "kubejs/server_scripts/JEI_Removal.js"
-hash = "23aa276cf739407fa7c546fa6acae8b0bc6f17b10ee2f6906dd2156ed5d5540b"
+hash = "0cd3e8d2c5ef44c624e03df947da6b417d09246f8e712b5517491f9daa96d8dc"
 
 [[files]]
 file = "kubejs/server_scripts/main_server.js.orig"
@@ -1630,11 +1842,11 @@ hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
 file = "kubejs/server_scripts/recipies.js"
-hash = "97d3a47b741e5aeacaabab9fefe5f213acdcbda3931140ab51b39bfeb76b5073"
+hash = "5659a7922b04e30f89883575de5638750e96ab4319c2494ef230952994780ff4"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "653082157aeef8fc8e56569033bc510a5c2217d17e4abfd17da32a6f8987a62d"
+hash = "f7b074576ba52b66806ff2186da8c50355f40ccfb7f0592be544059f007269c4"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -1642,23 +1854,23 @@ hash = "510dd131e7821753bbecc5f3345847bb6cb30384d8e07b59d0df0ec59ad7af3b"
 
 [[files]]
 file = "kubejs/startup_scripts/Block_creation.js"
-hash = "989ec15151410d5252f2e1f2806e2c958f47f8e9413f2fb2e6bc31bc03f8f755"
+hash = "6eb60c577ebd0bb080d9759e962201680816e14ec2b7add495cf2c7366d8d31b"
 
 [[files]]
 file = "kubejs/startup_scripts/Block_modification.js"
-hash = "71f658f7791c3c54b3944c167bb8450635c5ff9ece5da6391446433ceab4bfaf"
+hash = "cf183d34feb53a3cab2e43a0ac2eb372136861d0f6a3f3c59c9ae6c7b21528b5"
 
 [[files]]
 file = "kubejs/startup_scripts/Fluid_creation.js"
-hash = "2a53064df2b63236e5f0b9c6e21c2f29e065448f72f37c9fc86633c7173859ab"
+hash = "f5a0c744a59df1942be2617cf5378a79823760ef48d1fc352ae7edbb9376854b"
 
 [[files]]
 file = "kubejs/startup_scripts/Item_creation.js"
-hash = "a5060addeba17f1187e50c1547a05fc32e8e21e6e82a8d119d642f52938e30e3"
+hash = "59c1495f4f950550d9334ed228141f956f0cfc70d24d9a226082de8ffa166c46"
 
 [[files]]
 file = "kubejs/startup_scripts/Item_modification.js"
-hash = "2fef9219badc8887ca0699757cf0d4c557854a76613a01fb8b7b0a97db72d041"
+hash = "f4770ca4f0cbdeb6cab865f9a97468a99a860ac90c109051772d396edce2c972"
 
 [[files]]
 file = "kubejs/startup_scripts/main_startup.js.orig"
