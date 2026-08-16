@@ -108,11 +108,19 @@ ServerEvents.tags("item", (event) => {
 	event.add("c:ingots/silver", ["kubejs:silver_ingot"]);
 
 	event.add("minecraft:coals", ["kubejs:welsh_coal"]);
+	
+	event.add("c:storage_blocks", ["kubejs:charcoal_block"]);
+	event.add("c:storage_blocks/charcoal", ["kubejs:charcoal_block"]);
 
 	event.add("c:plates/certus_quartz", [
 		"kubejs:certus_quartz_plate",
 		"kubejs:charged_certus_quartz_plate",
 	]);
+	
+	/*event.add("c:foods/food_poisoning", [
+		"kubejs:meat_paste",
+		"kubejs:raw_sausage"
+	]);*/
 
 	unburnable_item.forEach((item) => {
 		event.add("c:unburnable", item)
@@ -132,6 +140,8 @@ ServerEvents.tags("fluid", (event) => {
 		"kubejs:enriched_uranium_hexafluoride",
 		"kubejs:fluorine",
 		"kubejs:hydrogen_fluoride",
+		"kubejs:waste_steam",
+		"kubejs:treated_steam",
 	]);
 
 	event.add("tfmg:flammable", [
@@ -165,12 +175,16 @@ ServerEvents.tags("fluid", (event) => {
 	]);
 
 	//Other
+	
+	
 });
 
 ServerEvents.tags("block", (event) => {
 	//Custom semaphore pole blocks (defined in the array at top of script)
 	custom_semaphore_pole.forEach((item) => {
 		event.add("railways:semaphore_poles", item);
+		event.add("minecraft:mineable/pickaxe", "minecraft:barrier")
+		event.add("minecraft:needs_iron_tool", "minecraft:barrier")
 	});
 });
 

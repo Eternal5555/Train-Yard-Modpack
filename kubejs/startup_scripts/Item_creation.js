@@ -128,6 +128,24 @@ StartupEvents.registry("item", (event) => {
 	event.create("etched_motherboard");
 	event.create("unfinished_motherboard", "create:sequenced_assembly");
 	event.create("motherboard");
+	event.create("sodium_sulfate");
+	event.create("plant_fibre");
+	event.create("ceramic_filter");
+	
+	event.create("marshmallow")
+	event.create("marshmallow_on_a_stick")
+	event.create("cooked_marshmallow")
+	event.create("cooked_marshmallow_on_a_stick")
+	event.create("graham_cracker")
+	event.create("smore")
+	event.create("unfinished_smore", "create:sequenced_assembly");
+	
+	event.create("meat_paste")
+	event.create("raw_sausage")
+	event.create("cooked_sausage")
+	event.create("hot_dog_bun")
+	event.create("hot_dog")
+	event.create("hot_dog_with_ketchup")
 
 });
 
