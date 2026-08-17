@@ -465,6 +465,10 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
+file = "config/numismatics_advancement_seeker-server.toml"
+hash = "ca03a5351597c1acf1293ffa885754f63990abf4102aacdcf5528f56eae21704"
+
+[[files]]
 file = "config/openpartiesandclaims-server.toml"
 hash = "aa072f98f2007066076c7bbf981f43e60bdd3c8c849ea0d99958f1d794d80677"
 

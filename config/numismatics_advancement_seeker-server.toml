@@ -1,0 +1,39 @@
+["Advancement Rewards"]
+	#The type of Coin given from Task Advancement: spur, bevel, sprocket, cog, crown, sun. Default: sprocket.  This will be most advancements like 'Stone Age'.
+	task_advancement_type = "spur"
+	#Number of Chosen Coin(s) given for a 'Task' Advancement. This will be most advancements like 'Stone Age'.
+	# Default: 1
+	# Range: 0 ~ 8192
+	task_amount = 1
+	#The type of Coin given from Goal Advancement: spur, bevel, sprocket, cog, crown, sun. Default: cog. This will be limited number of advancements like 'Sky's the Limit'.
+	goal_advancement_type = "bevel"
+	#Number of Chosen Coin(s) given for a 'Goal' Advancement. This will be limited number of advancements like 'Sky's the Limit'.
+	# Default: 1
+	# Range: 0 ~ 8192
+	goal_amount = 1
+	#The type of Coin given from Challenge Advancement: spur, bevel, sprocket, cog, crown, sun. Default: crown. This will be limited number of advancements like 'Cover Me in Debris'.
+	challenge_advancement_type = "sprocket"
+	#Number of Chosen Coin(s) given for a 'Challenge' Advancement. This will be limited number of advancements like 'Cover Me in Debris'.
+	# Default: 1
+	# Range: 0 ~ 8192
+	challenge_amount = 1
+
+["Advancement Filters"]
+	#If True, then ALL Advancement from Every Mod will give Coins.
+	allow_all_namespace = true
+	#Namespace of Mods that will give Rewards for Completing Advancements. Separate namespaces with commas. DO NOT ADD SPACE. Use * to allow every namespace or Set Allow All Namespace to true. Important: Edit this without Create's Config editor since it won't support long strings of mod list!!!
+	allowed_namespace = "minecraft,create,numismatics,numismatics_advancement_seeker"
+
+["Playtime Rewards"]
+	#Number of Minute(s) of playtime needed for passive Coin gains.
+	# Default: 60
+	# Range: 1 ~ 525600
+	playtime_interval_minutes = 60
+	#The type of Coin given for playing: spur, bevel, sprocket, cog, crown, sun. Default: sprocket. 
+	playtime_type = "sprocket"
+	#Number of Chosen Coin(s) given for playing.
+	# Default: 1
+	# Range: 0 ~ 8192
+	playtime_amount = 1
+	#Enable/Disable Playtime Rewards. Default: True.
+	enable_playtime_reward = false
