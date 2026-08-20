@@ -154,7 +154,7 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "8dcdaa87af9d63ae8363a62e1d690e9276b6bf5ff5bc332f1e6cdb00d51ec05d"
+hash = "8278e7bd0287cd29b2822bf776be092b5dd06d8a2d5abb9b35c0f2a64452d6c0"
 
 [[files]]
 file = "config/create_configured-server.toml"
