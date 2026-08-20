@@ -3001,6 +3001,78 @@ ServerEvents.recipes((event) => {
 		"kubejs:hot_dog",
 		"farmersdelight:tomato_sauce",
 	]);
+	
+	event.custom({
+		"type": "create:deploying",
+		"ingredients": [
+			{
+				"item": "minecraft:dirt"
+			},
+			{
+				"tag": "minecraft:hoes"
+			}
+		],
+		"keep_held_item": true,
+		"results": [
+			{
+				"id": "minecraft:farmland"
+			}
+		]
+	});
+	
+	event.custom({
+		"type": "create:deploying",
+		"ingredients": [
+			{
+				"item": "minecraft:coarse_dirt"
+			},
+			{
+				"tag": "minecraft:hoes"
+			}
+		],
+		"keep_held_item": true,
+		"results": [
+			{
+				"id": "minecraft:farmland"
+			}
+		]
+	});
+	
+	event.custom({
+		"type": "create:deploying",
+		"ingredients": [
+			{
+				"item": "minecraft:rooted_dirt"
+			},
+			{
+				"tag": "minecraft:hoes"
+			}
+		],
+		"keep_held_item": true,
+		"results": [
+			{
+				"id": "minecraft:farmland"
+			}
+		]
+	});
+	
+	event.custom({
+		"type": "create:deploying",
+		"ingredients": [
+			{
+				"item": "farmersdelight:rich_soil"
+			},
+			{
+				"tag": "minecraft:hoes"
+			}
+		],
+		"keep_held_item": true,
+		"results": [
+			{
+				"id": "farmersdelight:rich_soil_farmland"
+			}
+		]
+	});
 
 	//Pressing
 
