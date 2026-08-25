@@ -1,0 +1,13 @@
+name = "Create: Electro Energetics"
+filename = "electroenergetics-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qYJdIoAx/versions/11zlqCk5/electroenergetics-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "962ce12b3b755eea9c50f16f685a03f82268c5c6250dbcf3f25a11b62e01e39c8668571c2093703178736031e43139953fcb510e151a1950c638503b3eda1993"
+
+[update]
+[update.modrinth]
+mod-id = "qYJdIoAx"
+version = "11zlqCk5"

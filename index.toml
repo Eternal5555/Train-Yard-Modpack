@@ -2174,6 +2174,11 @@ hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
+file = "mods/create-electro-energetics.pw.toml"
+hash = "f809ef038d1f0f24389fbe581f672ed85b5e4ac6053eb4cf1f9d83b93930068b"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
 metafile = true
