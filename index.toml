@@ -273,14 +273,6 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "c984aafd506c298c5d814765c51f40ecc4646cc47be83f4240590d4c2853a952"
 
 [[files]]
-file = "config/fancymenu/assets/6.jpg"
-hash = "b82a19b8b84b48b34050affe92e62a5c4a55db698272b54a7b6112c9a16abcfe"
-
-[[files]]
-file = "config/fancymenu/assets/ima5ge.jpg"
-hash = "aec9da1c852efa04880126a056c3de57fced9d89d96fd3d1938b0da38677c6bb"
-
-[[files]]
 file = "config/fancymenu/assets/image.jpg"
 hash = "447276ad273bee16e6a798affc6ad21b7836177db11e54d0e4b714d70936ed0c"
 
@@ -302,7 +294,7 @@ hash = "2acb25707b538f46d1571f6de52e5336ad408aed5df268f44f8c238d653fe3e1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "9df93a2bf4472e8d50e1060fab59d231db1ab05c87dd310ce7161c237edf46bc"
+hash = "1aa469148a5c4b09c4389c60d16954af2a03d89279803b861cf3b76f839046e8"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -317,16 +309,32 @@ file = "config/fancymenu/options.txt"
 hash = "0e226c10337b059bc374b9e45dc79e98a6f5c139396f8e2cf1962f7f92d1ea53"
 
 [[files]]
-file = "config/fancymenu/panoramas/6.png"
-hash = "7c8149343cf2572172632204c4aa4faf733ce2f7bff136f509bb7d5dd2d692b0"
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_0.png"
+hash = "e3da83aa4979da2433ed759f4f3ed9dd8e892071fea280e37b54fe358131b5d1"
 
 [[files]]
-file = "config/fancymenu/panoramas/ima5ge.png"
-hash = "100b3d6aa535ca18581d11492b14841315557d74ab0e59147003d399c972c640"
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_1.png"
+hash = "faafb11980e324e3f5b4b52609eae8dfe8ef34d8b98e5fdce71c51f017805faa"
 
 [[files]]
-file = "config/fancymenu/panoramas/image.png"
-hash = "76091a4e4f870f4c3ead487528f1f37c8f5e8a89c8d64823064944320b1daaf6"
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_2.png"
+hash = "72ea21d7d4b3af2e6c140e7a8c978ea6b0a7f74dc327c8060a67633d1e2f9149"
+
+[[files]]
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_3.png"
+hash = "258ab96099e4bee3069c21c260248ab747d14fb229993fec95c92966a5a3292b"
+
+[[files]]
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_4.png"
+hash = "2dcf58628f470cfea933169e8f43143b794e7f27f3c7191bfc45d95369031c16"
+
+[[files]]
+file = "config/fancymenu/panoramas/SPAWN_DUSK/panorama/panorama_5.png"
+hash = "8781cb349395c9835947a424aa8569e9df0e8c22419b611ab23d7dec8adc30c1"
+
+[[files]]
+file = "config/fancymenu/panoramas/SPAWN_DUSK/properties.txt"
+hash = "34c85d5ae800dbe49074d1d47cdb60751f4acb00054e1605c224a44b4ba2bf43"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
