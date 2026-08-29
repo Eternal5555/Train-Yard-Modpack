@@ -54,7 +54,7 @@ hash = "2af68e12100e2dba177afcac23cec23e3ec26a39dad0f7bb486107dcc0ebfda4"
 
 [[files]]
 file = "config/audioplayer/audioplayer-server.properties"
-hash = "9620cf27cf18382b4a60d0b7a3ecec9b1e213b84fbb26b5deb4ba24655af3442"
+hash = "f5349f09924e6f98ec9965cdda42ecca828b3039a6a1ca0fc5a47ced50875761"
 
 [[files]]
 file = "config/beautify-server.toml"
@@ -2797,7 +2797,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
+hash = "6c236a3eb1252f7a2e1dba35fb301d41f788358320aad4f2ce97b5dd2d79db3e"
 metafile = true
 
 [[files]]
