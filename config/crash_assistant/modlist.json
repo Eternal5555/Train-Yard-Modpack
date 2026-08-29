@@ -418,6 +418,14 @@
     "curseForgeHash": 2822386664,
     "modrinthHash": "a0629ebc804090f5a76929fee300789138f12f18"
   },
+  "create-stockmarket-1.1.0+mc1.21.1.jar": {
+    "jarName": "create-stockmarket-1.1.0+mc1.21.1.jar",
+    "modId": "stockmarket",
+    "name": "Create: Stock Market",
+    "version": "1.1.0",
+    "curseForgeHash": 2926217457,
+    "modrinthHash": "329e6cc8104bc7b73606771d66aba7264515f2fe"
+  },
   "create_bb-1.0.7-1.21.1-Neoforge.jar": {
     "jarName": "create_bb-1.0.7-1.21.1-Neoforge.jar",
     "modId": "create_bb",
@@ -425,6 +433,14 @@
     "version": "1.0.7",
     "curseForgeHash": 275210960,
     "modrinthHash": "7a6eae4bc851786c6519c8cac956b406cb71a8eb"
+  },
+  "create_configured-1.3.3.jar": {
+    "jarName": "create_configured-1.3.3.jar",
+    "modId": "create_configured",
+    "name": "Create Configured",
+    "version": "1.3.3",
+    "curseForgeHash": 3121517600,
+    "modrinthHash": "4cd3d45897b83207a309dca0844851061755e805"
   },
   "create_connected-1.3.2-mc1.21.1.jar": {
     "jarName": "create_connected-1.3.2-mc1.21.1.jar",
@@ -490,13 +506,13 @@
     "curseForgeHash": 3175373970,
     "modrinthHash": "37e2373216b70893409d2baeae86b02c2bfa65bc"
   },
-  "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar": {
-    "jarName": "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar",
+  "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar": {
+    "jarName": "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar",
     "modId": "numismatics",
     "name": "Create: Numismatics",
-    "version": "1.0.20+neoforge-mc1.21.1",
-    "curseForgeHash": 878203067,
-    "modrinthHash": "9883bfd6fef5bd5068f9174ddccba5047849c922"
+    "version": "1.1.0+neoforge-mc1.21.1",
+    "curseForgeHash": 2441542585,
+    "modrinthHash": "5cd4817442ae95f886a2d31534166e9883ed4bb2"
   },
   "createrandomizefilters-1.0.7.jar": {
     "jarName": "createrandomizefilters-1.0.7.jar",
@@ -546,6 +562,14 @@
     "curseForgeHash": 1238418262,
     "modrinthHash": "34d57efcc56c043f89c61f169944d7b95c11f504"
   },
+  "death_keeper-1.0b.jar": {
+    "jarName": "death_keeper-1.0b.jar",
+    "modId": "death_keeper",
+    "name": "Death Keeper",
+    "version": "1.0b",
+    "curseForgeHash": 1623567898,
+    "modrinthHash": "e923deaef77c84fe184eb18fef27dd953e4de031"
+  },
   "DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar": {
     "jarName": "DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar",
     "modId": "decorative_blocks",
@@ -593,6 +617,22 @@
     "version": "6.2.1",
     "curseForgeHash": 3893337096,
     "modrinthHash": "c881286372c35048c40f31dc3c457838a21d9401"
+  },
+  "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": {
+    "jarName": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+    "modId": "easyanvils",
+    "name": "Easy Anvils",
+    "version": "21.1.0",
+    "curseForgeHash": 2386658472,
+    "modrinthHash": "376c02e44dfcb44b79a494b1dba87b2ffb24277f"
+  },
+  "electroenergetics-1.21.1-1.1.1.jar": {
+    "jarName": "electroenergetics-1.21.1-1.1.1.jar",
+    "modId": "electroenergetics",
+    "name": "Create Electro Energetics",
+    "version": "1.21.1-1.1.1",
+    "curseForgeHash": 556831578,
+    "modrinthHash": "57012ecaad1e1b4994878696a4ba81dfdb3488db"
   },
   "elytraslot-neoforge-9.0.2+1.21.1.jar": {
     "jarName": "elytraslot-neoforge-9.0.2+1.21.1.jar",
@@ -674,6 +714,14 @@
     "curseForgeHash": 2375251480,
     "modrinthHash": "141ea133aff47e1655bd4a4937688bede22ebe58"
   },
+  "extra_copycats-1.0.2.jar": {
+    "jarName": "extra_copycats-1.0.2.jar",
+    "modId": "extra_copycats",
+    "name": "Extra Copycats",
+    "version": "1.0.2",
+    "curseForgeHash": 2708724325,
+    "modrinthHash": "434eca37397ce4ed35b2826dd854cc5e2f8f67ae"
+  },
   "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar": {
     "jarName": "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
     "modId": "fabric-language-kotlin",
@@ -713,6 +761,14 @@
     "version": "0.1.6+1.21.1",
     "curseForgeHash": 2454458140,
     "modrinthHash": "8405ee52683307711961db8623201240f240f82e"
+  },
+  "fluidic_tanks-1.1.1.jar": {
+    "jarName": "fluidic_tanks-1.1.1.jar",
+    "modId": "fluidic_tanks",
+    "name": "Fluidic Tanks",
+    "version": "1.1.1",
+    "curseForgeHash": 3942812672,
+    "modrinthHash": "5a8493b5f990feb05a32835c871ffd519a96b9dc"
   },
   "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar": {
     "jarName": "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar",
@@ -1606,13 +1662,13 @@
     "curseForgeHash": 1586562845,
     "modrinthHash": "2aa78e7acffe20dfda5821b3edde4cb25f411a21"
   },
-  "voicechat-neoforge-1.21.1-2.6.21.jar": {
-    "jarName": "voicechat-neoforge-1.21.1-2.6.21.jar",
+  "voicechat-fabric-1.21.1-2.6.22.jar": {
+    "jarName": "voicechat-fabric-1.21.1-2.6.22.jar",
     "modId": "voicechat",
     "name": "Simple Voice Chat",
-    "version": "1.21.1-2.6.21",
-    "curseForgeHash": 423488852,
-    "modrinthHash": "f72eff26b1156fdce12ef18c5792c48a54340142"
+    "version": "1.21.1-2.6.22",
+    "curseForgeHash": 4264458683,
+    "modrinthHash": "2b3f229ed746955b756807a92e09e9a32d636776"
   },
   "wakes-0.4.1+1.21.1.jar": {
     "jarName": "wakes-0.4.1+1.21.1.jar",

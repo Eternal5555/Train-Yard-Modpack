@@ -294,7 +294,7 @@ hash = "2acb25707b538f46d1571f6de52e5336ad408aed5df268f44f8c238d653fe3e1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "564871d96420fbd3ead51d4fb9c3dd01800fa3d64dacf491fdcc162f63513c28"
+hash = "fa84db54dbcf398fcd47a565a70e584baf2d483115e41284fb6424b5712718cc"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -439,6 +439,10 @@ hash = "d196b5c4f46f5ea21ff38a78bcda94834b48ef5554473bcab1fd3bb9effe3220"
 [[files]]
 file = "config/lootr-common.toml"
 hash = "0092d1efe145a764003908c75ca6d305435fd322edf88a14e4d2651c77c408dd"
+
+[[files]]
+file = "config/maplink/general.json5"
+hash = "5609f7afe7304dd572a71db4c08bebceb7f4dbd052fa738f4185491026415cf3"
 
 [[files]]
 file = "config/modernfix-common.toml"
