@@ -57,6 +57,14 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 		"kubejs:unfinished_annihilation_core",
 		"kubejs:unfinished_formation_core",
 		"kubejs:unfinished_motherboard",
+		"kubejs:unfinished_smore",
+		
+		"tfmg:unfinished_potentiometer",
+		"tfmg:unfinished_electric_motor",
+		"tfmg:unfinished_generator",
+		"tfmg:unfinished_transistor",
+		"tfmg:unfinished_capacitor",
+		"tfmg:unfinished_circuit_board",
 	]);
 
 	//Applied Energistics 2
@@ -151,6 +159,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 		"crowns:enriched_uranium_ingot",
 		"crowns:enriched_uranium_nugget",
 		"crowns:fuel_rod",
+		"crowns:turbine_casing",
 	]);
 
 	//CreateCrafts&Additions
@@ -159,34 +168,54 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 			'createaddition:zinc_sheet'
 		])*/
 
-	//DesignAndDecor
+	//DesignAndDecor (Blocks no longer in mod)
 
-	event.remove([
-		"dndecor:lead_cross_bolt",
-		"dndecor:lead_dash_bolt",
-		"dndecor:lead_dot_bolt",
-		"dndecor:lead_flat_bolt",
-		"dndecor:aluminum_cross_bolt",
-		"dndecor:aluminum_dash_bolt",
-		"dndecor:aluminum_dot_bolt",
-		"dndecor:aluminum_flat_bolt",
-		"dndecor:nickel_cross_bolt",
-		"dndecor:nickel_dash_bolt",
-		"dndecor:nickel_dot_bolt",
-		"dndecor:nickel_flat_bolt",
-		"dndecor:steel_cross_bolt",
-		"dndecor:steel_dash_bolt",
-		"dndecor:steel_dot_bolt",
-		"dndecor:steel_flat_bolt",
-		"dndecor:cast_iron_cross_bolt",
-		"dndecor:cast_iron_dash_bolt",
-		"dndecor:cast_iron_dot_bolt",
-		"dndecor:cast_iron_flat_bolt",
-	]);
+	// event.remove([
+	// 	"dndecor:lead_cross_bolt",
+	// 	"dndecor:lead_dash_bolt",
+	// 	"dndecor:lead_dot_bolt",
+	// 	"dndecor:lead_flat_bolt",
+	// 	"dndecor:aluminum_cross_bolt",
+	// 	"dndecor:aluminum_dash_bolt",
+	// 	"dndecor:aluminum_dot_bolt",
+	// 	"dndecor:aluminum_flat_bolt",
+	// 	"dndecor:nickel_cross_bolt",
+	// 	"dndecor:nickel_dash_bolt",
+	// 	"dndecor:nickel_dot_bolt",
+	// 	"dndecor:nickel_flat_bolt",
+	// 	"dndecor:steel_cross_bolt",
+	// 	"dndecor:steel_dash_bolt",
+	// 	"dndecor:steel_dot_bolt",
+	// 	"dndecor:steel_flat_bolt",
+	// 	"dndecor:cast_iron_cross_bolt",
+	// 	"dndecor:cast_iron_dash_bolt",
+	// 	"dndecor:cast_iron_dot_bolt",
+	// 	"dndecor:cast_iron_flat_bolt",
+	// ]);
 
 	//Other
 
 	event.remove(["create_connected:item_silo"]);
+	
+	//Fluidic Tanks
+	
+	event.remove([
+	"fluidic_tanks:fluidic_vault",
+	"fluidic_tanks:copper_fluidic_vault",
+	"fluidic_tanks:iron_fluidic_vault",
+	"fluidic_tanks:gold_fluidic_vault",
+	"fluidic_tanks:emerald_fluidic_vault",
+	"fluidic_tanks:diamond_fluidic_vault",
+	"fluidic_tanks:netherite_fluidic_vault",
+	"fluidic_tanks:ultimate_fluidic_vault",
+	"fluidic_tanks:duplicating_fluidic_vault",
+	
+	"fluidic_tanks:diamond_fluidic_tank",
+	"fluidic_tanks:netherite_fluidic_tank",
+	"fluidic_tanks:ultimate_fluidic_tank",
+	"fluidic_tanks:duplicating_fluidic_tank"
+	]);
+	
 });
 
 console.info("Items removed from JEI.");

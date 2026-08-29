@@ -1,13 +1,13 @@
 name = "Botany Trees"
-filename = "botanytrees-neoforge-1.21.1-21.1.3.jar"
+filename = "botanytrees-neoforge-1.21.1-21.1.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mvs7RoIW/versions/1FdYnCod/botanytrees-neoforge-1.21.1-21.1.3.jar"
+url = "https://cdn.modrinth.com/data/mvs7RoIW/versions/aKBCDOy9/botanytrees-neoforge-1.21.1-21.1.7.jar"
 hash-format = "sha512"
-hash = "080afaa7fee774ba5a2d50ba7bda91b898786e3c494a35c2d43dc83c118ed030d0a5e5f25aeabb33f6f57d97d32f3518de213ba5eeec7dcae4645dcdbd8a6066"
+hash = "df2a3989987e77edf58efac4468f48f153664cff40ae6c9c7c130d3697a8878d84362bd96321ac68463632655b40504950fc412ed63bd140a047a50533f5335a"
 
 [update]
 [update.modrinth]
 mod-id = "mvs7RoIW"
-version = "1FdYnCod"
+version = "aKBCDOy9"

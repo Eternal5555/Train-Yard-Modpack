@@ -1,0 +1,13 @@
+name = "WorldEdit CUI (Unofficial Forge Port)"
+filename = "WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lOELapP1/versions/YrN5j3qw/WorldEditCUI-NeoForge-1.21.1%2B01-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "bee0b71697c4006bc53f1fc44f24679f0cd52bd0c2891f5cbc8e44f269656d6fb2ce9be733cebb4fd0a6be50f00b24b414484b21b6e1e22051a8edf1f3079bd4"
+
+[update]
+[update.modrinth]
+mod-id = "lOELapP1"
+version = "YrN5j3qw"

@@ -288,6 +288,31 @@ StartupEvents.registry("block", (event) => {
 		.viewBlocking(true)
 		.redstoneConductor(true)
 		.transparent(false);
+		
+		event
+		.create("charcoal_block")
+		.displayName("Block of Charcoal")
+		.mapColor("color_black")
+		.stoneSoundType()
+		.tagBlock("minecraft:mineable/pickaxe")
+		.tagBlock("minecraft:needs_wooden_tool")
+		.hardness(2)
+		.resistance(4)
+		.opaque(true)
+		.fullBlock(true)
+		.requiresTool(true)
+		.renderType("solid")
+		.texture(Direction.UP, "kubejs:block/charcoal_block")
+		.texture(Direction.DOWN, "kubejs:block/charcoal_block")
+		.texture(Direction.NORTH, "kubejs:block/charcoal_block")
+		.texture(Direction.SOUTH, "kubejs:block/charcoal_block")
+		.texture(Direction.EAST, "kubejs:block/charcoal_block")
+		.texture(Direction.WEST, "kubejs:block/charcoal_block")
+		.texture("particle", "kubejs:block/charcoal_block")
+		.suffocating(true)
+		.viewBlocking(true)
+		.redstoneConductor(true)
+		.transparent(false);
 });
 
 console.info("Blocks Created")

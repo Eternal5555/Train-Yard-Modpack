@@ -1,13 +1,13 @@
 name = "Mechanicals Lib"
-filename = "mechanicals-1.21.1-1.1.0.jar"
+filename = "mechanicals-1.21.1-1.1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ProvjTA7/versions/z9HvpJMU/mechanicals-1.21.1-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/ProvjTA7/versions/GBSlpwLT/mechanicals-1.21.1-1.1.6.jar"
 hash-format = "sha512"
-hash = "6638860a9273ff656095a5c7de0c029ae2eb48928fcabe7b0f240e74d9bfa28d9c8da04f08cefdbe3feba682efbd46f887a80474b54c2d698f643db9f4477807"
+hash = "84bfcd2cbd061eb1516fc2adbca0e599a38372b80ef9f5713de70be48d072243b1c5cb84c13177c35f333b6bcf16aa1f70dbd0964ed18e14c2bff733c531c6bc"
 
 [update]
 [update.modrinth]
 mod-id = "ProvjTA7"
-version = "z9HvpJMU"
+version = "GBSlpwLT"

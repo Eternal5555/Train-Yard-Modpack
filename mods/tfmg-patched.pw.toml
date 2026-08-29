@@ -1,0 +1,8 @@
+name = "tfmg-patched"
+filename = "tfmg-1.2.2c.jar"
+side = "both"
+
+[download]
+url = "https://github.com/cakeGit/Create-The_Factory_Must_Grow/releases/download/1.2.2c/tfmg-1.2.2c.jar"
+hash-format = "sha256"
+hash = "6db2c649c07df220c9a03baa5efd5b953202159bf448ff84af429bc2b45a384b"

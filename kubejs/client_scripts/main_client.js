@@ -42,6 +42,14 @@ ClientEvents.lang('en_us', event =>{
 		event.renameItem('kubejs:ethylene_oxide_bucket', 'Ethylene Oxide Tank')
 		event.renameItem("kubejs:chlorine_bucket", "Chlorine Tank")
 		event.renameItem("kubejs:oxygen_bucket", "Oxygen Tank")
+		event.renameItem("kubejs:waste_steam_bucket", "Waste Steam Tank")
+		event.renameItem("kubejs:treated_steam_bucket", "Treated Steam Tank")
+		event.renameItem("minecraft:quartz", "Quartz")
+		event.renameItem("fluidic_tanks:fluidic_tank", "Andesite Alloy Tank")
+		event.renameItem("fluidic_tanks:iron_fluidic_tank", "Brass Tank")
+		event.renameItem("fluidic_tanks:gold_fluidic_tank", "Steel Tank")
+		event.renameItem("fluidic_tanks:emerald_fluidic_tank", "Nickel Aluminide Tank")
+		event.renameItem("dream_stone:dream_stone", "Stasis Stone")
 });
 
 ItemEvents.modifyTooltips((event) => {

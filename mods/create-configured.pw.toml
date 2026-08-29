@@ -1,0 +1,13 @@
+name = "Create Configured"
+filename = "create_configured-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TFEgPM26/versions/TnA8mWSb/create_configured-1.3.3.jar"
+hash-format = "sha512"
+hash = "aabf0a0ace94f0a510b1485431e02adf94860f49027c8ab841a768393672320c5b51121fee8ed736845c62b1a94df6cfe7e8e6c732a058b3b5969cff083797ad"
+
+[update]
+[update.modrinth]
+mod-id = "TFEgPM26"
+version = "TnA8mWSb"

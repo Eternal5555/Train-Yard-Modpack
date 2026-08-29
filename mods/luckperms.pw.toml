@@ -1,6 +1,7 @@
 name = "LuckPerms"
 filename = "LuckPerms-NeoForge-5.4.150.jar"
 side = "server"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Vebnzrzj/versions/dKAPoPGd/LuckPerms-NeoForge-5.4.150.jar"

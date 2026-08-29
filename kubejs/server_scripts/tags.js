@@ -5,6 +5,29 @@ const custom_semaphore_pole = [
 	"#minecraft:walls",
 ];
 
+const unburnable_item = [
+	"#chipped:netherite_block",
+	"#rechiseled:netherite_block",
+	"create:netherite_backtank",
+	"create:netherite_diving_helmet",
+	"create:netherite_diving_boots",
+	"minecraft:netherite_shovel",
+	"minecraft:netherite_pickaxe",
+	"minecraft:netherite_axe",
+	"minecraft:netherite_hoe",
+	"minecraft:netherite_sword",
+	"minecraft:netherite_helmet",
+	"minecraft:netherite_chestplate",
+	"minecraft:netherite_leggings",
+	"minecraft:netherite_boots",
+	"minecraft:netherite_scrap",
+	"minecraft:ancient_debris",
+	"createdeco:netherite_nugget",
+	"createdeco:netherite_coin",
+	"createdeco:netherite_coinstack",
+	"sophisticatedbackpacks:netherite_backpack",
+];
+
 ServerEvents.tags("item", (event) => {
 	//SophisticatedBackpacks
 
@@ -85,11 +108,23 @@ ServerEvents.tags("item", (event) => {
 	event.add("c:ingots/silver", ["kubejs:silver_ingot"]);
 
 	event.add("minecraft:coals", ["kubejs:welsh_coal"]);
+	
+	event.add("c:storage_blocks", ["kubejs:charcoal_block"]);
+	event.add("c:storage_blocks/charcoal", ["kubejs:charcoal_block"]);
 
 	event.add("c:plates/certus_quartz", [
 		"kubejs:certus_quartz_plate",
 		"kubejs:charged_certus_quartz_plate",
 	]);
+	
+	/*event.add("c:foods/food_poisoning", [
+		"kubejs:meat_paste",
+		"kubejs:raw_sausage"
+	]);*/
+
+	unburnable_item.forEach((item) => {
+		event.add("c:unburnable", item)
+	})
 });
 
 ServerEvents.tags("fluid", (event) => {
@@ -105,6 +140,8 @@ ServerEvents.tags("fluid", (event) => {
 		"kubejs:enriched_uranium_hexafluoride",
 		"kubejs:fluorine",
 		"kubejs:hydrogen_fluoride",
+		"kubejs:waste_steam",
+		"kubejs:treated_steam",
 	]);
 
 	event.add("tfmg:flammable", [
@@ -138,12 +175,16 @@ ServerEvents.tags("fluid", (event) => {
 	]);
 
 	//Other
+	
+	
 });
 
 ServerEvents.tags("block", (event) => {
 	//Custom semaphore pole blocks (defined in the array at top of script)
 	custom_semaphore_pole.forEach((item) => {
 		event.add("railways:semaphore_poles", item);
+		event.add("minecraft:mineable/pickaxe", "minecraft:barrier")
+		event.add("minecraft:needs_iron_tool", "minecraft:barrier")
 	});
 });
 

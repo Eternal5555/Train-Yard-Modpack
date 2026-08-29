@@ -1,13 +1,13 @@
 name = "Not Enough Animations"
-filename = "notenoughanimations-neoforge-1.10.6-mc1.21.1.jar"
+filename = "notenoughanimations-neoforge-1.12.4-mc1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/1o1ia1vh/notenoughanimations-neoforge-1.10.6-mc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/eYNogep3/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar"
 hash-format = "sha512"
-hash = "c16b7dcc9b74fe011f9c4ebc15e188497953b022c8f157f77e23950c8fbfc43ec38d81c65fc77735a4e5cee4556d0c329d8fb8e0939c81029098c8447ff2d8fa"
+hash = "9d929cf8e0a0ff2c806e007571b10cd9b81cd508826519f55e25f0390149109c7c12605143e4c11b5b5fac749e69de532c1ad00aa6a257e4dd0d3a3a77f2461b"
 
 [update]
 [update.modrinth]
 mod-id = "MPCX6s5C"
-version = "1o1ia1vh"
+version = "eYNogep3"
