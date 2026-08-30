@@ -599,7 +599,7 @@ ServerEvents.recipes((event) => {
 			"numismatics:black",*/
 			
 			"#numismatics:cards",
-			"stockmarket:market_terminal",
+			// "stockmarket:market_terminal",
 		],
 	});
 
@@ -1329,11 +1329,11 @@ ServerEvents.recipes((event) => {
 		});
 	};
 	
-	event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
-		A: "create:framed_glass",
-		B: "create:brass_casing",
-		C: "kubejs:electron_circuit_board",
-	});
+	// event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
+	// 	A: "create:framed_glass",
+	// 	B: "create:brass_casing",
+	// 	C: "kubejs:electron_circuit_board",
+	// });
 
 	//Steel Tier
 
