@@ -2604,7 +2604,7 @@ metafile = true
 
 [[files]]
 file = "mods/maplink.pw.toml"
-hash = "cde0265f751c5ad8ab34f759462a358dd8d45472a480651f143a1024781d0bcb"
+hash = "c8e7382579130d7b24ae3e3faaaab7f49a0abf33af097136a04af7044a08dc62"
 metafile = true
 
 [[files]]
