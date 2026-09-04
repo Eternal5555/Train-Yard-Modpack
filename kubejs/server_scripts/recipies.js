@@ -4646,6 +4646,10 @@ ServerEvents.recipes((event) => {
 	event.stonecutting("railways:big_buffer", "minecraft:iron_ingot");
 	event.stonecutting("4x minecraft:pointed_dripstone", "minecraft:dripstone_block");
 	event.stonecutting("4x minecraft:sulfur_spike", "minecraft:sulfur");
+	
+	event.stonecutting("extra_copycats:copycat_collapsible", "create:zinc_ingot")
+	event.stonecutting("extra_copycats:copycat_collapsible_grid", "create:zinc_ingot")
+	event.stonecutting("2x extra_copycats:copycat_cabinet_door", "create:zinc_ingot")
 
 	//Smoking
 
