@@ -19,7 +19,11 @@ jobs:
           cache: true
 
       - name: Install Packwiz
-        run: go install github.com/packwiz/packwiz@latest
+        run: |
+          git clone https://github.com/packwiz/packwiz.git /tmp/packwiz
+          cd /tmp/packwiz
+          go build -o packwiz .
+          sudo mv packwiz /usr/local/bin/
 
       - name: Run packwiz refresh
         run: packwiz refresh
