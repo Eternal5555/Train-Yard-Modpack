@@ -1846,11 +1846,11 @@ hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
 
 [[files]]
 file = "kubejs/server_scripts/Block_events.js"
-hash = "12bfb03c068657603a1015f48c4bb96dfdc85bd6ef57a56ae5e8fdddb1738a3b"
+hash = "674fd71ad408546825938533b2b0875e40e18a10509b74375668b815beaa20f4"
 
 [[files]]
 file = "kubejs/server_scripts/JEI_Removal.js"
-hash = "0cd3e8d2c5ef44c624e03df947da6b417d09246f8e712b5517491f9daa96d8dc"
+hash = "12cc60982df04722211691b675938fea416c19210ab6820c737543ccc21a6f51"
 
 [[files]]
 file = "kubejs/server_scripts/main_server.js.orig"
@@ -1862,7 +1862,7 @@ hash = "3b0639fcff0621ceb350567ae66d9b0a481a1d5d88678caa21de2219cbb044f6"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "01b3a7f2e98c49e34e1963fe36a271eb6a04c34b28d03258ff362b64c58d3c09"
+hash = "48164c4ed54c1ebb27694412a6f80bda1249efdf1e628703f21cb3b50090b47c"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -1870,23 +1870,23 @@ hash = "510dd131e7821753bbecc5f3345847bb6cb30384d8e07b59d0df0ec59ad7af3b"
 
 [[files]]
 file = "kubejs/startup_scripts/Block_creation.js"
-hash = "6eb60c577ebd0bb080d9759e962201680816e14ec2b7add495cf2c7366d8d31b"
+hash = "5e56725f5fbdbd5829a117b6ce0d121df397789f94a82b0bc486e9f863dce0af"
 
 [[files]]
 file = "kubejs/startup_scripts/Block_modification.js"
-hash = "cf183d34feb53a3cab2e43a0ac2eb372136861d0f6a3f3c59c9ae6c7b21528b5"
+hash = "c17d6ac71c74f644ec89ff653104295f84d3234704ac16f689260bf6f10aba0a"
 
 [[files]]
 file = "kubejs/startup_scripts/Fluid_creation.js"
-hash = "f5a0c744a59df1942be2617cf5378a79823760ef48d1fc352ae7edbb9376854b"
+hash = "04283c2714486f6cd43949793294d15e043ed6b7a53dbc33c1680164ea111c54"
 
 [[files]]
 file = "kubejs/startup_scripts/Item_creation.js"
-hash = "59c1495f4f950550d9334ed228141f956f0cfc70d24d9a226082de8ffa166c46"
+hash = "5e1a8bff0314f1af32c2edc2179fe91d5726e631e49efa187915a37dffadc939"
 
 [[files]]
 file = "kubejs/startup_scripts/Item_modification.js"
-hash = "f4770ca4f0cbdeb6cab865f9a97468a99a860ac90c109051772d396edce2c972"
+hash = "4aa3532055dd5e6f5af1614175a933a845d3fd5a8cbca0cb1decc0dbb654569e"
 
 [[files]]
 file = "kubejs/startup_scripts/main_startup.js.orig"

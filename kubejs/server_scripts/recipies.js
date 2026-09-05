@@ -30,8 +30,8 @@ ServerEvents.recipes((event) => {
 			"immersive_aircraft:bomb_bay",
 		],
 	});
-	
-	event.remove({ output: "man_of_many_planes:scarlet_biplane" })
+
+	event.remove({ output: "man_of_many_planes:scarlet_biplane" });
 
 	event.remove({ id: "immersive_aircraft:airship" });
 	event.remove({ id: "immersive_aircraft:cargo_airship" });
@@ -301,7 +301,7 @@ ServerEvents.recipes((event) => {
 			"ae2:64k_crafting_storage",
 			"ae2:256k_crafting_storage",
 			"ae2:spatial_anchor",
-			"ae2:condenser"
+			"ae2:condenser",
 		],
 	});
 
@@ -493,35 +493,35 @@ ServerEvents.recipes((event) => {
 	event.remove({ output: "railways:link_and_pin" });
 	event.remove({ output: "railways:small_buffer" });
 	event.remove({ output: "railways:big_buffer" });
-	
+
 	event.remove({ output: "armourers_workshop:hologram-projector" });
 	event.remove({ output: "armourers_workshop:mannequin" });
-	
+
 	event.remove({
 		output: [
-		"fluidic_tanks:fluidic_vault",
-		"fluidic_tanks:copper_fluidic_vault",
-		"fluidic_tanks:iron_fluidic_vault",
-		"fluidic_tanks:gold_fluidic_vault",
-		"fluidic_tanks:emerald_fluidic_vault",
-		"fluidic_tanks:diamond_fluidic_vault",
-		"fluidic_tanks:netherite_fluidic_vault",
-		"fluidic_tanks:ultimate_fluidic_vault",
-		"fluidic_tanks:duplicating_fluidic_vault",
-		"fluidic_tanks:fluidic_tank",
-		"fluidic_tanks:copper_fluidic_tank",
-		"fluidic_tanks:iron_fluidic_tank",
-		"fluidic_tanks:gold_fluidic_tank",
-		"fluidic_tanks:emerald_fluidic_tank",
-		"fluidic_tanks:diamond_fluidic_tank",
-		"fluidic_tanks:netherite_fluidic_tank",
-		"fluidic_tanks:ultimate_fluidic_tank",
-		"fluidic_tanks:duplicating_fluidic_tank"
+			"fluidic_tanks:fluidic_vault",
+			"fluidic_tanks:copper_fluidic_vault",
+			"fluidic_tanks:iron_fluidic_vault",
+			"fluidic_tanks:gold_fluidic_vault",
+			"fluidic_tanks:emerald_fluidic_vault",
+			"fluidic_tanks:diamond_fluidic_vault",
+			"fluidic_tanks:netherite_fluidic_vault",
+			"fluidic_tanks:ultimate_fluidic_vault",
+			"fluidic_tanks:duplicating_fluidic_vault",
+			"fluidic_tanks:fluidic_tank",
+			"fluidic_tanks:copper_fluidic_tank",
+			"fluidic_tanks:iron_fluidic_tank",
+			"fluidic_tanks:gold_fluidic_tank",
+			"fluidic_tanks:emerald_fluidic_tank",
+			"fluidic_tanks:diamond_fluidic_tank",
+			"fluidic_tanks:netherite_fluidic_tank",
+			"fluidic_tanks:ultimate_fluidic_tank",
+			"fluidic_tanks:duplicating_fluidic_tank",
 		],
 	});
-	
+
 	event.remove({ output: "dream_stone:dream_stone" });
-	
+
 	event.remove({ id: "minecraft:bundle" });
 
 	//Replacing Recipes With Tiered Mechanism Variant
@@ -580,7 +580,7 @@ ServerEvents.recipes((event) => {
 			"numismatics:bank_terminal",
 			"create:mechanical_arm",
 			//'dndesires:gold_mixer'
-			
+
 			/*"numismatics:white",
 			"numismatics:orange",
 			"numismatics:magenta",
@@ -597,7 +597,7 @@ ServerEvents.recipes((event) => {
 			"numismatics:green",
 			"numismatics:red",
 			"numismatics:black",*/
-			
+
 			"#numismatics:cards",
 			// "stockmarket:market_terminal",
 		],
@@ -1302,7 +1302,7 @@ ServerEvents.recipes((event) => {
 		C: "kubejs:nickel_aluminide_mechanism",
 		D: "create:brass_casing",
 	});
-	
+
 	const cardColour = [
 		"white",
 		"orange",
@@ -1322,13 +1322,13 @@ ServerEvents.recipes((event) => {
 		"black",
 	];
 	for (const type of cardColour) {
-		event.shaped(`numismatics:${type}_card`, ['ABC'], {
+		event.shaped(`numismatics:${type}_card`, ["ABC"], {
 			A: "kubejs:electron_circuit_board",
 			B: "create:iron_sheet",
 			C: `minecraft:${type}_dye`,
 		});
-	};
-	
+	}
+
 	// event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
 	// 	A: "create:framed_glass",
 	// 	B: "create:brass_casing",
@@ -2898,27 +2898,24 @@ ServerEvents.recipes((event) => {
 		)
 		.transitionalItem("kubejs:unfinished_motherboard")
 		.loops(4);
-	
+
 	event.recipes.create
 		.sequenced_assembly(
 			[CreateItem.of("4x kubejs:smore")],
 			"kubejs:graham_cracker",
 			[
-				event.recipes.create.deploying(
+				event.recipes.create.deploying("kubejs:unfinished_smore", [
 					"kubejs:unfinished_smore",
-					[
-						"kubejs:unfinished_smore",
-						"create:bar_of_chocolate",
-					],
-				),
-				event.recipes.create.deploying(
+					"create:bar_of_chocolate",
+				]),
+				event.recipes.create.deploying("kubejs:unfinished_smore", [
 					"kubejs:unfinished_smore",
-					["kubejs:unfinished_smore", "kubejs:cooked_marshmallow"],
-				),
-				event.recipes.create.deploying(
+					"kubejs:cooked_marshmallow",
+				]),
+				event.recipes.create.deploying("kubejs:unfinished_smore", [
 					"kubejs:unfinished_smore",
-					["kubejs:unfinished_smore", "kubejs:graham_cracker"],
-				),
+					"kubejs:graham_cracker",
+				]),
 			],
 		)
 		.transitionalItem("kubejs:unfinished_smore")
@@ -2966,16 +2963,13 @@ ServerEvents.recipes((event) => {
 		"biomesoplenty:glowflower",
 		"minecraft:glow_berries",
 	);
-	event.recipes.create.haunting(
-		"biomesoplenty:rose",
-		"minecraft:poppy"
-	);
-	
+	event.recipes.create.haunting("biomesoplenty:rose", "minecraft:poppy");
+
 	event.recipes.create.haunting(
 		"biomesoplenty:blue_hydrangea",
 		"minecraft:blue_orchid",
 	);
-	
+
 	event.recipes.create.haunting(
 		"minecraft:sulfur_cube_bucket",
 		"tfmg:sulfuric_acid_bucket",
@@ -2991,87 +2985,87 @@ ServerEvents.recipes((event) => {
 		"kubejs:empty_motherboard",
 		"createaddition:electrum_sheet",
 	]);
-	
+
 	event.recipes.create.deploying("kubejs:hot_dog", [
 		"kubejs:hot_dog_bun",
 		"kubejs:cooked_sausage",
 	]);
-	
+
 	event.recipes.create.deploying("kubejs:hot_dog_with_ketchup", [
 		"kubejs:hot_dog",
 		"farmersdelight:tomato_sauce",
 	]);
-	
+
 	event.custom({
-		"type": "create:deploying",
-		"ingredients": [
+		type: "create:deploying",
+		ingredients: [
 			{
-				"item": "minecraft:dirt"
+				item: "minecraft:dirt",
 			},
 			{
-				"tag": "minecraft:hoes"
-			}
+				tag: "minecraft:hoes",
+			},
 		],
-		"keep_held_item": true,
-		"results": [
+		keep_held_item: true,
+		results: [
 			{
-				"id": "minecraft:farmland"
-			}
-		]
+				id: "minecraft:farmland",
+			},
+		],
 	});
-	
+
 	event.custom({
-		"type": "create:deploying",
-		"ingredients": [
+		type: "create:deploying",
+		ingredients: [
 			{
-				"item": "minecraft:coarse_dirt"
+				item: "minecraft:coarse_dirt",
 			},
 			{
-				"tag": "minecraft:hoes"
-			}
+				tag: "minecraft:hoes",
+			},
 		],
-		"keep_held_item": true,
-		"results": [
+		keep_held_item: true,
+		results: [
 			{
-				"id": "minecraft:farmland"
-			}
-		]
+				id: "minecraft:farmland",
+			},
+		],
 	});
-	
+
 	event.custom({
-		"type": "create:deploying",
-		"ingredients": [
+		type: "create:deploying",
+		ingredients: [
 			{
-				"item": "minecraft:rooted_dirt"
+				item: "minecraft:rooted_dirt",
 			},
 			{
-				"tag": "minecraft:hoes"
-			}
+				tag: "minecraft:hoes",
+			},
 		],
-		"keep_held_item": true,
-		"results": [
+		keep_held_item: true,
+		results: [
 			{
-				"id": "minecraft:farmland"
-			}
-		]
+				id: "minecraft:farmland",
+			},
+		],
 	});
-	
+
 	event.custom({
-		"type": "create:deploying",
-		"ingredients": [
+		type: "create:deploying",
+		ingredients: [
 			{
-				"item": "farmersdelight:rich_soil"
+				item: "farmersdelight:rich_soil",
 			},
 			{
-				"tag": "minecraft:hoes"
-			}
+				tag: "minecraft:hoes",
+			},
 		],
-		"keep_held_item": true,
-		"results": [
+		keep_held_item: true,
+		results: [
 			{
-				"id": "farmersdelight:rich_soil_farmland"
-			}
-		]
+				id: "farmersdelight:rich_soil_farmland",
+			},
+		],
 	});
 
 	//Pressing
@@ -3114,7 +3108,7 @@ ServerEvents.recipes((event) => {
 		Fluid.of("biomesoplenty:blood", 200),
 		"biomesoplenty:porous_flesh",
 	]);
-	
+
 	const brewinandchewinFilling = [
 		"beer",
 		"vodka",
@@ -3131,31 +3125,31 @@ ServerEvents.recipes((event) => {
 		"steel_toe_stout",
 		"dread_nog",
 		"withering_dross",
-		"kombucha"
+		"kombucha",
 	];
 	for (const type of brewinandchewinFilling) {
 		event.custom({
-		"type": "create:filling",
-		"ingredients": [
-			{
-				"item": "brewinandchewin:tankard"
-			},
-			{
-				"type": "neoforge:single",
-				"amount": 250,
-				"fluid": `brewinandchewin:${type}`
-			}
-		],
-		"results": [
-			{
-				"id": `brewinandchewin:${type}`
-			}
-		]
-	});
+			type: "create:filling",
+			ingredients: [
+				{
+					item: "brewinandchewin:tankard",
+				},
+				{
+					type: "neoforge:single",
+					amount: 250,
+					fluid: `brewinandchewin:${type}`,
+				},
+			],
+			results: [
+				{
+					id: `brewinandchewin:${type}`,
+				},
+			],
+		});
 	}
-	
+
 	//Emptying
-	
+
 	const brewinandchewinEmptying = [
 		"beer",
 		"vodka",
@@ -3172,26 +3166,26 @@ ServerEvents.recipes((event) => {
 		"steel_toe_stout",
 		"dread_nog",
 		"withering_dross",
-		"kombucha"
+		"kombucha",
 	];
 	for (const type of brewinandchewinEmptying) {
 		event.custom({
-		"type": "create:emptying",
-		"ingredients": [
-			{
-				"item": `brewinandchewin:${type}`
-			}
-		],
-		"results": [
-			{
-				"id": "brewinandchewin:tankard"
-			},
-			{
-				"amount": 250,
-				"id": `brewinandchewin:${type}`
-			}
-		]
-	});
+			type: "create:emptying",
+			ingredients: [
+				{
+					item: `brewinandchewin:${type}`,
+				},
+			],
+			results: [
+				{
+					id: "brewinandchewin:tankard",
+				},
+				{
+					amount: 250,
+					id: `brewinandchewin:${type}`,
+				},
+			],
+		});
 	}
 
 	//Splashing
@@ -3317,7 +3311,7 @@ ServerEvents.recipes((event) => {
 			"minecraft:seagrass",
 		])
 		.heated();
-		
+
 	event.recipes.create
 		.mixing(
 			[
@@ -3331,7 +3325,7 @@ ServerEvents.recipes((event) => {
 			],
 		)
 		.heated();
-		
+
 	event.recipes.create
 		.mixing(
 			[
@@ -3345,7 +3339,7 @@ ServerEvents.recipes((event) => {
 			],
 		)
 		.heated();
-		
+
 	event.recipes.create
 		.mixing(
 			[
@@ -3359,7 +3353,7 @@ ServerEvents.recipes((event) => {
 			],
 		)
 		.heated();
-		
+
 	event.recipes.create
 		.mixing(
 			[
@@ -3373,7 +3367,7 @@ ServerEvents.recipes((event) => {
 			],
 		)
 		.heated();
-		
+
 	event.recipes.create
 		.mixing(
 			[
@@ -3388,80 +3382,77 @@ ServerEvents.recipes((event) => {
 		)
 		.heated();
 
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_sodium_lead_alloy", 144),
-		"kubejs:sodium_lead_alloy",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_sodium", 144),
-		"kubejs:sodium",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_zinc", 144),
-		"create:zinc_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_copper", 144),
-		"minecraft:copper_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_iron", 144),
-		"minecraft:iron_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_gold", 144),
-		"minecraft:gold_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_silver", 144),
-		"kubejs:silver_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_lead", 144),
-		"tfmg:lead_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_nickel", 144),
-		"tfmg:nickel_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_electrum", 144),
-		"createaddition:electrum_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_lithium", 144),
-		"tfmg:lithium_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_brass", 144),
-		"create:brass_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_constantan", 144),
-		"tfmg:constantan_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_netherite", 144),
-		"minecraft:netherite_ingot",
-	).heated();
-	
-	event.recipes.create.mixing(
-		Fluid.of("kubejs:molten_aluminum", 144),
-		"tfmg:aluminum_ingot",
-	).heated();
+	event.recipes.create
+		.mixing(
+			Fluid.of("kubejs:molten_sodium_lead_alloy", 144),
+			"kubejs:sodium_lead_alloy",
+		)
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_sodium", 144), "kubejs:sodium")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_zinc", 144), "create:zinc_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_copper", 144), "minecraft:copper_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_iron", 144), "minecraft:iron_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_gold", 144), "minecraft:gold_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_silver", 144), "kubejs:silver_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_lead", 144), "tfmg:lead_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_nickel", 144), "tfmg:nickel_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(
+			Fluid.of("kubejs:molten_electrum", 144),
+			"createaddition:electrum_ingot",
+		)
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_lithium", 144), "tfmg:lithium_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_brass", 144), "create:brass_ingot")
+		.heated();
+
+	event.recipes.create
+		.mixing(
+			Fluid.of("kubejs:molten_constantan", 144),
+			"tfmg:constantan_ingot",
+		)
+		.heated();
+
+	event.recipes.create
+		.mixing(
+			Fluid.of("kubejs:molten_netherite", 144),
+			"minecraft:netherite_ingot",
+		)
+		.heated();
+
+	event.recipes.create
+		.mixing(Fluid.of("kubejs:molten_aluminum", 144), "tfmg:aluminum_ingot")
+		.heated();
 
 	event.recipes.create
 		.mixing(Fluid.of("kubejs:tuff_mineral_slurry", 250), [
@@ -3469,121 +3460,71 @@ ServerEvents.recipes((event) => {
 			Fluid.of("minecraft:water", 500),
 		])
 		.heated();
-	
+
 	event.recipes.create
 		.mixing(
-			[
-				"4x tfmg:fireclay_ball",
-			],
-			[
-				"4x minecraft:clay_ball",
-				"create:crimsite",
-			],
+			["4x tfmg:fireclay_ball"],
+			["4x minecraft:clay_ball", "create:crimsite"],
 		)
 		.heated();
-		
+
+	event.recipes.create.mixing(
+		["kubejs:sodium_sulfate"],
+		["kubejs:sodium", Fluid.of("tfmg:sulfuric_acid", 500)],
+	);
+
+	event.recipes.create.mixing(
+		["3x kubejs:plant_fibre"],
+		[Ingredient.of("#createaddition:plants", 4)],
+	);
+
 	event.recipes.create
 		.mixing(
-			[
-				"kubejs:sodium_sulfate",
-			],
-			[
-				"kubejs:sodium",
-				Fluid.of("tfmg:sulfuric_acid", 500),
-			],
+			["4x arts_and_crafts:cobbled_ochre_pietraforte"],
+			["2x minecraft:sand", "create:limestone", "create:ochrum"],
 		)
-		
+		.heated();
+
 	event.recipes.create
 		.mixing(
-			[
-				"3x kubejs:plant_fibre",
-			],
-			[
-				Ingredient.of("#createaddition:plants", 4),
-			],
+			["4x arts_and_crafts:cobbled_verdant_pietraforte"],
+			["2x minecraft:sand", "create:limestone", "create:veridium"],
 		)
-		
+		.heated();
+
 	event.recipes.create
 		.mixing(
-			[
-				"4x arts_and_crafts:cobbled_ochre_pietraforte",
-			],
-			[
-				"2x minecraft:sand",
-				"create:limestone",
-				"create:ochrum",
-			]
-		).heated();
-	
-	event.recipes.create
-		.mixing(
-			[
-				"4x arts_and_crafts:cobbled_verdant_pietraforte",
-			],
-			[
-				"2x minecraft:sand",
-				"create:limestone",
-				"create:veridium",
-			]
-		).heated();
-	
-	event.recipes.create
-		.mixing(
-			[
-				"16x natures_spirit:chert",
-			],
+			["16x natures_spirit:chert"],
 			[
 				"minecraft:quartz",
 				"5x dndecor:dolomite",
 				"10x minecraft:terracotta",
 				Fluid.of("minecraft:water", 1000),
-			]
-		).heated();
-		
-	event.recipes.create
-		.mixing(
-			[
-				"2x minecraft:cinnabar",
 			],
-			[
-				"create:crimsite",
-				"minecraft:sulfur",
-			]
-		).heated();
-	
-	event.recipes.create
-		.mixing(
-			[
-				"8x natures_spirit:red_moss_block",
-			],
-			[
-				"8x minecraft:moss_block",
-				"minecraft:red_dye",
-			]
 		)
-	
+		.heated();
+
 	event.recipes.create
 		.mixing(
-			[
-				"8x minecraft:moss_block",
-			],
-			[
-				"8x natures_spirit:red_moss_block",
-				"minecraft:green_dye",
-			]
+			["2x minecraft:cinnabar"],
+			["create:crimsite", "minecraft:sulfur"],
 		)
-	
-	event.recipes.create
-		.mixing(
-			[
-				"4x arts_and_crafts:soapstone",
-			],
-			[
-				"2x twigs:schist",
-				"minecraft:quartz",
-				"minecraft:clay_ball",
-			]
-		)
+		.heated();
+
+	event.recipes.create.mixing(
+		["8x natures_spirit:red_moss_block"],
+		["8x minecraft:moss_block", "minecraft:red_dye"],
+	);
+
+	event.recipes.create.mixing(
+		["8x minecraft:moss_block"],
+		["8x natures_spirit:red_moss_block", "minecraft:green_dye"],
+	);
+
+	event.recipes.create.mixing(
+		["4x arts_and_crafts:soapstone"],
+		["2x twigs:schist", "minecraft:quartz", "minecraft:clay_ball"],
+	);
 
 	//Compacting
 
@@ -3671,36 +3612,29 @@ ServerEvents.recipes((event) => {
 			Fluid.of("kubejs:residual_fuel_oil", 100),
 		)
 		.heated();
-	
+
 	event.recipes.create
 		.compacting(
 			"4x kubejs:graham_cracker",
 			Ingredient.of("#c:foods/dough", 1),
 		)
 		.heated();
-	
+
 	event.recipes.create
 		.compacting(
-			[
-				"8x kubejs:marshmallow",
-			],
+			["8x kubejs:marshmallow"],
 			[
 				"2x minecraft:sugar",
 				"minecraft:bone_meal",
 				Fluid.of("minecraft:water", 250),
 			],
-		).heated();
-	
-	event.recipes.create
-		.compacting(
-			[
-				Fluid.of("biomesoplenty:blood", 100),
-				"kubejs:raw_sausage",
-			],
-			[
-				"4x kubejs:meat_paste",
-			],
-		);
+		)
+		.heated();
+
+	event.recipes.create.compacting(
+		[Fluid.of("biomesoplenty:blood", 100), "kubejs:raw_sausage"],
+		["4x kubejs:meat_paste"],
+	);
 
 	//Milling
 
@@ -4087,7 +4021,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "dndesires:hydraulic_compacting",
 		ingredients: [
@@ -4104,7 +4038,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "dndesires:hydraulic_compacting",
 		ingredients: [
@@ -4124,7 +4058,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "dndesires:hydraulic_compacting",
 		ingredients: [
@@ -4141,7 +4075,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "dndesires:hydraulic_compacting",
 		ingredients: [
@@ -4161,7 +4095,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "dndesires:hydraulic_compacting",
 		ingredients: [
@@ -4425,7 +4359,7 @@ ServerEvents.recipes((event) => {
 		],
 		Ingredient.of("#create:stone_types/diorite", 1),
 	);
-	
+
 	event.recipes.create.crushing(
 		[
 			CreateItem.of("kubejs:quartz_powder", 1),
@@ -4441,7 +4375,7 @@ ServerEvents.recipes((event) => {
 		],
 		"arts_and_crafts:white_chalk",
 	);
-	
+
 	event.recipes.create.crushing(
 		[
 			CreateItem.of("kubejs:meat_paste", 1.0),
@@ -4644,12 +4578,24 @@ ServerEvents.recipes((event) => {
 	event.stonecutting("2x railways:link_and_pin", "minecraft:iron_ingot");
 	event.stonecutting("2x railways:small_buffer", "minecraft:iron_ingot");
 	event.stonecutting("railways:big_buffer", "minecraft:iron_ingot");
-	event.stonecutting("4x minecraft:pointed_dripstone", "minecraft:dripstone_block");
+	event.stonecutting(
+		"4x minecraft:pointed_dripstone",
+		"minecraft:dripstone_block",
+	);
 	event.stonecutting("4x minecraft:sulfur_spike", "minecraft:sulfur");
-	
-	event.stonecutting("extra_copycats:copycat_collapsible", "create:zinc_ingot")
-	event.stonecutting("extra_copycats:copycat_collapsible_grid", "create:zinc_ingot")
-	event.stonecutting("2x extra_copycats:copycat_cabinet_door", "create:zinc_ingot")
+
+	event.stonecutting(
+		"extra_copycats:copycat_collapsible",
+		"create:zinc_ingot",
+	);
+	event.stonecutting(
+		"extra_copycats:copycat_collapsible_grid",
+		"create:zinc_ingot",
+	);
+	event.stonecutting(
+		"2x extra_copycats:copycat_cabinet_door",
+		"create:zinc_ingot",
+	);
 
 	//Smoking
 
@@ -4658,7 +4604,10 @@ ServerEvents.recipes((event) => {
 	event.smoking("biomesoplenty:desert_grass", "minecraft:short_grass");
 	event.smoking("supplementaries:ash", "#minecraft:planks");
 	event.smoking("kubejs:cooked_marshmallow", "kubejs:marshmallow");
-	event.smoking("kubejs:cooked_marshmallow_on_a_stick", "kubejs:marshmallow_on_a_stick");
+	event.smoking(
+		"kubejs:cooked_marshmallow_on_a_stick",
+		"kubejs:marshmallow_on_a_stick",
+	);
 	event.smoking("kubejs:cooked_sausage", "kubejs:raw_sausage");
 
 	//Chemical Vat recipes
@@ -6913,7 +6862,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -6971,9 +6920,9 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	//CC&A Charging
-	
+
 	event.custom({
 		type: "createaddition:charging",
 		ingredients: [
@@ -6989,7 +6938,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7023,7 +6972,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7064,7 +7013,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7095,7 +7044,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7125,7 +7074,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7146,7 +7095,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7167,7 +7116,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7193,7 +7142,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7218,7 +7167,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7244,7 +7193,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -7270,7 +7219,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:vat_machine_recipe",
 		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
@@ -8353,7 +8302,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:casting",
 		ingredients: [
@@ -8371,7 +8320,7 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-	
+
 	event.custom({
 		type: "tfmg:casting",
 		ingredients: [
@@ -8389,7 +8338,6 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-
 
 	//Liquid Burning (CreateAddition)
 
@@ -8690,9 +8638,12 @@ ServerEvents.recipes((event) => {
 	event.smelting("dndesires:breccia", "kubejs:cobbled_breccia");
 	event.smelting("dndecor:gabbro", "kubejs:cobbled_gabbro");
 	event.smelting("tfmg:galena", "kubejs:cobbled_galena");
-	
+
 	event.smelting("kubejs:cooked_marshmallow", "kubejs:marshmallow");
-	event.smelting("kubejs:cooked_marshmallow_on_a_stick", "kubejs:marshmallow_on_a_stick");
+	event.smelting(
+		"kubejs:cooked_marshmallow_on_a_stick",
+		"kubejs:marshmallow_on_a_stick",
+	);
 
 	//Shaped
 
@@ -8747,15 +8698,15 @@ ServerEvents.recipes((event) => {
 			D: "#c:leathers",
 		},
 	);
-	
+
 	event.shaped("kubejs:charcoal_block", ["AAA", "AAA", "AAA"], {
 		A: "minecraft:charcoal",
 	});
-	
+
 	event.shaped("9x minecraft:charcoal", ["A"], {
 		A: "kubejs:charcoal_block",
 	});
-	
+
 	event.shaped("dream_stone:dream_stone", ["ABA", "BCB", "ABA"], {
 		A: "create_enchantment_industry:super_experience_block",
 		B: "minecraft:amethyst_shard",
@@ -9487,55 +9438,59 @@ ServerEvents.recipes((event) => {
 		B: "ae2:wireless_receiver",
 		C: "kubejs:redstone_wiring",
 	});
-	
+
 	event.shaped("kubejs:ceramic_filter", ["ABA"], {
 		A: "minecraft:terracotta",
 		B: "#minecraft:wool",
 	});
-	
-	event.shaped("armourers_workshop:hologram-projector", ["ABA", "ACA", "ADA"], {
-		A: "minecraft:iron_ingot",
-		B: "#armourers_workshop:skin_cubes",
-		C: "waterframes:projector",
-		D: "minecraft:iron_block",
-	});
-	
+
+	event.shaped(
+		"armourers_workshop:hologram-projector",
+		["ABA", "ACA", "ADA"],
+		{
+			A: "minecraft:iron_ingot",
+			B: "#armourers_workshop:skin_cubes",
+			C: "waterframes:projector",
+			D: "minecraft:iron_block",
+		},
+	);
+
 	event.shaped("armourers_workshop:mannequin", [" A ", "BCB", "BDB"], {
 		A: "supplementaries:hat_stand",
 		B: "minecraft:stick",
 		C: "minecraft:armor_stand",
 		D: "#armourers_workshop:skin_cubes",
 	});
-	
+
 	event.shaped("minecraft:sulfur", ["AA", "AA"], {
 		A: "tfmg:sulfur_dust",
 	});
-	
+
 	event.shaped("fluidic_tanks:fluidic_tank", [" A ", "ABA", " A "], {
 		A: "createdeco:andesite_sheet",
 		B: "create:fluid_tank",
 	});
-	
+
 	event.shaped("fluidic_tanks:copper_fluidic_tank", [" A ", "ABA", " A "], {
 		A: "create:copper_sheet",
 		B: "fluidic_tanks:fluidic_tank",
 	});
-	
+
 	event.shaped("fluidic_tanks:iron_fluidic_tank", [" A ", "ABA", " A "], {
 		A: "create:brass_sheet",
 		B: "fluidic_tanks:copper_fluidic_tank",
 	});
-	
+
 	event.shaped("fluidic_tanks:gold_fluidic_tank", [" A ", "ABA", " A "], {
 		A: "tfmg:heavy_plate",
 		B: "fluidic_tanks:iron_fluidic_tank",
 	});
-	
+
 	event.shaped("fluidic_tanks:emerald_fluidic_tank", [" A ", "ABA", " A "], {
 		A: "kubejs:nickel_aluminide_sheet",
 		B: "fluidic_tanks:gold_fluidic_tank",
 	});
-	
+
 	event.shaped("minecraft:bundle", [" A ", " B "], {
 		A: "minecraft:string",
 		B: "#c:leathers",
@@ -9593,39 +9548,49 @@ ServerEvents.recipes((event) => {
 	event.shapeless("computercraft:wired_modem", [
 		"computercraft:wired_modem_full",
 	]);
-	
+
 	event.shapeless("kubejs:marshmallow_on_a_stick", [
 		"kubejs:marshmallow",
 		"minecraft:stick",
 	]);
-	
+
 	event.shapeless("kubejs:cooked_marshmallow_on_a_stick", [
 		"kubejs:cooked_marshmallow",
 		"minecraft:stick",
 	]);
-	
-	event.shapeless("kubejs:marshmallow", [
-		"kubejs:marshmallow_on_a_stick",
-	]).replaceIngredient("kubejs:marshmallow_on_a_stick", "minecraft:stick");
-	
-	event.shapeless("kubejs:cooked_marshmallow", [
-		"kubejs:cooked_marshmallow_on_a_stick",
-	]).replaceIngredient("kubejs:cooked_marshmallow_on_a_stick", "minecraft:stick");
-	
+
+	event
+		.shapeless("kubejs:marshmallow", ["kubejs:marshmallow_on_a_stick"])
+		.replaceIngredient("kubejs:marshmallow_on_a_stick", "minecraft:stick");
+
+	event
+		.shapeless("kubejs:cooked_marshmallow", [
+			"kubejs:cooked_marshmallow_on_a_stick",
+		])
+		.replaceIngredient(
+			"kubejs:cooked_marshmallow_on_a_stick",
+			"minecraft:stick",
+		);
+
 	event.shapeless("kubejs:smore", [
 		"kubejs:graham_cracker",
 		"create:bar_of_chocolate",
 		"kubejs:cooked_marshmallow",
 		"kubejs:graham_cracker",
 	]);
-	
-	event.shapeless("kubejs:smore", [
-		"kubejs:graham_cracker",
-		"create:bar_of_chocolate",
-		"kubejs:cooked_marshmallow_on_a_stick",
-		"kubejs:graham_cracker",
-	]).replaceIngredient("kubejs:cooked_marshmallow_on_a_stick", "minecraft:stick");
-	
+
+	event
+		.shapeless("kubejs:smore", [
+			"kubejs:graham_cracker",
+			"create:bar_of_chocolate",
+			"kubejs:cooked_marshmallow_on_a_stick",
+			"kubejs:graham_cracker",
+		])
+		.replaceIngredient(
+			"kubejs:cooked_marshmallow_on_a_stick",
+			"minecraft:stick",
+		);
+
 	event.shapeless("kubejs:hot_dog", [
 		"kubejs:hot_dog_bun",
 		"kubejs:cooked_sausage",
@@ -9651,12 +9616,8 @@ ServerEvents.recipes((event) => {
 			tag: "c:tools/knife",
 		},
 	});
-	
-	event.recipes.create
-		.cutting(
-			"kubejs:hot_dog_bun",
-			"minecraft:bread"
-	)
+
+	event.recipes.create.cutting("kubejs:hot_dog_bun", "minecraft:bread");
 
 	//Rolling Mill
 
@@ -10273,14 +10234,10 @@ ServerEvents.recipes((event) => {
 			C: "immersive_aircraft:engine",
 		},
 	);
-	
+
 	event.recipes.create.mechanical_crafting(
 		"man_of_many_planes:scarlet_biplane",
-		["   A ",
-		 "A BC ", 
-		 "ADEFG", 
-		 "A BC ", 
-		 "   A "],
+		["   A ", "A BC ", "ADEFG", "A BC ", "   A "],
 		{
 			A: "immersive_aircraft:hull_reinforcement",
 			B: "create:iron_sheet",

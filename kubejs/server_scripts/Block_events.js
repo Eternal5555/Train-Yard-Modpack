@@ -23,14 +23,14 @@ BlockEvents.rightClicked((event) => {
 
 BlockEvents.broken("barrier", (event) => {
 	const { block, level, player } = event;
-	
+
 	const itemEntity = level.createEntity("minecraft:item");
-	const pos= block.pos.center
+	const pos = block.pos.center
 	itemEntity.setPosition(pos.x(), pos.y(), pos.z());
-	
+
 	itemEntity.item = Item.of("barrier", 1)
 	itemEntity.motionY = 0.2;
-	
+
 	itemEntity.spawn();
 });
 
@@ -38,5 +38,5 @@ BlockEvents.broken("barrier", (event) => {
 	event.addBlockModifier("minecraft:barrier")
 		.addLoot(LootEntry.of("minecraft:barrier"));
 })*/
-	
+
 console.log("Block Events loaded.");

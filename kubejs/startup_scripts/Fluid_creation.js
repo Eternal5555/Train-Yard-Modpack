@@ -271,36 +271,36 @@ StartupEvents.registry("fluid", (event) => {
 		.create("kubejs:condensed_carbon_mixture", "thin")
 		.tint(0x3e3f3d)
 		.displayName("Condensed Carbon Mixture");
-	
+
 	event
 		.create("kubejs:synthetic_sponge_mixture", "thin")
 		.tint(0xcbcc49)
 		.displayName("Synthetic Sponge Mixture");
-		
+
 	event
 		.create("kubejs:microplastics_solution", "thin")
 		.tint(0xd5dade)
 		.displayName("Microplastics Solution");
-	
+
 	event
 		.create("kubejs:molten_membrane", "thin")
 		.tint(0x7d617a)
 		.displayName("Molten Membrane");
-	
+
 	event
 		.create("kubejs:waste_steam", "thin")
 		.tint(0xd6d6d6)
 		.displayName("Waste Steam")
 		.noBlock()
 		.bucketItem.texture("kubejs:item/waste_steam_bucket");
-	
+
 	event
 		.create("kubejs:treated_steam", "thin")
 		.tint(0xe7e7e7)
 		.displayName("Treated Steam")
 		.noBlock()
 		.bucketItem.texture("kubejs:item/treated_steam_bucket");
-	
+
 	event
 		.create("kubejs:ethanol", "thin")
 		.tint(0xe8e8e8)
