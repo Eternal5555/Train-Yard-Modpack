@@ -186,6 +186,14 @@ ServerEvents.tags("block", (event) => {
 		event.add("minecraft:mineable/pickaxe", "minecraft:barrier")
 		event.add("minecraft:needs_iron_tool", "minecraft:barrier")
 	});
+
+	//Fix for C: interior seats not working on trains
+	event.add("create:seats", "#interiors:chairs")
+	event.add("create:seats", "#interiors:floor_chairs");
+	event.add("create:seats", "interiors:kelp_chair");
+	event.add("create:seats", "interiors:kelp_floor_chair");
+	event.add("create:seats", "interiors:kelp_seat");
+
 });
 
 console.info("Tags sucessfully loaded!");

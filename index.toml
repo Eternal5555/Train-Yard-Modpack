@@ -1858,11 +1858,11 @@ hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
 file = "kubejs/server_scripts/recipies.js"
-hash = "35c68ba1ae21ac6ff144b62e4f3a58fdc097cae2118657656c0fd39fbb2e8bc5"
+hash = "3b0639fcff0621ceb350567ae66d9b0a481a1d5d88678caa21de2219cbb044f6"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "f7b074576ba52b66806ff2186da8c50355f40ccfb7f0592be544059f007269c4"
+hash = "01b3a7f2e98c49e34e1963fe36a271eb6a04c34b28d03258ff362b64c58d3c09"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"

@@ -10414,6 +10414,39 @@ ServerEvents.recipes((event) => {
 			Fluid.of("create_dragons_plus:orange_dye", 250),
 		],
 	);
+
+	//C: interiors kelp seats
+	event.shapeless(Item.of("interiors:kelp_seat", 1), [
+		"#minecraft:wooden_slabs",
+		"create:belt_connector",
+	]);
+
+	event.shapeless(Item.of("interiors:kelp_floor_chair", 1), [
+		"#minecraft:wooden_slabs",
+		"interiors:kelp_seat",
+	]);
+
+	event.shapeless(Item.of("interiors:kelp_floor_chair", 1), [
+		"#minecraft:wooden_slabs",
+		"#minecraft:wooden_slabs",
+		"create:belt_connector",
+	]);
+
+	event.shaped("interiors:kelp_chair", ["A", "B"], {
+		A: "interiors:kelp_seat",
+		B: "#minecraft:wooden_planks",
+	});
+
+	event.shapeless(Item.of("interiors:kelp_chair", 1), [
+		"#minecraft:wooden_slabs",
+		"interiors:kelp_floor_chair",
+	]);
+
+	event.shaped("interiors:kelp_chair", ["A", "B", "C"], {
+		A: "create:belt_connector",
+		B: "#minecraft:wooden_planks",
+		C: "#minecraft:wooden_slabs",
+	});
 });
 
-console.info("Recipies Loaded.")
+console.info("Recipies Loaded.");
