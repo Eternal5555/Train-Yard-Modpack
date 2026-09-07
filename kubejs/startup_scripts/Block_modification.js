@@ -38,7 +38,7 @@ BlockEvents.modification((event) => {
 		block.destroySpeed = -1.0;
 		block.explosionResistance = 3600000.0;
 	});
-	
+
 	event.modify("minecraft:barrier", (block) => {
 		block.destroySpeed = 1.5;
 		block.explosionResistance = 3600000.0;

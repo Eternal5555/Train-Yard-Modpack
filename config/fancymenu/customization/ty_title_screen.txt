@@ -345,7 +345,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Train Yard Modpack 3.0.8
+  source = Train Yard Modpack 3.1.1
   source_mode = direct
   shadow = true
   enable_scrolling = true

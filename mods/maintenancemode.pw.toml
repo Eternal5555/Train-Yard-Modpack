@@ -1,0 +1,13 @@
+name = "Maintenance Mode"
+filename = "MaintenanceMode-Universal-1.3.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/QOkEkSap/versions/s8TQ8YyA/MaintenanceMode-Universal-1.3.4.jar"
+hash-format = "sha512"
+hash = "778537ae862f5796999f9428376809c3208847b643c45440ebdb68d69e729997997ee3cc14bb256326f06f67a8f97cb9c73552cefeb20a6f5f368b7b3ccc3ffe"
+
+[update]
+[update.modrinth]
+mod-id = "QOkEkSap"
+version = "s8TQ8YyA"

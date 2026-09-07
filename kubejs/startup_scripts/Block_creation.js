@@ -288,8 +288,8 @@ StartupEvents.registry("block", (event) => {
 		.viewBlocking(true)
 		.redstoneConductor(true)
 		.transparent(false);
-		
-		event
+
+	event
 		.create("charcoal_block")
 		.displayName("Block of Charcoal")
 		.mapColor("color_black")

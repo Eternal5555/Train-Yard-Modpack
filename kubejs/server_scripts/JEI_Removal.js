@@ -58,7 +58,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 		"kubejs:unfinished_formation_core",
 		"kubejs:unfinished_motherboard",
 		"kubejs:unfinished_smore",
-		
+
 		"tfmg:unfinished_potentiometer",
 		"tfmg:unfinished_electric_motor",
 		"tfmg:unfinished_generator",
@@ -196,26 +196,25 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
 	//Other
 
 	event.remove(["create_connected:item_silo"]);
-	
+
 	//Fluidic Tanks
-	
+
 	event.remove([
-	"fluidic_tanks:fluidic_vault",
-	"fluidic_tanks:copper_fluidic_vault",
-	"fluidic_tanks:iron_fluidic_vault",
-	"fluidic_tanks:gold_fluidic_vault",
-	"fluidic_tanks:emerald_fluidic_vault",
-	"fluidic_tanks:diamond_fluidic_vault",
-	"fluidic_tanks:netherite_fluidic_vault",
-	"fluidic_tanks:ultimate_fluidic_vault",
-	"fluidic_tanks:duplicating_fluidic_vault",
-	
-	"fluidic_tanks:diamond_fluidic_tank",
-	"fluidic_tanks:netherite_fluidic_tank",
-	"fluidic_tanks:ultimate_fluidic_tank",
-	"fluidic_tanks:duplicating_fluidic_tank"
+		"fluidic_tanks:fluidic_vault",
+		"fluidic_tanks:copper_fluidic_vault",
+		"fluidic_tanks:iron_fluidic_vault",
+		"fluidic_tanks:gold_fluidic_vault",
+		"fluidic_tanks:emerald_fluidic_vault",
+		"fluidic_tanks:diamond_fluidic_vault",
+		"fluidic_tanks:netherite_fluidic_vault",
+		"fluidic_tanks:ultimate_fluidic_vault",
+		"fluidic_tanks:duplicating_fluidic_vault",
+
+		"fluidic_tanks:diamond_fluidic_tank",
+		"fluidic_tanks:netherite_fluidic_tank",
+		"fluidic_tanks:ultimate_fluidic_tank",
+		"fluidic_tanks:duplicating_fluidic_tank",
 	]);
-	
 });
 
 console.info("Items removed from JEI.");

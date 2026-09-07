@@ -79,7 +79,7 @@ ItemEvents.modification((event) => {
 	event.modify("tfmg:crude_oil_bucket", (item) => {
 		item.burnTime = 9600;
 	});
-	
+
 	event.modify("createaddition:bioethanol_bucket", (item) => {
 		item.burnTime = 24000;
 	});
@@ -100,9 +100,9 @@ ItemEvents.modification((event) => {
 			usingConvertsTo: "kubejs:wooden_mechanism_casing"
 		});
 	});
-	
+
 	//Marshmallow System
-	
+
 	event.modify("kubejs:marshmallow", (item) => {
 		item.setFood({
 			nutrition: 2,
@@ -110,7 +110,7 @@ ItemEvents.modification((event) => {
 			eatSeconds: 1,
 		});
 	});
-	
+
 	event.modify("kubejs:marshmallow_on_a_stick", (item) => {
 		item.setFood({
 			nutrition: 2,
@@ -119,7 +119,7 @@ ItemEvents.modification((event) => {
 			usingConvertsTo: "minecraft:stick"
 		});
 	});
-	
+
 	event.modify("kubejs:cooked_marshmallow", (item) => {
 		item.setFood({
 			nutrition: 3,
@@ -127,7 +127,7 @@ ItemEvents.modification((event) => {
 			eatSeconds: 1,
 		});
 	});
-	
+
 	event.modify("kubejs:cooked_marshmallow_on_a_stick", (item) => {
 		item.setFood({
 			nutrition: 3,
@@ -136,7 +136,7 @@ ItemEvents.modification((event) => {
 			usingConvertsTo: "minecraft:stick"
 		});
 	});
-	
+
 	event.modify("kubejs:graham_cracker", (item) => {
 		item.setFood({
 			nutrition: 2,
@@ -144,7 +144,7 @@ ItemEvents.modification((event) => {
 			eatSeconds: 0.5,
 		});
 	});
-	
+
 	event.modify("kubejs:smore", (item) => {
 		item.setFood({
 			nutrition: 8,
@@ -152,11 +152,11 @@ ItemEvents.modification((event) => {
 			eatSeconds: 1.5,
 		});
 	});
-	
+
 	//Hot Dog System
-	
-const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectInstance')
-	
+
+	const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectInstance')
+
 	event.modify("kubejs:meat_paste", (item) => {
 		item.setFood({
 			nutrition: 1,
@@ -164,7 +164,7 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 2,
 		});
 	});
-	
+
 	event.modify("kubejs:raw_sausage", (item) => {
 		item.setFood({
 			nutrition: 2,
@@ -172,7 +172,7 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 1,
 		});
 	});
-	
+
 	event.modify("kubejs:cooked_sausage", (item) => {
 		item.setFood({
 			nutrition: 5,
@@ -180,7 +180,7 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 1,
 		});
 	});
-	
+
 	event.modify("kubejs:hot_dog_bun", (item) => {
 		item.setFood({
 			nutrition: 4,
@@ -188,7 +188,7 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 1,
 		});
 	});
-	
+
 	event.modify("kubejs:hot_dog", (item) => {
 		item.setFood({
 			nutrition: 10,
@@ -196,7 +196,7 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 1.2,
 		});
 	});
-	
+
 	event.modify("kubejs:hot_dog_with_ketchup", (item) => {
 		item.setFood({
 			nutrition: 13,
@@ -204,8 +204,8 @@ const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectI
 			eatSeconds: 1.2,
 		});
 	});
-	
-	
+
+
 });
 
 console.info("Items Modified")

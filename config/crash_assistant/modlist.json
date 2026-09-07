@@ -386,6 +386,14 @@
     "curseForgeHash": 947575198,
     "modrinthHash": "b6c70031b22396a87c1139ed29deae93e86f058b"
   },
+  "CraterLib-Neoforge-1.21-3.1.2.jar": {
+    "jarName": "CraterLib-Neoforge-1.21-3.1.2.jar",
+    "modId": "craterlib",
+    "name": "CraterLib",
+    "version": "3.1.2",
+    "curseForgeHash": 2337717809,
+    "modrinthHash": "b1146bec9b6ee6acd07d41d2666beffd1805cc19"
+  },
   "crawl-0.14.9.jar": {
     "jarName": "crawl-0.14.9.jar",
     "modId": "crawl",
@@ -418,14 +426,6 @@
     "curseForgeHash": 2822386664,
     "modrinthHash": "a0629ebc804090f5a76929fee300789138f12f18"
   },
-  "create-stockmarket-1.1.0+mc1.21.1.jar": {
-    "jarName": "create-stockmarket-1.1.0+mc1.21.1.jar",
-    "modId": "stockmarket",
-    "name": "Create: Stock Market",
-    "version": "1.1.0",
-    "curseForgeHash": 2926217457,
-    "modrinthHash": "329e6cc8104bc7b73606771d66aba7264515f2fe"
-  },
   "create_bb-1.0.7-1.21.1-Neoforge.jar": {
     "jarName": "create_bb-1.0.7-1.21.1-Neoforge.jar",
     "modId": "create_bb",
@@ -434,13 +434,13 @@
     "curseForgeHash": 275210960,
     "modrinthHash": "7a6eae4bc851786c6519c8cac956b406cb71a8eb"
   },
-  "create_configured-1.3.3.jar": {
-    "jarName": "create_configured-1.3.3.jar",
+  "create_configured-1.3.4.jar": {
+    "jarName": "create_configured-1.3.4.jar",
     "modId": "create_configured",
     "name": "Create Configured",
-    "version": "1.3.3",
-    "curseForgeHash": 3121517600,
-    "modrinthHash": "4cd3d45897b83207a309dca0844851061755e805"
+    "version": "1.3.4",
+    "curseForgeHash": 266057212,
+    "modrinthHash": "38890dab1dd095d89db3c75318ac4130801a30c6"
   },
   "create_connected-1.3.2-mc1.21.1.jar": {
     "jarName": "create_connected-1.3.2-mc1.21.1.jar",
@@ -1055,13 +1055,13 @@
     "curseForgeHash": 1572575945,
     "modrinthHash": "73d0c0f2f751c5ea3c05298d616d19a04eebab20"
   },
-  "maplink-neoforge-4.4.0-1.21-1.21.1.jar": {
-    "jarName": "maplink-neoforge-4.4.0-1.21-1.21.1.jar",
+  "maplink-neoforge-4.5.1-1.21-1.21.1.jar": {
+    "jarName": "maplink-neoforge-4.5.1-1.21-1.21.1.jar",
     "modId": "maplink",
     "name": "Map Link",
-    "version": "4.4.0",
-    "curseForgeHash": 800587699,
-    "modrinthHash": "4336881502b403c5af2820dd7e8fb0449cdf55e9"
+    "version": "4.5.1",
+    "curseForgeHash": 651811157,
+    "modrinthHash": "469fef948234e1494202bd693bce93557bae4864"
   },
   "mcw-bridges-3.1.2-mc1.21.1neoforge.jar": {
     "jarName": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
@@ -1215,13 +1215,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "open-parties-and-claims-neoforge-1.21.1-0.29.3.jar": {
-    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.29.3.jar",
+  "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar": {
+    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
     "modId": "openpartiesandclaims",
     "name": "Open Parties and Claims",
-    "version": "0.29.3",
-    "curseForgeHash": 4093605452,
-    "modrinthHash": "65c55c0e20a17199e330299533fa316829f6269c"
+    "version": "0.30.3",
+    "curseForgeHash": 3197896111,
+    "modrinthHash": "07d0dc7f42ad988065b1280d1452f3fed00f3fba"
   },
   "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar": {
     "jarName": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
@@ -1734,13 +1734,13 @@
     "curseForgeHash": 1985788456,
     "modrinthHash": "4b9d3a53247b2f3977e32b246be5aeb131504eae"
   },
-  "xaeroworldmap-neoforge-1.21.1-1.44.2.jar": {
-    "jarName": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
+  "xaeroworldmap-neoforge-1.21.1-1.45.0.jar": {
+    "jarName": "xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.44.2",
-    "curseForgeHash": 1881926010,
-    "modrinthHash": "beea95c1a2ca78e1a6ca0a0ddc7770672101fb60"
+    "version": "1.45.0",
+    "curseForgeHash": 2926975372,
+    "modrinthHash": "f243d6877ab32333f27bf27ad1e9eb600361e6aa"
   },
   "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",

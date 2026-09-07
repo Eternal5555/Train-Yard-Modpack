@@ -131,7 +131,7 @@ StartupEvents.registry("item", (event) => {
 	event.create("sodium_sulfate");
 	event.create("plant_fibre");
 	event.create("ceramic_filter");
-	
+
 	event.create("marshmallow")
 	event.create("marshmallow_on_a_stick")
 	event.create("cooked_marshmallow")
@@ -139,7 +139,7 @@ StartupEvents.registry("item", (event) => {
 	event.create("graham_cracker")
 	event.create("smore")
 	event.create("unfinished_smore", "create:sequenced_assembly");
-	
+
 	event.create("meat_paste")
 	event.create("raw_sausage")
 	event.create("cooked_sausage")
