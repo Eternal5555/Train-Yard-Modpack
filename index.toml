@@ -138,7 +138,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "0507b255f27629246a7e286dce669a9893ef757475a57d3c6c071bc10abe74d5"
+hash = "df8e2a7fd8c822482b522cd07607a63547506f385a0e8840dfec3073c7d41a4c"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
