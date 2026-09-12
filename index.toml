@@ -294,7 +294,7 @@ hash = "b160bd8a1ee2b184a760768535b7bdb60f321140296763d4e5de0148dbdbd3f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "49db056d8d7d286d4f42e68ea831b42c02be2305cd00545a66e5c2e0b4761389"
+hash = "6f51bab1e75aa714ad6ab57230866fb5b922b3f697733ee1ce3aa5d051eb6cf0"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2985,16 +2985,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia.pw.toml"
 hash = "f80f469e5898fe0732bdd8786f61d0260eda868fb383e0e3eb97c6d503b9b4c7"
-metafile = true
-
-[[files]]
-file = "mods/worldedit.pw.toml"
-hash = "de999f6cc4c2f344e324b4f331fa9767844c31463c6e8066fcd67b613338ab8c"
-metafile = true
-
-[[files]]
-file = "mods/worldeditcui-forge.pw.toml"
-hash = "26da583167cf97e2dd89bdf738dd2ad1358237c2b87ce3b593f47f6df1269df5"
 metafile = true
 
 [[files]]
