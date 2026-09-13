@@ -218,7 +218,7 @@ hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
 file = "config/death_keeper-common.toml"
-hash = "4cf8d5eed7728a00f2c0ad878ecfed17c28922f72679231661aa5136ff436a6b"
+hash = "35582feae72791d33b51b5c6eeb53c1e4e6ce47ca4e92bb5856d34c5aba55165"
 
 [[files]]
 file = "config/dndecor-server.toml"
@@ -998,7 +998,7 @@ hash = "7c9e9880f9a774ebe4a68446a6238647a753d91115edf60e9251516acdd893ac"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "fbc6bca462d1b05a0158c490f50a3b57541a67f9cc1692fd1d828194ada56ad7"
+hash = "1e58cecb51308b2b4831ff946086d78f5529492ecadea39022559d54292aa7e9"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
