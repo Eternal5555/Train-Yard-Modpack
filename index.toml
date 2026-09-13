@@ -217,6 +217,10 @@ file = "config/curios-server.toml"
 hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
+file = "config/death_keeper-common.toml"
+hash = "4cf8d5eed7728a00f2c0ad878ecfed17c28922f72679231661aa5136ff436a6b"
+
+[[files]]
 file = "config/dndecor-server.toml"
 hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
 
