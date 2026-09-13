@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "artifacts:everlasting_beef",
+            "artifacts:eternal_steak"
+        ]
+    }
+]

@@ -217,6 +217,10 @@ file = "config/curios-server.toml"
 hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
+file = "config/death_keeper-common.toml"
+hash = "35582feae72791d33b51b5c6eeb53c1e4e6ce47ca4e92bb5856d34c5aba55165"
+
+[[files]]
 file = "config/dndecor-server.toml"
 hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
 
@@ -294,7 +298,7 @@ hash = "b160bd8a1ee2b184a760768535b7bdb60f321140296763d4e5de0148dbdbd3f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "6f51bab1e75aa714ad6ab57230866fb5b922b3f697733ee1ce3aa5d051eb6cf0"
+hash = "844c75527921d0f839e194e35f6d896ed6f366bd2d86eaada724c1fa42427fc6"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -977,6 +981,10 @@ file = "config/refurbished_furniture.server.toml"
 hash = "8aa22b48490f6092ba243e0ef027d52cb03a7ff84ab6edc60229eacdfaf59fb1"
 
 [[files]]
+file = "config/reliable_remover/removal.json"
+hash = "76516ae146cf1825229cea36ee774098cabd785ad4cb5b0e1c5fbc4923cf9dec"
+
+[[files]]
 file = "config/resourcify.json"
 hash = "e58371e7d636e557efde9fecf278417fd1b5290f025fe79564bc57030eca1566"
 
@@ -990,7 +998,7 @@ hash = "7c9e9880f9a774ebe4a68446a6238647a753d91115edf60e9251516acdd893ac"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "8008e893ea3998e6a3b3992dba5c64ced78ab56458089fedd70a6d928bf3339c"
+hash = "1e58cecb51308b2b4831ff946086d78f5529492ecadea39022559d54292aa7e9"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
@@ -2718,11 +2726,6 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/pehkui.pw.toml"
-hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "bf0551888bcfaa93ecde7d2b3dc0ef8238e9bdec9285246c81a206c0a529b735"
 metafile = true
@@ -2785,6 +2788,16 @@ metafile = true
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
+metafile = true
+
+[[files]]
+file = "mods/reliable-recipes.pw.toml"
+hash = "bcd024534d03a03adf149c11dad52024f2fc81a4790cd941127de3f64f1250fc"
+metafile = true
+
+[[files]]
+file = "mods/reliable-remover.pw.toml"
+hash = "ac76909aa2f522e81dfda5f236b97f1316e5f8eaf3b243cf6358f014753ef7b2"
 metafile = true
 
 [[files]]
@@ -2990,11 +3003,6 @@ metafile = true
 [[files]]
 file = "mods/wwoo.pw.toml"
 hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
-metafile = true
-
-[[files]]
-file = "mods/xaero-train-map.pw.toml"
-hash = "055508f48abfc3dc9705337d324fe839bbc88cd5cd06ce77f65b4bd2c976a983"
 metafile = true
 
 [[files]]
