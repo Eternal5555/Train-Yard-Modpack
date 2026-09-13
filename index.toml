@@ -977,6 +977,10 @@ file = "config/refurbished_furniture.server.toml"
 hash = "8aa22b48490f6092ba243e0ef027d52cb03a7ff84ab6edc60229eacdfaf59fb1"
 
 [[files]]
+file = "config/reliable_remover/removal.json"
+hash = "76516ae146cf1825229cea36ee774098cabd785ad4cb5b0e1c5fbc4923cf9dec"
+
+[[files]]
 file = "config/resourcify.json"
 hash = "e58371e7d636e557efde9fecf278417fd1b5290f025fe79564bc57030eca1566"
 
@@ -2785,6 +2789,16 @@ metafile = true
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
+metafile = true
+
+[[files]]
+file = "mods/reliable-recipes.pw.toml"
+hash = "bcd024534d03a03adf149c11dad52024f2fc81a4790cd941127de3f64f1250fc"
+metafile = true
+
+[[files]]
+file = "mods/reliable-remover.pw.toml"
+hash = "ac76909aa2f522e81dfda5f236b97f1316e5f8eaf3b243cf6358f014753ef7b2"
 metafile = true
 
 [[files]]
