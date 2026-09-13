@@ -298,7 +298,7 @@ hash = "b160bd8a1ee2b184a760768535b7bdb60f321140296763d4e5de0148dbdbd3f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "6f51bab1e75aa714ad6ab57230866fb5b922b3f697733ee1ce3aa5d051eb6cf0"
+hash = "844c75527921d0f839e194e35f6d896ed6f366bd2d86eaada724c1fa42427fc6"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2726,11 +2726,6 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/pehkui.pw.toml"
-hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "bf0551888bcfaa93ecde7d2b3dc0ef8238e9bdec9285246c81a206c0a529b735"
 metafile = true
@@ -3008,11 +3003,6 @@ metafile = true
 [[files]]
 file = "mods/wwoo.pw.toml"
 hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
-metafile = true
-
-[[files]]
-file = "mods/xaero-train-map.pw.toml"
-hash = "055508f48abfc3dc9705337d324fe839bbc88cd5cd06ce77f65b4bd2c976a983"
 metafile = true
 
 [[files]]
