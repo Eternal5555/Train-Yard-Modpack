@@ -1866,7 +1866,7 @@ hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
 file = "kubejs/server_scripts/recipies.js"
-hash = "3b0639fcff0621ceb350567ae66d9b0a481a1d5d88678caa21de2219cbb044f6"
+hash = "55590243cd1918fcfe2f009f13fc9984011b571eb13bf27d6cd9c637f71a29ca"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
