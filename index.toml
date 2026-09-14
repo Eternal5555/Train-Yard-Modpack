@@ -442,7 +442,7 @@ hash = "d196b5c4f46f5ea21ff38a78bcda94834b48ef5554473bcab1fd3bb9effe3220"
 
 [[files]]
 file = "config/lootr-common.toml"
-hash = "0092d1efe145a764003908c75ca6d305435fd322edf88a14e4d2651c77c408dd"
+hash = "bf21784f00c7304d8595dae7e5bbb62ea29342e7e92f60e7b2ca31f2cdd1aa48"
 
 [[files]]
 file = "config/maplink/general.json5"
