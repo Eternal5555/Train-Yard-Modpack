@@ -389,10 +389,6 @@ file = "config/iris.properties"
 hash = "b2fc8a638903a5a95dd3ee2c57ce08f558708d9adf068c07920ad6fdd0ba212f"
 
 [[files]]
-file = "config/item_obliterator.json5"
-hash = "b6d4adee5e58816a39bebd5ce9ade4d4c7c75bd230a505fd10cd9e01779eeb36"
-
-[[files]]
 file = "config/itemphysic-client.json"
 hash = "92b13601e5e3a9016c0be5b932b585ea74929dd231b1a9bba3fa8daddc405a7b"
 
@@ -982,7 +978,7 @@ hash = "8aa22b48490f6092ba243e0ef027d52cb03a7ff84ab6edc60229eacdfaf59fb1"
 
 [[files]]
 file = "config/reliable_remover/removal.json"
-hash = "76516ae146cf1825229cea36ee774098cabd785ad4cb5b0e1c5fbc4923cf9dec"
+hash = "1e2f5a9ffb97a6e367b2ade1b880a2484c9c4ee37bf519f8574f72ae161f260b"
 
 [[files]]
 file = "config/resourcify.json"
@@ -2483,11 +2479,6 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
-metafile = true
-
-[[files]]
-file = "mods/item-obliterator.pw.toml"
-hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
 metafile = true
 
 [[files]]
