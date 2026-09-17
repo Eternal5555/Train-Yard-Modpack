@@ -2,8 +2,21 @@
     {
         "action": "remove",
         "items": [
-            "artifacts:everlasting_beef",
-            "artifacts:eternal_steak"
-        ]
+			"artifacts:everlasting_beef",
+			"artifacts:eternal_steak",
+			"createaddition:zinc_sheet",
+			"crowns:uranium_hexafluoride_bucket",
+			"ae2:condenser",
+			"ae2:certus_quartz_sword",
+			"ae2:certus_quartz_pickaxe",
+			"ae2:certus_quartz_axe",
+			"ae2:certus_quartz_shovel",
+			"ae2:certus_quartz_hoe",
+			"ae2:fluix_sword",
+			"ae2:fluix_pickaxe",
+			"ae2:fluix_axe",
+			"ae2:fluix_shovel",
+			"ae2:fluix_hoe"
+		]
     }
 ]
