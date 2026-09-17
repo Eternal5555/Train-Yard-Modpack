@@ -377,6 +377,10 @@ file = "config/fog/config.json"
 hash = "4efd4e12a2e11d564458eb2b4bd4fbb81b2f451e87487577041353b7fa34ca9a"
 
 [[files]]
+file = "config/friendsandfoes.json"
+hash = "5b6a45bb062012a75bc1b072254e6a946718992cca87fac4d64f37acd5cc77b1"
+
+[[files]]
 file = "config/gravestone-client.toml"
 hash = "6509ae4ffdec69d81c54f5d52e42c6d7d507b68bd019e658486b37908c1a7ed8"
 
