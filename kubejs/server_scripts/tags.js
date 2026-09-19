@@ -125,6 +125,12 @@ ServerEvents.tags("item", (event) => {
 	unburnable_item.forEach((item) => {
 		event.add("c:unburnable", item);
 	});
+
+	event.add("minecraft:pickaxes", [
+		"tfmg:steel_pickaxe",
+		"tfmg:aluminum_pickaxe",
+		"tfmg:lead_pickaxe"
+	]);
 });
 
 ServerEvents.tags("fluid", (event) => {
@@ -181,8 +187,6 @@ ServerEvents.tags("block", (event) => {
 	//Custom semaphore pole blocks (defined in the array at top of script)
 	custom_semaphore_pole.forEach((item) => {
 		event.add("railways:semaphore_poles", item);
-		event.add("minecraft:mineable/pickaxe", "minecraft:barrier");
-		event.add("minecraft:needs_iron_tool", "minecraft:barrier");
 	});
 
 	//Fix for C: interior seats not working on trains
@@ -191,6 +195,11 @@ ServerEvents.tags("block", (event) => {
 	event.add("create:seats", "interiors:kelp_chair");
 	event.add("create:seats", "interiors:kelp_floor_chair");
 	event.add("create:seats", "interiors:kelp_seat");
+
+	event.add("minecraft:mineable/pickaxe", "minecraft:barrier");
+	event.add("minecraft:needs_iron_tool", "minecraft:barrier");
+
+	event.add("minecraft:mineable/pickaxe", "twigs:mixed_bricks");
 });
 
 console.info("Tags sucessfully loaded!");
