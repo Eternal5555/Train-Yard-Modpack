@@ -217,10 +217,6 @@ file = "config/curios-server.toml"
 hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
-file = "config/death_keeper-common.toml"
-hash = "35582feae72791d33b51b5c6eeb53c1e4e6ce47ca4e92bb5856d34c5aba55165"
-
-[[files]]
 file = "config/dndecor-server.toml"
 hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
 
@@ -298,7 +294,7 @@ hash = "b160bd8a1ee2b184a760768535b7bdb60f321140296763d4e5de0148dbdbd3f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "844c75527921d0f839e194e35f6d896ed6f366bd2d86eaada724c1fa42427fc6"
+hash = "cf76682538422b8fb637a749ecda2e1bc9532b22bc6b100427ac68a034c3091c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -381,16 +377,28 @@ file = "config/fog/config.json"
 hash = "4efd4e12a2e11d564458eb2b4bd4fbb81b2f451e87487577041353b7fa34ca9a"
 
 [[files]]
+file = "config/friendsandfoes.json"
+hash = "5b6a45bb062012a75bc1b072254e6a946718992cca87fac4d64f37acd5cc77b1"
+
+[[files]]
+file = "config/gravestone-client.toml"
+hash = "6509ae4ffdec69d81c54f5d52e42c6d7d507b68bd019e658486b37908c1a7ed8"
+
+[[files]]
+file = "config/gravestone-server.toml"
+hash = "5c89ae78551fe1731a1497f05400ce55d1e7e40e9dbff4f0d506e0e98b2f6c02"
+
+[[files]]
+file = "config/gravestonecurioscompat-common.toml"
+hash = "72600f265ecb14fb987c16ed99e91504a29250d9d30a273ca6e16edda6da7d6c"
+
+[[files]]
 file = "config/immersive_aircraft.json"
 hash = "1639b97b00cb3d9e71046219f06ae97b92c78c2f635fea008a9c6313663ccdc3"
 
 [[files]]
 file = "config/iris.properties"
 hash = "b2fc8a638903a5a95dd3ee2c57ce08f558708d9adf068c07920ad6fdd0ba212f"
-
-[[files]]
-file = "config/item_obliterator.json5"
-hash = "b6d4adee5e58816a39bebd5ce9ade4d4c7c75bd230a505fd10cd9e01779eeb36"
 
 [[files]]
 file = "config/itemphysic-client.json"
@@ -442,7 +450,7 @@ hash = "d196b5c4f46f5ea21ff38a78bcda94834b48ef5554473bcab1fd3bb9effe3220"
 
 [[files]]
 file = "config/lootr-common.toml"
-hash = "0092d1efe145a764003908c75ca6d305435fd322edf88a14e4d2651c77c408dd"
+hash = "bf21784f00c7304d8595dae7e5bbb62ea29342e7e92f60e7b2ca31f2cdd1aa48"
 
 [[files]]
 file = "config/maplink/general.json5"
@@ -982,7 +990,7 @@ hash = "8aa22b48490f6092ba243e0ef027d52cb03a7ff84ab6edc60229eacdfaf59fb1"
 
 [[files]]
 file = "config/reliable_remover/removal.json"
-hash = "76516ae146cf1825229cea36ee774098cabd785ad4cb5b0e1c5fbc4923cf9dec"
+hash = "1e2f5a9ffb97a6e367b2ade1b880a2484c9c4ee37bf519f8574f72ae161f260b"
 
 [[files]]
 file = "config/resourcify.json"
@@ -1866,11 +1874,11 @@ hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
 file = "kubejs/server_scripts/recipies.js"
-hash = "3b0639fcff0621ceb350567ae66d9b0a481a1d5d88678caa21de2219cbb044f6"
+hash = "55590243cd1918fcfe2f009f13fc9984011b571eb13bf27d6cd9c637f71a29ca"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "48164c4ed54c1ebb27694412a6f80bda1249efdf1e628703f21cb3b50090b47c"
+hash = "95f920c9224e2bb50fd01e530c49bfcdb8bf2db5afd8619a50b7ffc013166ee9"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -2281,11 +2289,6 @@ hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
 metafile = true
 
 [[files]]
-file = "mods/death-keeper.pw.toml"
-hash = "28e5006830371ae54593597d26392df4619f0c15b3176769db902dbbbe1d7fbc"
-metafile = true
-
-[[files]]
 file = "mods/decorative-blocks-reborn.pw.toml"
 hash = "5c33ee84c17b3653307605c63a541d0e164fe58ec45dfcfe8e215a3ecf0d6033"
 metafile = true
@@ -2441,6 +2444,16 @@ hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "d18f1ea4c6c1c2f99f18a8725d11e14c93abd29988df24c967794fc52e9c969c"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "89321cbcc8789aca2ba0e70cbd3e498de493a5f2b9db51f9c72d65d99c7afee7"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "f7448243d61c3e7c5941896816afb91dd069cef492a2d93ceba9f48e391cdf44"
 metafile = true
@@ -2483,11 +2496,6 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
-metafile = true
-
-[[files]]
-file = "mods/item-obliterator.pw.toml"
-hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
 metafile = true
 
 [[files]]

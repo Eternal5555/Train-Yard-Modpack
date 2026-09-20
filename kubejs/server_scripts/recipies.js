@@ -441,6 +441,13 @@ ServerEvents.recipes((event) => {
 
 	event.remove({ id: "crowns:crushed_uranium_to_uranium_ingot_smelting" });
 	event.remove({ id: "crowns:crushed_uranium_to_uranium_ingot_blasting" });
+	
+	event.remove({ id: "crowns:deepslate_uranium_ore_to_uranium_ingot_smelting" });
+	event.remove({ id: "crowns:deepslate_uranium_ore_to_uranium_ingot_blasting" });
+	event.remove({ id: "crowns:uranium_ore_to_uranium_ingot_smelting" });
+	event.remove({ id: "crowns:uranium_ore_to_uranium_ingot_blasting" });
+	event.remove({ id: "crowns:raw_uranium_to_uranium_ingot_smelting" });
+	event.remove({ id: "crowns:raw_uranium_to_uranium_ingot_blasting" });
 
 	event.remove({ id: "crowns:natural_uranium/nugget_to_ingot" });
 	event.remove({ id: "crowns:natural_uranium/ingot_to_nugget" });
