@@ -138,7 +138,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "920c9662c35f061e5e2a54bbebdd44fdb8a990f640efa5a75e8cf8fd0c1b7cea"
+hash = "453b1d4ea376087d7b19e6243ee1dc43ad3f0097834c41e4e62e6ab0bfb670e8"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -2791,6 +2791,11 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "55fcb8b7508262d7e384f81dc86c0cf0c28ec98194d2dd842208b96291931c0c"
+metafile = true
+
+[[files]]
+file = "mods/recipe-item-sync.pw.toml"
+hash = "347fa9ca1f16d2f80af66798ea53d8924c8ad6d5d2752671751acb9b636e3dd8"
 metafile = true
 
 [[files]]

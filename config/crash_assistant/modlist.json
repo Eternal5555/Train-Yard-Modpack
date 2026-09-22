@@ -1367,6 +1367,14 @@
     "curseForgeHash": 1091566923,
     "modrinthHash": "6f7e53f39eb477d7cee8e21af215cd3db698deda"
   },
+  "recipeitemsync-3.0.1.jar": {
+    "jarName": "recipeitemsync-3.0.1.jar",
+    "modId": "recipeitemsync",
+    "name": "Recipe Item Sync",
+    "version": "3.0.1",
+    "curseForgeHash": 3548536684,
+    "modrinthHash": "56cc59770d9ce09832de6595e9e553ab78ef81d3"
+  },
   "redirected-neoforge-1.0.0-1.21.1.jar": {
     "jarName": "redirected-neoforge-1.0.0-1.21.1.jar",
     "modId": "redirected",

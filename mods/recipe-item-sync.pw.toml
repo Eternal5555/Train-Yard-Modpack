@@ -1,0 +1,13 @@
+name = "Recipe Item Sync"
+filename = "recipeitemsync-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jQbAVNQr/versions/bE52o4to/recipeitemsync-3.0.1.jar"
+hash-format = "sha512"
+hash = "2836f594c30ea32a5795f2de195a9192e5e34c7c45bcf4c2f09e30beb094a7e9613e7a86a70087572a80ea0bbbc5ee1e5bece523724339ff0668e54dec189c18"
+
+[update]
+[update.modrinth]
+mod-id = "jQbAVNQr"
+version = "bE52o4to"
