@@ -138,7 +138,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "0048010b01f226c4a8d5f810c1b39c520cb6244d78244964706cd3ada5f7e691"
+hash = "5c77840526072947e97902b47794192aa0039cafe58a6f7722b8769eb3dda77e"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -2635,7 +2635,7 @@ metafile = true
 
 [[files]]
 file = "mods/maplink.pw.toml"
-hash = "c8e7382579130d7b24ae3e3faaaab7f49a0abf33af097136a04af7044a08dc62"
+hash = "a09fb4b2a5b629a6ce3ab02236c62c572093172a7ab7519e84c149d45efbfafd"
 metafile = true
 
 [[files]]
@@ -2720,7 +2720,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "8203f8a717411ed58bf875952a37b7ca752748e3fcc8c19fd536ecfd0a7157ca"
+hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
 metafile = true
 
 [[files]]
@@ -3030,12 +3030,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "4c336c9a00838ff5b5bbf6cd8ae35927186fdfa42258ca15513835e1b12ced2f"
+hash = "64670072fa3b4db4a721769dd3d66a2865daac01c9a2480b9561675b1e9e9737"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "69df708c9b3980d96c953eaa0f98a9cb82ce7679872d1364da5ca4c116dc40b1"
+hash = "f8cc300d53ae8bf71d77124e6c46a5e85fe31654b39c5d73a1652a4d9c404af4"
 metafile = true
 
 [[files]]

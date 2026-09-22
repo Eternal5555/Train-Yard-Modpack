@@ -1079,13 +1079,13 @@
     "curseForgeHash": 1572575945,
     "modrinthHash": "73d0c0f2f751c5ea3c05298d616d19a04eebab20"
   },
-  "maplink-neoforge-4.5.1-1.21-1.21.1.jar": {
-    "jarName": "maplink-neoforge-4.5.1-1.21-1.21.1.jar",
+  "maplink-neoforge-4.6.0-1.21-1.21.1.jar": {
+    "jarName": "maplink-neoforge-4.6.0-1.21-1.21.1.jar",
     "modId": "maplink",
     "name": "Map Link",
-    "version": "4.5.1",
-    "curseForgeHash": 651811157,
-    "modrinthHash": "469fef948234e1494202bd693bce93557bae4864"
+    "version": "4.6.0",
+    "curseForgeHash": 244924312,
+    "modrinthHash": "493251a6117d8480c2dfbfed1a8081494b79df3d"
   },
   "mcw-bridges-3.1.2-mc1.21.1neoforge.jar": {
     "jarName": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
@@ -1239,13 +1239,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar": {
-    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
+  "open-parties-and-claims-neoforge-1.21.1-0.31.6.jar": {
+    "jarName": "open-parties-and-claims-neoforge-1.21.1-0.31.6.jar",
     "modId": "openpartiesandclaims",
     "name": "Open Parties and Claims",
-    "version": "0.30.3",
-    "curseForgeHash": 3197896111,
-    "modrinthHash": "07d0dc7f42ad988065b1280d1452f3fed00f3fba"
+    "version": "0.31.6",
+    "curseForgeHash": 2206236675,
+    "modrinthHash": "6d0ebc84bbb75322cb0ab45ffef6a54d3bc6adef"
   },
   "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar": {
     "jarName": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
@@ -1742,21 +1742,21 @@
     "curseForgeHash": 1573873399,
     "modrinthHash": "1e26a8ea18cf133fffd900dce5c3393ee2f81e6c"
   },
-  "xaerominimap-neoforge-1.21.1-26.4.2.jar": {
-    "jarName": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
+  "xaerominimap-neoforge-1.21.1-26.5.0.jar": {
+    "jarName": "xaerominimap-neoforge-1.21.1-26.5.0.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "26.4.2",
-    "curseForgeHash": 139279625,
-    "modrinthHash": "21b3232e62dabcbb5bf28866481e8de2c0ccb780"
+    "version": "26.5.0",
+    "curseForgeHash": 2862955605,
+    "modrinthHash": "7553dddbe478d1c8c15198090217e723d27f79c4"
   },
-  "xaeroworldmap-neoforge-1.21.1-1.45.0.jar": {
-    "jarName": "xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+  "xaeroworldmap-neoforge-1.21.1-1.46.0.jar": {
+    "jarName": "xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.45.0",
-    "curseForgeHash": 2926975372,
-    "modrinthHash": "f243d6877ab32333f27bf27ad1e9eb600361e6aa"
+    "version": "1.46.0",
+    "curseForgeHash": 1536258866,
+    "modrinthHash": "82b4ae6c0f2e13f02cbdc1325342909ed083fc24"
   },
   "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
