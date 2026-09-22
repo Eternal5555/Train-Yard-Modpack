@@ -197,13 +197,13 @@
     "curseForgeHash": 1559164094,
     "modrinthHash": "6b2d5ee0f19918387a581e041ee0748af6990473"
   },
-  "bobby-5.2.4.1+mc1.21.jar": {
-    "jarName": "bobby-5.2.4.1+mc1.21.jar",
+  "bobby_reneoforged-5.2.4-0.4+mc1.21.jar": {
+    "jarName": "bobby_reneoforged-5.2.4-0.4+mc1.21.jar",
     "modId": "bobby",
-    "name": "Bobby",
-    "version": "5.2.4.1+mc1.21",
-    "curseForgeHash": 2440177248,
-    "modrinthHash": "6f79364441347b59ccdfd224da5f894c0179330b"
+    "name": "Bobby ReNeoForged",
+    "version": "5.2.4-0.4+mc1.21",
+    "curseForgeHash": 843644155,
+    "modrinthHash": "42879aedd7eeb476a02f077807f06981d5db3930"
   },
   "bookshelf-neoforge-1.21.1-21.1.81.jar": {
     "jarName": "bookshelf-neoforge-1.21.1-21.1.81.jar",
