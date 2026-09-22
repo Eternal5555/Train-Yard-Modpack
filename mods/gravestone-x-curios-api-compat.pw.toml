@@ -1,6 +1,6 @@
 name = "Gravestone x Curios API Compat"
 filename = "gravestonecurioscompat-1.21.1-NeoForge-4.0.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/NaiL8bPN/versions/ugBtElN2/gravestonecurioscompat-1.21.1-NeoForge-4.0.2.jar"
