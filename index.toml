@@ -2039,11 +2039,6 @@ hash = "5be371e4ac8c4543824badc197937d8c04e15d2e1ef609875d7b3f63eed81aeb"
 metafile = true
 
 [[files]]
-file = "mods/bobby.pw.toml"
-hash = "45ffd0f1d01dee1c16c71bc4371b8a9bd64c96d30eabda818983afd0f4d62f5e"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
