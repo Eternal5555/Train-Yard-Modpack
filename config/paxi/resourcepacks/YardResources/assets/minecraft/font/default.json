@@ -41,6 +41,13 @@
 			"height": 9,
 			"ascent": 8,
 			"chars": ["\uF035"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/break.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": ["\uF036"]
 		}
 	]
 }

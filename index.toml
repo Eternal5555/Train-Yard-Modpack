@@ -906,7 +906,11 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/font/default.json"
-hash = "e6d7a6c3a57d236e3112a7e9f2e554cb3653652000963907b0296c024a340727"
+hash = "b42ed19393d0a17e373ff5d031e2ba5dea0be185a8ad796fabfc492099cf65bb"
+
+[[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/break.png"
+hash = "6abdba9bc98c818ce5a4e04e2d1989564ee2b8d42bf21bcc84e51e97443aae9a"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/conductor.png"
