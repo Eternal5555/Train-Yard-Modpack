@@ -1861,6 +1861,14 @@ file = "kubejs/config/web_server.json"
 hash = "383aafa137bff79b3070993f072915a46a6906ff73aa0abc4cbdf453fb3fd955"
 
 [[files]]
+file = "kubejs/data/botanytrees/loot_table/tree_drops/minecraft/pale_oak.json"
+hash = "e81a2f608f24849ddfc5db506d069df327dd2f7da6466c28095308598397931b"
+
+[[files]]
+file = "kubejs/data/botanytrees/recipe/minecraft/pale_oak.json"
+hash = "53534933054885089affa569565d01494e80507631a4070b5ebaf37c78333087"
+
+[[files]]
 file = "kubejs/data/create/data_maps/item/superheated_blaze_burner_fuels.json"
 hash = "957e0e9a70bfadf9abdbfc958efba0251aefe962badc90412e996369e959ba63"
 
