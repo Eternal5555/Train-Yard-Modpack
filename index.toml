@@ -138,7 +138,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "5c77840526072947e97902b47794192aa0039cafe58a6f7722b8769eb3dda77e"
+hash = "b833e1d163ebcf7aa6eded701a2d53004cbfe887ea6ee6c8618ef06538eca75e"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -2353,11 +2353,6 @@ metafile = true
 [[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "4fa25309ea7f4f7770ce6588f39711e891d39f70ae0906b842647273a9ce0448"
-metafile = true
-
-[[files]]
-file = "mods/entityculling.pw.toml"
-hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]

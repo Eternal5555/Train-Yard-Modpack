@@ -682,14 +682,6 @@
     "curseForgeHash": 1249730238,
     "modrinthHash": "56de40b237ff44dbf1bb68844e0f118607902684"
   },
-  "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
-    "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
-    "modId": "entityculling",
-    "name": "EntityCulling",
-    "version": "1.10.5",
-    "curseForgeHash": 2247657042,
-    "modrinthHash": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf"
-  },
   "etched-5.1.0.jar": {
     "jarName": "etched-5.1.0.jar",
     "modId": "etched",
