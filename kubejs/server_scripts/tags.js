@@ -28,6 +28,14 @@ const unburnable_item = [
 	"sophisticatedbackpacks:netherite_backpack",
 ];
 
+const pickaxe_mining_fix = [
+	"twigs:mixed_bricks",
+	"bits_n_bobs:weathered_metal_girder",
+	"bits_n_bobs:weathered_girder_strut",
+	"bits_n_bobs:girder_strut",
+	"bits_n_bobs:cable_girder_strut"
+]
+
 ServerEvents.tags("item", (event) => {
 	//SophisticatedBackpacks
 
@@ -189,6 +197,10 @@ ServerEvents.tags("block", (event) => {
 		event.add("railways:semaphore_poles", item);
 	});
 
+	pickaxe_mining_fix.forEach((item) =>{
+		event.add("minecraft:mineable/pickaxe", item);
+	});
+
 	//Fix for C: interior seats not working on trains
 	event.add("create:seats", "#interiors:chairs");
 	event.add("create:seats", "#interiors:floor_chairs");
@@ -198,8 +210,6 @@ ServerEvents.tags("block", (event) => {
 
 	event.add("minecraft:mineable/pickaxe", "minecraft:barrier");
 	event.add("minecraft:needs_iron_tool", "minecraft:barrier");
-
-	event.add("minecraft:mineable/pickaxe", "twigs:mixed_bricks");
 });
 
 console.info("Tags sucessfully loaded!");
