@@ -902,7 +902,7 @@ hash = "64c4707afe41d5b154a5c80dac88b5bbddf515b9ea45cc02f6abc586d2812aab"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+hash = "23e514654e9c33ebd1a4e1a0d3e9db0d1a5e7b5bc30f87f310322a5ee74172fb"
 
 [[files]]
 file = "config/paxi/resourcepacks/YardResources/assets/minecraft/font/default.json"
