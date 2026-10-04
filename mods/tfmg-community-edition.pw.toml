@@ -1,0 +1,13 @@
+name = "Create: TFMG Community Edition"
+filename = "tfmg-1.21.1-1.3.2a-community.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hC1xYvnS/versions/L0pdVzc7/tfmg-1.21.1-1.3.2a-community.jar"
+hash-format = "sha512"
+hash = "ffd088be6e0c94772eee8b4f551e73e10ccbf0aeccacc36b03b3ed566f677202a1ea5dc9bce50f66a69d98a59c98f7ff8dc2b4598298a0c90dda389644469e49"
+
+[update]
+[update.modrinth]
+mod-id = "hC1xYvnS"
+version = "L0pdVzc7"

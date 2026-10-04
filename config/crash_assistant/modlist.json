@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.247 (modloader)": {
-    "jarName": "neoforge-21.1.247 (modloader)",
+  "neoforge-21.1.255 (modloader)": {
+    "jarName": "neoforge-21.1.255 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.247"
+    "version": "neoforge-21.1.255"
   },
   "accessories-neoforge-1.1.0-beta.53+1.21.1.jar": {
     "jarName": "accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
@@ -1599,13 +1599,21 @@
     "curseForgeHash": 1619159138,
     "modrinthHash": "744394d979b422be560babf9df7a6800ede9ac5b"
   },
-  "tfmg-1.2.2c.jar": {
-    "jarName": "tfmg-1.2.2c.jar",
+  "tfmg-1.21.1-1.3.2a-community.jar": {
+    "jarName": "tfmg-1.21.1-1.3.2a-community.jar",
     "modId": "tfmg",
     "name": "Create: The Factory Must Grow",
-    "version": "1.2.2c",
-    "curseForgeHash": 1144631013,
-    "modrinthHash": "7d0330e92898ad4d8a60b59fb272c95aef80de96"
+    "version": "1.3.2a-community",
+    "curseForgeHash": 1501095725,
+    "modrinthHash": "32db66ef75c8e1b956683c1caa06d0e28ff3aba1"
+  },
+  "tfmgjs-1.21.1-1.2.0.jar": {
+    "jarName": "tfmgjs-1.21.1-1.2.0.jar",
+    "modId": "tfmgjs",
+    "name": "KubeJS TFMG",
+    "version": "1.21.1-1.2.0",
+    "curseForgeHash": 450764288,
+    "modrinthHash": "26acbc36a2a33f1bab3772c55a4468ce16f83f1e"
   },
   "ToolBelt-1.21.1-2.2.10.jar": {
     "jarName": "ToolBelt-1.21.1-2.2.10.jar",
