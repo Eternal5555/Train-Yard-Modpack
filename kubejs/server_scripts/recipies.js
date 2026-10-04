@@ -503,6 +503,10 @@ ServerEvents.recipes((event) => {
 
 	event.remove({ output: "armourers_workshop:hologram-projector" });
 	event.remove({ output: "armourers_workshop:mannequin" });
+	
+	event.remove({ output: "suppsquared:copper_lantern" });
+	
+	event.remove({ id: "minecraft:candle" });
 
 	event.remove({
 		output: [
@@ -1335,6 +1339,11 @@ ServerEvents.recipes((event) => {
 			C: `minecraft:${type}_dye`,
 		});
 	}
+	
+	event.shaped("8x minecraft:candle", ["A", "B"], {
+		A: "#c:strings",
+		B: "minecraft:honeycomb",
+	});
 
 	// event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
 	// 	A: "create:framed_glass",
@@ -2937,14 +2946,6 @@ ServerEvents.recipes((event) => {
 		"minecraft:dark_oak_sapling",
 	);
 	event.recipes.create.haunting(
-		"minecraft:pale_moss_block",
-		"minecraft:moss_block",
-	);
-	event.recipes.create.haunting(
-		"minecraft:pale_hanging_moss",
-		"minecraft:moss_block",
-	);
-	event.recipes.create.haunting(
 		"minecraft:closed_eyeblossom",
 		"minecraft:dandelion",
 	);
@@ -3531,6 +3532,26 @@ ServerEvents.recipes((event) => {
 	event.recipes.create.mixing(
 		["4x arts_and_crafts:soapstone"],
 		["2x twigs:schist", "minecraft:quartz", "minecraft:clay_ball"],
+	);
+	
+	event.recipes.create.mixing(
+		["8x minecraft:moss_block"],
+		["8x minecraft:pale_moss_block", "minecraft:green_dye"],
+	);
+	
+	event.recipes.create.mixing(
+		["8x natures_spirit:red_moss_block"],
+		["8x minecraft:pale_moss_block", "minecraft:light_gray_dye"],
+	);
+	
+	event.recipes.create.mixing(
+		["8x minecraft:pale_moss_block"],
+		["8x natures_spirit:red_moss_block", "minecraft:red_dye"],
+	);
+	
+	event.recipes.create.mixing(
+		["8x minecraft:pale_moss_block"],
+		["8x minecraft:moss_block", "minecraft:green_dye"],
 	);
 
 	//Compacting
@@ -4603,6 +4624,11 @@ ServerEvents.recipes((event) => {
 		"2x extra_copycats:copycat_cabinet_door",
 		"create:zinc_ingot",
 	);
+	
+	event.stonecutting(
+		"8x minecraft:pale_hanging_moss",
+		"minecraft:pale_moss_block",
+	);
 
 	//Smoking
 
@@ -4618,2286 +4644,746 @@ ServerEvents.recipes((event) => {
 	event.smoking("kubejs:cooked_sausage", "kubejs:raw_sausage");
 
 	//Chemical Vat recipes
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:crushed_raw_uranium", "create:crushed_raw_uranium", "create:crushed_raw_uranium", Fluid.of("kubejs:hydrochloric_acid", 1000)],
+		["2x kubejs:yellowcake_uranium_powder"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(200)
+		.minSize(18)
 
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 200,
-		results: [
-			{
-				count: 2,
-				id: "kubejs:yellowcake_uranium_powder",
-			},
-		],
-	});
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:crushed_raw_uranium", "create:crushed_raw_uranium", "create:crushed_raw_uranium", Fluid.of("tfmg:sulfuric_acid", 1000)],
+		["2x kubejs:yellowcake_uranium_powder"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(200)
+		.minSize(18)
 
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				item: "create:crushed_raw_uranium",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "tfmg:sulfuric_acid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 200,
-		results: [
-			{
-				count: 2,
-				id: "kubejs:yellowcake_uranium_powder",
-			},
-		],
-	});
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 1000)],
+		[Fluid.of("kubejs:oxygen", 300), Fluid.of("tfmg:hydrogen", 600)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("2x tfmg:electrode")
+		.processingTime(80)
+		.heatLevel(2)
+		.minSize(8)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:heavy_oil", 200), Fluid.of("tfmg:hydrogen", 120)],
+		[Fluid.of("tfmg:heavy_oil", 40), ("tfmg:sulfur_dust")]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.heatLevel(4)
+		.minSize(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:fine_aluminum_powder", "kubejs:fine_nickel_powder"],
+		["2x kubejs:fine_nickel_aluminide_powder"]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(20)
+		.minSize(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:asurine", "minecraft:quartz", "minecraft:amethyst_shard", Fluid.of("tfmg:sulfuric_acid", 1000)],
+		["8x ae2:certus_quartz_crystal"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.heatLevel(4)
+		.minSize(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:asurine", "minecraft:quartz", "minecraft:amethyst_shard", Fluid.of("kubejs:hydrochloric_acid", 1000)],
+		["8x ae2:certus_quartz_crystal"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.heatLevel(4)
+		.minSize(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:polyethylene_glycol", 150)],
+		["50x ae2:matter_ball"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:centrifuge")
+		.processingTime(200)
+		.heatLevel(6)
+		.minSize(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), Fluid.of("kubejs:ethylene_oxide", 300), "kubejs:sodium_hydroxide", "kubejs:sodium_hydroxide"],
+		[Fluid.of("kubejs:polyethylene_glycol", 450)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(100)
+		.heatLevel(2)
+		.minSize(8)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 100), Fluid.of("kubejs:chlorine", 100), Fluid.of("tfmg:hydrogen", 100)],
+		[Fluid.of("kubejs:hydrochloric_acid", 300)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 100), Fluid.of("kubejs:fluorine", 100), Fluid.of("tfmg:hydrogen", 100)],
+		[Fluid.of("kubejs:hydrofluoric_acid", 300)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 100), Fluid.of("kubejs:hydrogen_chloride", 200)],
+		[Fluid.of("kubejs:hydrochloric_acid", 300)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 100), Fluid.of("kubejs:hydrogen_fluoride", 200)],
+		[Fluid.of("kubejs:hydrofluoric_acid", 300)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:salt_water", 1000)],
+		[Fluid.of("kubejs:chlorine", 400), Fluid.of("tfmg:hydrogen", 200), "3x kubejs:sodium_hydroxide"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("2x tfmg:electrode")
+		.processingTime(80)
+		.minSize(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:carbon_dioxide", 300), Fluid.of("tfmg:hydrogen", 200), "create:copper_sheet"],
+		[Fluid.of("kubejs:oxygen", 200), Fluid.of("tfmg:ethylene", 300), "create:copper_sheet"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("2x tfmg:electrode")
+		.processingTime(80)
+		.minSize(8)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:oxygen", 200), Fluid.of("tfmg:ethylene", 300), "kubejs:aluminum_silver_catalyst"],
+		[Fluid.of("kubejs:ethylene_oxide", 500), "kubejs:aluminum_silver_catalyst"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.heatLevel(2)
+		.minSize(8)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:brine_salt"],
+		["kubejs:synthetic_lithium_powder"]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.machines("tfmg:centrifuge")
+		.processingTime(80)
+		.minSize(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:synthetic_lithium_powder"],
+		[Fluid.of("kubejs:synthetic_lithium_solution", 7)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(9)
+		.heatLevel(6)
 
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:treated_water",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 300,
-				id: "kubejs:oxygen",
-			},
-			{
-				amount: 600,
-				id: "tfmg:hydrogen",
-			},
-		],
-	});
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:sodium_hydroxide", "kubejs:sodium_hydroxide", "kubejs:sodium_hydroxide"],
+		[Fluid.of("kubejs:molten_sodium", 144), Fluid.of("kubejs:oxygen", 100), Fluid.of("tfmg:hydrogen", 100)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("2x tfmg:electrode")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:sodium", "tfmg:lead_ingot"],
+		[Fluid.of("kubejs:molten_sodium_lead_alloy", 288)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:molten_sodium", 144), Fluid.of("kubejs:molten_lead", 144)],
+		[Fluid.of("kubejs:molten_sodium_lead_alloy", 288)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:chlorine", 100), Fluid.of("tfmg:hydrogen", 100)],
+		[Fluid.of("kubejs:hydrogen_chloride", 200)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.machines("tfmg:mixing")
+		.processingTime(40)
+		.minSize(3)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:hydrogen_chloride", 100), Fluid.of("tfmg:ethylene", 100), Fluid.of("kubejs:chlorine", 50), "tfmg:aluminum_sheet"],
+		[Fluid.of("kubejs:ethyl_chloride", 200), "tfmg:aluminum_sheet"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:sodium_lead_alloy", "kubejs:sodium_lead_alloy", "kubejs:sodium_lead_alloy", "kubejs:sodium_lead_alloy", Fluid.of("kubejs:ethyl_chloride", 400)],
+		[Fluid.of("kubejs:tetraethyllead", 250), Fluid.of("kubejs:molten_sodium", 288), Fluid.of("kubejs:chlorine", 200), Fluid.of("kubejs:molten_lead", 216)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(160)
+		.minSize(8)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:molten_sodium_lead_alloy", 576), Fluid.of("kubejs:ethyl_chloride", 400)],
+		[Fluid.of("kubejs:tetraethyllead", 250), Fluid.of("kubejs:molten_sodium", 288), Fluid.of("kubejs:chlorine", 200), Fluid.of("kubejs:molten_lead", 216)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(160)
+		.minSize(8)
+		.heatLevel(2)
 
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "tfmg:heavy_oil",
-			},
-			{
-				type: "neoforge:single",
-				amount: 120,
-				fluid: "tfmg:hydrogen",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 40,
-				id: "tfmg:heavy_oil",
-			},
-			{
-				count: 1,
-				id: "tfmg:sulfur_dust",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:fine_aluminum_powder",
-			},
-			{
-				item: "kubejs:fine_nickel_powder",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				count: 2,
-				id: "kubejs:fine_nickel_aluminide_powder",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 5,
-		ingredients: [
-			{
-				item: "create:asurine",
-			},
-			{
-				item: "minecraft:quartz",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "tfmg:sulfuric_acid",
-			},
-			{
-				item: "minecraft:amethyst_shard",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 8,
-				id: "ae2:certus_quartz_crystal",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 5,
-		ingredients: [
-			{
-				item: "create:asurine",
-			},
-			{
-				item: "minecraft:quartz",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-			{
-				item: "minecraft:amethyst_shard",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 8,
-				id: "ae2:certus_quartz_crystal",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 150,
-				fluid: "kubejs:polyethylene_glycol",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 200,
-		results: [
-			{
-				count: 50,
-				id: "ae2:matter_ball",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 300,
-				fluid: "kubejs:ethylene_oxide",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-		],
-		min_size: 1,
-		processing_time: 100,
-		results: [
-			{
-				amount: 450,
-				id: "kubejs:polyethylene_glycol",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:chlorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:hydrogen",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 300,
-				id: "kubejs:hydrochloric_acid",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "kubejs:hydrogen_chloride",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 300,
-				id: "kubejs:hydrochloric_acid",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:salt_water",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 400,
-				id: "kubejs:chlorine",
-			},
-			{
-				amount: 200,
-				id: "tfmg:hydrogen",
-			},
-			{
-				count: 3,
-				id: "kubejs:sodium_hydroxide",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 300,
-				fluid: "tfmg:carbon_dioxide",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "tfmg:hydrogen",
-			},
-			{
-				item: "create:copper_sheet",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 200,
-				id: "kubejs:oxygen",
-			},
-			{
-				amount: 300,
-				id: "tfmg:ethylene",
-			},
-			{
-				chance: 1,
-				count: 1,
-				id: "create:copper_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "kubejs:oxygen",
-			},
-			{
-				type: "neoforge:single",
-				amount: 300,
-				fluid: "tfmg:ethylene",
-			},
-			{
-				item: "kubejs:aluminum_silver_catalyst",
-			},
-		],
-		machines: [],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 500,
-				id: "kubejs:ethylene_oxide",
-			},
-			{
-				chance: 1,
-				count: 1,
-				id: "kubejs:aluminum_silver_catalyst",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:brine_salt",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 1,
-				id: "kubejs:synthetic_lithium_powder",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				item: "kubejs:synthetic_lithium_powder",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 7,
-				id: "kubejs:synthetic_lithium_solution",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 144,
-				id: "kubejs:molten_sodium",
-			},
-			{
-				amount: 100,
-				id: "kubejs:oxygen",
-			},
-			{
-				amount: 100,
-				id: "tfmg:hydrogen",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				item: "kubejs:sodium",
-			},
-			{
-				item: "tfmg:lead_ingot",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 288,
-				id: "kubejs:molten_sodium_lead_alloy",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_sodium",
-			},
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_lead",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 288,
-				id: "kubejs:molten_sodium_lead_alloy",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:chlorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:hydrogen",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 40,
-		results: [
-			{
-				amount: 200,
-				id: "kubejs:hydrogen_chloride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:hydrogen_chloride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:ethylene",
-			},
-			{
-				type: "neoforge:single",
-				amount: 50,
-				fluid: "kubejs:chlorine",
-			},
-			{
-				count: 1,
-				item: "tfmg:aluminum_sheet",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 200,
-				id: "kubejs:ethyl_chloride",
-			},
-			{
-				count: 1,
-				id: "tfmg:aluminum_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				item: "kubejs:sodium_lead_alloy",
-			},
-			{
-				item: "kubejs:sodium_lead_alloy",
-			},
-			{
-				item: "kubejs:sodium_lead_alloy",
-			},
-			{
-				item: "kubejs:sodium_lead_alloy",
-			},
-			{
-				type: "neoforge:single",
-				amount: 400,
-				fluid: "kubejs:ethyl_chloride",
-			},
-		],
-		min_size: 1,
-		processing_time: 160,
-		results: [
-			{
-				amount: 250,
-				id: "kubejs:tetraethyllead",
-			},
-			{
-				amount: 288,
-				id: "kubejs:molten_sodium",
-			},
-			{
-				amount: 200,
-				id: "kubejs:chlorine",
-			},
-			{
-				amount: 216,
-				id: "kubejs:molten_lead",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 576,
-				fluid: "kubejs:molten_sodium_lead_alloy",
-			},
-			{
-				type: "neoforge:single",
-				amount: 400,
-				fluid: "kubejs:ethyl_chloride",
-			},
-		],
-		min_size: 1,
-		processing_time: 160,
-		results: [
-			{
-				amount: 250,
-				id: "kubejs:tetraethyllead",
-			},
-			{
-				amount: 288,
-				id: "kubejs:molten_sodium",
-			},
-			{
-				amount: 200,
-				id: "kubejs:chlorine",
-			},
-			{
-				amount: 216,
-				id: "kubejs:molten_lead",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:gasoline",
-			},
-			{
-				type: "neoforge:single",
-				amount: 15,
-				fluid: "kubejs:tetraethyllead",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 115,
-				id: "kubejs:single_additive_fuel",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:kerosene",
-			},
-			{
-				type: "neoforge:single",
-				amount: 30,
-				fluid: "kubejs:tetraethyllead",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 130,
-				id: "kubejs:double_additive_stage_1",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:naphtha",
-			},
-			{
-				type: "neoforge:single",
-				amount: 45,
-				fluid: "kubejs:tetraethyllead",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 145,
-				id: "kubejs:triple_additive_stage_1",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:double_additive_stage_1",
-			},
-			{
-				type: "neoforge:single",
-				amount: 15,
-				fluid: "tfmg:cooling_fluid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 115,
-				id: "kubejs:double_additive_fuel",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:triple_additive_stage_1",
-			},
-			{
-				type: "neoforge:single",
-				amount: 30,
-				fluid: "tfmg:cooling_fluid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 130,
-				id: "kubejs:triple_additive_stage_2",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 5,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:triple_additive_stage_2",
-			},
-			{
-				type: "neoforge:single",
-				amount: 15,
-				fluid: "kubejs:oxygen",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 115,
-				id: "kubejs:triple_additive_fuel",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "minecraft:coarse_dirt",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				chance: 0.9,
-				count: 1,
-				id: "minecraft:dirt",
-			},
-			{
-				chance: 0.1,
-				count: 1,
-				id: "minecraft:gravel",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "tfmg:naphtha",
-			},
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "minecraft:water",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 250,
-				id: "tfmg:propylene",
-			},
-			{
-				amount: 250,
-				id: "tfmg:ethylene",
-			},
-			{
-				amount: 125,
-				id: "minecraft:water",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "minecraft:coal",
-			},
-			{
-				item: "minecraft:coal",
-			},
-			{
-				item: "minecraft:coal",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 3,
-				id: "kubejs:welsh_coal",
-			},
-			{
-				chance: 0.2,
-				count: 1,
-				id: "tfmg:sulfur_dust",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				item: "minecraft:tuff",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				id: "kubejs:tuff_mineral_slurry",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				item: "biomesoplenty:flesh",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "biomesoplenty:blood",
-			},
-			{
-				type: "neoforge:single",
-				amount: 50,
-				fluid: "minecraft:water",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				chance: 1,
-				count: 2,
-				id: "biomesoplenty:porous_flesh",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				id: "biomesoplenty:blood",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				item: "biomesoplenty:porous_flesh",
-			},
-			{
-				item: "biomesoplenty:porous_flesh",
-			},
-			{
-				item: "createaddition:biomass",
-			},
-			{
-				item: "createaddition:biomass",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				id: "biomesoplenty:blood",
-			},
-			{
-				chance: 1,
-				count: 2,
-				id: "biomesoplenty:flesh",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		ingredients: [
-			{
-				item: "kubejs:advanced_coated_circuit_board",
-			},
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:advanced_etched_circuit_board",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		ingredients: [
-			{
-				item: "kubejs:coated_motherboard",
-			},
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:etched_motherboard",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				item: "tfmg:bauxite_powder",
-			},
-			{
-				item: "tfmg:bauxite_powder",
-			},
-			{
-				item: "kubejs:sodium_hydroxide",
-			},
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 250,
-				id: "kubejs:alumina_solution",
-			},
-			{
-				type: "neoforge:single",
-				amount: 18,
-				id: "kubejs:molten_sodium",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 10,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "kubejs:alumina_solution",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				id: "kubejs:molten_aluminum",
-			},
-			{
-				type: "neoforge:single",
-				amount: 72,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 20,
-				id: "kubejs:oxygen",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 10,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:salt_water",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 4,
-				id: "kubejs:brine_salt",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 175,
-				fluid: "tfmg:molten_plastic",
-			},
-			{
-				type: "neoforge:single",
-				amount: 25,
-				fluid: "kubejs:polyethylene_glycol",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 200,
-				id: "kubejs:improved_molten_plastic",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:gasoline", 100), Fluid.of("kubejs:tetraethyllead", 15)],
+		[Fluid.of("kubejs:single_additive_fuel", 115)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(12)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:kerosene", 100), Fluid.of("kubejs:tetraethyllead", 30)],
+		[Fluid.of("kubejs:double_additive_stage_1", 130)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(12)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:naphtha", 100), Fluid.of("kubejs:tetraethyllead", 45)],
+		[Fluid.of("kubejs:triple_additive_stage_1", 145)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(12)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:double_additive_stage_1", 100), Fluid.of("tfmg:cooling_fluid", 15)],
+		[Fluid.of("kubejs:double_additive_fuel", 115)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(16)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:triple_additive_stage_1", 100), Fluid.of("tfmg:cooling_fluid", 30)],
+		[Fluid.of("kubejs:triple_additive_stage_2", 130)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(16)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:triple_additive_stage_2", 100), Fluid.of("kubejs:oxygen", 15)],
+		[Fluid.of("kubejs:triple_additive_fuel", 115)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(20)
+		.heatLevel(8)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:coarse_dirt"],
+		[CreateItem.of("minecraft:dirt", 0.9), CreateItem.of("minecraft:gravel", 0.1)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(40)
+		.machines("tfmg:centrifuge")
+		.minSize(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:naphtha", 500), Fluid.of("kubejs:treated_water", 250)],
+		[Fluid.of("tfmg:propylene", 250), Fluid.of("tfmg:ethylene", 250), Fluid.of("kubejs:waste_water", 25)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(4)
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:coal", "minecraft:coal", "minecraft:coal", "kubejs:sodium_hydroxide", Fluid.of("kubejs:treated_water", 100)],
+		["3x kubejs:welsh_coal", CreateItem.of("tfmg:sulfur_dust", 0.2)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:tuff", Fluid.of("kubejs:hydrochloric_acid", 100)],
+		[Fluid.of("kubejs:tuff_mineral_slurry", 500)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.machines("tfmg:mixing")
+		.minSize(9)
+		.heatLevel(6)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["biomesoplenty:flesh", Fluid.of("biomesoplenty:blood", 200), Fluid.of("minecraft:water", 50)],
+		["2x biomesoplenty:porous_flesh", Fluid.of("biomesoplenty:blood", 200)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["biomesoplenty:porous_flesh", "biomesoplenty:porous_flesh", "createaddition:biomass", "createaddition:biomass"],
+		[Fluid.of("biomesoplenty:blood", 100), "2x biomesoplenty:flesh"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:advanced_coated_circuit_board", Fluid.of("kubejs:hydrochloric_acid", 250)],
+		["kubejs:advanced_etched_circuit_board"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:coated_motherboard", Fluid.of("kubejs:hydrochloric_acid", 250)],
+		["kubejs:etched_motherboard"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(160)
+		.minSize(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["tfmg:bauxite_powder", "tfmg:bauxite_powder", "kubejs:sodium_hydroxide", Fluid.of("kubejs:hydrochloric_acid", 250)],
+		[Fluid.of("kubejs:alumina_solution", 250), Fluid.of("kubejs:molten_sodium", 18)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(160)
+		.minSize(12)
+		.heatLevel(4)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:alumina_solution", 250)],
+		[Fluid.of("kubejs:molten_aluminum", 144), Fluid.of("tfmg:molten_slag", 72), Fluid.of("kubejs:oxygen", 20)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(160)
+		.minSize(18)
+		.heatLevel(10)
+		.machines("2x tfmg:electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:salt_water", 1000)],
+		["4x kubejs:brine_salt"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(16)
+		.heatLevel(8)
+		.machines("tfmg:centrifuge")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:molten_plastic", 175), Fluid.of("kubejs:polyethylene_glycol", 25)],
+		[Fluid.of("kubejs:improved_molten_plastic", 200)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.heatLevel(4)
+		.machines("tfmg:mixing")
 
 	//Uranium Processing
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 9,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:salt_water",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 400,
-				id: "kubejs:oxygen",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				id: "tfmg:hydrogen",
-			},
-			{
-				count: 3,
-				id: "kubejs:potassium_chloride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		ingredients: [
-			{
-				item: "kubejs:potassium_chloride",
-			},
-			{
-				item: "kubejs:potassium_chloride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 150,
-				fluid: "minecraft:water",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 50,
-				id: "kubejs:chlorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				id: "kubejs:hydrogen_chloride",
-			},
-			{
-				count: 2,
-				id: "kubejs:potassium_hydroxide",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 50,
-				fluid: "tfmg:carbon_dioxide",
-			},
-			{
-				item: "kubejs:potassium_hydroxide",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 25,
-				id: "minecraft:water",
-			},
-			{
-				count: 2,
-				id: "kubejs:potassium_carbonate",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:hydrofluoric_acid",
-			},
-			{
-				item: "kubejs:potassium_carbonate",
-			},
-			{
-				item: "kubejs:potassium_carbonate",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				id: "kubejs:hydrogen_fluoride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 50,
-				id: "tfmg:carbon_dioxide",
-			},
-			{
-				count: 2,
-				id: "kubejs:potassium_fluoride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat", "tfmg:steel_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 400,
-				fluid: "kubejs:hydrogen_fluoride",
-			},
-			{
-				item: "kubejs:potassium_fluoride",
-			},
-			{
-				item: "kubejs:potassium_fluoride",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				id: "tfmg:hydrogen",
-			},
-			{
-				type: "neoforge:single",
-				amount: 400,
-				id: "kubejs:fluorine",
-			},
-			{
-				count: 1,
-				id: "kubejs:potassium_fluoride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:yellowcake_uranium_powder",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:fluorine",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 490,
-				id: "kubejs:uranium_hexafluoride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 10,
-				id: "kubejs:enriched_uranium_hexafluoride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 2,
-				fluid: "kubejs:uranium_hexafluoride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 38,
-				fluid: "kubejs:enriched_uranium_hexafluoride",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 40,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 40,
-				id: "kubejs:enriched_uranium_hexafluoride",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 14,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:enriched_uranium_hexafluoride",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				id: "kubejs:hydrogen_fluoride",
-			},
-			{
-				count: 1,
-				id: "kubejs:uranium_dioxide",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 700,
-				fluid: "tfmg:sulfuric_acid",
-			},
-			{
-				item: "kubejs:calcium_fluoride",
-			},
-			{
-				item: "kubejs:calcium_fluoride",
-			},
-			{
-				item: "kubejs:calcium_fluoride",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 400,
-				id: "kubejs:hydrogen_fluoride",
-			},
-			{
-				type: "neoforge:single",
-				amount: 400,
-				id: "kubejs:oxygen",
-			},
-			{
-				chance: 0.5,
-				count: 1,
-				id: "tfmg:sulfur_dust",
-			},
-			{
-				chance: 0.5,
-				count: 1,
-				id: "natures_spirit:calcite_shard",
-			},
-			{
-				chance: 0.25,
-				count: 1,
-				id: "natures_spirit:calcite_shard",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:fluorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:hydrogen",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 300,
-				id: "kubejs:hydrofluoric_acid",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "kubejs:hydrogen_fluoride",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 300,
-				id: "kubejs:hydrofluoric_acid",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				item: "minecraft:calcite",
-			},
-			{
-				item: "minecraft:calcite",
-			},
-			{
-				item: "minecraft:calcite",
-			},
-			{
-				item: "minecraft:calcite",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 200,
-				id: "tfmg:carbon_dioxide",
-			},
-			{
-				count: 3,
-				id: "kubejs:calcium_fluoride",
-			},
-			{
-				chance: 0.25,
-				count: 1,
-				id: "natures_spirit:calcite_shard",
-			},
-		],
-	});
+	
+event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:salt_water", 1000)],
+		[Fluid.of("kubejs:oxygen", 400), Fluid.of("tfmg:hydrogen", 200), "3x kubejs:potassium_chloride"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.heatLevel(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:potassium_chloride", "kubejs:potassium_chloride", Fluid.of("kubejs:treated_water", 150)],
+		[Fluid.of("kubejs:chlorine", 50), Fluid.of("kubejs:hydrogen_chloride", 100), "2x kubejs:potassium_hydroxide"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.machines("2x tfmg:electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:carbon_dioxide", 50), "kubejs:potassium_hydroxide"],
+		[Fluid.of("minecraft:water", 25), "2x kubejs:potassium_carbonate"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:hydrofluoric_acid", 500), "kubejs:potassium_carbonate", "kubejs:potassium_carbonate"],
+		[Fluid.of("kubejs:hydrogen_fluoride", 200), Fluid.of("tfmg:carbon_dioxide", 50), "2x kubejs:potassium_fluoride"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.heatLevel(4)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:hydrogen_fluoride", 400), "kubejs:potassium_fluoride", "kubejs:potassium_fluoride"],
+		[Fluid.of("tfmg:hydrogen", 200), Fluid.of("kubejs:fluorine", 400), "kubejs:potassium_fluoride"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.heatLevel(4)
+		.machines("2x tfmg:electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:yellowcake_uranium_powder", Fluid.of("kubejs:fluorine", 100)],
+		[Fluid.of("kubejs:uranium_hexafluoride", 490), Fluid.of("kubejs:enriched_uranium_hexafluoride", 10)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:uranium_hexafluoride", 2), Fluid.of("kubejs:enriched_uranium_hexafluoride", 38)],
+		[Fluid.of("kubejs:enriched_uranium_hexafluoride", 40)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(40)
+		.minSize(5)
+		.machines("tfmg:centrifuge")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_steam", 200), Fluid.of("kubejs:enriched_uranium_hexafluoride", 100)],
+		[Fluid.of("kubejs:hydrogen_fluoride", 100), "kubejs:uranium_dioxide"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.heatLevel(9)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:sulfuric_acid", 700), "kubejs:calcium_fluoride", "kubejs:calcium_fluoride", "kubejs:calcium_fluoride"],
+		[Fluid.of("kubejs:hydrogen_fluoride", 400), Fluid.of("kubejs:oxygen", 400), CreateItem.of("tfmg:sulfur_dust", 0.5), CreateItem.of("natures_spirit:calcite_shard", 0.5), CreateItem.of("natures_spirit:calcite_shard", 0.25)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.heatLevel(4)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:calcite", "minecraft:calcite", "minecraft:calcite", "minecraft:calcite", Fluid.of("kubejs:hydrochloric_acid", 1000)],
+		[Fluid.of("tfmg:carbon_dioxide", 200), "3x kubejs:calcium_fluoride", CreateItem.of("natures_spirit:calcite_shard", 0.25)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.heatLevel(4)
 
 	//Advanced Crude Oil Processing
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 250,
-				fluid: "tfmg:crude_oil",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 250,
-				id: "kubejs:superheated_crude_oil",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 150,
-				fluid: "kubejs:treated_water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "kubejs:superheated_crude_oil",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 350,
-				id: "kubejs:crude_oil_emulsion",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 150,
-				fluid: "kubejs:crude_oil_emulsion",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 140,
-				id: "kubejs:treated_crude_oil",
-			},
-			{
-				amount: 10,
-				id: "kubejs:waste_water",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 95,
-				id: "kubejs:treated_water",
-			},
-			{
-				amount: 5,
-				id: "kubejs:mineral_sludge",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:waste_water",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 95,
-				id: "kubejs:treated_water",
-			},
-			{
-				amount: 5,
-				id: "kubejs:residual_fuel_oil",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 5,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:mineral_sludge",
-			},
-			{
-				item: "minecraft:tuff",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 95,
-				id: "kubejs:treated_water",
-			},
-			{
-				amount: 5,
-				id: "kubejs:tuff_mineral_slurry",
-			},
-			{
-				id: "minecraft:tuff",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 115,
-				fluid: "kubejs:residual_fuel_oil",
-			},
-			{
-				type: "neoforge:single",
-				amount: 5,
-				fluid: "tfmg:naphtha",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 120,
-				id: "tfmg:heavy_oil",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 110,
-				fluid: "kubejs:residual_fuel_oil",
-			},
-			{
-				type: "neoforge:single",
-				amount: 10,
-				fluid: "tfmg:kerosene",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 120,
-				id: "tfmg:heavy_oil",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 200,
-				fluid: "tfmg:lpg",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 100,
-				id: "tfmg:propane",
-			},
-			{
-				amount: 100,
-				id: "tfmg:butane",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:propane",
-			},
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:butane",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 200,
-				id: "tfmg:lpg",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 8,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 110,
-				fluid: "tfmg:propane",
-			},
-			{
-				item: "create:golden_sheet",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 20,
-				id: "tfmg:hydrogen",
-			},
-			{
-				amount: 90,
-				id: "tfmg:propylene",
-			},
-			{
-				id: "create:golden_sheet",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:crude_oil", 1000)],
+		[Fluid.of("kubejs:superheated_crude_oil", 1000)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(9)
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 300), Fluid.of("kubejs:superheated_crude_oil", 400)],
+		[Fluid.of("kubejs:crude_oil_emulsion", 700)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(4)
+		.machines("tfmg:mixing")
+	
+event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:crude_oil_emulsion", 300)],
+		[Fluid.of("kubejs:treated_crude_oil", 280), Fluid.of("kubejs:waste_water", 20)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 100)],
+		[Fluid.of("kubejs:treated_water", 95), Fluid.of("kubejs:mineral_sludge", 5)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(20)
+		.minSize(3)
+		.machines("tfmg:centrifuge")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:waste_water", 100)],
+		[Fluid.of("kubejs:treated_water", 95), Fluid.of("kubejs:residual_fuel_oil", 5)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(40)
+		.minSize(3)
+		.machines("tfmg:centrifuge")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:mineral_sludge", 100), "minecraft:tuff"],
+		[Fluid.of("kubejs:treated_water", 95), Fluid.of("kubejs:tuff_mineral_slurry", 5), "minecraft:tuff"]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(80)
+		.minSize(3)
+		.machines("tfmg:centrifuge")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:residual_fuel_oil", 115), Fluid.of("tfmg:naphtha", 5)],
+		[Fluid.of("tfmg:heavy_oil", 120)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:mixing")
+		.heatLevel(1)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:residual_fuel_oil", 110), Fluid.of("tfmg:kerosene", 10)],
+		[Fluid.of("tfmg:heavy_oil", 120)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:mixing")
+		.heatLevel(1)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:lpg", 200)],
+		[Fluid.of("tfmg:propane", 100), Fluid.of("tfmg:butane", 100)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(80)
+		.minSize(3)
+		.machines("tfmg:centrifuge")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:propane", 100), Fluid.of("tfmg:butane", 100)],
+		[Fluid.of("tfmg:lpg", 200)]
+	)
+		.allowedVatTypes("tfmg:steel", "tfmg:cast_iron")
+		.processingTime(80)
+		.minSize(3)
+		.machines("tfmg:mixing")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:propane", 110), "create:golden_sheet"],
+		[Fluid.of("tfmg:hydrogen", 20), Fluid.of("tfmg:propylene", 90), "create:golden_sheet"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(12)
+		.machines("tfmg:centrifuge")
+		.heatLevel(8)
 
 	//AE2
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:certus_quartz_dust",
-			},
-			{
-				item: "kubejs:quartz_plate",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:certus_quartz_plate",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:fluix_dust",
-			},
-			{
-				item: "kubejs:charged_certus_quartz_plate",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:fluix_crystal_plate",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:fluix_dust",
-			},
-			{
-				item: "minecraft:ender_pearl",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "ae2:fluix_pearl",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				item: "minecraft:redstone",
-			},
-			{
-				item: "ae2:charged_certus_quartz_crystal",
-			},
-			{
-				item: "createaddition:electrum_ingot",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "ae2:fluix_crystal",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "minecraft:redstone",
-			},
-			{
-				item: "createaddition:electrum_sheet",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:redstone_coated_plate",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:ender_dust",
-			},
-			{
-				item: "createaddition:electrum_sheet",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:ender_coated_plate",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:fluix_dust",
-			},
-			{
-				item: "ae2:quartz_fiber",
-			},
-			{
-				item: "ae2:quartz_fiber",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 2,
-				id: "ae2:fluix_glass_cable",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "minecraft:redstone",
-			},
-			{
-				item: "minecraft:glowstone_dust",
-			},
-			{
-				item: "ae2:fluix_covered_cable",
-			},
-			{
-				item: "ae2:fluix_covered_cable",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 2,
-				id: "ae2:fluix_smart_cable",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "minecraft:redstone",
-			},
-			{
-				item: "minecraft:glowstone_dust",
-			},
-			{
-				item: "ae2:fluix_covered_dense_cable",
-			},
-			{
-				item: "ae2:fluix_covered_dense_cable",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 2,
-				id: "ae2:fluix_smart_dense_cable",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "tfmg:sulfuric_acid",
-			},
-			{
-				item: "tfmg:coal_coke_block",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 250,
-				id: "kubejs:condensed_carbon_mixture",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 6,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:hydrochloric_acid",
-			},
-			{
-				item: "tfmg:coal_coke_block",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 500,
-				id: "kubejs:condensed_carbon_mixture",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 14,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "ae2:certus_quartz_dust",
-			},
-			{
-				item: "minecraft:glass",
-			},
-		],
-		machines: ["tfmg:electrode", "tfmg:electrode"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				count: 1,
-				id: "ae2:quartz_glass",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				item: "create:pulp",
-			},
-			{
-				item: "create:pulp",
-			},
-			{
-				item: "kubejs:sodium_sulfate",
-			},
-			{
-				item: "kubejs:plant_fibre",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 500,
-				id: "kubejs:synthetic_sponge_mixture",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:certus_quartz_dust", "kubejs:quartz_plate"],
+		["kubejs:certus_quartz_plate"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.machines("2x tfmg:electrode")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:fluix_dust", "kubejs:charged_certus_quartz_plate"],
+		["kubejs:fluix_crystal_plate"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:fluix_dust", "minecraft:ender_pearl"],
+		["ae2:fluix_pearl"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:redstone", "ae2:charged_certus_quartz_crystal", "createaddition:electrum_ingot"],
+		["ae2:fluix_crystal"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "minecraft:redstone", "createaddition:electrum_sheet"],
+		["kubejs:redstone_coated_plate"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.machines("2x tfmg:electrode")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:ender_dust", "createaddition:electrum_sheet"],
+		["kubejs:ender_coated_plate"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(18)
+		.machines("2x tfmg:electrode")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:fluix_dust", "ae2:quartz_fiber", "ae2:quartz_fiber"],
+		["2x ae2:fluix_glass_cable"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "minecraft:redstone", "minecraft:glowstone_dust", "ae2:fluix_covered_cable", "ae2:fluix_covered_cable"],
+		["2x ae2:fluix_smart_cable"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "minecraft:redstone", "minecraft:glowstone_dust", "ae2:fluix_covered_dense_cable", "ae2:fluix_covered_dense_cable"],
+		["2x ae2:fluix_smart_dense_cable"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(8)
+		.machines("2x tfmg:electrode")
+		.heatLevel(3)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:sulfuric_acid", 100), "tfmg:coal_coke_block"],
+		[Fluid.of("kubejs:condensed_carbon_mixture", 500)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:centrifuge")
+		.heatLevel(6)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:sulfuric_acid", 100), "tfmg:coal_coke_block"],
+		[Fluid.of("kubejs:condensed_carbon_mixture", 500)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:centrifuge")
+		.heatLevel(6)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 100), "ae2:certus_quartz_dust", "minecraft:glass"],
+		["ae2:quartz_glass"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(27)
+		.machines("2x tfmg:electrode")
+		.heatLevel(14)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:pulp", "create:pulp", "kubejs:sodium_sulfate", "kubejs:plant_fibre"],
+		[Fluid.of("kubejs:synthetic_sponge_mixture", 576)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:mixing")
+		.heatLevel(4)
 
 	//AE2 Certus Quartz Plate Charging
 
@@ -6945,313 +5431,119 @@ ServerEvents.recipes((event) => {
 			},
 		],
 	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "minecraft:water",
-			},
-			{
-				item: "kubejs:ceramic_filter",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1,
-				id: "kubejs:microplastics_solution",
-			},
-			{
-				amount: 500,
-				id: "kubejs:treated_water",
-			},
-			{
-				chance: 1,
-				count: 1,
-				id: "kubejs:ceramic_filter",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 3,
-		ingredients: [
-			{
-				item: "minecraft:phantom_membrane",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 144,
-				id: "kubejs:molten_membrane",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:microplastics_solution",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1,
-				id: "tfmg:molten_plastic",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:chlorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:oxygen",
-			},
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_sodium",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1000,
-				id: "create_dragons_plus:arts_and_crafts_bleached_dye",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:chlorine",
-			},
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:oxygen",
-			},
-			{
-				count: 1,
-				item: "kubejs:sodium",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1000,
-				id: "create_dragons_plus:arts_and_crafts_bleached_dye",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:treated_water",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 500,
-				id: "kubejs:waste_steam",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "minecraft:water",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 500,
-				id: "kubejs:waste_steam",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:mineral_sludge",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 100,
-				id: "kubejs:waste_steam",
-			},
-			{
-				chance: 0.0025,
-				count: 1,
-				id: "tfmg:slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 4,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:waste_water",
-			},
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 95,
-				id: "kubejs:waste_steam",
-			},
-			{
-				amount: 5,
-				id: "kubejs:residual_fuel_oil",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 600,
-				fluid: "kubejs:treated_water",
-			},
-			{
-				type: "neoforge:single",
-				amount: 400,
-				fluid: "kubejs:ethanol",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1000,
-				id: "brewinandchewin:vodka",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 300,
-				fluid: "tfmg:ethylene",
-			},
-			{
-				type: "neoforge:single",
-				amount: 150,
-				fluid: "kubejs:treated_steam",
-			},
-		],
-		machines: ["tfmg:mixing"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 450,
-				id: "kubejs:ethanol",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
-		heat_level: 2,
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 500,
-				fluid: "kubejs:waste_steam",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 400,
-				id: "kubejs:treated_steam",
-			},
-			{
-				amount: 100,
-				id: "kubejs:waste_steam",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 1000), "kubejs:ceramic_filter"],
+		[Fluid.of("kubejs:microplastics_solution", 1), Fluid.of("kubejs:treated_water", 500), "kubejs:ceramic_filter"]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:centrifuge")
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:phantom_membrane"],
+		[Fluid.of("kubejs:molten_membrane", 144)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(3)
+		.machines("tfmg:centrifuge")
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:microplastics_solution", 1000)],
+		[Fluid.of("tfmg:molten_plastic", 1), Fluid.of("kubejs:waste_steam", 500)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(40)
+		.minSize(3)
+		.heatLevel(2)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:chlorine", 500), Fluid.of("kubejs:oxygen", 500), Fluid.of("kubejs:molten_sodium", 144)],
+		[Fluid.of("create_dragons_plus:arts_and_crafts_bleached_dye", 1000)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(2)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:chlorine", 500), Fluid.of("kubejs:oxygen", 500), "kubejs:sodium"],
+		[Fluid.of("create_dragons_plus:arts_and_crafts_bleached_dye", 1000)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(2)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 500)],
+		[Fluid.of("kubejs:waste_steam", 1000)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("minecraft:water", 500)],
+		[Fluid.of("kubejs:waste_steam", 1000)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:mineral_sludge", 100)],
+		[Fluid.of("kubejs:waste_steam", 100), CreateItem.of("tfmg:slag", 0.0025)]
+	)
+		.allowedVatTypes("tfmg:cast_iron", "tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:waste_water", 100)],
+		[Fluid.of("kubejs:waste_steam", 95), Fluid.of("kubejs:residual_fuel_oil", 5)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.heatLevel(4)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:treated_water", 600), Fluid.of("kubejs:ethanol", 400)],
+		[Fluid.of("brewinandchewin:vodka", 1000)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("tfmg:ethylene", 300), Fluid.of("kubejs:treated_steam", 150)],
+		[Fluid.of("kubejs:ethanol", 450)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(4)
+		.machines("tfmg:mixing")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		[Fluid.of("kubejs:waste_steam", 1000)],
+		[Fluid.of("kubejs:treated_steam", 900), Fluid.of("kubejs:waste_steam", 100)]
+	)
+		.allowedVatTypes("tfmg:steel")
+		.processingTime(80)
+		.minSize(9)
+		.machines("tfmg:centrifuge")
+		.heatLevel(2)
 
 	//Mechanical Extruders
 
@@ -7514,665 +5806,202 @@ ServerEvents.recipes((event) => {
 		"lead",
 		"nickel",
 	];
-
+	
 	for (const type of chemicalvatblastingoretypeCreate) {
-		event.custom({
-			type: "tfmg:vat_machine_recipe",
-			allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-			ingredients: [
-				{
-					item: `create:crushed_raw_${type}`,
-				},
-			],
-			machines: [
-				"tfmg:graphite_electrode",
-				"tfmg:graphite_electrode",
-				"tfmg:graphite_electrode",
-			],
-			min_size: 1,
-			processing_time: 20,
-			results: [
-				{
-					amount: 360,
-					id: `kubejs:molten_${type}`,
-				},
-				{
-					amount: 288,
-					id: "tfmg:molten_slag",
-				},
-			],
-		});
+		event.recipes.tfmg.vat_machine_recipe(
+			[`create:crushed_raw_${type}`],
+			[Fluid.of(`kubejs:molten_${type}`, 360), Fluid.of("tfmg:molten_slag", 288)]
+		)
+			.allowedVatTypes("tfmg:fireproof")
+			.processingTime(20)
+			.minSize(27)
+			.machines("3x tfmg:graphite_electrode")
 	}
 
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:crushed_raw_silver",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				amount: 360,
-				id: "kubejs:molten_silver",
-			},
-			{
-				amount: 288,
-				id: "tfmg:molten_slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "tfmg:crushed_raw_lithium",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				amount: 360,
-				id: "kubejs:molten_lithium",
-			},
-			{
-				amount: 288,
-				id: "tfmg:molten_slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:steel_blast_mixture",
-			},
-			{
-				item: "tfmg:coal_coke_dust",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				amount: 216,
-				id: "tfmg:molten_steel",
-			},
-			{
-				amount: 144,
-				id: "tfmg:molten_slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "minecraft:netherite_scrap",
-			},
-			{
-				item: "minecraft:netherite_scrap",
-			},
-			{
-				item: "minecraft:gold_ingot",
-			},
-			{
-				item: "minecraft:gold_ingot",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				amount: 144,
-				id: "kubejs:molten_netherite",
-			},
-			{
-				amount: 432,
-				id: "tfmg:molten_slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "minecraft:netherite_scrap",
-			},
-			{
-				item: "minecraft:netherite_scrap",
-			},
-			{
-				type: "neoforge:single",
-				amount: 288,
-				fluid: "kubejs:molten_gold",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 20,
-		results: [
-			{
-				amount: 144,
-				id: "kubejs:molten_netherite",
-			},
-			{
-				amount: 432,
-				id: "tfmg:molten_slag",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				item: "kubejs:fine_nickel_aluminide_powder",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 9,
-		processing_time: 40,
-		results: [
-			{
-				id: "kubejs:nickel_aluminide_ingot",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				count: 1,
-				item: "tfmg:silicon_ingot",
-			},
-			{
-				count: 1,
-				item: "ae2:certus_quartz_dust",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 1,
-				id: "ae2:silicon",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		ingredients: [
-			{
-				count: 1,
-				item: "kubejs:quartz_powder",
-			},
-		],
-		machines: [
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-			"tfmg:graphite_electrode",
-		],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				amount: 60,
-				id: "tfmg:liquid_silicon",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "create:iron_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 424,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 576,
-				id: "kubejs:molten_iron",
-			},
-			{
-				id: "create:iron_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "tfmg:nickel_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 481.6,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 518.4,
-				id: "kubejs:molten_nickel",
-			},
-			{
-				id: "tfmg:nickel_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "createdeco:zinc_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 596.8,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 403.2,
-				id: "kubejs:molten_zinc",
-			},
-			{
-				id: "createdeco:zinc_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "create:copper_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 654.4,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 345.6,
-				id: "kubejs:molten_copper",
-			},
-			{
-				id: "create:copper_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "tfmg:lead_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 827.2,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 172.8,
-				id: "kubejs:molten_lead",
-			},
-			{
-				id: "tfmg:lead_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "kubejs:silver_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 913.6,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 86.4,
-				id: "kubejs:molten_silver",
-			},
-			{
-				id: "kubejs:silver_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:vat_machine_recipe",
-		allowed_vat_types: ["tfmg:firebrick_lined_vat"],
-		heat_level: 16,
-		ingredients: [
-			{
-				item: "create:golden_sheet",
-			},
-			{
-				type: "neoforge:single",
-				amount: 1000,
-				fluid: "kubejs:tuff_mineral_slurry",
-			},
-		],
-		machines: ["tfmg:centrifuge"],
-		min_size: 1,
-		processing_time: 80,
-		results: [
-			{
-				type: "neoforge:single",
-				amount: 942.4,
-				id: "tfmg:molten_slag",
-			},
-			{
-				type: "neoforge:single",
-				amount: 57.6,
-				id: "kubejs:molten_gold",
-			},
-			{
-				id: "create:golden_sheet",
-			},
-		],
-	});
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:crushed_raw_silver"],
+		[Fluid.of("kubejs:molten_silver", 360), Fluid.of("tfmg:molten_slag", 288)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(20)
+		.minSize(27)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["tfmg:crushed_raw_lithium"],
+		[Fluid.of("kubejs:molten_lithium", 360), Fluid.of("tfmg:molten_slag", 288)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(20)
+		.minSize(27)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:steel_blast_mixture", "tfmg:coal_coke_dust"],
+		[Fluid.of("tfmg:molten_steel", 216), Fluid.of("tfmg:molten_slag", 144)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(20)
+		.minSize(27)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:netherite_scrap", "minecraft:gold_ingot"],
+		[Fluid.of("kubejs:molten_netherite", 72), Fluid.of("tfmg:molten_slag", 216)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(20)
+		.minSize(27)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["minecraft:netherite_scrap", Fluid.of("kubejs:molten_gold", 144)],
+		[Fluid.of("kubejs:molten_netherite", 72), Fluid.of("tfmg:molten_slag", 216)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(20)
+		.minSize(27)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:fine_nickel_aluminide_powder"],
+		["kubejs:nickel_aluminide_ingot"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(40)
+		.minSize(18)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["tfmg:silicon_ingot", "ae2:certus_quartz_dust"],
+		["ae2:silicon"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(18)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:quartz_powder"],
+		[Fluid.of("tfmg:liquid_silicon", 60)]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(18)
+		.machines("3x tfmg:graphite_electrode")
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:iron_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 424), Fluid.of("kubejs:molten_iron", 576), "create:iron_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["tfmg:nickel_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 481.6), Fluid.of("kubejs:molten_nickel", 518.4), "tfmg:nickel_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["createdeco:zinc_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 596.8), Fluid.of("kubejs:molten_zinc", 403.2), "createdeco:zinc_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:copper_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 654.4), Fluid.of("kubejs:molten_copper", 345.6), "create:copper_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["tfmg:lead_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 827.2), Fluid.of("kubejs:molten_lead", 172.8), "tfmg:lead_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["kubejs:silver_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 913.6), Fluid.of("kubejs:molten_silver", 86.4), "kubejs:silver_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
+	
+	event.recipes.tfmg.vat_machine_recipe(
+		["create:golden_sheet", Fluid.of("kubejs:tuff_mineral_slurry", 1000)],
+		[Fluid.of("tfmg:molten_slag", 942.4), Fluid.of("kubejs:molten_gold", 57.6), "create:golden_sheet"]
+	)
+		.allowedVatTypes("tfmg:fireproof")
+		.processingTime(80)
+		.minSize(36)
+		.machines("tfmg:centrifuge")
+		.heatLevel(18)
 
 	//Distillation (TMFG)
-
-	event.custom({
-		type: "tfmg:distillation",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 360,
-				fluid: "kubejs:treated_crude_oil",
-			},
-		],
-		results: [
-			{
-				amount: 30,
-				id: "tfmg:heavy_oil",
-			},
-			{
-				amount: 90,
-				id: "tfmg:diesel",
-			},
-			{
-				amount: 45,
-				id: "tfmg:kerosene",
-			},
-			{
-				amount: 15,
-				id: "tfmg:naphtha",
-			},
-			{
-				amount: 90,
-				id: "tfmg:gasoline",
-			},
-			{
-				amount: 90,
-				id: "tfmg:lpg",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:distillation",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 345,
-				fluid: "kubejs:treated_crude_oil",
-			},
-		],
-		results: [
-			{
-				amount: 30,
-				id: "tfmg:heavy_oil",
-			},
-			{
-				amount: 90,
-				id: "tfmg:diesel",
-			},
-			{
-				amount: 45,
-				id: "tfmg:kerosene",
-			},
-			{
-				amount: 90,
-				id: "tfmg:gasoline",
-			},
-			{
-				amount: 90,
-				id: "tfmg:lpg",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:distillation",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 125,
-				fluid: "kubejs:treated_crude_oil",
-			},
-		],
-		results: [
-			{
-				amount: 25,
-				id: "tfmg:heavy_oil",
-			},
-			{
-				amount: 90,
-				id: "tfmg:diesel",
-			},
-			{
-				amount: 10,
-				id: "tfmg:gasoline",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.distillation(Fluid.of("kubejs:treated_crude_oil", 360), 
+		[Fluid.of("tfmg:heavy_oil", 30), 
+		Fluid.of("tfmg:diesel", 90),
+		Fluid.of("tfmg:kerosene", 45),
+		Fluid.of("tfmg:naphtha", 15),
+		Fluid.of("tfmg:gasoline", 90),
+		Fluid.of("tfmg:lpg", 90)])
+	
+	event.recipes.tfmg.distillation(Fluid.of("kubejs:treated_crude_oil", 345), 
+		[Fluid.of("tfmg:heavy_oil", 30), 
+		Fluid.of("tfmg:diesel", 90),
+		Fluid.of("tfmg:kerosene", 45),
+		Fluid.of("tfmg:gasoline", 90),
+		Fluid.of("tfmg:lpg", 90)])
+	
+	event.recipes.tfmg.distillation(Fluid.of("kubejs:treated_crude_oil", 125), 
+		[Fluid.of("tfmg:heavy_oil", 25), 
+		Fluid.of("tfmg:diesel", 90),
+		Fluid.of("tfmg:gasoline", 10)])
 
 	//Casting (TMFG)
 
 	//Molten Metal System Ingot Casting
 
 	const castingottypeMinecraft = ["iron", "gold", "copper", "netherite"];
-
+	
 	for (const type of castingottypeMinecraft) {
-		event.custom({
-			type: "tfmg:casting",
-			ingredients: [
-				{
-					type: "neoforge:single",
-					amount: 144,
-					fluid: `kubejs:molten_${type}`,
-				},
-			],
-			processing_time: 80,
-			results: [
-				{
-					id: `minecraft:${type}_ingot`,
-				},
-			],
-		});
+		event.recipes.tfmg.casting(Fluid.of(`kubejs:molten_${type}`, 144), `minecraft:${type}_ingot`, 80)
 	}
 
 	const castingottypeCreate = ["zinc", "brass"];
-
+	
 	for (const type of castingottypeCreate) {
-		event.custom({
-			type: "tfmg:casting",
-			ingredients: [
-				{
-					type: "neoforge:single",
-					amount: 144,
-					fluid: `kubejs:molten_${type}`,
-				},
-			],
-			processing_time: 80,
-			results: [
-				{
-					id: `create:${type}_ingot`,
-				},
-			],
-		});
+		event.recipes.tfmg.casting(Fluid.of(`kubejs:molten_${type}`, 144), `create:${type}_ingot`, 80)
 	}
 
 	const castingottypeCreateAddition = ["electrum"];
-
+	
 	for (const type of castingottypeCreateAddition) {
-		event.custom({
-			type: "tfmg:casting",
-			ingredients: [
-				{
-					type: "neoforge:single",
-					amount: 144,
-					fluid: `kubejs:molten_${type}`,
-				},
-			],
-			processing_time: 80,
-			results: [
-				{
-					id: `createaddition:${type}_ingot`,
-				},
-			],
-		});
+		event.recipes.tfmg.casting(Fluid.of(`kubejs:molten_${type}`, 144), `createaddition:${type}_ingot`, 80)
 	}
 
 	const castingottypeTFMG = [
@@ -8182,169 +6011,30 @@ ServerEvents.recipes((event) => {
 		"lithium",
 		"aluminum",
 	];
-
+	
 	for (const type of castingottypeTFMG) {
-		event.custom({
-			type: "tfmg:casting",
-			ingredients: [
-				{
-					type: "neoforge:single",
-					amount: 144,
-					fluid: `kubejs:molten_${type}`,
-				},
-			],
-			processing_time: 80,
-			results: [
-				{
-					id: `tfmg:${type}_ingot`,
-				},
-			],
-		});
+		event.recipes.tfmg.casting(Fluid.of(`kubejs:molten_${type}`, 144), `tfmg:${type}_ingot`, 80)
 	}
 
 	const castingottypeKubeJS = ["silver"];
-
+	
 	for (const type of castingottypeKubeJS) {
-		event.custom({
-			type: "tfmg:casting",
-			ingredients: [
-				{
-					type: "neoforge:single",
-					amount: 144,
-					fluid: `kubejs:molten_${type}`,
-				},
-			],
-			processing_time: 80,
-			results: [
-				{
-					id: `kubejs:${type}_ingot`,
-				},
-			],
-		});
+		event.recipes.tfmg.casting(Fluid.of(`kubejs:molten_${type}`, 144), `kubejs:${type}_ingot`, 80)
 	}
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:synthetic_lithium_solution",
-			},
-		],
-		processing_time: 80,
-		results: [
-			{
-				id: "tfmg:lithium_ingot",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_sodium_lead_alloy",
-			},
-		],
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:sodium_lead_alloy",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_sodium",
-			},
-		],
-		processing_time: 80,
-		results: [
-			{
-				id: "kubejs:sodium",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 100,
-				fluid: "kubejs:improved_molten_plastic",
-			},
-		],
-		processing_time: 200,
-		results: [
-			{
-				count: 1,
-				id: "tfmg:plastic_sheet",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 125,
-				fluid: "kubejs:condensed_carbon_mixture",
-			},
-		],
-		processing_time: 200,
-		results: [
-			{
-				count: 1,
-				id: "tfmg:graphite_electrode",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 50,
-				fluid: "kubejs:synthetic_sponge_mixture",
-			},
-		],
-		processing_time: 100,
-		results: [
-			{
-				count: 1,
-				id: "minecraft:sponge",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:casting",
-		ingredients: [
-			{
-				type: "neoforge:single",
-				amount: 144,
-				fluid: "kubejs:molten_membrane",
-			},
-		],
-		processing_time: 100,
-		results: [
-			{
-				count: 1,
-				id: "minecraft:barrier",
-			},
-		],
-	});
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:synthetic_lithium_solution", 144), "tfmg:lithium_ingot", 80)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:molten_sodium_lead_alloy", 144), "kubejs:sodium_lead_alloy", 80)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:molten_sodium", 144), "kubejs:sodium", 80)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:improved_molten_plastic", 144), "tfmg:plastic_sheet", 200)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:condensed_carbon_mixture", 144), "tfmg:graphite_electrode", 200)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:synthetic_sponge_mixture", 144), "minecraft:sponge", 100)
+	
+	event.recipes.tfmg.casting(Fluid.of("kubejs:molten_membrane", 144), "minecraft:barrier", 100)
 
 	//Liquid Burning (CreateAddition)
 
@@ -8497,34 +6187,6 @@ ServerEvents.recipes((event) => {
 			},
 			{
 				amount: 200,
-				id: "tfmg:furnace_gas",
-			},
-		],
-	});
-
-	event.custom({
-		type: "tfmg:industrial_blasting",
-		hot_air_usage: 20,
-		ingredients: [
-			{
-				item: "minecraft:netherite_scrap",
-			},
-			{
-				item: "minecraft:gold_ingot",
-			},
-		],
-		processing_time: 20,
-		results: [
-			{
-				amount: 72,
-				id: "kubejs:molten_netherite",
-			},
-			{
-				amount: 216,
-				id: "tfmg:molten_slag",
-			},
-			{
-				amount: 100,
 				id: "tfmg:furnace_gas",
 			},
 		],
@@ -8903,6 +6565,11 @@ ServerEvents.recipes((event) => {
 		A: "create:electron_tube",
 		B: "create:brass_ingot",
 		C: "tfmg:rubber_sheet",
+	});
+	
+	event.shaped("2x suppsquared:copper_lantern", ["A", "B", "A"], {
+		A: "minecraft:copper_ingot",
+		B: "minecraft:torch",
 	});
 
 	event.custom({
@@ -9601,6 +7268,16 @@ ServerEvents.recipes((event) => {
 	event.shapeless("kubejs:hot_dog", [
 		"kubejs:hot_dog_bun",
 		"kubejs:cooked_sausage",
+	]);
+	
+	event.shapeless("minecraft:rooted_dirt", [
+		"minecraft:dirt",
+		"minecraft:hanging_roots",
+	]);
+	
+	event.shapeless("8x minecraft:hanging_roots", [
+		"minecraft:bone_meal",
+		"minecraft:hanging_roots",
 	]);
 
 	//Cutting
