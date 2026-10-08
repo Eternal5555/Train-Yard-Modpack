@@ -937,6 +937,10 @@ file = "config/paxi/resourcepacks/YardResources/assets/minecraft/textures/font/t
 hash = "3076fca794a6d2ca46dedf5322b09afd166c206da55b9fd210e6f8aee7f69a19"
 
 [[files]]
+file = "config/paxi/resourcepacks/YardResources/assets/numismatics_advancement_seeker/lang/en_us.json"
+hash = "e5722feb0d63061701224d97e3612ef87203f271f9944fe72b75e1e0962ebaaa"
+
+[[files]]
 file = "config/paxi/resourcepacks/YardResources/pack.mcmeta"
 hash = "d21bfd050221438a1727b812c1c2c7c92d409ba6ebd1efd2516644308c5317d3"
 
