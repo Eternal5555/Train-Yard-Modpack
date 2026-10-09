@@ -1918,7 +1918,7 @@ hash = "5e1a8bff0314f1af32c2edc2179fe91d5726e631e49efa187915a37dffadc939"
 
 [[files]]
 file = "kubejs/startup_scripts/Item_modification.js"
-hash = "4aa3532055dd5e6f5af1614175a933a845d3fd5a8cbca0cb1decc0dbb654569e"
+hash = "88933ddb6107cc0cd7e37571648240843724ef711bc7bfb7dc0b87b24eb6a055"
 
 [[files]]
 file = "kubejs/startup_scripts/main_startup.js.orig"
