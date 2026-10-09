@@ -79,6 +79,9 @@ ItemEvents.modification((event) => {
 	event.modify("tfmg:crude_oil_bucket", (item) => {
 		item.burnTime = 9600;
 	});
+	event.modify("tfmg:heavy_oil_bucket", (item) => {
+		item.burnTime = 2400;
+	});
 
 	event.modify("createaddition:bioethanol_bucket", (item) => {
 		item.burnTime = 24000;
