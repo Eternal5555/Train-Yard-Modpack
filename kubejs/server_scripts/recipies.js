@@ -8088,6 +8088,17 @@ event.recipes.tfmg.vat_machine_recipe(
 		B: "#minecraft:wooden_planks",
 		C: "#minecraft:wooden_slabs",
 	});
+
+	//Switch Deco Cracked red bricks to a smoking recipe
+	event.remove({ output: 'createdeco:cracked_red_bricks', type: 'minecraft:smelting' });
+	
+	event.custom({
+		type: "minecraft:smoking",
+		ingredient: { item: 'minecraft:bricks' },
+		result: 'createdeco:cracked_red_bricks',
+		experience: 0.1,
+		cookingtime: 100
+	});
 });
 
 console.info("Recipies Loaded.");
