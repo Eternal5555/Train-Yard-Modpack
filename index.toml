@@ -1890,7 +1890,7 @@ hash = "b5716b6b3d92e6bdca3df4b8372cdd914cd4b1f0a30e8be1482f71174b4a3ee5"
 
 [[files]]
 file = "kubejs/server_scripts/recipies.js"
-hash = "fa5c2ce2be6c8f216d6b4162f306381ba340088ec5672289ca42df5c8d1203ea"
+hash = "def813cdd7db436ff8a4276d2a9a519192b911a4e92642e8cb2c54116e20b283"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -2277,6 +2277,11 @@ metafile = true
 [[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "e04ae91b53c33f6a4dea9ebc82be4255a56460a9e095a3a1fd748434e5dfb3bb"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-market.pw.toml"
+hash = "f341df2ccb99002868eac23f8ba7ee6a8ce537d18873a4f6f7a6f5f171b96b42"
 metafile = true
 
 [[files]]

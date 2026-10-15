@@ -610,7 +610,7 @@ ServerEvents.recipes((event) => {
 			"numismatics:black",*/
 
 			"#numismatics:cards",
-			// "stockmarket:market_terminal",
+			"stockmarket:market_terminal",
 		],
 	});
 
@@ -1345,11 +1345,11 @@ ServerEvents.recipes((event) => {
 		B: "minecraft:honeycomb",
 	});
 
-	// event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
-	// 	A: "create:framed_glass",
-	// 	B: "create:brass_casing",
-	// 	C: "kubejs:electron_circuit_board",
-	// });
+	event.shaped("stockmarket:market_terminal", [" A ", " B ", " C "], {
+		A: "create:framed_glass",
+		B: "create:brass_casing",
+		C: "kubejs:electron_circuit_board",
+	});
 
 	//Steel Tier
 
@@ -8090,15 +8090,9 @@ event.recipes.tfmg.vat_machine_recipe(
 	});
 
 	//Switch Deco Cracked red bricks to a smoking recipe
-	event.remove({ output: 'createdeco:cracked_red_bricks', type: 'minecraft:smelting' });
-	
-	event.custom({
-		type: "minecraft:smoking",
-		ingredient: { item: 'minecraft:bricks' },
-		result: 'createdeco:cracked_red_bricks',
-		experience: 0.1,
-		cookingtime: 100
-	});
+	event.remove({ output: 'twigs:cracked_bricks', type: 'minecraft:smelting' });
+
+	event.smoking("twigs:cracked_bricks", "minecraft:bricks");
 });
 
 console.info("Recipies Loaded.");
