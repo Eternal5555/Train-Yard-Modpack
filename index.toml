@@ -2190,6 +2190,11 @@ hash = "3eee863813e0ab349194d3dea0cf894e374779b2f5f0cb4543233b2d9175d69f"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "3752b1dcdfebbb1e79c97c847095153155d64636576a9c0ac11ffa6506c62922"
+metafile = true
+
+[[files]]
 file = "mods/create-configured.pw.toml"
 hash = "6561388e30510f40849f2a09d0c788e465e8aec882d3921d3f82306fa1ed9c26"
 metafile = true
@@ -2216,7 +2221,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "9c112af813c1f7540c3d198f38c8733fb7d983f459b1d20e372402af16d07f7d"
+hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
 metafile = true
 
 [[files]]
@@ -2875,6 +2880,11 @@ hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
 
 [[files]]
+file = "mods/simple-horse-qol.pw.toml"
+hash = "c6b744209cc9427442488afbb45809e3192b3bd49ee0abcae4313cc9601d9934"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "6c236a3eb1252f7a2e1dba35fb301d41f788358320aad4f2ce97b5dd2d79db3e"
 metafile = true
@@ -2997,6 +3007,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
+file = "mods/underlay.pw.toml"
+hash = "f41c114ebf583836130b794f11cef676c59908b78f04e14e0e7a81bab48353d4"
 metafile = true
 
 [[files]]

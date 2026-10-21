@@ -1,0 +1,13 @@
+name = "Simple Horse QOL"
+filename = "simple-horse-qol-1.0.2-1.21.1-neo.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/80nT8Rsl/versions/4rYhSpyC/simple-horse-qol-1.0.2-1.21.1-neo.jar"
+hash-format = "sha512"
+hash = "abc2e893067a543624763a515b245be418fb4e71db09ac2937737f135d8c0a86399aa0cab243bc01b7055e54495729cf9a8856c62540302f36a244858ad45636"
+
+[update]
+[update.modrinth]
+mod-id = "80nT8Rsl"
+version = "4rYhSpyC"

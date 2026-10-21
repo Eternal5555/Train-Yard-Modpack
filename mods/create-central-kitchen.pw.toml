@@ -1,0 +1,13 @@
+name = "Create: Central Kitchen"
+filename = "create-central-kitchen-2.6.2b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/btq68HMO/versions/qZxkZR8W/create-central-kitchen-2.6.2b.jar"
+hash-format = "sha512"
+hash = "d4d0a383b5288a7272392ae475d67bc947cd019bc627612bd01992f5ecd702bda078fe75302b83c9619eb26a754195e9ef5f2212cb200eef802bb7d49c255358"
+
+[update]
+[update.modrinth]
+mod-id = "btq68HMO"
+version = "qZxkZR8W"
