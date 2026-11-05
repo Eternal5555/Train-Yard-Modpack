@@ -2981,7 +2981,7 @@ metafile = true
 
 [[files]]
 file = "mods/tfmg-community-edition.pw.toml"
-hash = "8f0cba8a87fd4fd749a95a02e41a4754f6db3d3c96da921f4c1cbaa8a191b293"
+hash = "aef8922d29952bc613515e87e2baeee1e047b9ad7604df26dd257fe112215657"
 metafile = true
 
 [[files]]
