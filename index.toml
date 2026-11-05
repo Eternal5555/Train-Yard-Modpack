@@ -294,7 +294,7 @@ hash = "b160bd8a1ee2b184a760768535b7bdb60f321140296763d4e5de0148dbdbd3f1"
 
 [[files]]
 file = "config/fancymenu/customization/ty_title_screen.txt"
-hash = "cf76682538422b8fb637a749ecda2e1bc9532b22bc6b100427ac68a034c3091c"
+hash = "fa7c7a2b2b5ed4ffbef76c506eee652242cdf03c827376b04a19e5d8da48f7d8"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
