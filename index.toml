@@ -229,6 +229,10 @@ file = "config/dndesires-server.toml"
 hash = "315286358928fd90ba453d7ab2aba396e5b08c3011c710f5a47d281659719a5b"
 
 [[files]]
+file = "config/everycomp-client.toml"
+hash = "ea5331def60e618c3dee383c6ac33a959d3a4c5441e79dc22f629f4d3bb33a80"
+
+[[files]]
 file = "config/everycomp-common.toml"
 hash = "13ad4e42471f2c6fe6672f0e32ea676ba96f4d2f9119176b546ee1a744833068"
 
