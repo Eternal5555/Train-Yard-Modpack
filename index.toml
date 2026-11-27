@@ -1001,6 +1001,10 @@ file = "config/refurbished_furniture.server.toml"
 hash = "8aa22b48490f6092ba243e0ef027d52cb03a7ff84ab6edc60229eacdfaf59fb1"
 
 [[files]]
+file = "config/reliable_recipes/removal.json"
+hash = "c47694d34cbc5fa94144694f9c6dc26d608f5d3d220b4384d4af2f6f7fe26d1e"
+
+[[files]]
 file = "config/reliable_remover/removal.json"
 hash = "1e2f5a9ffb97a6e367b2ade1b880a2484c9c4ee37bf519f8574f72ae161f260b"
 

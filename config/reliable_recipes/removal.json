@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove_recipe",
+        "id": [
+			"crowns:machines/fuel_assembly_natural",
+			"crowns:machines/fuel_assembly_mid",
+			"crowns:machines/fuel_assembly_military",
+			"create:kjs/crowns_fuel_assembly",
+			"create:kjs/crowns_fuel_assembly_2",
+			"create:kjs/crowns_fuel_assembly_3"
+		]
+    }
+]
