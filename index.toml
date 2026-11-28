@@ -2828,11 +2828,6 @@ hash = "55fcb8b7508262d7e384f81dc86c0cf0c28ec98194d2dd842208b96291931c0c"
 metafile = true
 
 [[files]]
-file = "mods/recipe-item-sync.pw.toml"
-hash = "347fa9ca1f16d2f80af66798ea53d8924c8ad6d5d2752671751acb9b636e3dd8"
-metafile = true
-
-[[files]]
 file = "mods/redirected.pw.toml"
 hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
 metafile = true
